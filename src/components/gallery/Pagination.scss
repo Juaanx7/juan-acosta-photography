@@ -1,0 +1,43 @@
+.pagination {
+  margin-top: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+
+  button {
+    border: 1px solid #000;
+    background: transparent;
+    padding: 12px 18px;
+    font-size: 0.68rem;
+    font-weight: 800;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    transition: all 0.2s ease;
+
+    &:hover:not(:disabled) {
+      background: #000;
+      color: #fff;
+    }
+
+    &:disabled {
+      opacity: 0.3;
+      cursor: not-allowed;
+    }
+  }
+
+  span {
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: #737373;
+  }
+}
+
+@media (max-width: 520px) {
+  .pagination {
+    flex-direction: column;
+    gap: 14px;
+  }
+}

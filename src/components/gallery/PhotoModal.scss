@@ -1,0 +1,146 @@
+.photo-modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.92);
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  animation: modalFadeIn 0.25s ease forwards;
+
+  &__close {
+    position: fixed;
+    top: 24px;
+    right: 24px;
+    width: 46px;
+    height: 46px;
+    border: none;
+    background: rgba(255, 255, 255, 0.92);
+    color: #000;
+    font-size: 1.4rem;
+    display: grid;
+    place-items: center;
+    z-index: 101;
+    transition: transform 0.25s ease, background 0.25s ease;
+
+    &:hover {
+      transform: scale(1.06);
+      background: #fff;
+    }
+  }
+
+  &__nav {
+    position: fixed;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 52px;
+    height: 52px;
+    border: none;
+    background: rgba(255, 255, 255, 0.92);
+    color: #000;
+    font-size: 1.8rem;
+    display: grid;
+    place-items: center;
+    z-index: 101;
+    transition: transform 0.25s ease, background 0.25s ease;
+
+    &:hover {
+      background: #fff;
+      transform: translateY(-50%) scale(1.06);
+    }
+
+    &--left {
+      left: 24px;
+    }
+
+    &--right {
+      right: 24px;
+    }
+  }
+
+  &__content {
+    max-width: 1100px;
+    width: 100%;
+    text-align: center;
+    animation: modalImageIn 0.35s ease forwards;
+
+    img {
+      width: 100%;
+      max-height: 82vh;
+      object-fit: contain;
+      box-shadow: 0 24px 80px rgba(0, 0, 0, 0.45);
+    }
+
+    p {
+      margin-top: 16px;
+      color: #fff;
+      font-size: 0.75rem;
+      font-weight: 700;
+      letter-spacing: 0.16em;
+      text-transform: uppercase;
+    }
+  }
+}
+
+@keyframes modalFadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes modalImageIn {
+  from {
+    opacity: 0;
+    transform: scale(0.96) translateY(8px);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1) translateY(0);
+  }
+}
+
+@media (max-width: 640px) {
+  .photo-modal {
+    padding: 14px;
+
+    &__close {
+      top: 16px;
+      right: 16px;
+      width: 42px;
+      height: 42px;
+    }
+
+    &__nav {
+      width: 44px;
+      height: 44px;
+      font-size: 1.5rem;
+      top: auto;
+      bottom: 24px;
+      transform: none;
+
+      &:hover {
+        transform: none;
+      }
+
+      &--left {
+        left: 24px;
+      }
+
+      &--right {
+        right: 24px;
+      }
+    }
+
+    &__content {
+      img {
+        max-height: 78vh;
+      }
+    }
+  }
+}

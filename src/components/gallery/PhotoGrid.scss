@@ -1,0 +1,19 @@
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+@media (max-width: 900px) {
+  .photo-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 18px;
+  }
+}
+
+@media (max-width: 580px) {
+  .photo-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 14px;
+  }
+}

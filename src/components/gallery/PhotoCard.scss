@@ -1,0 +1,110 @@
+.photo-card {
+  position: relative;
+  padding: 6px;
+  border: 2px solid transparent;
+  transition: border-color 0.25s ease, transform 0.25s ease;
+
+  &.selected {
+    border-color: #000;
+
+    .photo-card__image::after {
+      opacity: 1;
+    }
+
+    .photo-card__select {
+      background: #000;
+      color: #fff;
+    }
+  }
+
+  &__image {
+    position: relative;
+    cursor: pointer;
+    overflow: hidden;
+    background: #ddd;
+
+    &::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: rgba(255, 255, 255, 0.16);
+      opacity: 0;
+      transition: opacity 0.25s ease;
+      pointer-events: none;
+    }
+
+    img {
+      width: 100%;
+      aspect-ratio: 4 / 5;
+      object-fit: cover;
+      transition: transform 0.35s ease, opacity 0.25s ease;
+    }
+
+    &:hover img {
+      transform: scale(1.03);
+    }
+  }
+
+  &__footer {
+    padding-top: 12px;
+
+    span {
+      font-size: 0.72rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+  }
+
+  &__select {
+    position: absolute;
+    top: 18px;
+    right: 18px;
+    width: 38px;
+    height: 38px;
+    border: none;
+    background: rgba(0, 0, 0, 0.55);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+    transition: background 0.25s ease, transform 0.25s ease;
+
+    &:hover {
+      transform: scale(1.05);
+      background: #000;
+    }
+
+    &.active {
+      background: #000;
+    }
+  }
+  @media (max-width: 580px) {
+    .photo-card {
+      padding: 4px;
+
+      &__image {
+        img {
+          aspect-ratio: 3 / 4;
+        }
+      }
+
+      &__footer {
+        padding-top: 8px;
+
+        span {
+          font-size: 0.62rem;
+        }
+      }
+
+      &__select {
+        top: 10px;
+        right: 10px;
+        width: 30px;
+        height: 30px;
+        font-size: 0.8rem;
+      }
+    }
+  }
+}

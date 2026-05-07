@@ -1,0 +1,55 @@
+.how {
+  padding: 96px 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.06);
+
+  &__container {
+    width: 100%;
+    padding-inline: clamp(24px, 6vw, 120px);
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 1rem;
+    font-weight: 800;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    margin-bottom: 56px;
+  }
+
+  &__grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 48px;
+  }
+
+  &__icon {
+    font-size: 1.6rem;
+    margin-bottom: 18px;
+  }
+
+  &__step {
+    h3 {
+      font-size: 0.82rem;
+      font-weight: 800;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      margin-bottom: 12px;
+    }
+
+    p {
+      font-size: 0.85rem;
+      line-height: 1.7;
+      color: #737373;
+    }
+  }
+}
+
+@media (max-width: 760px) {
+  .how {
+    &__grid {
+      grid-template-columns: 1fr;
+      gap: 36px;
+    }
+  }
+}
