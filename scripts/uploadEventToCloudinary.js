@@ -88,7 +88,10 @@ for (const file of files) {
 
   uploadedPhotos.push({
     id,
-    image: result.secure_url,
+    image: result.secure_url.replace(
+      "/upload/",
+      "/upload/f_auto,q_auto,w_1200/"
+    ),
     thumbnail: result.secure_url.replace(
       "/upload/",
       "/upload/f_auto,q_auto,w_700/"

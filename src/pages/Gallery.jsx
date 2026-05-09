@@ -9,7 +9,7 @@ import Pagination from "../components/gallery/Pagination";
 
 import "./Gallery.scss";
 
-const PHOTOS_PER_PAGE = 9;
+const PHOTOS_PER_PAGE = 16;
 
 const Gallery = () => {
   const { eventId } = useParams();

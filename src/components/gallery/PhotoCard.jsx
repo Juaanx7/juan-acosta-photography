@@ -12,7 +12,11 @@ const PhotoCard = ({ photo, selected, togglePhotoSelection, openModal }) => {
       </button>
 
       <div className="photo-card__image" onClick={() => openModal(photo)}>
-        <img src={photo.image} alt={photo.id} />
+        <img
+          src={photo.thumbnail || photo.image}
+          alt={photo.id}
+          loading="lazy"
+        />
       </div>
 
       <div className="photo-card__footer">
