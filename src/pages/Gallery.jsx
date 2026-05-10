@@ -11,10 +11,18 @@ import "./Gallery.scss";
 
 const PHOTOS_PER_PAGE = 16;
 
+const { eventId, categoryId } = useParams();
+
 const Gallery = () => {
   const { eventId } = useParams();
 
   const event = events.find((event) => event.id === eventId);
+
+  const category = event?.categories?.find(
+    (category) => category.id === categoryId
+  );
+
+  const gallery = category || event;
 
   const [selectedPhotos, setSelectedPhotos] = useState([]);
   const [selectedImage, setSelectedImage] = useState(null);
@@ -34,11 +42,11 @@ const Gallery = () => {
     );
   }
 
-  const totalPages = Math.ceil(event.photos.length / PHOTOS_PER_PAGE);
+  const totalPages = Math.ceil(gallery.photos.length / PHOTOS_PER_PAGE);
 
   const startIndex = (currentPage - 1) * PHOTOS_PER_PAGE;
 
-  const currentPhotos = event.photos.slice(
+  const currentPhotos = gallery.photos.slice(
     startIndex,
     startIndex + PHOTOS_PER_PAGE
   );
@@ -60,10 +68,10 @@ const Gallery = () => {
               ← Volver a eventos
             </Link>
 
-            <h1>{event.title}</h1>
-            <p>
-              {event.date} · {event.location}
-            </p>
+            <h1>{gallery.title}</h1>
+              <p>
+                {event.date} · {event.location}
+              </p>
 
             <span className="gallery-page__hint">
               Tocá el check en cada foto para armar tu pedido.
@@ -88,7 +96,7 @@ const Gallery = () => {
       {selectedImage && (
         <PhotoModal
           photo={selectedImage}
-          photos={event.photos}
+          photos={gallery.photos}
           closeModal={() => setSelectedImage(null)}
           setSelectedImage={setSelectedImage}
           setCurrentPage={setCurrentPage}
@@ -98,8 +106,11 @@ const Gallery = () => {
 
       <SelectionBar
         selectedPhotos={selectedPhotos}
-        event={event}
-        photos={event.photos}
+        event={{
+          ...event,
+          title: category ? `${event.title} - ${category.title}` : event.title,
+        }}
+        photos={gallery.photos}
         togglePhotoSelection={togglePhotoSelection}
       />
     </>
