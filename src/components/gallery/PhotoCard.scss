@@ -1,6 +1,6 @@
 .photo-card {
   position: relative;
-  padding: 6px;
+  padding: 5px;
   border: 2px solid transparent;
   transition: border-color 0.25s ease, transform 0.25s ease;
 
@@ -46,10 +46,10 @@
   }
 
   &__footer {
-    padding-top: 12px;
+    padding-top: 8px;
 
     span {
-      font-size: 0.72rem;
+      font-size: 0.66rem;
       font-weight: 700;
       letter-spacing: 0.08em;
       text-transform: uppercase;
@@ -58,10 +58,10 @@
 
   &__select {
     position: absolute;
-    top: 18px;
-    right: 18px;
-    width: 38px;
-    height: 38px;
+    top: 14px;
+    right: 14px;
+    width: 34px;
+    height: 34px;
     border: none;
     background: rgba(0, 0, 0, 0.55);
     color: #fff;
@@ -80,31 +80,32 @@
       background: #000;
     }
   }
-  @media (max-width: 580px) {
-    .photo-card {
-      padding: 4px;
+}
 
-      &__image {
-        img {
-          aspect-ratio: 3 / 4;
-        }
+@media (max-width: 580px) {
+  .photo-card {
+    padding: 4px;
+
+    &__image {
+      img {
+        aspect-ratio: 3 / 4;
       }
+    }
 
-      &__footer {
-        padding-top: 8px;
+    &__footer {
+      padding-top: 8px;
 
-        span {
-          font-size: 0.62rem;
-        }
+      span {
+        font-size: 0.62rem;
       }
+    }
 
-      &__select {
-        top: 10px;
-        right: 10px;
-        width: 30px;
-        height: 30px;
-        font-size: 0.8rem;
-      }
+    &__select {
+      top: 10px;
+      right: 10px;
+      width: 30px;
+      height: 30px;
+      font-size: 0.8rem;
     }
   }
 }

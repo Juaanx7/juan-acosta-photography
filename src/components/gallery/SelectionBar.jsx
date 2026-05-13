@@ -53,8 +53,11 @@ Quedo atento/a para coordinar el pago y la entrega.`;
             <div className="selection-bar__thumbs">
               {selectedPhotoItems.map((photo) => (
                 <div className="selection-bar__thumb" key={photo.id}>
-                  <img src={photo.image} alt={photo.id} />
-
+                  <img
+                    src={photo.thumbnail || photo.image}
+                    alt={photo.id}
+                    loading="lazy"
+                  />
                   <button
                     type="button"
                     onClick={() => togglePhotoSelection(photo.id)}

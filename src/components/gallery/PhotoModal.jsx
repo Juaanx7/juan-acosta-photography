@@ -53,6 +53,20 @@ const PhotoModal = ({
     };
   }, [currentIndex]);
 
+  useEffect(() => {
+    const previousIndex =
+      currentIndex === 0 ? photos.length - 1 : currentIndex - 1;
+
+    const nextIndex =
+      currentIndex === photos.length - 1 ? 0 : currentIndex + 1;
+
+    const previousImage = new Image();
+    previousImage.src = photos[previousIndex].image;
+
+    const nextImage = new Image();
+    nextImage.src = photos[nextIndex].image;
+  }, [currentIndex, photos]);
+
   return (
     <div className="photo-modal" onClick={closeModal}>
       <button
@@ -72,7 +86,7 @@ const PhotoModal = ({
       </button>
 
       <div className="photo-modal__content" onClick={(e) => e.stopPropagation()}>
-        <img src={photo.image} alt={photo.id} />
+        <img src={photo.image} alt={photo.id} loading="eager" />
         <p>{photo.id}</p>
       </div>
 

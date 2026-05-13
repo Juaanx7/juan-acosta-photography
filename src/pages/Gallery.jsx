@@ -9,12 +9,18 @@ import Pagination from "../components/gallery/Pagination";
 
 import "./Gallery.scss";
 
-const PHOTOS_PER_PAGE = 9;
+const PHOTOS_PER_PAGE = 16;
 
 const Gallery = () => {
-  const { eventId } = useParams();
+  const { eventId, categoryId } = useParams();
 
   const event = events.find((event) => event.id === eventId);
+
+  const category = event?.categories?.find(
+    (category) => category.id === categoryId
+  );
+
+  const gallery = category || (!event?.categories ? event : null);
 
   const [selectedPhotos, setSelectedPhotos] = useState([]);
   const [selectedImage, setSelectedImage] = useState(null);
@@ -34,11 +40,25 @@ const Gallery = () => {
     );
   }
 
-  const totalPages = Math.ceil(event.photos.length / PHOTOS_PER_PAGE);
+  if (!gallery) {
+  return (
+    <section className="gallery-page">
+      <div className="container">
+        <div className="gallery-page__not-found">
+          <h1>Elegí una tanda</h1>
+          <p>Este evento está dividido por tandas para facilitar la búsqueda.</p>
+          <Link to={`/evento/${event.id}`}>Ver tandas disponibles</Link>
+        </div>
+      </div>
+    </section>
+  );
+}
+
+  const totalPages = Math.ceil(gallery.photos.length / PHOTOS_PER_PAGE);
 
   const startIndex = (currentPage - 1) * PHOTOS_PER_PAGE;
 
-  const currentPhotos = event.photos.slice(
+  const currentPhotos = gallery.photos.slice(
     startIndex,
     startIndex + PHOTOS_PER_PAGE
   );
@@ -56,11 +76,14 @@ const Gallery = () => {
       <section className="gallery-page">
         <div className="container">
           <div className="gallery-page__header">
-            <Link to="/" className="gallery-page__back">
-              ← Volver a eventos
+            <Link
+              to={category ? `/evento/${event.id}` : "/#eventos"}
+              className="gallery-page__back"
+            >
+              {category ? "← Volver al evento" : "← Volver a eventos"}
             </Link>
 
-            <h1>{event.title}</h1>
+            <h1>{gallery.title}</h1>
             <p>
               {event.date} · {event.location}
             </p>
@@ -88,7 +111,7 @@ const Gallery = () => {
       {selectedImage && (
         <PhotoModal
           photo={selectedImage}
-          photos={event.photos}
+          photos={gallery.photos}
           closeModal={() => setSelectedImage(null)}
           setSelectedImage={setSelectedImage}
           setCurrentPage={setCurrentPage}
@@ -98,8 +121,11 @@ const Gallery = () => {
 
       <SelectionBar
         selectedPhotos={selectedPhotos}
-        event={event}
-        photos={event.photos}
+        event={{
+          ...event,
+          title: category ? `${event.title} - ${category.title}` : event.title,
+        }}
+        photos={gallery.photos}
         togglePhotoSelection={togglePhotoSelection}
       />
     </>
