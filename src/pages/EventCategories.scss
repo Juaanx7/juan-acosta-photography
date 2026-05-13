@@ -29,18 +29,19 @@
   }
 
   &__back {
-    display: inline-block;
-    margin-bottom: 32px;
-    font-size: 0.72rem;
-    font-weight: 800;
-    letter-spacing: 0.12em;
-    text-transform: uppercase;
-    color: #737373;
+  display: block;
+  width: fit-content;
+  margin-bottom: 32px;
+  font-size: 0.72rem;
+  font-weight: 800;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #737373;
 
-    &:hover {
-      color: #000;
-    }
+  &:hover {
+    color: #000;
   }
+}
 
   &__grid {
     display: grid;

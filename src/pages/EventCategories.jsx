@@ -19,10 +19,9 @@ const EventCategories = () => {
     <section className="event-categories">
       <div className="container">
         <div className="event-categories__header">
-          <Link to="/" className="event-categories__back">
+          <Link to="/#eventos" className="event-categories__back">
             ← Volver a eventos
           </Link>
-
           <span>{event.location}</span>
           <h1>{event.title}</h1>
           <p>

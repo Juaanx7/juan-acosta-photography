@@ -16,9 +16,10 @@ function App() {
       <main>
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="/evento/:eventId" element={<Gallery />} />
-          <Route path="/evento/:eventId/:categoryId" element={<Gallery />} />
-          <Route path="/como-comprar" element={<HowToBuy />} />
+            <Route path="/evento/:eventId" element={<EventCategories />} />
+            <Route path="/evento/:eventId/galeria" element={<Gallery />} />
+            <Route path="/evento/:eventId/:categoryId" element={<Gallery />} />
+            <Route path="/como-comprar" element={<HowToBuy />} />
         </Routes>
       </main>
 
