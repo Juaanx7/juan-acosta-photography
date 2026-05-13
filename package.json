@@ -10,7 +10,8 @@
     "preview": "vite preview",
     "generate:photos": "node scripts/generateEventPhotos.js",
     "upload:cloudinary": "node scripts/uploadEventToCloudinary.js",
-    "upload:category": "node scripts/uploadCategoryToCloudinary.js"
+    "upload:category": "node scripts/uploadCategoryToCloudinary.js",
+    "upload:event-cover": "node scripts/uploadEventCover.js"
   },
   "dependencies": {
     "cloudinary": "^2.10.0",

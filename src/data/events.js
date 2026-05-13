@@ -1,5 +1,6 @@
 import rioPintoPhotos from "./generated/rio-pinto-2026.cloudinary.json";
 import rioPintoMeta from "./generated/rio-pinto-2026.meta.json";
+import cproEventMeta from "./generated/cpro-capilla-2026.event-cover.meta.json";
 import cproTanda2Photos from "./generated/cpro-capilla-2026.tanda-2.cloudinary.json";
 import cproTanda2Meta from "./generated/cpro-capilla-2026.tanda-2.meta.json";
 import cproTanda3Photos from "./generated/cpro-capilla-2026.tanda-3.cloudinary.json";
@@ -23,34 +24,34 @@ export const events = [
     title: "CPRO Enduro - Capilla del Monte",
     date: "Mayo 2026",
     location: "Capilla del Monte, Córdoba",
-    coverImage: "/images/events/cpro-capilla-2026/cover.webp",
+    coverImage: cproEventMeta.coverImage,
     categories: [
       {
         id: "tanda-2",
         title: "Tanda 2",
         description: "Galería de las categorías Quad, Master A, Quad Promo, Quad Master B, Quad sub-16 y Quad damas.",
-        coverImage: "/images/events/cpro-capilla-2026/tanda-2/cover.webp",
+        coverImage: cproTanda2Meta.coverImage,
         photos: cproTanda2Photos,
       },
       {
         id: "tanda-3",
         title: "Tanda 3",
         description: "Galería de las categorías Motos, promocional, Master Intermedio, Master D y Master C.",
-        coverImage: "/images/events/cpro-capilla-2026/tanda-3/cover.webp",
+        coverImage: cproTanda3Meta.coverImage,
         photos: cproTanda3Photos,
       },
       {
         id: "tanda-4",
         title: "Tanda 4",
         description: "Galería de las categorías Quad Senior A y Junior.",
-        coverImage: "/images/events/cpro-capilla-2026/tanda-4/cover.webp",
+        coverImage: cproTanda4Meta.coverImage,
         photos: cproTanda4Photos,
       },
       {
         id: "tanda-5",
         title: "Tanda 5",
         description: "Galería de las categorías Moto Senior A, Moto Senior B, Junior, Master A y Master B.",
-        coverImage: "/images/events/cpro-capilla-2026/tanda-5/cover.webp",
+        coverImage: cproTanda5Meta.coverImage,
         photos: cproTanda5Photos,
       }
     ],
