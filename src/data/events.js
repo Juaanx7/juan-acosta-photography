@@ -9,15 +9,73 @@ import cproTanda4Photos from "./generated/cpro-capilla-2026.tanda-4.cloudinary.j
 import cproTanda4Meta from "./generated/cpro-capilla-2026.tanda-4.meta.json";
 import cproTanda5Photos from "./generated/cpro-capilla-2026.tanda-5.cloudinary.json";
 import cproTanda5Meta from "./generated/cpro-capilla-2026.tanda-5.meta.json";
+import nacionalEnduroLasPircasMeta from "./generated/nacional-enduro-las-pircas-2026.event-cover.meta.json";
+import circuitoMollePhotos from "./generated/nacional-enduro-las-pircas-2026.circuito-molle.cloudinary.json";
+import circuitoPeperinaPhotos from "./generated/nacional-enduro-las-pircas-2026.circuito-peperina.cloudinary.json";
+import circuitoMolleEbikePhotos from "./generated/nacional-enduro-las-pircas-2026.circuito-molle-ebike.cloudinary.json";
+import circuitoPeperinaEbikePhotos from "./generated/nacional-enduro-las-pircas-2026.circuito-peperina-ebike.cloudinary.json";
+import circuitoDownhillPhotos from "./generated/nacional-enduro-las-pircas-2026.circuito-downhill.cloudinary.json";
+import circuitoPSAnflowPhotos from "./generated/nacional-enduro-las-pircas-2026.circuito-ps-anflow.cloudinary.json";
+
+import circuitoMolleMeta from "./generated/nacional-enduro-las-pircas-2026.circuito-molle.meta.json";
+import circuitoPeperinaMeta from "./generated/nacional-enduro-las-pircas-2026.circuito-peperina.meta.json";
+import circuitoMolleEbikeMeta from "./generated/nacional-enduro-las-pircas-2026.circuito-molle-ebike.meta.json";
+import circuitoPeperinaEbikeMeta from "./generated/nacional-enduro-las-pircas-2026.circuito-peperina-ebike.meta.json";
+import circuitoDownhillMeta from "./generated/nacional-enduro-las-pircas-2026.circuito-downhill.meta.json";
+import circuitoPSAnflowMeta from "./generated/nacional-enduro-las-pircas-2026.circuito-ps-anflow.meta.json";
 
 export const events = [
   {
-    id: "rio-pinto-2026",
-    title: "Río Pinto 2026",
+    id: "nacional-enduro-las-pircas-2026",
+    title: "Campeonato Argentino de Enduro 2026",
     date: "Mayo 2026",
-    location: "La Cumbre, Córdoba",
-    coverImage: rioPintoMeta.coverImage,
-    photos: rioPintoPhotos,
+    location: "Las Pircas Bikepark, Córdoba",
+    coverImage: nacionalEnduroLasPircasMeta.coverImage,
+    categories: [
+      {
+        id: "circuito-molle",
+        title: "Circuito Molle",
+        description: "Galería del circuito Molle.",
+        coverImage: circuitoMolleMeta.coverImage,
+        photos: circuitoMollePhotos
+      },
+      {
+        id: "circuito-peperina",
+        title: "Circuito Peperina",
+        description: "Galería del circuito Peperina.",
+        coverImage: circuitoPeperinaMeta.coverImage,
+        photos: circuitoPeperinaPhotos
+      },
+      {
+        id: "circuito-molle-ebike",
+        title: "Circuito Molle Ebike",
+        description: "Galería del circuito Molle Ebike.",
+        coverImage: circuitoMolleEbikeMeta.coverImage,
+        photos: circuitoMolleEbikePhotos
+      },
+      {
+        id: "circuito-peperina-ebike",
+        title: "Circuito Peperina Ebike",
+        description: "Galería del circuito Peperina Ebike.",
+        coverImage: circuitoPeperinaEbikeMeta.coverImage,
+        photos: circuitoPeperinaEbikePhotos
+      },
+      {
+        id: "circuito-downhill",
+        title: "Circuito Downhill",
+        description: "Galería del circuito Downhill.",
+        coverImage: circuitoDownhillMeta.coverImage,
+        photos: circuitoDownhillPhotos
+      },
+      {
+        id: "circuito-ps-anflow",
+        title: "Circuito PS Anflow",
+        description: "Galería del circuito PS Anflow.",
+        coverImage: circuitoPSAnflowMeta.coverImage,
+        photos: circuitoPSAnflowPhotos
+      }
+
+    ]
   },
   {
     id: "cpro-capilla-2026",
@@ -56,4 +114,12 @@ export const events = [
       }
     ],
   },
+  {
+    id: "rio-pinto-2026",
+    title: "Río Pinto 2026",
+    date: "Mayo 2026",
+    location: "La Cumbre, Córdoba",
+    coverImage: rioPintoMeta.coverImage,
+    photos: rioPintoPhotos,
+  }
 ];

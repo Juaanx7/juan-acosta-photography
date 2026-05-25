@@ -14,6 +14,15 @@ const SelectionBar = ({ selectedPhotos, event, photos, togglePhotoSelection }) =
     selectedPhotos.includes(photo.id)
   );
 
+  const getEstimatedPrice = () => {
+    const quantity = selectedPhotos.length;
+
+    if (quantity >= 5) return 25000;
+    if (quantity >= 3) return 18000;
+
+    return quantity * 7000;
+  };
+
   const generateWhatsAppLink = () => {
     const photosList = selectedPhotos.map((id) => `- ${id}`).join("\n");
 
@@ -25,6 +34,8 @@ ${photosList}
 Cantidad: ${selectedPhotos.length} ${
       selectedPhotos.length === 1 ? "foto" : "fotos"
     }.
+
+Total estimado: $${getEstimatedPrice().toLocaleString("es-AR")}
 
 Quedo atento/a para coordinar el pago y la entrega.`;
 
@@ -47,7 +58,8 @@ Quedo atento/a para coordinar el pago y la entrega.`;
               {selectedPhotos.length}{" "}
               {selectedPhotos.length === 1
                 ? "foto seleccionada"
-                : "fotos seleccionadas"}
+                : "fotos seleccionadas"}{" "}
+              · Total estimado: ${getEstimatedPrice().toLocaleString("es-AR")}
             </p>
 
             <div className="selection-bar__thumbs">
@@ -84,6 +96,7 @@ Quedo atento/a para coordinar el pago y la entrega.`;
           closeModal={() => setIsConfirmModalOpen(false)}
           confirmOrder={confirmOrder}
           selectedPhotos={selectedPhotos}
+          estimatedPrice={getEstimatedPrice()}
         />
       )}
     </>

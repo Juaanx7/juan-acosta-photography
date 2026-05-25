@@ -5,6 +5,7 @@ const ConfirmOrderModal = ({
   closeModal,
   confirmOrder,
   selectedPhotos,
+  estimatedPrice,
 }) => {
   return (
     <div className="confirm-order-modal" onClick={closeModal}>
@@ -30,6 +31,17 @@ const ConfirmOrderModal = ({
           Se abrirá WhatsApp automáticamente con las fotos seleccionadas
           para enviar tu pedido.
         </p>
+
+        <div className="confirm-order-modal__pricing">
+          <p>
+            Total estimado: $
+            {estimatedPrice.toLocaleString("es-AR")}
+          </p>
+
+          <span>
+            El pago y la entrega final se coordinan por WhatsApp.
+          </span>
+        </div>
 
         <div className="confirm-order-modal__actions">
           <button onClick={closeModal} className="secondary">
