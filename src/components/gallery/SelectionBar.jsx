@@ -5,7 +5,7 @@ import "./SelectionBar.scss";
 
 const WHATSAPP_NUMBER = "5493549461840";
 
-const SelectionBar = ({ selectedPhotos, event, photos, togglePhotoSelection }) => {
+const SelectionBar = ({ selectedPhotos, event, photos, togglePhotoSelection, clearSelection }) => {
   const [isConfirmModalOpen, setIsConfirmModalOpen] = useState(false);
 
   const hasSelectedPhotos = selectedPhotos.length > 0;
@@ -81,6 +81,14 @@ Quedo atento/a para coordinar el pago y la entrega.`;
               ))}
             </div>
           </div>
+          
+          <button
+            type="button"
+            className="selection-bar__clear"
+            onClick={clearSelection}
+          >
+            Limpiar selección
+          </button>
 
           <button
             className="selection-bar__button"
