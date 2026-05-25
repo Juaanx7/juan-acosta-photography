@@ -1,6 +1,8 @@
 import { Link, Navigate, useParams } from "react-router-dom";
 import { events } from "../data/events";
 import "./EventCategories.scss";
+import SelectionBar from "../components/gallery/SelectionBar";
+import { useEventSelection } from "../hooks/useEventSelection";
 
 const EventCategories = () => {
   const { eventId } = useParams();
@@ -14,6 +16,16 @@ const EventCategories = () => {
   if (!event.categories) {
     return <Navigate to={`/evento/${event.id}/galeria`} replace />;
   }
+
+  const {
+  selectedPhotos,
+  togglePhotoSelection,
+  clearSelection,
+} = useEventSelection(eventId);
+
+const allEventPhotos = event.categories
+  ? event.categories.flatMap((category) => category.photos)
+  : [];
 
   return (
     <section className="event-categories">
@@ -50,7 +62,14 @@ const EventCategories = () => {
           ))}
         </div>
       </div>
-    </section>
+      <SelectionBar
+        selectedPhotos={selectedPhotos}
+        event={event}
+        photos={allEventPhotos}
+        togglePhotoSelection={togglePhotoSelection}
+        clearSelection={clearSelection}
+      />
+    </section>    
   );
 };
 

@@ -1,12 +1,12 @@
-import { useState } from "react";
 import { useParams, Link } from "react-router-dom";
 import { events } from "../data/events";
+import { useState } from "react";
 
 import PhotoGrid from "../components/gallery/PhotoGrid";
 import PhotoModal from "../components/gallery/PhotoModal";
 import SelectionBar from "../components/gallery/SelectionBar";
 import Pagination from "../components/gallery/Pagination";
-
+import { useEventSelection } from "../hooks/useEventSelection";
 import "./Gallery.scss";
 
 const PHOTOS_PER_PAGE = 16;
@@ -21,8 +21,16 @@ const Gallery = () => {
   );
 
   const gallery = category || (!event?.categories ? event : null);
+  const allEventPhotos = event.categories
+  ? event.categories.flatMap((category) => category.photos)
+  : event.photos;
 
-  const [selectedPhotos, setSelectedPhotos] = useState([]);
+  const {
+    selectedPhotos,
+    togglePhotoSelection,
+    clearSelection,
+  } = useEventSelection(eventId);
+
   const [selectedImage, setSelectedImage] = useState(null);
   const [currentPage, setCurrentPage] = useState(1);
 
@@ -62,14 +70,6 @@ const Gallery = () => {
     startIndex,
     startIndex + PHOTOS_PER_PAGE
   );
-
-  const togglePhotoSelection = (photoId) => {
-    setSelectedPhotos((prev) =>
-      prev.includes(photoId)
-        ? prev.filter((id) => id !== photoId)
-        : [...prev, photoId]
-    );
-  };
 
   return (
     <>
@@ -125,8 +125,9 @@ const Gallery = () => {
           ...event,
           title: category ? `${event.title} - ${category.title}` : event.title,
         }}
-        photos={gallery.photos}
+        photos={allEventPhotos}
         togglePhotoSelection={togglePhotoSelection}
+        clearSelection={clearSelection}
       />
     </>
   );
