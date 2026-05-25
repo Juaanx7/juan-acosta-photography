@@ -17,10 +17,17 @@ const SelectionBar = ({ selectedPhotos, event, photos, togglePhotoSelection, cle
   const getEstimatedPrice = () => {
     const quantity = selectedPhotos.length;
 
-    if (quantity >= 5) return 25000;
-    if (quantity >= 3) return 18000;
+    if (quantity === 0) return 0;
 
-    return quantity * 7000;
+    if (quantity === 1) return 7000;
+
+    if (quantity === 2) return 14000;
+
+    if (quantity === 3 || quantity === 4) return 18000;
+
+    if (quantity === 5) return 25000;
+
+    return 25000 + (quantity - 5) * 5000;
   };
 
   const generateWhatsAppLink = () => {
