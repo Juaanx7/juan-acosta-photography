@@ -42,7 +42,7 @@ Cantidad: ${selectedPhotos.length} ${
       selectedPhotos.length === 1 ? "foto" : "fotos"
     }.
 
-Total estimado: $${getEstimatedPrice().toLocaleString("es-AR")}
+Total: $${getEstimatedPrice().toLocaleString("es-AR")}
 
 Quedo atento/a para coordinar el pago y la entrega.`;
 
@@ -66,7 +66,7 @@ Quedo atento/a para coordinar el pago y la entrega.`;
               {selectedPhotos.length === 1
                 ? "foto seleccionada"
                 : "fotos seleccionadas"}{" "}
-              · Total estimado: ${getEstimatedPrice().toLocaleString("es-AR")}
+              · Total: ${getEstimatedPrice().toLocaleString("es-AR")}
             </p>
 
             <div className="selection-bar__thumbs">

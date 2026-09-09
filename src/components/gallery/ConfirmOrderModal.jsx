@@ -34,7 +34,7 @@ const ConfirmOrderModal = ({
 
         <div className="confirm-order-modal__pricing">
           <p>
-            Total estimado: $
+            Total: $
             {estimatedPrice.toLocaleString("es-AR")}
           </p>
 

@@ -21,9 +21,6 @@ const Gallery = () => {
   );
 
   const gallery = category || (!event?.categories ? event : null);
-  const allEventPhotos = event.categories
-  ? event.categories.flatMap((category) => category.photos)
-  : event.photos;
 
   const {
     selectedPhotos,
@@ -61,6 +58,10 @@ const Gallery = () => {
     </section>
   );
 }
+
+  const allEventPhotos = event.categories
+    ? event.categories.flatMap((category) => category.photos)
+    : event.photos;
 
   const totalPages = Math.ceil(gallery.photos.length / PHOTOS_PER_PAGE);
 

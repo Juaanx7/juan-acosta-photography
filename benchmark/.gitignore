@@ -1,0 +1,10 @@
+__pycache__/
+.venv/
+**/images/**/*
+!**/images/**/
+!**/images/**/.gitkeep
+results/*
+!results/.gitkeep
+.cache/
+**/.register-cloudinary.lock
+**/.cloudinary-*.tmp
