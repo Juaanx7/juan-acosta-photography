@@ -1,5 +1,3 @@
-import rioPintoPhotos from "./generated/rio-pinto-2026.cloudinary.json";
-import rioPintoMeta from "./generated/rio-pinto-2026.meta.json";
 import cproEventMeta from "./generated/cpro-capilla-2026.event-cover.meta.json";
 import cproTanda2Photos from "./generated/cpro-capilla-2026.tanda-2.cloudinary.json";
 import cproTanda2Meta from "./generated/cpro-capilla-2026.tanda-2.meta.json";
@@ -113,13 +111,5 @@ export const events = [
         photos: cproTanda5Photos,
       }
     ],
-  },
-  {
-    id: "rio-pinto-2026",
-    title: "Río Pinto 2026",
-    date: "Mayo 2026",
-    location: "La Cumbre, Córdoba",
-    coverImage: rioPintoMeta.coverImage,
-    photos: rioPintoPhotos,
   }
 ];
