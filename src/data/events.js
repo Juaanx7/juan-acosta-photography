@@ -22,7 +22,48 @@ import circuitoPeperinaEbikeMeta from "./generated/nacional-enduro-las-pircas-20
 import circuitoDownhillMeta from "./generated/nacional-enduro-las-pircas-2026.circuito-downhill.meta.json";
 import circuitoPSAnflowMeta from "./generated/nacional-enduro-las-pircas-2026.circuito-ps-anflow.meta.json";
 
+import dhPanMeta from "./generated/dh-pan-de-azucar-2026.event-cover.meta.json";
+
+import dhEntrenamientosPhotos from "./generated/dh-pan-de-azucar-2026.entrenamientos.cloudinary.json";
+import dhEntrenamientosMeta from "./generated/dh-pan-de-azucar-2026.entrenamientos.meta.json";
+
+import dhClasificacionPhotos from "./generated/dh-pan-de-azucar-2026.clasificacion.cloudinary.json";
+import dhClasificacionMeta from "./generated/dh-pan-de-azucar-2026.clasificacion.meta.json";
+
+import dhFinalPhotos from "./generated/dh-pan-de-azucar-2026.final.cloudinary.json";
+import dhFinalMeta from "./generated/dh-pan-de-azucar-2026.final.meta.json";
+
 export const events = [
+  {
+    id: "dh-pan-de-azucar-2026",
+    title: "DH Pan de Azúcar",
+    date: "Septiembre 2026",
+    location: "Cerro Pan de Azúcar, Cosquín, Córdoba",
+    coverImage: dhPanMeta.coverImage,
+    categories: [
+      {
+        id: "entrenamientos",
+        title: "Entrenamientos",
+        description: "Fotos de los entrenamientos.",
+        coverImage: dhEntrenamientosMeta.coverImage,
+        photos: dhEntrenamientosPhotos,
+      },
+      {
+        id: "clasificacion",
+        title: "Clasificación",
+        description: "Fotos de la clasificación.",
+        coverImage: dhClasificacionMeta.coverImage,
+        photos: dhClasificacionPhotos,
+      },
+      {
+        id: "final",
+        title: "Final",
+        description: "Fotos de la final.",
+        coverImage: dhFinalMeta.coverImage,
+        photos: dhFinalPhotos,
+      },
+    ],
+  },
   {
     id: "nacional-enduro-las-pircas-2026",
     title: "Campeonato Argentino de Enduro 2026",
