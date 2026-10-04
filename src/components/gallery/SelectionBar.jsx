@@ -3,7 +3,7 @@ import { FiX } from "react-icons/fi";
 import ConfirmOrderModal from "./ConfirmOrderModal";
 import "./SelectionBar.scss";
 
-const WHATSAPP_NUMBER = "5493549461840";
+import { createWhatsAppLink } from "../../utils/whatsapp";
 
 const SelectionBar = ({ selectedPhotos, event, photos, togglePhotoSelection, clearSelection }) => {
   const [isConfirmModalOpen, setIsConfirmModalOpen] = useState(false);
@@ -46,11 +46,11 @@ Total estimado: $${getEstimatedPrice().toLocaleString("es-AR")}
 
 Quedo atento/a para coordinar el pago y la entrega.`;
 
-    return `https://wa.me/${WHATSAPP_NUMBER}?text=${encodeURIComponent(message)}`;
+    return createWhatsAppLink(message);
   };
 
   const confirmOrder = () => {
-    window.open(generateWhatsAppLink(), "_blank");
+    window.open(generateWhatsAppLink(), "_blank", "noopener,noreferrer");
     setIsConfirmModalOpen(false);
   };
 

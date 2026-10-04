@@ -11,7 +11,7 @@ const HowToBuy = () => {
           <h1>Cómo comprar tus fotos</h1>
           <p>
             Elegí el evento, seleccioná tus fotos favoritas y enviá el pedido
-            automáticamente por WhatsApp.
+            desde WhatsApp después de revisar el mensaje preparado.
           </p>
         </div>
 
@@ -49,7 +49,7 @@ const HowToBuy = () => {
           </p>
         </div>
 
-        <Link to="/#eventos" className="how-to-buy__button">
+        <Link to="/tienda/deportes#eventos" className="how-to-buy__button">
           Ver eventos disponibles
         </Link>
       </div>

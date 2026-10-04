@@ -9,6 +9,12 @@ const EventCategories = () => {
 
   const event = events.find((item) => item.id === eventId);
 
+  const {
+    selectedPhotos,
+    togglePhotoSelection,
+    clearSelection,
+  } = useEventSelection(eventId);
+
   if (!event) {
     return <Navigate to="/" replace />;
   }
@@ -16,12 +22,6 @@ const EventCategories = () => {
   if (!event.categories) {
     return <Navigate to={`/evento/${event.id}/galeria`} replace />;
   }
-
-  const {
-  selectedPhotos,
-  togglePhotoSelection,
-  clearSelection,
-} = useEventSelection(eventId);
 
 const allEventPhotos = event.categories
   ? event.categories.flatMap((category) => category.photos)
@@ -31,7 +31,7 @@ const allEventPhotos = event.categories
     <section className="event-categories">
       <div className="container">
         <div className="event-categories__header">
-          <Link to="/#eventos" className="event-categories__back">
+          <Link to="/tienda/deportes#eventos" className="event-categories__back">
             ← Volver a eventos
           </Link>
           <span>{event.location}</span>
