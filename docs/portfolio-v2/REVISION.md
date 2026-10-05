@@ -38,7 +38,7 @@ Referencia leída: docs/juanacostaph-portfolio-v2/IMPLEMENTACION.md y diseno-por
 
 ## Límites y siguiente etapa
 
-- Las galerías interiores del portfolio, fotos definitivas de categorías secundarias/San Marcos, biografía ampliada y tienda de paisajes quedan pendientes. No hay checkout ni enlaces que simulen contenido terminado.
+- Las galerías interiores de otras series, fotos definitivas de categorías secundarias, biografía ampliada y tienda de paisajes quedan pendientes. San Marcos se implementó en la entrega documentada más abajo. No hay checkout ni enlaces que simulen contenido terminado.
 - prefers-reduced-motion, pausa por hover/foco/visibilidad y limpieza de efectos están implementados; la emulación del ajuste de movimiento reducido no está disponible en el navegador de pruebas utilizado.
 - Las recargas se comprobaron localmente. La Preview remota protegida por Vercel no pudo inspeccionarse sin iniciar sesión.
 - La web no puede confirmar que un mensaje fue enviado en WhatsApp. Se comprobó la preparación de enlaces y la acción de apertura; no el envío ni la aplicación externa en un teléfono.
@@ -83,3 +83,57 @@ Capturas de la vista inicial, pausadas para facilitar la comparación:
 - [1920×1080](capturas/portada-corregida-1920x1080.jpg)
 - [2560×1440](capturas/portada-corregida-2560x1440.jpg)
 - [Celular 360×800](capturas/portada-corregida-celular-360x800.jpg)
+
+## Serie «San Marcos, mi mirada» · 4 de octubre de 2026
+
+### Implementación
+
+- Nueva página React/Sass en `/portfolio/san-marcos-mi-mirada`, cargada de forma diferida. Se abrió e inspeccionó `docs/san-marcos/diseno-san-marcos.html` como referencia; no se usa como iframe ni se extraen sus miniaturas para producción.
+- Se conservan la distribución editorial, el fondo cálido, las tipografías, la introducción, la fecha y los dos párrafos personales de la muestra. Las fotografías completas mantienen su proporción: apertura panorámica; dos horizontales; Última luz centrada; dos verticales. En celular se apilan en el orden aprobado.
+- Correspondencia aplicada: DSC03637 → Pueblo serrano; DSC05590 → Camino al atardecer; DSC08228-Editar → Calles de infancia; **DSC08263 → Última luz**; DSC03503 (2) → Reflejos; DSC00869 → El cielo del pueblo. Ubicación: San Marcos Sierras.
+- La muestra conserva IMG_5633 → Las imágenes en papel; IMG_5660 → Compartir la mirada; IMG_5663 → Detenerse a mirar. Se muestra con menor tamaño, fuera del visor de obras.
+- Los dos accesos de San Marcos desde categorías y series usan Pueblo serrano y enlazan a la página real. El regreso lleva a `/#portfolio`; navbar y footer existentes siguen disponibles. Las otras series no tienen enlaces a páginas inexistentes.
+- Los datos y textos están separados en `src/data/sanMarcos.js`. Un componente pequeño declara imágenes responsive; el visor manual está separado de la presentación y del modal deportivo.
+- El visor contiene solo las seis obras, con foto completa, título, ubicación, contador, flechas y cierre. Usa un diálogo nativo, teclado ←/→, recorrido circular de Tab/Shift+Tab y Escape. Bloquea el desplazamiento del fondo y restaura foco y posición de lectura al cerrar. La imagen contenida informa su ancho visible mediante ResizeObserver para que `sizes` tenga en cuenta la proporción y el espacio disponible.
+- Consulta general por disponibilidad digital o impresa a pedido: muestra el mensaje antes de abrir WhatsApp con `createWhatsAppLink` y el número existente. No exige correo, no introduce precios ni checkout y no afirma que el mensaje haya sido enviado.
+- Se conservan las fotos, alturas, título, controles y reproducción de la portada aprobada en 6b6d208. Se agregó únicamente una protección en su medición para ignorar una notificación pendiente si los elementos ya se desmontaron al cambiar de ruta; en las pruebas apareció ese error y después del ajuste no hubo nuevos errores.
+
+### Imágenes y fuentes locales
+
+- Los seis JPG de obras tienen entre 5103 y 5966 px de ancho en horizontales, y 2657/3183 px en verticales. Las tres fotos de la muestra llegaron como **HEIC** (mismos nombres base que la guía), con 3024×4032 px. Se procesaron esas fuentes; no se sustituyeron por las imágenes incrustadas en el HTML.
+- `scripts/generateSanMarcosImages.py` utiliza Pillow y pillow-heif. Genera 51 WebP con calidad 90, remuestreo Lanczos, orientación aplicada, sin recortes ni ampliaciones. Las obras tienen variantes de 640, 960, 1440, 1920, 2560 y hasta 3200 px, limitadas al ancho de cada fuente; la muestra, 320/480/640/960/1440 px. Total aproximado: 14.84 MiB.
+- Los JPG tienen perfil sRGB; los HEIC, Display P3 de 8 bits. Se interpretan los perfiles y se convierten a sRGB para la web, incluyendo el perfil de salida. No se aplican nuevas ediciones de exposición, contraste o color.
+- Los nombres base y la correspondencia se conservan en `src/data/sanMarcosImages.json`. Los espacios del nombre DSC03503 (2) están codificados en las URLs para que `srcset` sea válido.
+- Todas las imágenes declaran `srcset`, `sizes`, ancho y alto. Solo se prioriza la primera obra en la página; las inferiores tienen carga diferida. El visor solicita una variante acorde al ancho contenido y la densidad del dispositivo.
+- `docs/san-marcos/fotos/` queda ignorado por Git, tanto JPG como HEIC. Se versionan los WebP de `public/images/portfolio/san-marcos/`. `.tools/` contiene únicamente herramientas locales de conversión y queda ignorado por Git y ESLint.
+- Para regenerar, con Pillow y pillow-heif disponibles: `python scripts/generateSanMarcosImages.py`. En este equipo se instalaron en `.tools/image-processing`; se usó esa carpeta en PYTHONPATH. La aplicación no agrega dependencias Python ni HEIC.
+
+### Comprobaciones reales
+
+- Navegador local a **360×800, 768×1024, 1366×768 y 1920×1080**: sin desbordamiento horizontal; obras en el orden correcto, imágenes completas, textos legibles, verticales moderadas en celular y tres fotos de muestra pequeñas. Las nueve imágenes cargaron correctamente; se inspeccionaron las capturas completas de escritorio y celular.
+- Visor horizontal y vertical, título Última luz, navegación con botones y flechas del teclado, paso 6→1 y 1→6, Tab/Shift+Tab dentro del diálogo, Escape y cierre por botón. La posición registrada de lectura (scrollY=1364) y el foco en «Ampliar Última luz» se restauraron al cerrar. Tras una espera superior a 6 segundos la obra siguió en 1/6: no tiene reproducción automática.
+- Visor adicional a **667×375**: fotografía completa y controles visibles; fin de controles a 349 px y ubicación a 365 px. En 360×800, fin de controles a 760 px. Se comprobaron las variantes de imágenes efectivamente cargadas a DPR 1.
+- Categoría y tarjeta de serie llevan a la nueva página. Regreso a `/#portfolio` comprobado (sección alineada al inicio tras finalizar el desplazamiento suave), enlaces a Contacto y Sobre mí, apertura directa y recarga de la ruta.
+- Confirmación de consulta, mensaje con nombre de colección y URL codificada hacia el número existente; Escape devuelve el foco al botón. No se abrió la aplicación externa ni se envió un mensaje real.
+- Portada aprobada a 1366×768: scrollY=0, título conservado, altura de portada 671 px y fin de controles a 751 px; sin desbordamiento. La hoja de estilos del carrusel y sus fotos no cambiaron.
+- Tienda y compatibilidad de `/#eventos` → `/tienda/deportes#eventos`; apertura de DH Pan de Azúcar y Entrenamientos. Se agregó una foto de prueba, persistió tras recarga, se comprobó la confirmación del pedido y se canceló. Se quitó solo la foto de prueba y quedó la selección previa DSC06680.
+- Paginación 1→2 de 12, carga de las 16 miniaturas de Cloudinary de la página, modal deportivo y siguiente foto. Apertura/recarga directa de Circuito Molle (Las Pircas) y Tanda 2 (CPRO). Las pruebas de rutas cubren todas las categorías publicadas y la prioridad de `/galeria`.
+- `npm run build`, `npm test` (6 pruebas, incluyendo acceso a la nueva ruta) y `git diff --check` correctos. Lint sin errores nuevos: conserva el aviso previo de dependencias de PhotoModal. Build conserva el aviso de tamaño del catálogo deportivo. No se modificaron eventos, precios, contratos de Cloudinary ni lógica de compra/selección deportiva.
+- Auditoría de los 51 archivos: dimensiones coincidentes con el manifiesto, proporciones conservadas dentro del redondeo de un píxel, perfil sRGB y ningún archivo ampliado por encima de la fuente. Se verificó la exclusión de originales mediante `git check-ignore`.
+
+### Límites y revisión
+
+- Se verificó en el navegador de escritorio con viewport simulado, a DPR 1; no en un teléfono físico, Safari ni con emulación de DPR 2/3. Las variantes cubren 2× el ancho máximo de 1600 px del visor cuando la fuente lo permite; las verticales tienen su límite original.
+- No se probaron envíos reales, pagos ni la aplicación externa de WhatsApp. La Preview de Vercel puede requerir la sesión de Juan para revisar visualmente; la protección existente no se modifica.
+- Otras series y la tienda de paisajes continúan pendientes. Esta entrega se mantiene en `feat/portfolio-v2`, sin merge con main ni publicación en Production.
+- Acceso local: `http://127.0.0.1:5174/portfolio/san-marcos-mi-mirada` (Vite activo en el worktree). Para iniciar otra sesión: `npm run dev -- --host 127.0.0.1`, usando el puerto que informe Vite.
+
+Capturas:
+
+- [Página completa · 1366×768](capturas/san-marcos-1366x768.jpg)
+- [Página completa · 1920×1080](capturas/san-marcos-1920x1080.jpg)
+- [Tablet · 768×1024](capturas/san-marcos-tablet-768x1024.jpg)
+- [Celular · 360×800](capturas/san-marcos-celular-360x800.jpg)
+- [Visor Última luz · 1366×768](capturas/san-marcos-visor-1366x768.jpg)
+- [Visor vertical · 360×800](capturas/san-marcos-visor-celular-360x800.jpg)
+- [Visor de poca altura · 667×375](capturas/san-marcos-visor-667x375.jpg)

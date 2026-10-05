@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import { portfolioCategories, portfolioSeries } from "../../data/portfolio";
 import { useMediaQuery } from "../../hooks/useMediaQuery";
 
@@ -8,6 +9,10 @@ function CollectionCover({ item }) {
         sizes="(max-width: 580px) calc(100vw - 40px), (max-width: 1600px) calc((100vw - 116px) / 3), 495px"
         width={item.width} height={item.height} alt={item.alt} loading="lazy" decoding="async" />
     : <div className="portfolio-placeholder"><span>{item.eyebrow}</span><em>{item.coverTitle}</em></div>;
+}
+
+function CollectionAccess({ item, children }) {
+  return item.href ? <Link className="portfolio-collection-link" to={item.href}>{children}</Link> : children;
 }
 
 export default function PortfolioCollections() {
@@ -20,7 +25,8 @@ export default function PortfolioCollections() {
       <div className="portfolio-section__heading"><h2 id="portfolio-title">Explorar mi trabajo</h2><span>Portfolio</span></div>
       <div className="portfolio-grid" id="portfolio-categories" aria-label="Categorías del portfolio">
         {portfolioCategories.slice(start, start + perPage).map((item) => <article key={item.id} className="portfolio-category">
-          <CollectionCover item={item} /><h3>{item.title}</h3><p className="portfolio-pending">Galería en preparación</p>
+          <CollectionAccess item={item}><CollectionCover item={item} /><h3>{item.title}</h3>
+            <p className="portfolio-pending">{item.href ? "Ver colección ↗" : "Galería en preparación"}</p></CollectionAccess>
         </article>)}
       </div>
       <div className="portfolio-category-controls">
@@ -33,8 +39,8 @@ export default function PortfolioCollections() {
       <div className="portfolio-section__heading"><h2 id="series-title">Historias en imágenes</h2><span>Series</span></div>
       <div className="portfolio-grid portfolio-series">
         {portfolioSeries.map((item) => <article key={item.id}>
-          <CollectionCover item={item} /><p className="portfolio-eyebrow">{item.label}</p><h3>{item.title}</h3>
-          <p>{item.description}</p><span className="portfolio-pending">Serie en preparación</span>
+          <CollectionAccess item={item}><CollectionCover item={item} /><p className="portfolio-eyebrow">{item.label}</p><h3>{item.title}</h3>
+          <p>{item.description}</p><span className="portfolio-pending">{item.href ? "Explorar la serie ↗" : "Serie en preparación"}</span></CollectionAccess>
         </article>)}
       </div>
     </section>

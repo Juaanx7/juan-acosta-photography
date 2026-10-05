@@ -1,7 +1,9 @@
 import images from "./portfolioImages.json";
+import sanMarcosImages from "./sanMarcosImages.json";
+import { routePaths } from "./routes";
 
-const photo = (name) => {
-  const image = images[name];
+const photo = (name, collection = images) => {
+  const image = collection[name];
   return {
     image: image.image,
     width: image.width,
@@ -20,7 +22,7 @@ export const coverPhotos = [
 // Las portadas tipográficas esperan fotografías propias del tema correspondiente.
 export const portfolioCategories = [
   { id: "paisajes", title: "Paisajes y viajes", ...photo("valley"), alt: "Puesta de sol sobre el valle y las sierras" },
-  { id: "san-marcos", title: "San Marcos, mi mirada", eyebrow: "SAN MARCOS", coverTitle: "mi mirada" },
+  { id: "san-marcos", title: "San Marcos, mi mirada", ...photo("DSC03637", sanMarcosImages), alt: "Pueblo serrano: San Marcos Sierras al atardecer", href: routePaths.sanMarcos },
   { id: "deportes", title: "Deportes en montaña", ...photo("sport"), alt: "Deporte entre la niebla" },
   { id: "eventos", title: "Eventos", eyebrow: "ENCUENTROS", coverTitle: "Eventos" },
   { id: "festivales", title: "Festivales", eyebrow: "ENERGÍA COMPARTIDA", coverTitle: "Festivales" },

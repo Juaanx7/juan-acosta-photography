@@ -1,5 +1,6 @@
 export const routePaths = {
   portfolio: "/",
+  sanMarcos: "/portfolio/san-marcos-mi-mirada",
   sportsShop: "/tienda/deportes",
   event: "/evento/:eventId",
   eventGallery: "/evento/:eventId/galeria",

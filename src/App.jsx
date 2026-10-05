@@ -11,6 +11,7 @@ import { routePaths } from "./data/routes";
 const SportsShop = lazy(() => import("./pages/Home"));
 const Gallery = lazy(() => import("./pages/Gallery"));
 const EventCategories = lazy(() => import("./pages/EventCategories"));
+const SanMarcosSeries = lazy(() => import("./pages/SanMarcosSeries"));
 
 function App() {
   const { pathname } = useLocation();
@@ -23,6 +24,7 @@ function App() {
           <ScrollToTop />
           <Routes key={pathname}>
             <Route path={routePaths.portfolio} element={<Portfolio />} />
+            <Route path={routePaths.sanMarcos} element={<SanMarcosSeries />} />
             <Route path={routePaths.sportsShop} element={<SportsShop />} />
             <Route path={routePaths.event} element={<EventCategories />} />
             <Route path={routePaths.eventGallery} element={<Gallery />} />

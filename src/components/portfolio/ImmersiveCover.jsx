@@ -20,6 +20,8 @@ export default function ImmersiveCover() {
   useEffect(() => {
     const navbar = document.getElementById("site-header");
     const measure = () => {
+      // Una notificación pendiente puede llegar durante el cambio de ruta.
+      if (!root.current || !photoFrame.current) return;
       root.current.style.setProperty("--navbar-height", `${navbar.getBoundingClientRect().height}px`);
       const { width, height } = photoFrame.current.getBoundingClientRect();
       setFrameSize((previous) => previous?.width === width && previous?.height === height ? previous : { width, height });

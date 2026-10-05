@@ -1,0 +1,9 @@
+Continuemos con la nueva versión del portfolio en el worktree .worktrees/portfolio-v2 y la misma rama feat/portfolio-v2. La portada de la entrega 6b6d208 ya está revisada y aprobada.
+
+Implementá la página interior de la serie «San Marcos, mi mirada» usando el paquete de docs/san-marcos/. Primero leé IMPLEMENTACION.md y abrí diseno-san-marcos.html como referencia visual. Las seis obras y las tres fotografías de la muestra están en fotos/obras/ y fotos/muestra/; conservá la correspondencia entre archivo y título indicada en la guía. La fotografía DSC08263.jpg se titula «Última luz».
+
+Integrá la página a React/Sass y a la navegación existente. Usá el diseño aprobado, las imágenes fuente para generar variantes de buena calidad, el texto personal y la consulta por WhatsApp. No uses las imágenes pequeñas incrustadas en el HTML como recursos de producción ni incrustes la referencia como iframe.
+
+Antes de editar, revisá las instrucciones del repositorio, la rama y los cambios locales. Conservá la portada aprobada y toda la funcionalidad de la tienda deportiva. Los originales deben quedar ignorados por Git. No implementes todavía otras series ni la tienda de paisajes.
+
+Completá las comprobaciones de la guía, actualizá docs/portfolio-v2/REVISION.md y hacé commit/push a feat/portfolio-v2. No fusiones con main ni publiques en producción. Al terminar, pasame el resumen de cambios, comprobaciones reales, límites y el acceso para revisar localmente o en Preview.
