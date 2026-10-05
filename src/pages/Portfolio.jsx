@@ -12,7 +12,7 @@ export default function Portfolio() {
     <ImmersiveCover />
     <section className="portfolio-intro" id="sobre-mi">
       <p className="portfolio-eyebrow">PAISAJES · VIAJES · MONTAÑA</p>
-      <h1>Una mirada en el camino.</h1>
+      <h2>Una mirada en el camino.</h2>
       <p>Fotografío los lugares que recorro, los detalles que me detienen y las experiencias que encuentro en la montaña.</p>
     </section>
     <PortfolioCollections /><ContactForm />

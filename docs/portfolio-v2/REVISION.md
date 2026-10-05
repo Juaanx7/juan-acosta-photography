@@ -2,7 +2,7 @@
 
 Base: origin/main, eb9b971 (producción al iniciar el trabajo).
 Rama: feat/portfolio-v2. No fusionar a main antes de la revisión de Juan.
-Referencia leída: docs/juanacostaph-portfolio-v2/IMPLEMENTACION.md y diseno-portada-inmersiva.html en el checkout original. Los archivos de referencia, previamente sin seguimiento, no se incorporaron al commit. Se copiaron únicamente las cinco fotos WebP autorizadas a public/images/portfolio.
+Referencia leída: docs/juanacostaph-portfolio-v2/IMPLEMENTACION.md y diseno-portada-inmersiva.html en el checkout original. Los archivos de referencia, previamente sin seguimiento, no se incorporaron al commit. Las cinco fotos de muestra utilizadas inicialmente fueron reemplazadas por versiones web generadas desde los originales en la corrección de portada detallada abajo.
 
 ## Desarrollo y arquitectura
 
@@ -42,3 +42,44 @@ Referencia leída: docs/juanacostaph-portfolio-v2/IMPLEMENTACION.md y diseno-por
 - prefers-reduced-motion, pausa por hover/foco/visibilidad y limpieza de efectos están implementados; la emulación del ajuste de movimiento reducido no está disponible en el navegador de pruebas utilizado.
 - Las recargas se comprobaron localmente. La Preview remota protegida por Vercel no pudo inspeccionarse sin iniciar sesión.
 - La web no puede confirmar que un mensaje fue enviado en WhatsApp. Se comprobó la preparación de enlaces y la acción de apertura; no el envío ni la aplicación externa en un teléfono.
+
+## Corrección de portada · 4 de octubre de 2026
+
+- Se conserva la marca del navbar y se agrega una franja con el h1 “Juan Acosta Photography”, centrado, en serif y con mayor jerarquía. “Una mirada en el camino.” pasa a h2: la página conserva un único h1.
+- La portada utiliza una cuadrícula con filas para título, fotografía y controles. Su altura es el espacio del viewport menos la altura real del navbar, con un límite de 1000 px. Un ResizeObserver mide el navbar y el marco de la foto; se desconecta al desmontar.
+- La foto queda centrada en un marco de hasta 1600 px de ancho, con márgenes simétricos y object-fit: contain. Conserva el encuadre completo, incluida la proporción 3:2 de sport. En celular, el marco mantiene 4:3 y la imagen completa dentro.
+- El nombre de la foto ocupa una línea independiente. Pausar/Reproducir, las flechas y el contador forman un grupo centrado cuyo ancho no cambia al alternar el estado de reproducción.
+- Se conservan el intervalo de 6000 ms y las pausas por interacción, visibilidad de la pestaña y salida de pantalla; los cambios automáticos continúan sin anuncios a lectores de pantalla.
+
+### Originales y versiones responsive
+
+- Correspondencia confirmada para golden (5794×3259), walkers (4884×2747), forest (5914×3327) y sport (6000×4000).
+- Juan confirmó el reemplazo de la muestra valley por el nuevo valley.jpg (5977×3362), una puesta de sol abierta. Se actualizó también su texto alternativo.
+- Los originales quedan en `docs/portfolio-v2/fotos-originales/`, ignorados por Git. No se modifican ni se incluyen en el commit.
+- `scripts/generatePortfolioImages.py` genera las versiones WebP con Pillow, calidad 90 y remuestreo Lanczos, sin recortar ni ampliar. Interpreta los perfiles ICC originales (Rec. 2020 en golden, walkers y forest; sRGB en sport y valley), convierte a sRGB e incluye ese perfil en la salida. No aplica ajustes artísticos de color, contraste o exposición.
+- Se versionan 30 WebP: 640, 960, 1440, 1920, 2560 y 3200 px de ancho por foto, con proporción conservada. Ocupan aproximadamente 13.69 MiB en total; cada visitante descarga las variantes que el navegador selecciona, no el conjunto completo.
+- `src/data/portfolioImages.json` registra dimensiones y variantes. El carrusel usa srcset con descriptores de ancho y sizes según el ancho real de la fotografía contenida, calculado a partir del marco y su proporción. Las categorías y series también usan srcset/sizes, con carga diferida.
+- Las versiones de 3200 px cubren hasta 2× el ancho máximo del marco de 1600 px. En celular, 960 px cubren aproximadamente 3× una fotografía de 305 px. Esto se comprobó mediante dimensiones de archivos; el navegador de pruebas expone DPR 1 y no permite emular DPR 2/3.
+- Para regenerar: `python scripts/generatePortfolioImages.py` con Pillow, WebP y LittleCMS disponibles. `--names golden walkers forest sport valley` permite seleccionar archivos. Los originales deben estar presentes localmente.
+
+### Verificación de esta corrección
+
+| Viewport | Fin de los controles desde el inicio de la página | Imagen seleccionada a DPR 1 | Desbordamiento horizontal |
+| --- | --- | --- | --- |
+| 1366×768 | 751 px | 960 px, foto visible de ~864 px | No |
+| 1920×1080 | 1063 px | 1440 px, foto visible de ~1400 px | No |
+| 2560×1440 | 1080 px | 1440 px, foto visible de ~1430 px | No |
+| 360×800 | ~556 px | 640 px, foto visible de 305 px | No |
+
+- En los tres tamaños de escritorio se comprobó con scrollY=0 que título, foto y controles quedan visibles. El centro del grupo de controles coincide con el del área de contenido. También se inspeccionaron visualmente nitidez, márgenes y proporciones.
+- Se verificaron las flechas, Pausar/Reproducir, el avance automático y la pausa mientras el control mantiene foco/hover. La imagen deportiva carga correctamente y se muestra completa en celular.
+- Auditoría de los 30 archivos: dimensiones coincidentes con el manifiesto, proporciones conservadas, perfil sRGB y ningún archivo ampliado por encima de su original.
+- `npm run build`, `npm test` (6 pruebas) y `git diff --check` correctos. Lint sin errores; persiste el aviso previo de PhotoModal. Build conserva el aviso de tamaño del catálogo deportivo existente.
+- No se cambiaron rutas, datos deportivos, Cloudinary, selección ni compra por WhatsApp. Se conserva el aislamiento en el worktree y la rama feat/portfolio-v2.
+
+Capturas de la vista inicial, pausadas para facilitar la comparación:
+
+- [1366×768](capturas/portada-corregida-1366x768.jpg)
+- [1920×1080](capturas/portada-corregida-1920x1080.jpg)
+- [2560×1440](capturas/portada-corregida-2560x1440.jpg)
+- [Celular 360×800](capturas/portada-corregida-celular-360x800.jpg)

@@ -3,7 +3,7 @@ import "./Navbar.scss";
 
 export default function Navbar() {
   const { pathname, hash } = useLocation();
-  return <header className="navbar">
+  return <header className="navbar" id="site-header">
     <a className="navbar__skip" href="#contenido">Saltar al contenido</a>
     <div className="navbar__container">
       <Link to="/" className="navbar__brand">JUAN ACOSTA<span>PHOTOGRAPHY</span></Link>

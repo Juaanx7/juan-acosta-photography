@@ -1,0 +1,187 @@
+{
+  "golden": {
+    "image": "/images/portfolio/golden-1440.webp",
+    "width": 5794,
+    "height": 3259,
+    "variants": [
+      {
+        "image": "/images/portfolio/golden-640.webp",
+        "width": 640,
+        "height": 360
+      },
+      {
+        "image": "/images/portfolio/golden-960.webp",
+        "width": 960,
+        "height": 540
+      },
+      {
+        "image": "/images/portfolio/golden-1440.webp",
+        "width": 1440,
+        "height": 810
+      },
+      {
+        "image": "/images/portfolio/golden-1920.webp",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "image": "/images/portfolio/golden-2560.webp",
+        "width": 2560,
+        "height": 1440
+      },
+      {
+        "image": "/images/portfolio/golden-3200.webp",
+        "width": 3200,
+        "height": 1800
+      }
+    ]
+  },
+  "walkers": {
+    "image": "/images/portfolio/walkers-1440.webp",
+    "width": 4884,
+    "height": 2747,
+    "variants": [
+      {
+        "image": "/images/portfolio/walkers-640.webp",
+        "width": 640,
+        "height": 360
+      },
+      {
+        "image": "/images/portfolio/walkers-960.webp",
+        "width": 960,
+        "height": 540
+      },
+      {
+        "image": "/images/portfolio/walkers-1440.webp",
+        "width": 1440,
+        "height": 810
+      },
+      {
+        "image": "/images/portfolio/walkers-1920.webp",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "image": "/images/portfolio/walkers-2560.webp",
+        "width": 2560,
+        "height": 1440
+      },
+      {
+        "image": "/images/portfolio/walkers-3200.webp",
+        "width": 3200,
+        "height": 1800
+      }
+    ]
+  },
+  "forest": {
+    "image": "/images/portfolio/forest-1440.webp",
+    "width": 5914,
+    "height": 3327,
+    "variants": [
+      {
+        "image": "/images/portfolio/forest-640.webp",
+        "width": 640,
+        "height": 360
+      },
+      {
+        "image": "/images/portfolio/forest-960.webp",
+        "width": 960,
+        "height": 540
+      },
+      {
+        "image": "/images/portfolio/forest-1440.webp",
+        "width": 1440,
+        "height": 810
+      },
+      {
+        "image": "/images/portfolio/forest-1920.webp",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "image": "/images/portfolio/forest-2560.webp",
+        "width": 2560,
+        "height": 1440
+      },
+      {
+        "image": "/images/portfolio/forest-3200.webp",
+        "width": 3200,
+        "height": 1800
+      }
+    ]
+  },
+  "sport": {
+    "image": "/images/portfolio/sport-1440.webp",
+    "width": 6000,
+    "height": 4000,
+    "variants": [
+      {
+        "image": "/images/portfolio/sport-640.webp",
+        "width": 640,
+        "height": 427
+      },
+      {
+        "image": "/images/portfolio/sport-960.webp",
+        "width": 960,
+        "height": 640
+      },
+      {
+        "image": "/images/portfolio/sport-1440.webp",
+        "width": 1440,
+        "height": 960
+      },
+      {
+        "image": "/images/portfolio/sport-1920.webp",
+        "width": 1920,
+        "height": 1280
+      },
+      {
+        "image": "/images/portfolio/sport-2560.webp",
+        "width": 2560,
+        "height": 1707
+      },
+      {
+        "image": "/images/portfolio/sport-3200.webp",
+        "width": 3200,
+        "height": 2133
+      }
+    ]
+  },
+  "valley": {
+    "image": "/images/portfolio/valley-1440.webp",
+    "width": 5977,
+    "height": 3362,
+    "variants": [
+      {
+        "image": "/images/portfolio/valley-640.webp",
+        "width": 640,
+        "height": 360
+      },
+      {
+        "image": "/images/portfolio/valley-960.webp",
+        "width": 960,
+        "height": 540
+      },
+      {
+        "image": "/images/portfolio/valley-1440.webp",
+        "width": 1440,
+        "height": 810
+      },
+      {
+        "image": "/images/portfolio/valley-1920.webp",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "image": "/images/portfolio/valley-2560.webp",
+        "width": 2560,
+        "height": 1440
+      },
+      {
+        "image": "/images/portfolio/valley-3200.webp",
+        "width": 3200,
+        "height": 1800
+      }
+    ]
+  }
+}
