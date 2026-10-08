@@ -1,0 +1,13 @@
+Continuemos con el portfolio en el worktree .worktrees/portfolio-v2 y la misma rama feat/portfolio-v2. La portada y «San Marcos, mi mirada» ya fueron revisadas y aprobadas por Juan; la última entrega informada de San Marcos fue b887ee6. Conservá cualquier trabajo posterior y los cambios locales existentes.
+
+Implementá la serie «Los Cajones de Achala» a partir del paquete docs/achala/. Primero leé IMPLEMENTACION.md, revisá FOTOS.csv y abrí diseno-cajones-de-achala.html como referencia visual aprobada. El diseño usa exactamente doce fotos, en el orden indicado en la guía.
+
+Los JPG originales que tenés que procesar están en docs/achala/fotos/originales/. Verificá que estén los doce archivos correctos antes de generar los recursos. No uses las pequeñas imágenes incrustadas en el HTML como fuentes de producción. Si falta una fuente, indicá el nombre que falta y continuá con el trabajo que no dependa de ella; no la sustituyas silenciosamente ni simules una entrega completa.
+
+Integrá el diseño en React/Sass y reutilizá la página de series, el visor accesible y la confirmación de WhatsApp de San Marcos cuando sea adecuado. No incrustes el HTML como iframe ni copies los controles Escritorio/Celular a la web. Conservá las fotografías completas, su color y sus proporciones; generá variantes WebP responsive de buena calidad sin ampliar la fuente.
+
+Antes de editar, revisá las instrucciones del repositorio, git status y la rama activa. Asegurá que docs/achala/fotos/originales/ quede ignorado por Git antes de cualquier git add. La documentación y los recursos optimizados sí pueden incorporarse; los originales no.
+
+Implementá la página, los accesos desde la portada y el enlace desde San Marcos. Conservá la portada aprobada, la serie de San Marcos y todas las rutas y funciones de la tienda deportiva. No implementes La Cumbrecita ni la tienda de paisajes en esta etapa.
+
+Completá las verificaciones de IMPLEMENTACION.md, actualizá docs/portfolio-v2/REVISION.md y hacé commit/push a feat/portfolio-v2. No fusiones con main ni publiques en producción. Al terminar, informá cambios, comprobaciones reales, límites, commit y acceso local/Preview para revisar.

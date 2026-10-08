@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from "react";
 import ResponsivePhoto from "./ResponsivePhoto";
 
-export default function SeriesViewer({ works, initialIndex, location, opener, onDismiss }) {
+export default function SeriesViewer({ works, initialIndex, location, opener, onDismiss, title }) {
   const [index, setIndex] = useState(initialIndex);
   const [frame, setFrame] = useState({ width: 960, height: 600 });
   const dialog = useRef(null);
@@ -47,7 +47,7 @@ export default function SeriesViewer({ works, initialIndex, location, opener, on
   return <dialog ref={dialog} className="series-viewer" aria-labelledby="series-viewer-title"
     onClose={onDismiss} onKeyDown={keyboard}>
     <div className="series-viewer__layout">
-      <header><h2 id="series-viewer-title" aria-live="polite">{photo.title}</h2>
+      <header><h2 id="series-viewer-title" aria-live="polite">{title || photo.title}</h2>
         <button type="button" autoFocus onClick={() => dialog.current.close()}>Cerrar ×</button></header>
       <div className="series-viewer__stage" ref={stage}>
         <ResponsivePhoto photo={photo} priority sizes={`${Math.ceil(Math.min(frame.width, frame.height * photo.width / photo.height))}px`} />

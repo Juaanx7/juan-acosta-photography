@@ -1,10 +1,11 @@
-import { useRef, useState } from "react";
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import { sanMarcos } from "../data/sanMarcos";
 import { routePaths } from "../data/routes";
-import { createWhatsAppLink } from "../utils/whatsapp";
 import ResponsivePhoto from "../components/portfolio/ResponsivePhoto";
 import SeriesViewer from "../components/portfolio/SeriesViewer";
+import SeriesPhoto from "../components/portfolio/SeriesPhoto";
+import SeriesInquiry from "../components/portfolio/SeriesInquiry";
 import "./SanMarcosSeries.scss";
 
 const sizes = {
@@ -17,20 +18,12 @@ const sizes = {
 
 export default function SanMarcosSeries() {
   const [selection, setSelection] = useState(null);
-  const confirmation = useRef(null);
-  const inquiryButton = useRef(null);
 
   function work(index, size, priority = false) {
     const photo = sanMarcos.works[index];
-    return <figure key={photo.source} className="series-work">
-      <button type="button" className="series-work__open" aria-label={`Ampliar ${photo.title}`}
-        onClick={(event) => setSelection({ index, opener: event.currentTarget })}>
-        <ResponsivePhoto photo={photo} sizes={sizes[size]} priority={priority} />
-      </button>
-      <figcaption><div><h2>{photo.title}</h2><p>{sanMarcos.location}</p></div>
-        <button type="button" aria-label={`Ampliar ${photo.title}, abrir visor`}
-          onClick={(event) => setSelection({ index, opener: event.currentTarget })}>Ampliar ↗</button></figcaption>
-    </figure>;
+    return <SeriesPhoto key={photo.source} photo={photo} sizes={sizes[size]} priority={priority}
+      onOpen={(event) => setSelection({ index, opener: event.currentTarget })}
+      caption={<div><h2>{photo.title}</h2><p>{sanMarcos.location}</p></div>} />;
   }
 
   return <div className="san-marcos-series">
@@ -60,20 +53,10 @@ export default function SanMarcosSeries() {
         </figure>)}</div>
       </div>
     </section>
-    <section className="series-closing series-container" aria-labelledby="series-inquiry-title">
-      <div><p className="series-eyebrow">UNA FOTOGRAFÍA PARA TU ESPACIO</p>
-        <h2 id="series-inquiry-title">¿Hay una imagen<br />que te gustaría tener?</h2>
-        <p>Podés consultarme por una fotografía de esta colección en formato digital o impresa a pedido.</p>
-        <button type="button" ref={inquiryButton} onClick={() => confirmation.current.showModal()}>Consultar por WhatsApp ↗</button></div>
-      <Link className="series-back" to={`${routePaths.portfolio}#portfolio`}>Seguir explorando el portfolio ↗</Link>
-    </section>
-    <dialog ref={confirmation} className="series-confirm" aria-labelledby="series-confirm-title"
-      onClose={() => inquiryButton.current.focus({ preventScroll: true })}>
-      <h2 id="series-confirm-title">Revisá tu consulta</h2>
-      <p>Al abrir WhatsApp, podés revisar el mensaje y presionar Enviar.</p><pre>{sanMarcos.inquiry}</pre>
-      <div><button type="button" onClick={() => confirmation.current.close()}>Volver a la colección</button>
-        <a href={createWhatsAppLink(sanMarcos.inquiry)} target="_blank" rel="noopener noreferrer">Abrir WhatsApp ↗</a></div>
-    </dialog>
+    <SeriesInquiry message={sanMarcos.inquiry}>
+      <div><Link className="series-back" to={routePaths.achala}>Los Cajones de Achala ↗</Link><br />
+        <Link className="series-back" to={`${routePaths.portfolio}#portfolio`}>Seguir explorando el portfolio ↗</Link></div>
+    </SeriesInquiry>
     {selection && <SeriesViewer works={sanMarcos.works} initialIndex={selection.index} location={sanMarcos.location}
       opener={selection.opener} onDismiss={() => setSelection(null)} />}
   </div>;

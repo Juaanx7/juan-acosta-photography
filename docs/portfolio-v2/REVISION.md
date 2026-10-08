@@ -38,7 +38,7 @@ Referencia leída: docs/juanacostaph-portfolio-v2/IMPLEMENTACION.md y diseno-por
 
 ## Límites y siguiente etapa
 
-- Las galerías interiores de otras series, fotos definitivas de categorías secundarias, biografía ampliada y tienda de paisajes quedan pendientes. San Marcos se implementó en la entrega documentada más abajo. No hay checkout ni enlaces que simulen contenido terminado.
+- Las galerías interiores de otras series, fotos definitivas de categorías secundarias, biografía ampliada y tienda de paisajes quedan pendientes. San Marcos y Los Cajones de Achala se implementaron en las entregas documentadas más abajo. No hay checkout ni enlaces que simulen contenido terminado.
 - prefers-reduced-motion, pausa por hover/foco/visibilidad y limpieza de efectos están implementados; la emulación del ajuste de movimiento reducido no está disponible en el navegador de pruebas utilizado.
 - Las recargas se comprobaron localmente. La Preview remota protegida por Vercel no pudo inspeccionarse sin iniciar sesión.
 - La web no puede confirmar que un mensaje fue enviado en WhatsApp. Se comprobó la preparación de enlaces y la acción de apertura; no el envío ni la aplicación externa en un teléfono.
@@ -137,3 +137,64 @@ Capturas:
 - [Visor Última luz · 1366×768](capturas/san-marcos-visor-1366x768.jpg)
 - [Visor vertical · 360×800](capturas/san-marcos-visor-celular-360x800.jpg)
 - [Visor de poca altura · 667×375](capturas/san-marcos-visor-667x375.jpg)
+
+## Serie «Los Cajones de Achala» · 8 de octubre de 2026
+
+### Alcance y conservación del trabajo
+
+- Se continuó desde b887ee6 en el worktree `.worktrees/portfolio-v2`, rama `feat/portfolio-v2`, sin reiniciar la rama ni cambiar su base. Se leyeron IMPLEMENTACION.md y FOTOS.csv y se abrió la referencia interactiva en el navegador local antes de implementar.
+- Había un cambio local en `src/pages/SanMarcosSeries.jsx`: eliminación del salto de línea forzado del h1. Se conserva en el worktree y se excluye del commit de Achala. La Preview conserva el título de la entrega aprobada b887ee6; la revisión local incluye el ajuste que ya estaba presente.
+- No se cambiaron los estilos, fotos, alturas ni reproducción de la portada. No se modificaron datos deportivos, Cloudinary, selección, precios, modal, paginación ni preparación de pedidos.
+- La Cumbrecita y la tienda de paisajes siguen pendientes. No tienen nuevas rutas, checkout ni enlaces a contenido vacío. Paisajes y viajes conserva su categoría general; no se enlaza toda esa categoría a esta única salida.
+
+### Página y componentes
+
+- Ruta `/portfolio/cajones-de-achala`, cargada de forma diferida en React Router, conservando el rewrite de Vercel. La tarjeta antes llamada Pampa de Achala se presenta como Los Cajones de Achala, usa DSC02820 como portada y enlaza a la nueva colección. El carrusel principal conserva su contenido aprobado.
+- Se reprodujo la distribución aprobada en React/Sass: dos párrafos junto al título, apertura amplia, par horizontal, par vertical, horizontal centrada, segundo par vertical y horizontal amplia. En el regreso, la fotografía precede al último párrafo; las dos fotos doradas se muestran después y la última lleva «Al final del camino.».
+- Se mantiene el texto personal exacto de la guía. No se inventan fechas, medidas ni títulos individuales. La cursiva de «de Achala.» y «el mismo paisaje.» conserva la jerarquía editorial.
+- Orden en página y visor: **DSC02820, DSC02395, DSC02427, DSC02568, DSC02569, DSC02780, DSC02824, DSC02882, DSC02887, DSC02966, DSC02984, DSC02988**. Solo estas doce fotografías forman parte de la colección.
+- `src/data/achala.js` separa texto, correspondencia y mensaje de consulta de la presentación. `SeriesPhoto` comparte la fotografía responsive y las acciones de ampliación; `SeriesInquiry` comparte la confirmación existente de San Marcos. Su extracción conserva el contenido y la estructura visual de San Marcos, con el nuevo enlace hacia Achala.
+- Se reutiliza `SeriesViewer` con un título de colección opcional. Achala muestra Los Cajones de Achala; San Marcos conserva el título individual de cada obra. Continúan la navegación manual, contador, teclado, foco, bloqueo del fondo y regreso a la lectura.
+- WhatsApp reutiliza el número y `createWhatsAppLink`, muestra el mensaje para revisar y prepara una consulta identificada como Los Cajones de Achala. No exige correo ni promete envío confirmado, disponibilidad, precios o compra automática.
+- «Seguir explorando» enlaza a San Marcos; La Cumbrecita muestra el estado Serie en preparación sin enlace. Los dos interiores enlazan entre sí y mantienen el regreso a `/#portfolio`.
+- El HTML permanece como documentación de referencia. No se incrusta mediante iframe ni se incorporan sus miniaturas o controles Escritorio/Celular a la aplicación.
+
+### Fuentes, color y recursos responsive
+
+- Se verificaron los doce nombres y su orden en FOTOS.csv, la existencia de todos los JPG y su lectura íntegra antes de generar recursos. No faltó ninguna fuente. Las horizontales tienen entre 5477 y 6000 px de ancho; las verticales entre 3273 y 3375 px.
+- `docs/achala/fotos/originales/` se agregó a `.gitignore` antes de cualquier git add. `git check-ignore` confirmó los doce JPG; también queda ignorado el LEEME de esa carpeta. Los originales no se modificaron: sus hashes SHA-256 coincidieron antes y después del procesamiento.
+- `scripts/generateAchalaImages.py` valida primero el CSV y todos los archivos, e informa por nombre las fuentes faltantes. Requiere Pillow; se ejecuta con `python scripts/generateAchalaImages.py`. No usa ni extrae imágenes del HTML.
+- Se generan 72 WebP en `public/images/portfolio/achala`, a 640/960/1440/1920/2560/3200 px de ancho, calidad 90 y remuestreo Lanczos. Sin recortes, ampliación ni edición artística adicional. Total almacenado: aproximadamente **60.50 MiB**, por las doce imágenes y sus seis variantes; el visitante descarga las variantes elegidas por el navegador, no ese conjunto completo.
+- Todas las fuentes tienen perfil Rec. 2020. Se interpreta el perfil original, se convierte a sRGB para la web y se incluye el perfil de salida, siguiendo el tratamiento de la portada. Se aplica la orientación y se conserva la proporción.
+- `src/data/achalaImages.json` registra nombre de fuente, dimensiones y variantes. Cada fotografía declara width/height, srcset y sizes según su distribución. Solo se prioriza la apertura en la página; las inferiores cargan de forma diferida. El visor sigue midiendo el ancho de la fotografía contenida para ajustar sizes.
+- Auditoría de los 72 WebP: dimensiones coincidentes con el manifiesto, perfil sRGB, proporción conservada dentro del redondeo de un píxel y resolución nunca superior a la fuente. Se inspeccionaron visualmente las doce correspondencias y el cierre en las capturas completas.
+
+### Verificaciones realizadas
+
+- Navegador local a **360×800, 768×1024, 1366×768 y 1920×1080**: sin desbordamiento horizontal; todas las fotografías completas; orden correcto; texto inicial junto al título en escritorio y apilado en celular; pares separados en celular; verticales de 280 px; foto del regreso antes del texto. Se cargaron las doce imágenes y se revisaron capturas completas de escritorio y celular.
+- Visor a 1366×768 y 360×800, y prueba adicional a **667×375**: foto completa, cierre y controles visibles. Fin de los controles a 760 px en celular y 349 px con poca altura; ubicación a 784 y 365 px respectivamente.
+- Recorrido manual de las doce fotografías en el visor, correspondencia de cada fuente y pasos 12→1 / 1→12. Flechas de teclado, cierre por botón y Escape, Tab/Shift+Tab dentro del diálogo. Apertura por Enter desde el botón de DSC02966: foco y scrollY=4380 exactamente iguales antes de abrir y después de cerrar.
+- Vista previa de la consulta, nombre de colección, caracteres y URL codificados al número existente; Escape devuelve el foco al botón. Se comprobó el mensaje de ambas series. No se abrió WhatsApp ni se enviaron mensajes reales.
+- Portada→Achala, Achala→San Marcos, San Marcos→Achala, regreso a `/#portfolio` y enlaces a Contacto/Sobre mí. Apertura y recarga directa de la nueva ruta. La sección portfolio quedó alineada al inicio tras finalizar el desplazamiento suave.
+- Portada aprobada a 1366×768: h1 conservado, scrollY=0, fin de controles a 751 px y ausencia de desbordamiento. Se verificó que Paisajes y viajes no enlaza a Achala. San Marcos conserva las seis obras, Última luz como obra 4/6, siguiente Reflejos 5/6, visor y confirmación existentes. Sus imágenes, datos y Sass aprobado no cambiaron.
+- Tienda: alias `/#eventos` redirige a `/tienda/deportes#eventos`; apertura de evento DH y Entrenamientos; selección adicional DSC06681 persistió tras recarga; pedido de dos fotos mostró el total existente de $14.000 y se canceló. Se quitó solo la selección de prueba y se restauró la previa DSC06680.
+- Paginación 1→2 de 12; las 16 miniaturas de la página cargaron desde Cloudinary. Modal deportivo DSC06733→DSC06737 y cierre. Apertura y recarga directa de Circuito Molle y Tanda 2, de Las Pircas y CPRO. Las pruebas de rutas conservan todas las categorías publicadas, ayuda y prioridad de `/galeria` e incluyen la nueva ruta de Achala.
+- Build correcto con las dependencias existentes; el entorno limitado no pudo resolver Sass inicialmente y se repitió con acceso a esas dependencias, sin agregar paquetes. Lint sin errores nuevos (aviso previo de PhotoModal); seis pruebas existentes correctas; `git diff --check` correcto. El build conserva el aviso de tamaño del catálogo deportivo. Consola local sin errores durante la revisión funcional.
+
+### Límites y acceso
+
+- Pruebas con viewport simulado en el navegador de escritorio, a DPR 1. La herramienta permite cambiar ancho/alto y no ofrece emulación de DPR 2/3; no se probó un teléfono físico ni Safari. Los archivos de 3200 px cubren 2× el ancho máximo de 1600 px del visor; esta cobertura se verificó por dimensiones, no mediante emulación de alta densidad.
+- No se probaron envíos reales, pagos ni la aplicación externa de WhatsApp. La Preview mantiene la protección de Vercel y puede requerir iniciar sesión; esa protección no se cambia.
+- Entrega en `feat/portfolio-v2`, sin merge con main ni publicación en Production. Se conserva el ajuste local previo del título de San Marcos sin incluirlo en el commit de esta entrega.
+- Acceso local: `http://127.0.0.1:5174/portfolio/cajones-de-achala` (Vite activo en el worktree). Para reiniciar: `npm run dev -- --host 127.0.0.1 --port 5174`.
+
+Capturas:
+
+- [Página completa · 1366×768](capturas/achala-1366x768.jpg)
+- [Página completa · 1920×1080](capturas/achala-1920x1080.jpg)
+- [Tablet · 768×1024](capturas/achala-tablet-768x1024.jpg)
+- [Celular · 360×800](capturas/achala-celular-360x800.jpg)
+- [Visor · 1366×768](capturas/achala-visor-1366x768.jpg)
+- [Visor vertical · 360×800](capturas/achala-visor-celular-360x800.jpg)
+- [Visor de poca altura · 667×375](capturas/achala-visor-667x375.jpg)
+- [Consulta preparada · 1366×768](capturas/achala-consulta-1366x768.jpg)
