@@ -62,12 +62,12 @@
 .portfolio-series {
   .portfolio-eyebrow { margin-top: 20px; }
   h3 { font-size: 23px; margin-top: 9px; }
-  p:not(.portfolio-eyebrow) { font-size: 13px; line-height: 1.65; color: var(--soft); margin: 12px 0 20px; max-width: 420px; }
+  p:not(.portfolio-eyebrow) { font-size: 13px; line-height: 1.65; color: var(--soft); margin: 12px 0 20px; max-width: 640px; }
 }
 .portfolio-contact {
   display: grid; grid-template-columns: 1fr 1.1fr; gap: 70px; padding: 55px 0 65px; border-top: 1px solid var(--rule); width: var(--content-width); margin: auto;
-  h2 { font-size: 36px; max-width: 350px; margin: 16px 0 20px; }
-  > div > p:not(.portfolio-eyebrow) { font-size: 14px; line-height: 1.8; color: var(--soft); max-width: 330px; }
+  h2 { font-size: 36px; margin: 16px 0 20px; }
+  > div > p:not(.portfolio-eyebrow) { font-size: 14px; line-height: 1.8; color: var(--soft); max-width: 640px; }
   &__location { margin: 30px 0; p { font-size: 13px; line-height: 1.7; margin: 8px 0; } }
   a { font-size: 13px; line-height: 1.7; text-underline-offset: 5px; }
   a:hover { text-decoration: underline; }

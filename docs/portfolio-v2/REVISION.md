@@ -255,3 +255,43 @@ Capturas representativas (también se guardaron las vistas completas de ayuda, e
 - [Galería · celular](capturas/ancho-galeria-360x800.jpg)
 - [Visor Achala · celular](capturas/ancho-visor-achala-360x800.jpg)
 - [Modal deportivo · celular](capturas/ancho-modal-deportivo-360x800.jpg)
+
+## Saltos naturales y encabezado de Achala · 8 de octubre de 2026
+
+Trabajo en el worktree `portfolio-v2`, rama `feat/portfolio-v2`, sobre la entrega de amplitud aprobada `76415af`. Se conservó e incorporó el ajuste local previo del título de San Marcos, que ya quitaba su corte forzado y coincide con este pedido.
+
+### Cambios
+
+- Los títulos de las dos series, «Del paisaje al papel.», «Otra luz, el mismo paisaje.» y la consulta compartida continúan como una frase; se quitaron los `<br>` de presentación manteniendo espacios, tipografía, tamaños y fragmentos `<em>` en cursiva. El navegador decide dónde envolver cuando falta espacio.
+- La introducción breve de San Marcos, las descripciones de tarjetas, el texto de consulta y la descripción de contacto pueden ocupar hasta 640 px. El título de contacto usa su columna completa. Los párrafos largos conservan límites de lectura; no se aplicó `nowrap` global ni se redujeron fuentes para hacerlos entrar. El título deportivo deja de imponer `nowrap` en escritorio grande, manteniendo su tamaño responsive existente.
+- La identificación, el título y los dos párrafos iniciales de Achala se muestran sucesivamente, alineados a la izquierda; el relato tiene un máximo de 640 px y separación de 21 px desde el título. La fotografía de apertura conserva el ancho aprobado. Se eliminó únicamente la distribución inicial en dos columnas: la sección del regreso, su último párrafo y las doce imágenes permanecen en su lugar y orden.
+- Instagram se presenta como una frase con la cuenta a continuación. Se conservaron las separaciones funcionales entre ciudad/provincia, dos enlaces independientes, marca y metadatos deportivos. No se alteraron datos, rutas, precios, recursos, `srcset`/`sizes`, visor, selección ni utilidad de WhatsApp.
+
+### Comprobaciones reales
+
+- Inicio/contacto, San Marcos, Achala, tienda deportiva, evento DH, galería Entrenamientos y Cómo comprar: **360×800, 768×1024, 1366×768, 1920×1080 y 2560×1440**, 35 combinaciones sin desbordamiento horizontal ni acción visible «Ampliar». Mediciones de renglones mediante los rectángulos del texto renderizado en `capturas/textos-comprobaciones.json`.
+- Los títulos iniciales de ambas series entran en una línea desde 768 px; en 360 px se envuelven naturalmente en dos, pudiendo compartir línea texto normal y cursiva. La descripción de San Marcos entra completa en una línea desde 768 px, sin «Sierras.» aislada. «Del paisaje al papel.» ocupa una línea a 1366, 1920 y 2560; se envuelve en dos cuando su columna de tablet/celular no alcanza. El contacto ocupa una línea en 1920/2560 y se ajusta en tamaños menores.
+- Se compararon los anchos de las seis obras de San Marcos y doce fotografías de Achala con las mediciones de la entrega aprobada: iguales en los cinco tamaños, redondeados a píxeles como en el registro previo. Las aperturas siguen aproximadamente a 1216, 1715 y 2200 px en los tres escritorios. No se requieren nuevas variantes de imagen para este ajuste textual.
+- Portada en escritorio con scroll inicial cero: fin de controles a 751 px en 1366×768, 1063 px en 1920×1080 y 1080 px en 2560×1440. Título, foto y controles conservan su visibilidad y dimensiones; no se modificó su temporizador de seis segundos ni la lógica de pausas.
+- Achala: se comprobaron alineación y orden identificación→título→dos párrafos→apertura; las doce fuentes mantienen la secuencia DSC02820, DSC02395, DSC02427, DSC02568, DSC02569, DSC02780, DSC02824, DSC02882, DSC02887, DSC02966, DSC02984, DSC02988. El párrafo del regreso sigue antes de las dos fotografías doradas.
+- Visores: Enter en la imagen de Última luz, contador 4/6, derecha a Reflejos 5/6 y Escape; retorno al mismo botón y scrollY=1538. Achala: izquierda 1→12 y derecha 12→1, cierre por Escape. Confirmaciones de ambas colecciones con su mensaje y número existente; no se abrió WhatsApp ni se envió un mensaje.
+- Tienda: se agregó DSC06681 a la selección previa DSC06680; recarga con dos fotos y $14.000; confirmación del pedido y cancelación. Se quitó solo la foto agregada y se restauró una foto/$7.000. Paginación 1→2 de 12; modal por Enter en DSC06733, derecha a DSC06737 y Escape. Una comprobación adicional en DSC06680 devolvió foco al mismo botón y scrollY=128 antes/después. La selección previa se conservó.
+- Contacto: preparación de un mensaje de prueba sin correo, revisión en el diálogo y enlace codificado al número existente; regreso al formulario, sin envío externo. Consola local sin errores.
+- `npm run build` correcto, `npm run lint` sin errores ni advertencias, `npm test` con ocho pruebas correctas y `git diff --check` correcto. Permanece el aviso previo de build por el tamaño del catálogo deportivo. Las pruebas protegen URLs publicadas, prioridad de galería, variantes Cloudinary y preparación de consultas.
+- Originales ignorados por Git y sin archivos fuente en el índice. Configuración de despliegue y `main` sin cambios; entrega exclusiva en `feat/portfolio-v2`, sin merge ni publicación en Production.
+
+### Capturas y límites
+
+Revisión en navegador de escritorio con viewport simulado y DPR 1; no equivale a una prueba en dispositivo físico o Safari. No hubo envíos reales por WhatsApp. Acceso local: `http://127.0.0.1:5174/`; Preview sujeta a la protección de Vercel.
+
+- [Achala · encabezado 1366×768](capturas/textos-achala-encabezado-1366x768.jpg)
+- [Achala · encabezado 1920×1080](capturas/textos-achala-encabezado-1920x1080.jpg)
+- [Achala · encabezado 2560×1440](capturas/textos-achala-encabezado-2560x1440.jpg)
+- [Achala · tablet](capturas/textos-achala-encabezado-768x1024.jpg)
+- [Achala · celular](capturas/textos-achala-encabezado-360x800.jpg)
+- [San Marcos · encabezado 1920×1080](capturas/textos-san-marcos-encabezado-1920x1080.jpg)
+- [San Marcos · celular](capturas/textos-san-marcos-encabezado-360x800.jpg)
+- [Del paisaje al papel · 1366×768](capturas/textos-san-marcos-muestra-1366x768.jpg)
+- [Del paisaje al papel · 1920×1080](capturas/textos-san-marcos-muestra-1920x1080.jpg)
+- [Contacto y tarjetas · 2560×1440](capturas/textos-contacto-2560x1440.jpg)
+- [Portada · 1366×768](capturas/textos-portada-1366x768.jpg)

@@ -1,0 +1,1262 @@
+[
+  {
+    "name": "inicio",
+    "achala": {
+      "eyebrow": null,
+      "paragraphs": 0,
+      "photo": null,
+      "story": null,
+      "title": null
+    },
+    "controls": null,
+    "overflow": false,
+    "photoWidths": [],
+    "texts": [
+      {
+        "font": "30px",
+        "lines": 2,
+        "text": "Hablemos de tu próximo proyecto.",
+        "width": 305
+      }
+    ],
+    "viewport": [
+      360,
+      800
+    ],
+    "visibleAmpliar": 0,
+    "controlsBottom": 556.40625,
+    "scrollY": 0,
+    "seriesDescriptions": [
+      {
+        "text": "Una caminata con amigos entre paredes de roca.",
+        "width": 305
+      },
+      {
+        "text": "Bosque, agua y pequeños momentos del viaje.",
+        "width": 305
+      },
+      {
+        "text": "Una colección sobre el lugar al que pertenezco.",
+        "width": 305
+      }
+    ]
+  },
+  {
+    "name": "san-marcos",
+    "achala": {
+      "eyebrow": null,
+      "paragraphs": 0,
+      "photo": {
+        "bottom": 671.15625,
+        "left": 22,
+        "top": 446.65625,
+        "width": 301
+      },
+      "story": null,
+      "title": null
+    },
+    "controls": null,
+    "overflow": false,
+    "photoWidths": [
+      301,
+      301,
+      301,
+      301,
+      280,
+      280
+    ],
+    "texts": [
+      {
+        "font": "41px",
+        "lines": 2,
+        "text": "San Marcos, mi mirada.",
+        "width": 301
+      },
+      {
+        "font": "14px",
+        "lines": 2,
+        "text": "Una mirada personal sobre los paisajes y rincones de San Marcos Sierras.",
+        "width": 301
+      },
+      {
+        "font": "34px",
+        "lines": 2,
+        "text": "Del paisaje al papel.",
+        "width": 301
+      },
+      {
+        "font": "30px",
+        "lines": 2,
+        "text": "¿Hay una imagen que te gustaría tener?",
+        "width": 301
+      }
+    ],
+    "viewport": [
+      360,
+      800
+    ],
+    "visibleAmpliar": 0
+  },
+  {
+    "name": "achala",
+    "achala": {
+      "eyebrow": {
+        "bottom": 239.59375,
+        "left": 22,
+        "top": 222,
+        "width": 301
+      },
+      "paragraphs": 2,
+      "photo": {
+        "bottom": 899.203125,
+        "left": 22,
+        "top": 699.203125,
+        "width": 301
+      },
+      "story": {
+        "bottom": 669.203125,
+        "left": 22,
+        "top": 367.40625,
+        "width": 301
+      },
+      "title": {
+        "bottom": 346.40625,
+        "left": 22,
+        "top": 254.59375,
+        "width": 301
+      }
+    },
+    "controls": null,
+    "overflow": false,
+    "photoWidths": [
+      301,
+      301,
+      301,
+      280,
+      280,
+      301,
+      280,
+      280,
+      301,
+      280,
+      301,
+      301
+    ],
+    "texts": [
+      {
+        "font": "41px",
+        "lines": 2,
+        "text": "Los Cajones de Achala.",
+        "width": 301
+      },
+      {
+        "font": "34px",
+        "lines": 2,
+        "text": "Otra luz, el mismo paisaje.",
+        "width": 301
+      },
+      {
+        "font": "30px",
+        "lines": 2,
+        "text": "¿Hay una imagen que te gustaría tener?",
+        "width": 301
+      }
+    ],
+    "viewport": [
+      360,
+      800
+    ],
+    "visibleAmpliar": 0
+  },
+  {
+    "name": "tienda",
+    "achala": {
+      "eyebrow": null,
+      "paragraphs": 0,
+      "photo": null,
+      "story": null,
+      "title": null
+    },
+    "controls": null,
+    "overflow": false,
+    "photoWidths": [],
+    "texts": [
+      {
+        "font": "50.4px",
+        "lines": 3,
+        "text": "Fotografía de deporte y aventura",
+        "width": 305
+      }
+    ],
+    "viewport": [
+      360,
+      800
+    ],
+    "visibleAmpliar": 0
+  },
+  {
+    "name": "evento",
+    "achala": {
+      "eyebrow": null,
+      "paragraphs": 0,
+      "photo": null,
+      "story": null,
+      "title": null
+    },
+    "controls": null,
+    "overflow": false,
+    "photoWidths": [],
+    "texts": [],
+    "viewport": [
+      360,
+      800
+    ],
+    "visibleAmpliar": 0
+  },
+  {
+    "name": "galeria",
+    "achala": {
+      "eyebrow": null,
+      "paragraphs": 0,
+      "photo": null,
+      "story": null,
+      "title": null
+    },
+    "controls": null,
+    "overflow": false,
+    "photoWidths": [],
+    "texts": [],
+    "viewport": [
+      360,
+      800
+    ],
+    "visibleAmpliar": 0
+  },
+  {
+    "name": "como-comprar",
+    "achala": {
+      "eyebrow": null,
+      "paragraphs": 0,
+      "photo": null,
+      "story": null,
+      "title": null
+    },
+    "controls": null,
+    "overflow": false,
+    "photoWidths": [],
+    "texts": [],
+    "viewport": [
+      360,
+      800
+    ],
+    "visibleAmpliar": 0
+  },
+  {
+    "name": "inicio",
+    "achala": {
+      "eyebrow": null,
+      "paragraphs": 0,
+      "photo": null,
+      "story": null,
+      "title": null
+    },
+    "controls": null,
+    "overflow": false,
+    "photoWidths": [],
+    "texts": [
+      {
+        "font": "36px",
+        "lines": 2,
+        "text": "Hablemos de tu próximo proyecto.",
+        "width": 302.375
+      }
+    ],
+    "viewport": [
+      768,
+      1024
+    ],
+    "visibleAmpliar": 0,
+    "controlsBottom": 1007,
+    "scrollY": 0,
+    "seriesDescriptions": [
+      {
+        "text": "Una caminata con amigos entre paredes de roca.",
+        "width": 221.65625
+      },
+      {
+        "text": "Bosque, agua y pequeños momentos del viaje.",
+        "width": 221.671875
+      },
+      {
+        "text": "Una colección sobre el lugar al que pertenezco.",
+        "width": 221.671875
+      }
+    ]
+  },
+  {
+    "name": "san-marcos",
+    "achala": {
+      "eyebrow": null,
+      "paragraphs": 0,
+      "photo": {
+        "bottom": 826.03125,
+        "left": 24,
+        "top": 374.28125,
+        "width": 705
+      },
+      "story": null,
+      "title": null
+    },
+    "controls": null,
+    "overflow": false,
+    "photoWidths": [
+      705,
+      338.5,
+      338.5,
+      599.25,
+      240.375,
+      240.375
+    ],
+    "texts": [
+      {
+        "font": "54px",
+        "lines": 1,
+        "text": "San Marcos, mi mirada.",
+        "width": 705
+      },
+      {
+        "font": "14px",
+        "lines": 1,
+        "text": "Una mirada personal sobre los paisajes y rincones de San Marcos Sierras.",
+        "width": 640
+      },
+      {
+        "font": "38px",
+        "lines": 2,
+        "text": "Del paisaje al papel.",
+        "width": 256
+      },
+      {
+        "font": "30px",
+        "lines": 2,
+        "text": "¿Hay una imagen que te gustaría tener?",
+        "width": 322.5
+      }
+    ],
+    "viewport": [
+      768,
+      1024
+    ],
+    "visibleAmpliar": 0
+  },
+  {
+    "name": "achala",
+    "achala": {
+      "eyebrow": {
+        "bottom": 215.59375,
+        "left": 24,
+        "top": 198,
+        "width": 705
+      },
+      "paragraphs": 2,
+      "photo": {
+        "bottom": 925.03125,
+        "left": 24,
+        "top": 497.78125,
+        "width": 705
+      },
+      "story": {
+        "bottom": 455.78125,
+        "left": 24,
+        "top": 312.0625,
+        "width": 640
+      },
+      "title": {
+        "bottom": 291.0625,
+        "left": 24,
+        "top": 230.59375,
+        "width": 705
+      }
+    },
+    "controls": null,
+    "overflow": false,
+    "photoWidths": [
+      705,
+      338.5,
+      338.5,
+      242.375,
+      242.375,
+      599.25,
+      242.375,
+      242.375,
+      705,
+      231.65625,
+      705,
+      705
+    ],
+    "texts": [
+      {
+        "font": "54px",
+        "lines": 1,
+        "text": "Los Cajones de Achala.",
+        "width": 705
+      },
+      {
+        "font": "38px",
+        "lines": 2,
+        "text": "Otra luz, el mismo paisaje.",
+        "width": 289.59375
+      },
+      {
+        "font": "30px",
+        "lines": 2,
+        "text": "¿Hay una imagen que te gustaría tener?",
+        "width": 322.5
+      }
+    ],
+    "viewport": [
+      768,
+      1024
+    ],
+    "visibleAmpliar": 0
+  },
+  {
+    "name": "tienda",
+    "achala": {
+      "eyebrow": null,
+      "paragraphs": 0,
+      "photo": null,
+      "story": null,
+      "title": null
+    },
+    "controls": null,
+    "overflow": false,
+    "photoWidths": [],
+    "texts": [
+      {
+        "font": "48px",
+        "lines": 1,
+        "text": "Fotografía de deporte y aventura",
+        "width": 705
+      }
+    ],
+    "viewport": [
+      768,
+      1024
+    ],
+    "visibleAmpliar": 0
+  },
+  {
+    "name": "evento",
+    "achala": {
+      "eyebrow": null,
+      "paragraphs": 0,
+      "photo": null,
+      "story": null,
+      "title": null
+    },
+    "controls": null,
+    "overflow": false,
+    "photoWidths": [],
+    "texts": [],
+    "viewport": [
+      768,
+      1024
+    ],
+    "visibleAmpliar": 0
+  },
+  {
+    "name": "galeria",
+    "achala": {
+      "eyebrow": null,
+      "paragraphs": 0,
+      "photo": null,
+      "story": null,
+      "title": null
+    },
+    "controls": null,
+    "overflow": false,
+    "photoWidths": [],
+    "texts": [],
+    "viewport": [
+      768,
+      1024
+    ],
+    "visibleAmpliar": 0
+  },
+  {
+    "name": "como-comprar",
+    "achala": {
+      "eyebrow": null,
+      "paragraphs": 0,
+      "photo": null,
+      "story": null,
+      "title": null
+    },
+    "controls": null,
+    "overflow": false,
+    "photoWidths": [],
+    "texts": [],
+    "viewport": [
+      768,
+      1024
+    ],
+    "visibleAmpliar": 0
+  },
+  {
+    "name": "inicio",
+    "achala": {
+      "eyebrow": null,
+      "paragraphs": 0,
+      "photo": null,
+      "story": null,
+      "title": null
+    },
+    "controls": null,
+    "overflow": false,
+    "photoWidths": [],
+    "texts": [
+      {
+        "font": "36px",
+        "lines": 2,
+        "text": "Hablemos de tu próximo proyecto.",
+        "width": 545.65625
+      }
+    ],
+    "viewport": [
+      1366,
+      768
+    ],
+    "visibleAmpliar": 0,
+    "controlsBottom": 751,
+    "scrollY": 0,
+    "seriesDescriptions": [
+      {
+        "text": "Una caminata con amigos entre paredes de roca.",
+        "width": 391.953125
+      },
+      {
+        "text": "Bosque, agua y pequeños momentos del viaje.",
+        "width": 391.96875
+      },
+      {
+        "text": "Una colección sobre el lugar al que pertenezco.",
+        "width": 391.953125
+      }
+    ]
+  },
+  {
+    "name": "san-marcos",
+    "achala": {
+      "eyebrow": null,
+      "paragraphs": 0,
+      "photo": {
+        "bottom": 1113.40625,
+        "left": 67.546875,
+        "top": 374.28125,
+        "width": 1215.890625
+      },
+      "story": null,
+      "title": null
+    },
+    "controls": null,
+    "overflow": false,
+    "photoWidths": [
+      1215.890625,
+      593.9375,
+      593.953125,
+      1033.5,
+      431.953125,
+      431.953125
+    ],
+    "texts": [
+      {
+        "font": "54px",
+        "lines": 1,
+        "text": "San Marcos, mi mirada.",
+        "width": 1215.890625
+      },
+      {
+        "font": "14px",
+        "lines": 1,
+        "text": "Una mirada personal sobre los paisajes y rincones de San Marcos Sierras.",
+        "width": 640
+      },
+      {
+        "font": "38px",
+        "lines": 1,
+        "text": "Del paisaje al papel.",
+        "width": 460.34375
+      },
+      {
+        "font": "30px",
+        "lines": 1,
+        "text": "¿Hay una imagen que te gustaría tener?",
+        "width": 577.9375
+      }
+    ],
+    "viewport": [
+      1366,
+      768
+    ],
+    "visibleAmpliar": 0
+  },
+  {
+    "name": "achala",
+    "achala": {
+      "eyebrow": {
+        "bottom": 215.59375,
+        "left": 67.546875,
+        "top": 198,
+        "width": 1215.890625
+      },
+      "paragraphs": 2,
+      "photo": {
+        "bottom": 1212.40625,
+        "left": 67.546875,
+        "top": 497.78125,
+        "width": 1215.890625
+      },
+      "story": {
+        "bottom": 455.78125,
+        "left": 67.546875,
+        "top": 312.0625,
+        "width": 640
+      },
+      "title": {
+        "bottom": 291.0625,
+        "left": 67.546875,
+        "top": 230.59375,
+        "width": 1215.890625
+      }
+    },
+    "controls": null,
+    "overflow": false,
+    "photoWidths": [
+      1215.890625,
+      593.9375,
+      593.953125,
+      433.953125,
+      433.953125,
+      1033.5,
+      433.953125,
+      433.953125,
+      1215.890625,
+      424.65625,
+      1215.890625,
+      1215.890625
+    ],
+    "texts": [
+      {
+        "font": "54px",
+        "lines": 1,
+        "text": "Los Cajones de Achala.",
+        "width": 1215.890625
+      },
+      {
+        "font": "38px",
+        "lines": 1,
+        "text": "Otra luz, el mismo paisaje.",
+        "width": 530.84375
+      },
+      {
+        "font": "30px",
+        "lines": 1,
+        "text": "¿Hay una imagen que te gustaría tener?",
+        "width": 577.9375
+      }
+    ],
+    "viewport": [
+      1366,
+      768
+    ],
+    "visibleAmpliar": 0
+  },
+  {
+    "name": "tienda",
+    "achala": {
+      "eyebrow": null,
+      "paragraphs": 0,
+      "photo": null,
+      "story": null,
+      "title": null
+    },
+    "controls": null,
+    "overflow": false,
+    "photoWidths": [],
+    "texts": [
+      {
+        "font": "79.228px",
+        "lines": 1,
+        "text": "Fotografía de deporte y aventura",
+        "width": 1215.890625
+      }
+    ],
+    "viewport": [
+      1366,
+      768
+    ],
+    "visibleAmpliar": 0
+  },
+  {
+    "name": "evento",
+    "achala": {
+      "eyebrow": null,
+      "paragraphs": 0,
+      "photo": null,
+      "story": null,
+      "title": null
+    },
+    "controls": null,
+    "overflow": false,
+    "photoWidths": [],
+    "texts": [],
+    "viewport": [
+      1366,
+      768
+    ],
+    "visibleAmpliar": 0
+  },
+  {
+    "name": "galeria",
+    "achala": {
+      "eyebrow": null,
+      "paragraphs": 0,
+      "photo": null,
+      "story": null,
+      "title": null
+    },
+    "controls": null,
+    "overflow": false,
+    "photoWidths": [],
+    "texts": [],
+    "viewport": [
+      1366,
+      768
+    ],
+    "visibleAmpliar": 0
+  },
+  {
+    "name": "como-comprar",
+    "achala": {
+      "eyebrow": null,
+      "paragraphs": 0,
+      "photo": null,
+      "story": null,
+      "title": null
+    },
+    "controls": null,
+    "overflow": false,
+    "photoWidths": [],
+    "texts": [],
+    "viewport": [
+      1366,
+      768
+    ],
+    "visibleAmpliar": 0
+  },
+  {
+    "name": "inicio",
+    "achala": {
+      "eyebrow": null,
+      "paragraphs": 0,
+      "photo": null,
+      "story": null,
+      "title": null
+    },
+    "controls": null,
+    "overflow": false,
+    "photoWidths": [],
+    "texts": [
+      {
+        "font": "36px",
+        "lines": 1,
+        "text": "Hablemos de tu próximo proyecto.",
+        "width": 783.09375
+      }
+    ],
+    "viewport": [
+      1920,
+      1080
+    ],
+    "visibleAmpliar": 0,
+    "controlsBottom": 1063,
+    "scrollY": 0,
+    "seriesDescriptions": [
+      {
+        "text": "Una caminata con amigos entre paredes de roca.",
+        "width": 558.15625
+      },
+      {
+        "text": "Bosque, agua y pequeños momentos del viaje.",
+        "width": 558.171875
+      },
+      {
+        "text": "Una colección sobre el lugar al que pertenezco.",
+        "width": 558.171875
+      }
+    ]
+  },
+  {
+    "name": "san-marcos",
+    "achala": {
+      "eyebrow": null,
+      "paragraphs": 0,
+      "photo": {
+        "bottom": 1393.875,
+        "left": 95.25,
+        "top": 374.28125,
+        "width": 1714.5
+      },
+      "story": null,
+      "title": null
+    },
+    "controls": null,
+    "overflow": false,
+    "photoWidths": [
+      1714.5,
+      843.25,
+      843.25,
+      1457.3125,
+      618.9375,
+      618.9375
+    ],
+    "texts": [
+      {
+        "font": "54px",
+        "lines": 1,
+        "text": "San Marcos, mi mirada.",
+        "width": 1714.5
+      },
+      {
+        "font": "14px",
+        "lines": 1,
+        "text": "Una mirada personal sobre los paisajes y rincones de San Marcos Sierras.",
+        "width": 640
+      },
+      {
+        "font": "38px",
+        "lines": 1,
+        "text": "Del paisaje al papel.",
+        "width": 659.796875
+      },
+      {
+        "font": "30px",
+        "lines": 1,
+        "text": "¿Hay una imagen que te gustaría tener?",
+        "width": 827.25
+      }
+    ],
+    "viewport": [
+      1920,
+      1080
+    ],
+    "visibleAmpliar": 0
+  },
+  {
+    "name": "achala",
+    "achala": {
+      "eyebrow": {
+        "bottom": 215.59375,
+        "left": 95.25,
+        "top": 198,
+        "width": 1714.5
+      },
+      "paragraphs": 2,
+      "photo": {
+        "bottom": 1492.875,
+        "left": 95.25,
+        "top": 497.78125,
+        "width": 1714.5
+      },
+      "story": {
+        "bottom": 455.78125,
+        "left": 95.25,
+        "top": 312.0625,
+        "width": 640
+      },
+      "title": {
+        "bottom": 291.0625,
+        "left": 95.25,
+        "top": 230.59375,
+        "width": 1714.5
+      }
+    },
+    "controls": null,
+    "overflow": false,
+    "photoWidths": [
+      1714.5,
+      843.25,
+      843.25,
+      618,
+      618,
+      1457.3125,
+      618,
+      618,
+      1714.5,
+      440,
+      1714.5,
+      1714.5
+    ],
+    "texts": [
+      {
+        "font": "54px",
+        "lines": 1,
+        "text": "Los Cajones de Achala.",
+        "width": 1714.5
+      },
+      {
+        "font": "38px",
+        "lines": 1,
+        "text": "Otra luz, el mismo paisaje.",
+        "width": 667.78125
+      },
+      {
+        "font": "30px",
+        "lines": 1,
+        "text": "¿Hay una imagen que te gustaría tener?",
+        "width": 827.25
+      }
+    ],
+    "viewport": [
+      1920,
+      1080
+    ],
+    "visibleAmpliar": 0
+  },
+  {
+    "name": "tienda",
+    "achala": {
+      "eyebrow": null,
+      "paragraphs": 0,
+      "photo": null,
+      "story": null,
+      "title": null
+    },
+    "controls": null,
+    "overflow": false,
+    "photoWidths": [],
+    "texts": [
+      {
+        "font": "96px",
+        "lines": 1,
+        "text": "Fotografía de deporte y aventura",
+        "width": 1714.5
+      }
+    ],
+    "viewport": [
+      1920,
+      1080
+    ],
+    "visibleAmpliar": 0
+  },
+  {
+    "name": "evento",
+    "achala": {
+      "eyebrow": null,
+      "paragraphs": 0,
+      "photo": null,
+      "story": null,
+      "title": null
+    },
+    "controls": null,
+    "overflow": false,
+    "photoWidths": [],
+    "texts": [],
+    "viewport": [
+      1920,
+      1080
+    ],
+    "visibleAmpliar": 0
+  },
+  {
+    "name": "galeria",
+    "achala": {
+      "eyebrow": null,
+      "paragraphs": 0,
+      "photo": null,
+      "story": null,
+      "title": null
+    },
+    "controls": null,
+    "overflow": false,
+    "photoWidths": [],
+    "texts": [],
+    "viewport": [
+      1920,
+      1080
+    ],
+    "visibleAmpliar": 0
+  },
+  {
+    "name": "como-comprar",
+    "achala": {
+      "eyebrow": null,
+      "paragraphs": 0,
+      "photo": null,
+      "story": null,
+      "title": null
+    },
+    "controls": null,
+    "overflow": false,
+    "photoWidths": [],
+    "texts": [],
+    "viewport": [
+      1920,
+      1080
+    ],
+    "visibleAmpliar": 0
+  },
+  {
+    "name": "inicio",
+    "achala": {
+      "eyebrow": null,
+      "paragraphs": 0,
+      "photo": null,
+      "story": null,
+      "title": null
+    },
+    "controls": null,
+    "overflow": false,
+    "photoWidths": [],
+    "texts": [
+      {
+        "font": "36px",
+        "lines": 1,
+        "text": "Hablemos de tu próximo proyecto.",
+        "width": 1014.28125
+      }
+    ],
+    "viewport": [
+      2560,
+      1440
+    ],
+    "visibleAmpliar": 0,
+    "controlsBottom": 1080,
+    "scrollY": 0,
+    "seriesDescriptions": [
+      {
+        "text": "Una caminata con amigos entre paredes de roca.",
+        "width": 640
+      },
+      {
+        "text": "Bosque, agua y pequeños momentos del viaje.",
+        "width": 640
+      },
+      {
+        "text": "Una colección sobre el lugar al que pertenezco.",
+        "width": 640
+      }
+    ]
+  },
+  {
+    "name": "san-marcos",
+    "achala": {
+      "eyebrow": null,
+      "paragraphs": 0,
+      "photo": {
+        "bottom": 1666.96875,
+        "left": 172.5,
+        "top": 374.28125,
+        "width": 2200
+      },
+      "story": null,
+      "title": null
+    },
+    "controls": null,
+    "overflow": false,
+    "photoWidths": [
+      2200,
+      1086,
+      1086,
+      1760,
+      636,
+      636
+    ],
+    "texts": [
+      {
+        "font": "54px",
+        "lines": 1,
+        "text": "San Marcos, mi mirada.",
+        "width": 2200
+      },
+      {
+        "font": "14px",
+        "lines": 1,
+        "text": "Una mirada personal sobre los paisajes y rincones de San Marcos Sierras.",
+        "width": 640
+      },
+      {
+        "font": "38px",
+        "lines": 1,
+        "text": "Del paisaje al papel.",
+        "width": 854
+      },
+      {
+        "font": "30px",
+        "lines": 1,
+        "text": "¿Hay una imagen que te gustaría tener?",
+        "width": 1070
+      }
+    ],
+    "viewport": [
+      2560,
+      1440
+    ],
+    "visibleAmpliar": 0
+  },
+  {
+    "name": "achala",
+    "achala": {
+      "eyebrow": {
+        "bottom": 215.59375,
+        "left": 172.5,
+        "top": 198,
+        "width": 2200
+      },
+      "paragraphs": 2,
+      "photo": {
+        "bottom": 1765.96875,
+        "left": 172.5,
+        "top": 497.78125,
+        "width": 2200
+      },
+      "story": {
+        "bottom": 455.78125,
+        "left": 172.5,
+        "top": 312.0625,
+        "width": 640
+      },
+      "title": {
+        "bottom": 291.0625,
+        "left": 172.5,
+        "top": 230.59375,
+        "width": 2200
+      }
+    },
+    "controls": null,
+    "overflow": false,
+    "photoWidths": [
+      2200,
+      1086,
+      1086,
+      618,
+      618,
+      1760,
+      618,
+      618,
+      2200,
+      440,
+      2200,
+      2200
+    ],
+    "texts": [
+      {
+        "font": "54px",
+        "lines": 1,
+        "text": "Los Cajones de Achala.",
+        "width": 2200
+      },
+      {
+        "font": "38px",
+        "lines": 1,
+        "text": "Otra luz, el mismo paisaje.",
+        "width": 667.78125
+      },
+      {
+        "font": "30px",
+        "lines": 1,
+        "text": "¿Hay una imagen que te gustaría tener?",
+        "width": 1070
+      }
+    ],
+    "viewport": [
+      2560,
+      1440
+    ],
+    "visibleAmpliar": 0
+  },
+  {
+    "name": "tienda",
+    "achala": {
+      "eyebrow": null,
+      "paragraphs": 0,
+      "photo": null,
+      "story": null,
+      "title": null
+    },
+    "controls": null,
+    "overflow": false,
+    "photoWidths": [],
+    "texts": [
+      {
+        "font": "112px",
+        "lines": 1,
+        "text": "Fotografía de deporte y aventura",
+        "width": 2200
+      }
+    ],
+    "viewport": [
+      2560,
+      1440
+    ],
+    "visibleAmpliar": 0
+  },
+  {
+    "name": "evento",
+    "achala": {
+      "eyebrow": null,
+      "paragraphs": 0,
+      "photo": null,
+      "story": null,
+      "title": null
+    },
+    "controls": null,
+    "overflow": false,
+    "photoWidths": [],
+    "texts": [],
+    "viewport": [
+      2560,
+      1440
+    ],
+    "visibleAmpliar": 0
+  },
+  {
+    "name": "galeria",
+    "achala": {
+      "eyebrow": null,
+      "paragraphs": 0,
+      "photo": null,
+      "story": null,
+      "title": null
+    },
+    "controls": null,
+    "overflow": false,
+    "photoWidths": [],
+    "texts": [],
+    "viewport": [
+      2560,
+      1440
+    ],
+    "visibleAmpliar": 0
+  },
+  {
+    "name": "como-comprar",
+    "achala": {
+      "eyebrow": null,
+      "paragraphs": 0,
+      "photo": null,
+      "story": null,
+      "title": null
+    },
+    "controls": null,
+    "overflow": false,
+    "photoWidths": [],
+    "texts": [],
+    "viewport": [
+      2560,
+      1440
+    ],
+    "visibleAmpliar": 0
+  }
+]

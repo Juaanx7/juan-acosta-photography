@@ -28,7 +28,7 @@ export default function ContactForm() {
       <p className="portfolio-eyebrow">CONTACTO</p><h2 id="contact-title">Hablemos de tu próximo proyecto.</h2>
       <p>Una carrera, un recital, un encuentro o una fotografía para tu espacio. Contame qué tenés en mente.</p>
       <div className="portfolio-contact__location"><span className="portfolio-eyebrow">DESDE</span><p>San Marcos Sierras<br />Córdoba, Argentina</p></div>
-      <a href="https://www.instagram.com/juanacostaph" target="_blank" rel="noopener noreferrer">También me encontrás en Instagram ↗<br /><span>@juanacostaph</span></a>
+      <a href="https://www.instagram.com/juanacostaph" target="_blank" rel="noopener noreferrer">También me encontrás en Instagram ↗ <span>@juanacostaph</span></a>
     </div>
     <form onSubmit={prepare} className="portfolio-contact__form">
       <label htmlFor="contact-name">Tu nombre<input id="contact-name" name="name" autoComplete="name" required maxLength={120} value={values.name} onChange={change} /></label>

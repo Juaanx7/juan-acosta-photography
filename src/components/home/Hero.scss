@@ -68,7 +68,6 @@
   .hero {
     &__content {
       h1 {
-        white-space: nowrap;
         font-size: clamp(4rem, 5vw, 7rem);
       }
     }
@@ -84,7 +83,6 @@
 
       h1 {
         font-size: clamp(2.6rem, 14vw, 4.2rem);
-        white-space: normal;
       }
     }
 

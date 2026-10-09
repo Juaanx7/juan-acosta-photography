@@ -31,8 +31,8 @@ export default function AchalaSeries() {
     <div className="series-container">
       <Link className="series-back" to={`${routePaths.portfolio}#portfolio`}>← Volver al portfolio</Link>
       <header className="achala-intro">
-        <div><p className="series-eyebrow">SERIE · PAMPA DE ACHALA, CÓRDOBA</p>
-          <h1>Los Cajones<br /><em>de Achala.</em></h1></div>
+        <p className="series-eyebrow">SERIE · PAMPA DE ACHALA, CÓRDOBA</p>
+        <h1>Los Cajones <em>de Achala.</em></h1>
         <div className="achala-story">{achala.paragraphs.slice(0, 2).map((paragraph) => <p key={paragraph}>{paragraph}</p>)}</div>
       </header>
       <section aria-label="Fotografías del recorrido">
@@ -46,7 +46,7 @@ export default function AchalaSeries() {
       <section className="achala-return" aria-labelledby="achala-return-title">
         {work(9, "returning")}
         <div><p className="series-eyebrow">EL REGRESO</p>
-          <h2 id="achala-return-title">Otra luz,<br /><em>el mismo paisaje.</em></h2>
+          <h2 id="achala-return-title">Otra luz, <em>el mismo paisaje.</em></h2>
           <p className="achala-return__story">{achala.paragraphs[2]}</p></div>
       </section>
       <section className="achala-golden" aria-label="Los paisajes al final de la caminata">

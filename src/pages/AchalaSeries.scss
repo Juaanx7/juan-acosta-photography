@@ -5,11 +5,11 @@
   .series-work figcaption { padding-top: 12px; font-size: 11px; color: var(--soft); line-height: 1.7; }
 }
 .achala-intro {
-  display: grid; grid-template-columns: 1fr 1.15fr; gap: 55px; padding: 38px 0 42px; align-items: start;
-  h1 { font-size: 54px; margin-top: 15px; }
+  padding: 38px 0 42px;
+  h1 { font-size: 54px; margin: 15px 0 21px; }
 }
 .achala-story {
-  max-width: 560px;
+  max-width: 640px;
   p { font-size: 13px; line-height: 1.95; color: var(--soft); }
   p + p { margin-top: 17px; }
 }
@@ -34,7 +34,7 @@
   a:hover { text-decoration: underline; text-underline-offset: 5px; }
 }
 @media (max-width: 580px) {
-  .achala-intro { grid-template-columns: 1fr; gap: 25px; padding: 23px 0 30px; h1 { font-size: 41px; } }
+  .achala-intro { padding: 23px 0 30px; h1 { font-size: 41px; } }
   .achala-story p, .achala-return__story { font-size: 14px; line-height: 1.85; }
   .achala-pair { grid-template-columns: 1fr; gap: 26px; margin: 36px auto; }
   .achala-verticals { width: 100%; max-width: 280px; }

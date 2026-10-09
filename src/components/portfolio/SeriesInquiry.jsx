@@ -7,7 +7,7 @@ export default function SeriesInquiry({ message, className = "series-closing ser
   return <>
     <section className={className} aria-labelledby="series-inquiry-title">
       <div><p className="series-eyebrow">UNA FOTOGRAFÍA PARA TU ESPACIO</p>
-        <h2 id="series-inquiry-title">¿Hay una imagen<br />que te gustaría tener?</h2>
+        <h2 id="series-inquiry-title">¿Hay una imagen que te gustaría tener?</h2>
         <p>Podés consultarme por una fotografía de esta colección en formato digital o impresa a pedido.</p>
         <button type="button" ref={inquiryButton} onClick={() => confirmation.current.showModal()}>Consultar por WhatsApp ↗</button></div>
       {children}

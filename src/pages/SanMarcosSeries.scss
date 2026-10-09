@@ -15,7 +15,7 @@
 .series-heading {
   padding: 39px 0 36px;
   h1 { font-size: 54px; margin: 14px 0 21px; }
-  > p:last-child { max-width: 460px; font-size: 14px; line-height: 1.8; color: var(--soft); }
+  > p:last-child { max-width: 640px; font-size: 14px; line-height: 1.8; color: var(--soft); }
 }
 .series-work {
   &__open { display: block; width: 100%; cursor: zoom-in; }
@@ -40,7 +40,7 @@
 .series-closing {
   display: grid; grid-template-columns: 1fr 1fr; gap: 60px; align-items: center; padding-block: 60px 56px;
   h2 { font-size: 30px; margin-top: 15px; }
-  p:not(.series-eyebrow) { font-size: 13px; line-height: 1.8; color: var(--soft); max-width: 330px; margin-top: 18px; }
+  p:not(.series-eyebrow) { font-size: 13px; line-height: 1.8; color: var(--soft); max-width: 640px; margin-top: 18px; }
   button { font-size: 13px; min-height: 44px; padding: 8px 0; margin-top: 13px; border-bottom: 1px solid var(--ink); }
 }
 .series-viewer {

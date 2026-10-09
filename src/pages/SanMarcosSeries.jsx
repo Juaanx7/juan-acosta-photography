@@ -32,7 +32,7 @@ export default function SanMarcosSeries() {
       <Link className="series-back" to={`${routePaths.portfolio}#portfolio`}>← Volver al portfolio</Link>
       <header className="series-heading">
         <p className="series-eyebrow">SERIE · SAN MARCOS SIERRAS</p>
-        <h1>San Marcos,<br /><em>mi mirada.</em></h1>
+        <h1>San Marcos, <em>mi mirada.</em></h1>
         <p>{sanMarcos.introduction}</p>
       </header>
       <section aria-label="Las seis fotografías de la colección">
@@ -46,7 +46,7 @@ export default function SanMarcosSeries() {
       <div className="series-container">
         <div className="series-exhibition__intro">
           <div><p className="series-eyebrow">LA EXPERIENCIA DE LA MUESTRA</p>
-            <h2 id="exhibition-title">Del paisaje<br /><em>al papel.</em></h2><p className="series-exhibition__date">{sanMarcos.exhibition.date}</p></div>
+            <h2 id="exhibition-title">Del paisaje <em>al papel.</em></h2><p className="series-exhibition__date">{sanMarcos.exhibition.date}</p></div>
           <div className="series-exhibition__story">{sanMarcos.exhibition.paragraphs.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}</div>
         </div>
         <div className="series-exhibition__photos">{sanMarcos.exhibition.photos.map((photo) => <figure key={photo.source}>
