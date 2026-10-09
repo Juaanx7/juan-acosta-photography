@@ -21,9 +21,9 @@ const Gallery = () => {
   );
 
   const gallery = category || (!event?.categories ? event : null);
-  const allEventPhotos = event.categories
+  const allEventPhotos = event?.categories
   ? event.categories.flatMap((category) => category.photos)
-  : event.photos;
+  : event?.photos || [];
 
   const {
     selectedPhotos,
@@ -77,7 +77,7 @@ const Gallery = () => {
         <div className="container">
           <div className="gallery-page__header">
             <Link
-              to={category ? `/evento/${event.id}` : "/#eventos"}
+              to={category ? `/evento/${event.id}` : "/tienda/deportes#eventos"}
               className="gallery-page__back"
             >
               {category ? "← Volver al evento" : "← Volver a eventos"}

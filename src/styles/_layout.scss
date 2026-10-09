@@ -1,7 +1,18 @@
+:root {
+  --content-width: min(90%, 2200px);
+}
+
+@media (max-width: 900px) {
+  :root { --content-width: calc(100% - 48px); }
+}
+
+@media (max-width: 580px) {
+  :root { --content-width: calc(100% - 40px); }
+}
+
 .container {
-  width: 100%;
-  padding-inline: clamp(24px, 6vw, 120px);
-  margin: 0 auto;
+  width: var(--content-width);
+  margin-inline: auto;
 }
 
 .section {

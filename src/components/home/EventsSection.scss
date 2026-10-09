@@ -3,8 +3,8 @@
   border-top: 1px solid rgba(0, 0, 0, 0.06);
 
   &__container {
-    width: 100%;
-    padding-inline: clamp(24px, 6vw, 120px);
+    width: var(--content-width);
+    margin-inline: auto;
     margin: 0 auto;
   }
 

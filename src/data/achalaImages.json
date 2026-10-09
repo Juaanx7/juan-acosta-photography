@@ -1,0 +1,483 @@
+{
+  "DSC02820": {
+    "source": "DSC02820.jpg",
+    "image": "/images/portfolio/achala/DSC02820-1440.webp",
+    "width": 6000,
+    "height": 3375,
+    "variants": [
+      {
+        "image": "/images/portfolio/achala/DSC02820-640.webp",
+        "width": 640,
+        "height": 360
+      },
+      {
+        "image": "/images/portfolio/achala/DSC02820-960.webp",
+        "width": 960,
+        "height": 540
+      },
+      {
+        "image": "/images/portfolio/achala/DSC02820-1440.webp",
+        "width": 1440,
+        "height": 810
+      },
+      {
+        "image": "/images/portfolio/achala/DSC02820-1920.webp",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "image": "/images/portfolio/achala/DSC02820-2560.webp",
+        "width": 2560,
+        "height": 1440
+      },
+      {
+        "image": "/images/portfolio/achala/DSC02820-3200.webp",
+        "width": 3200,
+        "height": 1800
+      },
+      {
+        "image": "/images/portfolio/achala/DSC02820-4400.webp",
+        "width": 4400,
+        "height": 2475
+      }
+    ]
+  },
+  "DSC02395": {
+    "source": "DSC02395.jpg",
+    "image": "/images/portfolio/achala/DSC02395-1440.webp",
+    "width": 6000,
+    "height": 3375,
+    "variants": [
+      {
+        "image": "/images/portfolio/achala/DSC02395-640.webp",
+        "width": 640,
+        "height": 360
+      },
+      {
+        "image": "/images/portfolio/achala/DSC02395-960.webp",
+        "width": 960,
+        "height": 540
+      },
+      {
+        "image": "/images/portfolio/achala/DSC02395-1440.webp",
+        "width": 1440,
+        "height": 810
+      },
+      {
+        "image": "/images/portfolio/achala/DSC02395-1920.webp",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "image": "/images/portfolio/achala/DSC02395-2560.webp",
+        "width": 2560,
+        "height": 1440
+      },
+      {
+        "image": "/images/portfolio/achala/DSC02395-3200.webp",
+        "width": 3200,
+        "height": 1800
+      }
+    ]
+  },
+  "DSC02427": {
+    "source": "DSC02427.jpg",
+    "image": "/images/portfolio/achala/DSC02427-1440.webp",
+    "width": 5477,
+    "height": 3081,
+    "variants": [
+      {
+        "image": "/images/portfolio/achala/DSC02427-640.webp",
+        "width": 640,
+        "height": 360
+      },
+      {
+        "image": "/images/portfolio/achala/DSC02427-960.webp",
+        "width": 960,
+        "height": 540
+      },
+      {
+        "image": "/images/portfolio/achala/DSC02427-1440.webp",
+        "width": 1440,
+        "height": 810
+      },
+      {
+        "image": "/images/portfolio/achala/DSC02427-1920.webp",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "image": "/images/portfolio/achala/DSC02427-2560.webp",
+        "width": 2560,
+        "height": 1440
+      },
+      {
+        "image": "/images/portfolio/achala/DSC02427-3200.webp",
+        "width": 3200,
+        "height": 1800
+      }
+    ]
+  },
+  "DSC02568": {
+    "source": "DSC02568.jpg",
+    "image": "/images/portfolio/achala/DSC02568-1440.webp",
+    "width": 3273,
+    "height": 5818,
+    "variants": [
+      {
+        "image": "/images/portfolio/achala/DSC02568-640.webp",
+        "width": 640,
+        "height": 1138
+      },
+      {
+        "image": "/images/portfolio/achala/DSC02568-960.webp",
+        "width": 960,
+        "height": 1706
+      },
+      {
+        "image": "/images/portfolio/achala/DSC02568-1440.webp",
+        "width": 1440,
+        "height": 2560
+      },
+      {
+        "image": "/images/portfolio/achala/DSC02568-1920.webp",
+        "width": 1920,
+        "height": 3413
+      },
+      {
+        "image": "/images/portfolio/achala/DSC02568-2560.webp",
+        "width": 2560,
+        "height": 4551
+      },
+      {
+        "image": "/images/portfolio/achala/DSC02568-3200.webp",
+        "width": 3200,
+        "height": 5688
+      }
+    ]
+  },
+  "DSC02569": {
+    "source": "DSC02569.jpg",
+    "image": "/images/portfolio/achala/DSC02569-1440.webp",
+    "width": 3353,
+    "height": 5960,
+    "variants": [
+      {
+        "image": "/images/portfolio/achala/DSC02569-640.webp",
+        "width": 640,
+        "height": 1138
+      },
+      {
+        "image": "/images/portfolio/achala/DSC02569-960.webp",
+        "width": 960,
+        "height": 1706
+      },
+      {
+        "image": "/images/portfolio/achala/DSC02569-1440.webp",
+        "width": 1440,
+        "height": 2560
+      },
+      {
+        "image": "/images/portfolio/achala/DSC02569-1920.webp",
+        "width": 1920,
+        "height": 3413
+      },
+      {
+        "image": "/images/portfolio/achala/DSC02569-2560.webp",
+        "width": 2560,
+        "height": 4550
+      },
+      {
+        "image": "/images/portfolio/achala/DSC02569-3200.webp",
+        "width": 3200,
+        "height": 5688
+      }
+    ]
+  },
+  "DSC02780": {
+    "source": "DSC02780.jpg",
+    "image": "/images/portfolio/achala/DSC02780-1440.webp",
+    "width": 6000,
+    "height": 3375,
+    "variants": [
+      {
+        "image": "/images/portfolio/achala/DSC02780-640.webp",
+        "width": 640,
+        "height": 360
+      },
+      {
+        "image": "/images/portfolio/achala/DSC02780-960.webp",
+        "width": 960,
+        "height": 540
+      },
+      {
+        "image": "/images/portfolio/achala/DSC02780-1440.webp",
+        "width": 1440,
+        "height": 810
+      },
+      {
+        "image": "/images/portfolio/achala/DSC02780-1920.webp",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "image": "/images/portfolio/achala/DSC02780-2560.webp",
+        "width": 2560,
+        "height": 1440
+      },
+      {
+        "image": "/images/portfolio/achala/DSC02780-3200.webp",
+        "width": 3200,
+        "height": 1800
+      },
+      {
+        "image": "/images/portfolio/achala/DSC02780-4400.webp",
+        "width": 4400,
+        "height": 2475
+      }
+    ]
+  },
+  "DSC02824": {
+    "source": "DSC02824.jpg",
+    "image": "/images/portfolio/achala/DSC02824-1440.webp",
+    "width": 3375,
+    "height": 6000,
+    "variants": [
+      {
+        "image": "/images/portfolio/achala/DSC02824-640.webp",
+        "width": 640,
+        "height": 1138
+      },
+      {
+        "image": "/images/portfolio/achala/DSC02824-960.webp",
+        "width": 960,
+        "height": 1707
+      },
+      {
+        "image": "/images/portfolio/achala/DSC02824-1440.webp",
+        "width": 1440,
+        "height": 2560
+      },
+      {
+        "image": "/images/portfolio/achala/DSC02824-1920.webp",
+        "width": 1920,
+        "height": 3413
+      },
+      {
+        "image": "/images/portfolio/achala/DSC02824-2560.webp",
+        "width": 2560,
+        "height": 4551
+      },
+      {
+        "image": "/images/portfolio/achala/DSC02824-3200.webp",
+        "width": 3200,
+        "height": 5689
+      }
+    ]
+  },
+  "DSC02882": {
+    "source": "DSC02882.jpg",
+    "image": "/images/portfolio/achala/DSC02882-1440.webp",
+    "width": 3358,
+    "height": 5970,
+    "variants": [
+      {
+        "image": "/images/portfolio/achala/DSC02882-640.webp",
+        "width": 640,
+        "height": 1138
+      },
+      {
+        "image": "/images/portfolio/achala/DSC02882-960.webp",
+        "width": 960,
+        "height": 1707
+      },
+      {
+        "image": "/images/portfolio/achala/DSC02882-1440.webp",
+        "width": 1440,
+        "height": 2560
+      },
+      {
+        "image": "/images/portfolio/achala/DSC02882-1920.webp",
+        "width": 1920,
+        "height": 3413
+      },
+      {
+        "image": "/images/portfolio/achala/DSC02882-2560.webp",
+        "width": 2560,
+        "height": 4551
+      },
+      {
+        "image": "/images/portfolio/achala/DSC02882-3200.webp",
+        "width": 3200,
+        "height": 5689
+      }
+    ]
+  },
+  "DSC02887": {
+    "source": "DSC02887.jpg",
+    "image": "/images/portfolio/achala/DSC02887-1440.webp",
+    "width": 5689,
+    "height": 3200,
+    "variants": [
+      {
+        "image": "/images/portfolio/achala/DSC02887-640.webp",
+        "width": 640,
+        "height": 360
+      },
+      {
+        "image": "/images/portfolio/achala/DSC02887-960.webp",
+        "width": 960,
+        "height": 540
+      },
+      {
+        "image": "/images/portfolio/achala/DSC02887-1440.webp",
+        "width": 1440,
+        "height": 810
+      },
+      {
+        "image": "/images/portfolio/achala/DSC02887-1920.webp",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "image": "/images/portfolio/achala/DSC02887-2560.webp",
+        "width": 2560,
+        "height": 1440
+      },
+      {
+        "image": "/images/portfolio/achala/DSC02887-3200.webp",
+        "width": 3200,
+        "height": 1800
+      },
+      {
+        "image": "/images/portfolio/achala/DSC02887-4400.webp",
+        "width": 4400,
+        "height": 2475
+      }
+    ]
+  },
+  "DSC02966": {
+    "source": "DSC02966.jpg",
+    "image": "/images/portfolio/achala/DSC02966-1440.webp",
+    "width": 3323,
+    "height": 5907,
+    "variants": [
+      {
+        "image": "/images/portfolio/achala/DSC02966-640.webp",
+        "width": 640,
+        "height": 1138
+      },
+      {
+        "image": "/images/portfolio/achala/DSC02966-960.webp",
+        "width": 960,
+        "height": 1707
+      },
+      {
+        "image": "/images/portfolio/achala/DSC02966-1440.webp",
+        "width": 1440,
+        "height": 2560
+      },
+      {
+        "image": "/images/portfolio/achala/DSC02966-1920.webp",
+        "width": 1920,
+        "height": 3413
+      },
+      {
+        "image": "/images/portfolio/achala/DSC02966-2560.webp",
+        "width": 2560,
+        "height": 4551
+      },
+      {
+        "image": "/images/portfolio/achala/DSC02966-3200.webp",
+        "width": 3200,
+        "height": 5688
+      }
+    ]
+  },
+  "DSC02984": {
+    "source": "DSC02984.jpg",
+    "image": "/images/portfolio/achala/DSC02984-1440.webp",
+    "width": 5937,
+    "height": 3340,
+    "variants": [
+      {
+        "image": "/images/portfolio/achala/DSC02984-640.webp",
+        "width": 640,
+        "height": 360
+      },
+      {
+        "image": "/images/portfolio/achala/DSC02984-960.webp",
+        "width": 960,
+        "height": 540
+      },
+      {
+        "image": "/images/portfolio/achala/DSC02984-1440.webp",
+        "width": 1440,
+        "height": 810
+      },
+      {
+        "image": "/images/portfolio/achala/DSC02984-1920.webp",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "image": "/images/portfolio/achala/DSC02984-2560.webp",
+        "width": 2560,
+        "height": 1440
+      },
+      {
+        "image": "/images/portfolio/achala/DSC02984-3200.webp",
+        "width": 3200,
+        "height": 1800
+      },
+      {
+        "image": "/images/portfolio/achala/DSC02984-4400.webp",
+        "width": 4400,
+        "height": 2475
+      }
+    ]
+  },
+  "DSC02988": {
+    "source": "DSC02988.jpg",
+    "image": "/images/portfolio/achala/DSC02988-1440.webp",
+    "width": 5794,
+    "height": 3259,
+    "variants": [
+      {
+        "image": "/images/portfolio/achala/DSC02988-640.webp",
+        "width": 640,
+        "height": 360
+      },
+      {
+        "image": "/images/portfolio/achala/DSC02988-960.webp",
+        "width": 960,
+        "height": 540
+      },
+      {
+        "image": "/images/portfolio/achala/DSC02988-1440.webp",
+        "width": 1440,
+        "height": 810
+      },
+      {
+        "image": "/images/portfolio/achala/DSC02988-1920.webp",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "image": "/images/portfolio/achala/DSC02988-2560.webp",
+        "width": 2560,
+        "height": 1440
+      },
+      {
+        "image": "/images/portfolio/achala/DSC02988-3200.webp",
+        "width": 3200,
+        "height": 1800
+      },
+      {
+        "image": "/images/portfolio/achala/DSC02988-4400.webp",
+        "width": 4400,
+        "height": 2475
+      }
+    ]
+  }
+}

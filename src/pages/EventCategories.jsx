@@ -3,11 +3,18 @@ import { events } from "../data/events";
 import "./EventCategories.scss";
 import SelectionBar from "../components/gallery/SelectionBar";
 import { useEventSelection } from "../hooks/useEventSelection";
+import { cloudinaryImageVariants, categoryCoverSizes } from "../utils/cloudinaryImages";
 
 const EventCategories = () => {
   const { eventId } = useParams();
 
   const event = events.find((item) => item.id === eventId);
+
+  const {
+    selectedPhotos,
+    togglePhotoSelection,
+    clearSelection,
+  } = useEventSelection(eventId);
 
   if (!event) {
     return <Navigate to="/" replace />;
@@ -17,12 +24,6 @@ const EventCategories = () => {
     return <Navigate to={`/evento/${event.id}/galeria`} replace />;
   }
 
-  const {
-  selectedPhotos,
-  togglePhotoSelection,
-  clearSelection,
-} = useEventSelection(eventId);
-
 const allEventPhotos = event.categories
   ? event.categories.flatMap((category) => category.photos)
   : [];
@@ -31,7 +32,7 @@ const allEventPhotos = event.categories
     <section className="event-categories">
       <div className="container">
         <div className="event-categories__header">
-          <Link to="/#eventos" className="event-categories__back">
+          <Link to="/tienda/deportes#eventos" className="event-categories__back">
             ← Volver a eventos
           </Link>
           <span>{event.location}</span>
@@ -50,7 +51,8 @@ const allEventPhotos = event.categories
               key={category.id}
             >
               <div className="event-category-card__image">
-                <img src={category.coverImage} alt={category.title} />
+                <img src={category.coverImage} {...cloudinaryImageVariants(category.coverImage, [640, 960, 1440, 1920, 2560])}
+                  sizes={categoryCoverSizes} alt={category.title} loading="lazy" />
               </div>
 
               <div className="event-category-card__content">

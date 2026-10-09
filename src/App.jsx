@@ -1,26 +1,39 @@
-import { Routes, Route } from "react-router-dom";
-import Home from "./pages/Home";
-import Gallery from "./pages/Gallery";
+import { Routes, Route, useLocation } from "react-router-dom";
+import { lazy, Suspense } from "react";
 import Navbar from "./components/layout/Navbar";
 import Footer from "./components/layout/Footer";
 import ScrollToTop from "./components/utils/ScrollToTop";
 import HowToBuy from "./pages/HowToBuy";
-import EventCategories from "./pages/EventCategories";
+import Portfolio from "./pages/Portfolio";
+import { routePaths } from "./data/routes";
+
+// Los catálogos deportivos se cargan al entrar a la tienda, no en la portada.
+const SportsShop = lazy(() => import("./pages/Home"));
+const Gallery = lazy(() => import("./pages/Gallery"));
+const EventCategories = lazy(() => import("./pages/EventCategories"));
+const SanMarcosSeries = lazy(() => import("./pages/SanMarcosSeries"));
+const AchalaSeries = lazy(() => import("./pages/AchalaSeries"));
 
 function App() {
+  const { pathname } = useLocation();
   return (
     <>
-      <ScrollToTop />
       <Navbar />
 
-      <main>
-        <Routes>
-          <Route path="/" element={<Home />} />
-            <Route path="/evento/:eventId" element={<EventCategories />} />
-            <Route path="/evento/:eventId/galeria" element={<Gallery />} />
-            <Route path="/evento/:eventId/:categoryId" element={<Gallery />} />
-            <Route path="/como-comprar" element={<HowToBuy />} />
-        </Routes>
+      <main id="contenido">
+        <Suspense fallback={<p className="container" role="status">Cargando fotografías…</p>}>
+          <ScrollToTop />
+          <Routes key={pathname}>
+            <Route path={routePaths.portfolio} element={<Portfolio />} />
+            <Route path={routePaths.sanMarcos} element={<SanMarcosSeries />} />
+            <Route path={routePaths.achala} element={<AchalaSeries />} />
+            <Route path={routePaths.sportsShop} element={<SportsShop />} />
+            <Route path={routePaths.event} element={<EventCategories />} />
+            <Route path={routePaths.eventGallery} element={<Gallery />} />
+            <Route path={routePaths.categoryGallery} element={<Gallery />} />
+            <Route path={routePaths.howToBuy} element={<HowToBuy />} />
+          </Routes>
+        </Suspense>
       </main>
 
       <Footer />

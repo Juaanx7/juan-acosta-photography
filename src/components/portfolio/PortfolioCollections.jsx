@@ -1,0 +1,49 @@
+import { useState } from "react";
+import { Link } from "react-router-dom";
+import { portfolioCategories, portfolioSeries } from "../../data/portfolio";
+import { useMediaQuery } from "../../hooks/useMediaQuery";
+import { collectionPhotoSizes } from "../../data/photoSizes";
+
+function CollectionCover({ item }) {
+  return item.image
+    ? <img src={item.image} srcSet={item.srcSet}
+        sizes={collectionPhotoSizes}
+        width={item.width} height={item.height} alt={item.alt} loading="lazy" decoding="async" />
+    : <div className="portfolio-placeholder"><span>{item.eyebrow}</span><em>{item.coverTitle}</em></div>;
+}
+
+function CollectionAccess({ item, children }) {
+  return item.href ? <Link className="portfolio-collection-link" to={item.href}>{children}</Link> : children;
+}
+
+export default function PortfolioCollections() {
+  const mobile = useMediaQuery("(max-width: 580px)");
+  const perPage = mobile ? 1 : 3;
+  const [position, setPosition] = useState(0);
+  const start = Math.min(Math.floor(position / perPage) * perPage, portfolioCategories.length - perPage);
+  return <>
+    <section className="portfolio-section" id="portfolio" aria-labelledby="portfolio-title">
+      <div className="portfolio-section__heading"><h2 id="portfolio-title">Explorar mi trabajo</h2><span>Portfolio</span></div>
+      <div className="portfolio-grid" id="portfolio-categories" aria-label="Categorías del portfolio">
+        {portfolioCategories.slice(start, start + perPage).map((item) => <article key={item.id} className="portfolio-category">
+          <CollectionAccess item={item}><CollectionCover item={item} /><h3>{item.title}</h3>
+            <p className="portfolio-pending">{item.href ? "Ver colección ↗" : "Galería en preparación"}</p></CollectionAccess>
+        </article>)}
+      </div>
+      <div className="portfolio-category-controls">
+        <span role="status">{mobile ? start + 1 : `${start + 1}–${start + perPage}`} de {portfolioCategories.length}</span>
+        <button type="button" aria-label="Categorías anteriores" aria-controls="portfolio-categories" disabled={start === 0} onClick={() => setPosition(start - perPage)}>←</button>
+        <button type="button" aria-label="Categorías siguientes" aria-controls="portfolio-categories" disabled={start + perPage >= portfolioCategories.length} onClick={() => setPosition(start + perPage)}>→</button>
+      </div>
+    </section>
+    <section className="portfolio-section" aria-labelledby="series-title">
+      <div className="portfolio-section__heading"><h2 id="series-title">Historias en imágenes</h2><span>Series</span></div>
+      <div className="portfolio-grid portfolio-series">
+        {portfolioSeries.map((item) => <article key={item.id}>
+          <CollectionAccess item={item}><CollectionCover item={item} /><p className="portfolio-eyebrow">{item.label}</p><h3>{item.title}</h3>
+          <p>{item.description}</p><span className="portfolio-pending">{item.href ? "Explorar la serie ↗" : "Serie en preparación"}</span></CollectionAccess>
+        </article>)}
+      </div>
+    </section>
+  </>;
+}

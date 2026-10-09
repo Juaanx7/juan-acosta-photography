@@ -1,4 +1,5 @@
-import { useEffect } from "react";
+import { useCallback, useEffect, useRef } from "react";
+import { cloudinaryImageVariants } from "../../utils/cloudinaryImages";
 import { FiX, FiChevronLeft, FiChevronRight } from "react-icons/fi";
 import "./PhotoModal.scss";
 
@@ -10,14 +11,15 @@ const PhotoModal = ({
   setCurrentPage,
   photosPerPage,
 }) => {
+  const modal = useRef(null);
   const currentIndex = photos.findIndex((item) => item.id === photo.id);
 
-  const updatePageByPhotoIndex = (photoIndex) => {
+  const updatePageByPhotoIndex = useCallback((photoIndex) => {
     const newPage = Math.floor(photoIndex / photosPerPage) + 1;
     setCurrentPage(newPage);
-  };
+  }, [photosPerPage, setCurrentPage]);
 
-  const goToPrevious = (e) => {
+  const goToPrevious = useCallback((e) => {
     if (e) e.stopPropagation();
 
     const previousIndex =
@@ -25,9 +27,9 @@ const PhotoModal = ({
 
     setSelectedImage(photos[previousIndex]);
     updatePageByPhotoIndex(previousIndex);
-  };
+  }, [currentIndex, photos, setSelectedImage, updatePageByPhotoIndex]);
 
-  const goToNext = (e) => {
+  const goToNext = useCallback((e) => {
     if (e) e.stopPropagation();
 
     const nextIndex =
@@ -35,23 +37,44 @@ const PhotoModal = ({
 
     setSelectedImage(photos[nextIndex]);
     updatePageByPhotoIndex(nextIndex);
-  };
+  }, [currentIndex, photos, setSelectedImage, updatePageByPhotoIndex]);
+
+  useEffect(() => {
+    const opener = document.activeElement;
+    const scrollY = window.scrollY;
+    const overflow = document.body.style.overflow;
+    document.body.style.overflow = "hidden";
+    modal.current.querySelector("button").focus();
+    return () => {
+      document.body.style.overflow = overflow;
+      window.scrollTo({ top: scrollY, behavior: "instant" });
+      const returnTarget = opener?.isConnected ? opener : document.querySelector(".photo-card__image");
+      returnTarget?.focus({ preventScroll: true });
+    };
+  }, []);
 
   useEffect(() => {
     const handleKeyDown = (e) => {
       if (e.key === "Escape") closeModal();
       if (e.key === "ArrowLeft") goToPrevious();
       if (e.key === "ArrowRight") goToNext();
+      if (e.key === "Tab") {
+        const buttons = modal.current.querySelectorAll("button");
+        const first = buttons[0];
+        const last = buttons[buttons.length - 1];
+        if ((e.shiftKey && document.activeElement === first) || (!e.shiftKey && document.activeElement === last)) {
+          e.preventDefault();
+          (e.shiftKey ? last : first).focus();
+        }
+      }
     };
 
     document.addEventListener("keydown", handleKeyDown);
-    document.body.style.overflow = "hidden";
 
     return () => {
       document.removeEventListener("keydown", handleKeyDown);
-      document.body.style.overflow = "auto";
     };
-  }, [currentIndex]);
+  }, [closeModal, goToNext, goToPrevious]);
 
   useEffect(() => {
     const previousIndex =
@@ -68,7 +91,7 @@ const PhotoModal = ({
   }, [currentIndex, photos]);
 
   return (
-    <div className="photo-modal" onClick={closeModal}>
+    <div ref={modal} className="photo-modal" role="dialog" aria-modal="true" aria-label={`Foto ${photo.id}`} onClick={closeModal}>
       <button
         className="photo-modal__close"
         onClick={closeModal}
@@ -86,7 +109,8 @@ const PhotoModal = ({
       </button>
 
       <div className="photo-modal__content" onClick={(e) => e.stopPropagation()}>
-        <img src={photo.image} alt={photo.id} loading="eager" />
+        <img src={photo.image} {...cloudinaryImageVariants(photo.image, [640, 960, 1440, 1920, 2560, 3200, 4400])}
+          sizes="min(90vw, 2200px)" alt={photo.id} loading="eager" />
         <p>{photo.id}</p>
       </div>
 

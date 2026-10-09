@@ -3,8 +3,8 @@
   border-top: 1px solid rgba(0, 0, 0, 0.06);
 
   &__container {
-    width: 100%;
-    padding-inline: clamp(24px, 6vw, 120px);
+    width: var(--content-width);
+    margin-inline: auto;
     margin: 0 auto;
     text-align: center;
   }
@@ -38,6 +38,8 @@
     }
 
     p {
+      max-width: 48ch;
+      margin-inline: auto;
       font-size: 0.85rem;
       line-height: 1.7;
       color: #737373;
