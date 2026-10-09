@@ -2,11 +2,12 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import { portfolioCategories, portfolioSeries } from "../../data/portfolio";
 import { useMediaQuery } from "../../hooks/useMediaQuery";
+import { collectionPhotoSizes } from "../../data/photoSizes";
 
 function CollectionCover({ item }) {
   return item.image
     ? <img src={item.image} srcSet={item.srcSet}
-        sizes="(max-width: 580px) calc(100vw - 40px), (max-width: 1600px) calc((100vw - 116px) / 3), 495px"
+        sizes={collectionPhotoSizes}
         width={item.width} height={item.height} alt={item.alt} loading="lazy" decoding="async" />
     : <div className="portfolio-placeholder"><span>{item.eyebrow}</span><em>{item.coverTitle}</em></div>;
 }

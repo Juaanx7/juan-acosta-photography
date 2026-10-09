@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import { achala } from "../data/achala";
 import { routePaths } from "../data/routes";
+import { seriesPhotoSizes } from "../data/photoSizes";
 import SeriesPhoto from "../components/portfolio/SeriesPhoto";
 import SeriesViewer from "../components/portfolio/SeriesViewer";
 import SeriesInquiry from "../components/portfolio/SeriesInquiry";
@@ -9,11 +10,11 @@ import "./SanMarcosSeries.scss";
 import "./AchalaSeries.scss";
 
 const sizes = {
-  wide: "(max-width: 580px) calc(100vw - 44px), (max-width: 1080px) calc(100vw - 96px), 984px",
-  horizontal: "(max-width: 580px) calc(100vw - 44px), (max-width: 1080px) calc((100vw - 124px) / 2), 478px",
-  portrait: "(max-width: 580px) 280px, (max-width: 816px) calc((100vw - 140px) / 2), 338px",
-  medium: "(max-width: 580px) calc(100vw - 44px), (max-width: 916px) calc(100vw - 96px), 820px",
-  returning: "(max-width: 580px) 280px, (max-width: 849px) calc((100vw - 174px) * .44445), 300px",
+  wide: seriesPhotoSizes.wide,
+  horizontal: seriesPhotoSizes.horizontal,
+  portrait: seriesPhotoSizes.achalaPortrait,
+  medium: seriesPhotoSizes.medium,
+  returning: seriesPhotoSizes.returning,
 };
 
 export default function AchalaSeries() {

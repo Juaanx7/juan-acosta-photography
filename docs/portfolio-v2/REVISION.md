@@ -198,3 +198,60 @@ Capturas:
 - [Visor vertical · 360×800](capturas/achala-visor-celular-360x800.jpg)
 - [Visor de poca altura · 667×375](capturas/achala-visor-667x375.jpg)
 - [Consulta preparada · 1366×768](capturas/achala-consulta-1366x768.jpg)
+
+## Distribución horizontal y acceso desde fotografías · 8 de octubre de 2026
+
+### Cambios
+
+- Trabajo realizado sobre `feat/portfolio-v2`, desde 2e38a59, en el worktree existente. Se conserva el cambio local previo del h1 de San Marcos (sin salto forzado) y se excluye del commit de esta entrega. Los originales de ambas series y de la portada continúan ignorados; no se agregan fuentes al repositorio.
+- Se unificó el ancho mediante `--content-width`: 90 % del espacio disponible, con máximo de 2200 px; en tablet se dejan 24 px a cada lado y en celular 20 px (22 px en las series). Navbar, footer, inicio, contacto, tienda, eventos, galerías, ayuda y barra de selección siguen esta distribución.
+- Los interiores dejan el límite útil anterior de 984 px. Las horizontales destacadas ocupan el contenedor; las intermedias usan 85 % y hasta 1760 px. Los pares horizontales distribuyen el ancho en dos columnas, con 28 px de separación. Los pares verticales usan 75 %, con topes de 1320/1280 px; mantienen 280 px en celular. El regreso de Achala alcanza 440 px en escritorio y conserva 280 px en celular. Las fotos de la muestra de San Marcos llegan a 960 px en conjunto, conservando su papel secundario.
+- Los relatos mantienen límites de lectura independientes de las fotografías (460/560 px), el formulario hasta 720 px y los textos deportivos entre 48/65ch. No se cambian títulos, relatos, orden, categorías, rutas, precios ni datos de eventos.
+- La portada conserva su altura adaptada al navegador, título, nombre, controles centrados, avance cada seis segundos y pausas. Su fotografía sigue contenida por ancho y altura: no se recorta para llenar artificialmente el nuevo espacio horizontal.
+- Se eliminó únicamente el botón visible «Ampliar» de `SeriesPhoto`. La imagen conserva su botón, etiqueta accesible, clic/toque, teclado y foco visible. Los pies de San Marcos y los dos pies de Achala permanecen. Las fotografías sin pie ya no generan un figcaption vacío ni el espacio del botón retirado.
+- Las imágenes de categorías, portadas deportivas y miniaturas conservan la fotografía completa. Se retiraron los recortes/zoom visuales de las tarjetas; las alturas responden a la proporción de la foto. La imagen de la galería deportiva es ahora un botón accesible y la selección tiene nombre y estado accesibles.
+- El modal deportivo conserva navegación, sincronización con la paginación y Escape; se amplía su límite horizontal a 2200 px. Se separó el bloqueo del fondo de la navegación y se agregó recuperación de foco/posición, Tab/Shift+Tab entre controles y una imagen de retorno cuando el cambio de página reemplaza el botón original. `useCallback` mantiene las dependencias de los manejadores explícitas; lint ya no muestra la advertencia anterior de este componente.
+
+### Recursos y resolución
+
+- `src/data/photoSizes.js` centraliza los tamaños de las series y tarjetas según los límites reales. Portada y visor de series siguen calculando el tamaño contenido a partir del marco medido, incluyendo el límite por altura.
+- `scripts/extendPortfolioImages.py` lee los JPG originales ignorados y agrega siete WebP a 4400 px: DSC03637 y DSC08263 de San Marcos; DSC02820, DSC02780, DSC02887, DSC02984 y DSC02988 de Achala. Se ejecuta después de los generadores base: `python scripts/extendPortfolioImages.py`. Mantiene los recursos previos; al regenerar desde cero hay que ejecutar este complemento nuevamente.
+- Las nuevas variantes cubren 2× los 2200 px visibles. Se conserva orientación, proporción y el tratamiento de color de las entregas aprobadas: perfil original interpretado, conversión a sRGB, calidad 90, Lanczos, sin edición artística ni ampliación. Se comprobaron dimensiones, perfil y proporción de los siete archivos, y que todos son menores que sus fuentes. Añaden aproximadamente 14.19 MiB almacenados; solo se descarga la variante elegida por el navegador.
+- Las variantes anteriores bastan para pares, verticales y portada limitada por altura. El hero deportivo existente es de 5624×3749 y permite la nueva anchura sin inventar resolución.
+- `cloudinaryImageVariants` adapta únicamente las URLs de entrega conocidas del proyecto, sin cambiar sus recursos, versión, marcas de agua ni manifiestos. Entrega srcset/sizes para tarjetas, galerías y modal, con formato/calidad automáticos y `c_limit`, que preserva proporciones y evita aumentar por encima del recurso remoto. Las URLs locales o con otras transformaciones mantienen su entrega existente. La consulta de DSC06680 con límite 4400 devolvió 4231×2821: se verificó que el servicio respetó la resolución de su recurso.
+
+### Comprobaciones reales
+
+- Se revisaron siete páginas a **360×800, 768×1024, 1366×768, 1920×1080 y 2560×1440**: inicio/contacto, San Marcos, Achala, tienda deportiva, evento DH, galería Entrenamientos y Cómo comprar. Las 35 combinaciones no mostraron desbordamiento horizontal ni acciones visibles «Ampliar». Las proporciones de las seis obras y doce fotos coincidieron con las fuentes en todos los tamaños. Mediciones guardadas en `capturas/ancho-comprobaciones.json`.
+- Anchos observados en las series: alrededor de 1216 px en 1366, 1715 px en 1920 y 2200 px en 2560, frente a 984 px antes. En 2560 los pares horizontales llegan a 1086 px por foto; verticales de San Marcos a 636 px y de Achala a 618 px. Relatos y formulario conservan los límites mencionados.
+- Se recorrieron las imágenes para activar la carga diferida antes de guardar las capturas completas. Cargaron nueve imágenes de San Marcos, doce de Achala, las portadas deportivas y las 16 miniaturas de la galería. Se revisaron visualmente las capturas completas de ambas series, inicio y galería. Se corrigió un ancho colapsado en la foto del regreso de Achala en celular; la comprobación final registró 280 px y proporción completa.
+- Portada al entrar en escritorio, scrollY=0: título, foto y controles visibles; fin de controles a 751 px en 1366×768, 1063 px en 1920×1080 y 1080 px en 2560×1440. Se observó el avance automático, el avance manual 4→1 y la pausa mantuvo 1/4 durante las otras comprobaciones.
+- San Marcos: apertura por Enter en la imagen de Última luz, título y contador 4/6; siguiente por teclado a Reflejos 5/6; Shift+Tab vuelve al último control; Escape. Antes/después de abrir y cerrar, scrollY=1564 y foco en la misma imagen. Achala: paso 1→12 con flecha izquierda y 12→1 con derecha; visor móvil con controles hasta 760 px, sin desbordamiento. Se conserva la navegación manual.
+- Consultas de ambas series y contacto: mensajes preparados, nombre de colección, caracteres codificados, número existente y confirmación antes de WhatsApp. No se abrió WhatsApp ni se envió un mensaje.
+- Tienda: se agregó DSC06681 a la selección previa DSC06680; tras recarga persistieron dos fotos y $14.000. Se abrió la confirmación y se canceló. Se quitó solo la foto de prueba, restaurando la selección previa y $7.000. La lógica de precios, pedido y persistencia no se modifica.
+- Paginación 1→2 de 12, con 16 miniaturas cargadas. Modal por Enter en DSC06733, siguiente DSC06737, Shift+Tab y Escape; scrollY=128 y foco iguales al regresar. Modal desde DSC06731→DSC06733 actualiza página 1→2, y al cerrar el foco vuelve a una imagen de la nueva página. Modal móvil con cierre a 58 px y controles hasta 776 px, fotografía completa.
+- Enlaces San Marcos↔Achala; compatibilidad `/#eventos`→`/tienda/deportes#eventos`; apertura y recarga de Circuito Molle y Tanda 2. Las pruebas conservan los parámetros de todas las categorías publicadas y la prioridad de `/galeria`.
+- `npm run build` correcto, `npm run lint` sin errores ni advertencias, `npm test` con ocho pruebas correctas (incluidas dos para proteger las URLs/transformaciones deportivas) y `git diff --check` correcto. La consola local no registró errores. Permanece el aviso de build por el tamaño del catálogo deportivo.
+- Los SHA-256 de los doce originales de Achala coinciden con los registrados previamente. `git check-ignore` y revisión del índice confirman que los originales no se versionan. No se cambian selección/compra, catálogos, contratos de eventos, configuración de despliegue ni rutas.
+
+### Límites y acceso
+
+- Comprobación visual en el navegador de escritorio, con viewport simulado y DPR 1. La cobertura 2× se verificó por dimensiones y srcset, sin emulación DPR 2/3, teléfono físico ni Safari. La entrega deportiva conserva los recursos con marca de agua; si una fuente remota tiene menos resolución, c_limit conserva ese límite.
+- No se hicieron envíos reales ni pagos. La Preview mantiene la protección de Vercel. Trabajo exclusivo en `feat/portfolio-v2`, sin merge ni publicación en Production. La Cumbrecita y la tienda de paisajes siguen pendientes.
+- Acceso local: `http://127.0.0.1:5174/`. Para iniciar el worktree: `npm run dev -- --host 127.0.0.1 --port 5174`.
+
+Capturas representativas (también se guardaron las vistas completas de ayuda, evento y galería):
+
+- [Portada · 1366×768](capturas/ancho-portada-1366x768.jpg)
+- [Inicio · 2560×1440](capturas/ancho-inicio-2560x1440.jpg)
+- [San Marcos · 1920×1080](capturas/ancho-san-marcos-1920x1080.jpg)
+- [Pares de San Marcos · 1920×1080](capturas/ancho-san-marcos-pares-1920x1080.jpg)
+- [San Marcos · celular](capturas/ancho-san-marcos-360x800.jpg)
+- [Achala · 1920×1080](capturas/ancho-achala-1920x1080.jpg)
+- [Achala · 2560×1440](capturas/ancho-achala-2560x1440.jpg)
+- [Achala · celular](capturas/ancho-achala-360x800.jpg)
+- [Tienda · 1920×1080](capturas/ancho-tienda-1920x1080.jpg)
+- [Galería · 1920×1080](capturas/ancho-galeria-1920x1080.jpg)
+- [Galería · celular](capturas/ancho-galeria-360x800.jpg)
+- [Visor Achala · celular](capturas/ancho-visor-achala-360x800.jpg)
+- [Modal deportivo · celular](capturas/ancho-modal-deportivo-360x800.jpg)

@@ -18,10 +18,14 @@
   }
 
   &__image {
+    display: block;
+    width: 100%;
+    border: 0;
     position: relative;
     cursor: pointer;
     overflow: hidden;
     background: #ddd;
+    min-height: 120px;
 
     &::after {
       content: "";
@@ -35,14 +39,10 @@
 
     img {
       width: 100%;
-      aspect-ratio: 4 / 5;
-      object-fit: cover;
+      height: auto;
       transition: transform 0.35s ease, opacity 0.25s ease;
     }
 
-    &:hover img {
-      transform: scale(1.03);
-    }
   }
 
   &__footer {
@@ -86,11 +86,6 @@
   .photo-card {
     padding: 4px;
 
-    &__image {
-      img {
-        aspect-ratio: 3 / 4;
-      }
-    }
 
     &__footer {
       padding-top: 8px;
@@ -109,3 +104,5 @@
     }
   }
 }
+
+.photo-card :focus-visible { outline: 2px solid #62543b; outline-offset: 3px; }

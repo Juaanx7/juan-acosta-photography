@@ -1,0 +1,1357 @@
+[
+  {
+    "route": "inicio",
+    "cover": 556.40625,
+    "overflow": false,
+    "photos": [],
+    "readableWidths": [
+      305
+    ],
+    "shell": [
+      {
+        "class": "portfolio-section",
+        "left": 20,
+        "width": 305
+      },
+      {
+        "class": "portfolio-section",
+        "left": 20,
+        "width": 305
+      },
+      {
+        "class": "portfolio-contact",
+        "left": 20,
+        "width": 305
+      }
+    ],
+    "viewport": [
+      360,
+      800
+    ],
+    "visibleAmpliar": 0
+  },
+  {
+    "route": "san-marcos",
+    "overflow": false,
+    "photos": [
+      {
+        "full": true,
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 900px) calc(100vw - 48px), min(90vw, 2200px)",
+        "src": "http://127.0.0.1:5174/images/portfolio/san-marcos/obras/DSC03637-640.webp",
+        "width": 301
+      },
+      {
+        "full": true,
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 900px) calc((100vw - 76px) / 2), calc((min(90vw, 2200px) - 28px) / 2)",
+        "src": "http://127.0.0.1:5174/images/portfolio/san-marcos/obras/DSC05590-640.webp",
+        "width": 301
+      },
+      {
+        "full": true,
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 900px) calc((100vw - 76px) / 2), calc((min(90vw, 2200px) - 28px) / 2)",
+        "src": "http://127.0.0.1:5174/images/portfolio/san-marcos/obras/DSC08228-Editar-640.webp",
+        "width": 301
+      },
+      {
+        "full": true,
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 900px) calc((100vw - 48px) * .85), min(76.5vw, 1760px)",
+        "src": "http://127.0.0.1:5174/images/portfolio/san-marcos/obras/DSC08263-640.webp",
+        "width": 301
+      },
+      {
+        "full": true,
+        "sizes": "(max-width: 580px) 280px, (max-width: 900px) calc(((100vw - 48px) * .75 - 48px) / 2), calc((min(67.5vw, 1320px) - 48px) / 2)",
+        "src": "http://127.0.0.1:5174/images/portfolio/san-marcos/obras/DSC03503%20%282%29-640.webp",
+        "width": 280
+      },
+      {
+        "full": true,
+        "sizes": "(max-width: 580px) 280px, (max-width: 900px) calc(((100vw - 48px) * .75 - 48px) / 2), calc((min(67.5vw, 1320px) - 48px) / 2)",
+        "src": "",
+        "width": 280
+      }
+    ],
+    "readableWidths": [
+      301,
+      301
+    ],
+    "shell": [
+      {
+        "class": "series-container",
+        "left": 22,
+        "width": 301
+      },
+      {
+        "class": "series-container",
+        "left": 22,
+        "width": 301
+      },
+      {
+        "class": "series-closing series-container",
+        "left": 22,
+        "width": 301
+      }
+    ],
+    "viewport": [
+      360,
+      800
+    ],
+    "visibleAmpliar": 0
+  },
+  {
+    "route": "achala",
+    "overflow": false,
+    "photos": [
+      {
+        "full": true,
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 900px) calc(100vw - 48px), min(90vw, 2200px)",
+        "src": "http://127.0.0.1:5174/images/portfolio/achala/DSC02820-640.webp",
+        "width": 301
+      },
+      {
+        "full": true,
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 900px) calc((100vw - 76px) / 2), calc((min(90vw, 2200px) - 28px) / 2)",
+        "src": "http://127.0.0.1:5174/images/portfolio/achala/DSC02395-640.webp",
+        "width": 301
+      },
+      {
+        "full": true,
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 900px) calc((100vw - 76px) / 2), calc((min(90vw, 2200px) - 28px) / 2)",
+        "src": "http://127.0.0.1:5174/images/portfolio/achala/DSC02427-640.webp",
+        "width": 301
+      },
+      {
+        "full": true,
+        "sizes": "(max-width: 580px) 280px, (max-width: 900px) calc(((100vw - 48px) * .75 - 44px) / 2), calc((min(67.5vw, 1280px) - 44px) / 2)",
+        "src": "http://127.0.0.1:5174/images/portfolio/achala/DSC02568-640.webp",
+        "width": 280
+      },
+      {
+        "full": true,
+        "sizes": "(max-width: 580px) 280px, (max-width: 900px) calc(((100vw - 48px) * .75 - 44px) / 2), calc((min(67.5vw, 1280px) - 44px) / 2)",
+        "src": "http://127.0.0.1:5174/images/portfolio/achala/DSC02569-640.webp",
+        "width": 280
+      },
+      {
+        "full": true,
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 900px) calc((100vw - 48px) * .85), min(76.5vw, 1760px)",
+        "src": "",
+        "width": 301
+      },
+      {
+        "full": true,
+        "sizes": "(max-width: 580px) 280px, (max-width: 900px) calc(((100vw - 48px) * .75 - 44px) / 2), calc((min(67.5vw, 1280px) - 44px) / 2)",
+        "src": "",
+        "width": 280
+      },
+      {
+        "full": true,
+        "sizes": "(max-width: 580px) 280px, (max-width: 900px) calc(((100vw - 48px) * .75 - 44px) / 2), calc((min(67.5vw, 1280px) - 44px) / 2)",
+        "src": "",
+        "width": 280
+      },
+      {
+        "full": true,
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 900px) calc(100vw - 48px), min(90vw, 2200px)",
+        "src": "",
+        "width": 301
+      },
+      {
+        "full": true,
+        "sizes": "(max-width: 580px) 280px, (max-width: 900px) calc(((100vw - 48px) * .85 - 78px) * .44445), min(440px, calc((min(76.5vw, 1280px) - 78px) * .44445))",
+        "src": "",
+        "width": 280
+      },
+      {
+        "full": true,
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 900px) calc(100vw - 48px), min(90vw, 2200px)",
+        "src": "",
+        "width": 301
+      },
+      {
+        "full": true,
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 900px) calc(100vw - 48px), min(90vw, 2200px)",
+        "src": "",
+        "width": 301
+      }
+    ],
+    "readableWidths": [
+      301
+    ],
+    "shell": [
+      {
+        "class": "series-container",
+        "left": 22,
+        "width": 301
+      }
+    ],
+    "viewport": [
+      360,
+      800
+    ],
+    "visibleAmpliar": 0
+  },
+  {
+    "route": "tienda",
+    "overflow": false,
+    "photos": [],
+    "readableWidths": [
+      305
+    ],
+    "shell": [
+      {
+        "class": "hero__container",
+        "left": 20,
+        "width": 305
+      },
+      {
+        "class": "events-section__container",
+        "left": 20,
+        "width": 305
+      }
+    ],
+    "viewport": [
+      360,
+      800
+    ],
+    "visibleAmpliar": 0
+  },
+  {
+    "route": "evento",
+    "overflow": false,
+    "photos": [],
+    "readableWidths": [],
+    "shell": [
+      {
+        "class": "container",
+        "left": 20,
+        "width": 305
+      }
+    ],
+    "viewport": [
+      360,
+      800
+    ],
+    "visibleAmpliar": 0
+  },
+  {
+    "route": "galeria",
+    "overflow": false,
+    "photos": [],
+    "readableWidths": [],
+    "shell": [
+      {
+        "class": "container",
+        "left": 20,
+        "width": 305
+      }
+    ],
+    "viewport": [
+      360,
+      800
+    ],
+    "visibleAmpliar": 0
+  },
+  {
+    "route": "como-comprar",
+    "overflow": false,
+    "photos": [],
+    "readableWidths": [],
+    "shell": [
+      {
+        "class": "container",
+        "left": 20,
+        "width": 305
+      }
+    ],
+    "viewport": [
+      360,
+      800
+    ],
+    "visibleAmpliar": 0
+  },
+  {
+    "route": "inicio",
+    "cover": 1007,
+    "overflow": false,
+    "photos": [],
+    "readableWidths": [
+      333
+    ],
+    "shell": [
+      {
+        "class": "portfolio-section",
+        "left": 24,
+        "width": 705
+      },
+      {
+        "class": "portfolio-section",
+        "left": 24,
+        "width": 705
+      },
+      {
+        "class": "portfolio-contact",
+        "left": 24,
+        "width": 705
+      }
+    ],
+    "viewport": [
+      768,
+      1024
+    ],
+    "visibleAmpliar": 0
+  },
+  {
+    "route": "san-marcos",
+    "overflow": false,
+    "photos": [
+      {
+        "full": true,
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 900px) calc(100vw - 48px), min(90vw, 2200px)",
+        "src": "http://127.0.0.1:5174/images/portfolio/san-marcos/obras/DSC03637-960.webp",
+        "width": 705
+      },
+      {
+        "full": true,
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 900px) calc((100vw - 76px) / 2), calc((min(90vw, 2200px) - 28px) / 2)",
+        "src": "http://127.0.0.1:5174/images/portfolio/san-marcos/obras/DSC05590-640.webp",
+        "width": 339
+      },
+      {
+        "full": true,
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 900px) calc((100vw - 76px) / 2), calc((min(90vw, 2200px) - 28px) / 2)",
+        "src": "http://127.0.0.1:5174/images/portfolio/san-marcos/obras/DSC08228-Editar-640.webp",
+        "width": 339
+      },
+      {
+        "full": true,
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 900px) calc((100vw - 48px) * .85), min(76.5vw, 1760px)",
+        "src": "http://127.0.0.1:5174/images/portfolio/san-marcos/obras/DSC08263-640.webp",
+        "width": 599
+      },
+      {
+        "full": true,
+        "sizes": "(max-width: 580px) 280px, (max-width: 900px) calc(((100vw - 48px) * .75 - 48px) / 2), calc((min(67.5vw, 1320px) - 48px) / 2)",
+        "src": "http://127.0.0.1:5174/images/portfolio/san-marcos/obras/DSC03503%20%282%29-640.webp",
+        "width": 240
+      },
+      {
+        "full": true,
+        "sizes": "(max-width: 580px) 280px, (max-width: 900px) calc(((100vw - 48px) * .75 - 48px) / 2), calc((min(67.5vw, 1320px) - 48px) / 2)",
+        "src": "http://127.0.0.1:5174/images/portfolio/san-marcos/obras/DSC00869-640.webp",
+        "width": 240
+      }
+    ],
+    "readableWidths": [
+      460,
+      384
+    ],
+    "shell": [
+      {
+        "class": "series-container",
+        "left": 24,
+        "width": 705
+      },
+      {
+        "class": "series-container",
+        "left": 24,
+        "width": 705
+      },
+      {
+        "class": "series-closing series-container",
+        "left": 24,
+        "width": 705
+      }
+    ],
+    "viewport": [
+      768,
+      1024
+    ],
+    "visibleAmpliar": 0
+  },
+  {
+    "route": "achala",
+    "overflow": false,
+    "photos": [
+      {
+        "full": true,
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 900px) calc(100vw - 48px), min(90vw, 2200px)",
+        "src": "http://127.0.0.1:5174/images/portfolio/achala/DSC02820-960.webp",
+        "width": 705
+      },
+      {
+        "full": true,
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 900px) calc((100vw - 76px) / 2), calc((min(90vw, 2200px) - 28px) / 2)",
+        "src": "http://127.0.0.1:5174/images/portfolio/achala/DSC02395-640.webp",
+        "width": 339
+      },
+      {
+        "full": true,
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 900px) calc((100vw - 76px) / 2), calc((min(90vw, 2200px) - 28px) / 2)",
+        "src": "http://127.0.0.1:5174/images/portfolio/achala/DSC02427-640.webp",
+        "width": 339
+      },
+      {
+        "full": true,
+        "sizes": "(max-width: 580px) 280px, (max-width: 900px) calc(((100vw - 48px) * .75 - 44px) / 2), calc((min(67.5vw, 1280px) - 44px) / 2)",
+        "src": "http://127.0.0.1:5174/images/portfolio/achala/DSC02568-640.webp",
+        "width": 242
+      },
+      {
+        "full": true,
+        "sizes": "(max-width: 580px) 280px, (max-width: 900px) calc(((100vw - 48px) * .75 - 44px) / 2), calc((min(67.5vw, 1280px) - 44px) / 2)",
+        "src": "http://127.0.0.1:5174/images/portfolio/achala/DSC02569-640.webp",
+        "width": 242
+      },
+      {
+        "full": true,
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 900px) calc((100vw - 48px) * .85), min(76.5vw, 1760px)",
+        "src": "http://127.0.0.1:5174/images/portfolio/achala/DSC02780-640.webp",
+        "width": 599
+      },
+      {
+        "full": true,
+        "sizes": "(max-width: 580px) 280px, (max-width: 900px) calc(((100vw - 48px) * .75 - 44px) / 2), calc((min(67.5vw, 1280px) - 44px) / 2)",
+        "src": "http://127.0.0.1:5174/images/portfolio/achala/DSC02824-640.webp",
+        "width": 242
+      },
+      {
+        "full": true,
+        "sizes": "(max-width: 580px) 280px, (max-width: 900px) calc(((100vw - 48px) * .75 - 44px) / 2), calc((min(67.5vw, 1280px) - 44px) / 2)",
+        "src": "http://127.0.0.1:5174/images/portfolio/achala/DSC02882-640.webp",
+        "width": 242
+      },
+      {
+        "full": true,
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 900px) calc(100vw - 48px), min(90vw, 2200px)",
+        "src": "",
+        "width": 705
+      },
+      {
+        "full": true,
+        "sizes": "(max-width: 580px) 280px, (max-width: 900px) calc(((100vw - 48px) * .85 - 78px) * .44445), min(440px, calc((min(76.5vw, 1280px) - 78px) * .44445))",
+        "src": "",
+        "width": 232
+      },
+      {
+        "full": true,
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 900px) calc(100vw - 48px), min(90vw, 2200px)",
+        "src": "",
+        "width": 705
+      },
+      {
+        "full": true,
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 900px) calc(100vw - 48px), min(90vw, 2200px)",
+        "src": "",
+        "width": 705
+      }
+    ],
+    "readableWidths": [
+      348
+    ],
+    "shell": [
+      {
+        "class": "series-container",
+        "left": 24,
+        "width": 705
+      }
+    ],
+    "viewport": [
+      768,
+      1024
+    ],
+    "visibleAmpliar": 0
+  },
+  {
+    "route": "tienda",
+    "overflow": false,
+    "photos": [],
+    "readableWidths": [
+      701
+    ],
+    "shell": [
+      {
+        "class": "hero__container",
+        "left": 24,
+        "width": 705
+      },
+      {
+        "class": "events-section__container",
+        "left": 24,
+        "width": 705
+      }
+    ],
+    "viewport": [
+      768,
+      1024
+    ],
+    "visibleAmpliar": 0
+  },
+  {
+    "route": "evento",
+    "overflow": false,
+    "photos": [],
+    "readableWidths": [],
+    "shell": [
+      {
+        "class": "container",
+        "left": 24,
+        "width": 705
+      }
+    ],
+    "viewport": [
+      768,
+      1024
+    ],
+    "visibleAmpliar": 0
+  },
+  {
+    "route": "galeria",
+    "overflow": false,
+    "photos": [],
+    "readableWidths": [],
+    "shell": [
+      {
+        "class": "container",
+        "left": 24,
+        "width": 705
+      }
+    ],
+    "viewport": [
+      768,
+      1024
+    ],
+    "visibleAmpliar": 0
+  },
+  {
+    "route": "como-comprar",
+    "overflow": false,
+    "photos": [],
+    "readableWidths": [],
+    "shell": [
+      {
+        "class": "container",
+        "left": 24,
+        "width": 705
+      }
+    ],
+    "viewport": [
+      768,
+      1024
+    ],
+    "visibleAmpliar": 0
+  },
+  {
+    "route": "inicio",
+    "cover": 751,
+    "overflow": false,
+    "photos": [],
+    "readableWidths": [
+      600
+    ],
+    "shell": [
+      {
+        "class": "portfolio-section",
+        "left": 68,
+        "width": 1216
+      },
+      {
+        "class": "portfolio-section",
+        "left": 68,
+        "width": 1216
+      },
+      {
+        "class": "portfolio-contact",
+        "left": 68,
+        "width": 1216
+      }
+    ],
+    "viewport": [
+      1366,
+      768
+    ],
+    "visibleAmpliar": 0
+  },
+  {
+    "route": "san-marcos",
+    "overflow": false,
+    "photos": [
+      {
+        "full": true,
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 900px) calc(100vw - 48px), min(90vw, 2200px)",
+        "src": "http://127.0.0.1:5174/images/portfolio/san-marcos/obras/DSC03637-1440.webp",
+        "width": 1216
+      },
+      {
+        "full": true,
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 900px) calc((100vw - 76px) / 2), calc((min(90vw, 2200px) - 28px) / 2)",
+        "src": "http://127.0.0.1:5174/images/portfolio/san-marcos/obras/DSC05590-640.webp",
+        "width": 594
+      },
+      {
+        "full": true,
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 900px) calc((100vw - 76px) / 2), calc((min(90vw, 2200px) - 28px) / 2)",
+        "src": "http://127.0.0.1:5174/images/portfolio/san-marcos/obras/DSC08228-Editar-640.webp",
+        "width": 594
+      },
+      {
+        "full": true,
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 900px) calc((100vw - 48px) * .85), min(76.5vw, 1760px)",
+        "src": "http://127.0.0.1:5174/images/portfolio/san-marcos/obras/DSC08263-1440.webp",
+        "width": 1034
+      },
+      {
+        "full": true,
+        "sizes": "(max-width: 580px) 280px, (max-width: 900px) calc(((100vw - 48px) * .75 - 48px) / 2), calc((min(67.5vw, 1320px) - 48px) / 2)",
+        "src": "",
+        "width": 432
+      },
+      {
+        "full": true,
+        "sizes": "(max-width: 580px) 280px, (max-width: 900px) calc(((100vw - 48px) * .75 - 48px) / 2), calc((min(67.5vw, 1320px) - 48px) / 2)",
+        "src": "",
+        "width": 432
+      }
+    ],
+    "readableWidths": [
+      460,
+      560
+    ],
+    "shell": [
+      {
+        "class": "series-container",
+        "left": 68,
+        "width": 1216
+      },
+      {
+        "class": "series-container",
+        "left": 68,
+        "width": 1216
+      },
+      {
+        "class": "series-closing series-container",
+        "left": 68,
+        "width": 1216
+      }
+    ],
+    "viewport": [
+      1366,
+      768
+    ],
+    "visibleAmpliar": 0
+  },
+  {
+    "route": "achala",
+    "overflow": false,
+    "photos": [
+      {
+        "full": true,
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 900px) calc(100vw - 48px), min(90vw, 2200px)",
+        "src": "http://127.0.0.1:5174/images/portfolio/achala/DSC02820-1440.webp",
+        "width": 1216
+      },
+      {
+        "full": true,
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 900px) calc((100vw - 76px) / 2), calc((min(90vw, 2200px) - 28px) / 2)",
+        "src": "http://127.0.0.1:5174/images/portfolio/achala/DSC02395-640.webp",
+        "width": 594
+      },
+      {
+        "full": true,
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 900px) calc((100vw - 76px) / 2), calc((min(90vw, 2200px) - 28px) / 2)",
+        "src": "http://127.0.0.1:5174/images/portfolio/achala/DSC02427-640.webp",
+        "width": 594
+      },
+      {
+        "full": true,
+        "sizes": "(max-width: 580px) 280px, (max-width: 900px) calc(((100vw - 48px) * .75 - 44px) / 2), calc((min(67.5vw, 1280px) - 44px) / 2)",
+        "src": "http://127.0.0.1:5174/images/portfolio/achala/DSC02568-640.webp",
+        "width": 434
+      },
+      {
+        "full": true,
+        "sizes": "(max-width: 580px) 280px, (max-width: 900px) calc(((100vw - 48px) * .75 - 44px) / 2), calc((min(67.5vw, 1280px) - 44px) / 2)",
+        "src": "http://127.0.0.1:5174/images/portfolio/achala/DSC02569-640.webp",
+        "width": 434
+      },
+      {
+        "full": true,
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 900px) calc((100vw - 48px) * .85), min(76.5vw, 1760px)",
+        "src": "",
+        "width": 1034
+      },
+      {
+        "full": true,
+        "sizes": "(max-width: 580px) 280px, (max-width: 900px) calc(((100vw - 48px) * .75 - 44px) / 2), calc((min(67.5vw, 1280px) - 44px) / 2)",
+        "src": "",
+        "width": 434
+      },
+      {
+        "full": true,
+        "sizes": "(max-width: 580px) 280px, (max-width: 900px) calc(((100vw - 48px) * .75 - 44px) / 2), calc((min(67.5vw, 1280px) - 44px) / 2)",
+        "src": "",
+        "width": 434
+      },
+      {
+        "full": true,
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 900px) calc(100vw - 48px), min(90vw, 2200px)",
+        "src": "",
+        "width": 1216
+      },
+      {
+        "full": true,
+        "sizes": "(max-width: 580px) 280px, (max-width: 900px) calc(((100vw - 48px) * .85 - 78px) * .44445), min(440px, calc((min(76.5vw, 1280px) - 78px) * .44445))",
+        "src": "",
+        "width": 425
+      },
+      {
+        "full": true,
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 900px) calc(100vw - 48px), min(90vw, 2200px)",
+        "src": "",
+        "width": 1216
+      },
+      {
+        "full": true,
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 900px) calc(100vw - 48px), min(90vw, 2200px)",
+        "src": "",
+        "width": 1216
+      }
+    ],
+    "readableWidths": [
+      560
+    ],
+    "shell": [
+      {
+        "class": "series-container",
+        "left": 68,
+        "width": 1216
+      }
+    ],
+    "viewport": [
+      1366,
+      768
+    ],
+    "visibleAmpliar": 0
+  },
+  {
+    "route": "tienda",
+    "overflow": false,
+    "photos": [],
+    "readableWidths": [
+      701
+    ],
+    "shell": [
+      {
+        "class": "hero__container",
+        "left": 68,
+        "width": 1216
+      },
+      {
+        "class": "events-section__container",
+        "left": 68,
+        "width": 1216
+      }
+    ],
+    "viewport": [
+      1366,
+      768
+    ],
+    "visibleAmpliar": 0
+  },
+  {
+    "route": "evento",
+    "overflow": false,
+    "photos": [],
+    "readableWidths": [],
+    "shell": [
+      {
+        "class": "container",
+        "left": 68,
+        "width": 1216
+      }
+    ],
+    "viewport": [
+      1366,
+      768
+    ],
+    "visibleAmpliar": 0
+  },
+  {
+    "route": "galeria",
+    "overflow": false,
+    "photos": [],
+    "readableWidths": [],
+    "shell": [
+      {
+        "class": "container",
+        "left": 68,
+        "width": 1216
+      }
+    ],
+    "viewport": [
+      1366,
+      768
+    ],
+    "visibleAmpliar": 0
+  },
+  {
+    "route": "como-comprar",
+    "overflow": false,
+    "photos": [],
+    "readableWidths": [],
+    "shell": [
+      {
+        "class": "container",
+        "left": 68,
+        "width": 1216
+      }
+    ],
+    "viewport": [
+      1366,
+      768
+    ],
+    "visibleAmpliar": 0
+  },
+  {
+    "route": "inicio",
+    "cover": 1063,
+    "overflow": false,
+    "photos": [],
+    "readableWidths": [
+      720
+    ],
+    "shell": [
+      {
+        "class": "portfolio-section",
+        "left": 95,
+        "width": 1715
+      },
+      {
+        "class": "portfolio-section",
+        "left": 95,
+        "width": 1715
+      },
+      {
+        "class": "portfolio-contact",
+        "left": 95,
+        "width": 1715
+      }
+    ],
+    "viewport": [
+      1920,
+      1080
+    ],
+    "visibleAmpliar": 0
+  },
+  {
+    "route": "san-marcos",
+    "overflow": false,
+    "photos": [
+      {
+        "full": true,
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 900px) calc(100vw - 48px), min(90vw, 2200px)",
+        "src": "http://127.0.0.1:5174/images/portfolio/san-marcos/obras/DSC03637-1920.webp",
+        "width": 1715
+      },
+      {
+        "full": true,
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 900px) calc((100vw - 76px) / 2), calc((min(90vw, 2200px) - 28px) / 2)",
+        "src": "http://127.0.0.1:5174/images/portfolio/san-marcos/obras/DSC05590-960.webp",
+        "width": 843
+      },
+      {
+        "full": true,
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 900px) calc((100vw - 76px) / 2), calc((min(90vw, 2200px) - 28px) / 2)",
+        "src": "http://127.0.0.1:5174/images/portfolio/san-marcos/obras/DSC08228-Editar-960.webp",
+        "width": 843
+      },
+      {
+        "full": true,
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 900px) calc((100vw - 48px) * .85), min(76.5vw, 1760px)",
+        "src": "http://127.0.0.1:5174/images/portfolio/san-marcos/obras/DSC08263-1920.webp",
+        "width": 1457
+      },
+      {
+        "full": true,
+        "sizes": "(max-width: 580px) 280px, (max-width: 900px) calc(((100vw - 48px) * .75 - 48px) / 2), calc((min(67.5vw, 1320px) - 48px) / 2)",
+        "src": "",
+        "width": 619
+      },
+      {
+        "full": true,
+        "sizes": "(max-width: 580px) 280px, (max-width: 900px) calc(((100vw - 48px) * .75 - 48px) / 2), calc((min(67.5vw, 1320px) - 48px) / 2)",
+        "src": "",
+        "width": 619
+      }
+    ],
+    "readableWidths": [
+      460,
+      560
+    ],
+    "shell": [
+      {
+        "class": "series-container",
+        "left": 95,
+        "width": 1715
+      },
+      {
+        "class": "series-container",
+        "left": 95,
+        "width": 1715
+      },
+      {
+        "class": "series-closing series-container",
+        "left": 95,
+        "width": 1715
+      }
+    ],
+    "viewport": [
+      1920,
+      1080
+    ],
+    "visibleAmpliar": 0
+  },
+  {
+    "route": "achala",
+    "overflow": false,
+    "photos": [
+      {
+        "full": true,
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 900px) calc(100vw - 48px), min(90vw, 2200px)",
+        "src": "http://127.0.0.1:5174/images/portfolio/achala/DSC02820-1920.webp",
+        "width": 1715
+      },
+      {
+        "full": true,
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 900px) calc((100vw - 76px) / 2), calc((min(90vw, 2200px) - 28px) / 2)",
+        "src": "http://127.0.0.1:5174/images/portfolio/achala/DSC02395-960.webp",
+        "width": 843
+      },
+      {
+        "full": true,
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 900px) calc((100vw - 76px) / 2), calc((min(90vw, 2200px) - 28px) / 2)",
+        "src": "http://127.0.0.1:5174/images/portfolio/achala/DSC02427-960.webp",
+        "width": 843
+      },
+      {
+        "full": true,
+        "sizes": "(max-width: 580px) 280px, (max-width: 900px) calc(((100vw - 48px) * .75 - 44px) / 2), calc((min(67.5vw, 1280px) - 44px) / 2)",
+        "src": "http://127.0.0.1:5174/images/portfolio/achala/DSC02568-640.webp",
+        "width": 618
+      },
+      {
+        "full": true,
+        "sizes": "(max-width: 580px) 280px, (max-width: 900px) calc(((100vw - 48px) * .75 - 44px) / 2), calc((min(67.5vw, 1280px) - 44px) / 2)",
+        "src": "http://127.0.0.1:5174/images/portfolio/achala/DSC02569-640.webp",
+        "width": 618
+      },
+      {
+        "full": true,
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 900px) calc((100vw - 48px) * .85), min(76.5vw, 1760px)",
+        "src": "",
+        "width": 1457
+      },
+      {
+        "full": true,
+        "sizes": "(max-width: 580px) 280px, (max-width: 900px) calc(((100vw - 48px) * .75 - 44px) / 2), calc((min(67.5vw, 1280px) - 44px) / 2)",
+        "src": "",
+        "width": 618
+      },
+      {
+        "full": true,
+        "sizes": "(max-width: 580px) 280px, (max-width: 900px) calc(((100vw - 48px) * .75 - 44px) / 2), calc((min(67.5vw, 1280px) - 44px) / 2)",
+        "src": "",
+        "width": 618
+      },
+      {
+        "full": true,
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 900px) calc(100vw - 48px), min(90vw, 2200px)",
+        "src": "",
+        "width": 1715
+      },
+      {
+        "full": true,
+        "sizes": "(max-width: 580px) 280px, (max-width: 900px) calc(((100vw - 48px) * .85 - 78px) * .44445), min(440px, calc((min(76.5vw, 1280px) - 78px) * .44445))",
+        "src": "",
+        "width": 440
+      },
+      {
+        "full": true,
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 900px) calc(100vw - 48px), min(90vw, 2200px)",
+        "src": "",
+        "width": 1715
+      },
+      {
+        "full": true,
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 900px) calc(100vw - 48px), min(90vw, 2200px)",
+        "src": "",
+        "width": 1715
+      }
+    ],
+    "readableWidths": [
+      560
+    ],
+    "shell": [
+      {
+        "class": "series-container",
+        "left": 95,
+        "width": 1715
+      }
+    ],
+    "viewport": [
+      1920,
+      1080
+    ],
+    "visibleAmpliar": 0
+  },
+  {
+    "route": "tienda",
+    "overflow": false,
+    "photos": [],
+    "readableWidths": [
+      701
+    ],
+    "shell": [
+      {
+        "class": "hero__container",
+        "left": 95,
+        "width": 1715
+      },
+      {
+        "class": "events-section__container",
+        "left": 95,
+        "width": 1715
+      }
+    ],
+    "viewport": [
+      1920,
+      1080
+    ],
+    "visibleAmpliar": 0
+  },
+  {
+    "route": "evento",
+    "overflow": false,
+    "photos": [],
+    "readableWidths": [],
+    "shell": [
+      {
+        "class": "container",
+        "left": 95,
+        "width": 1715
+      }
+    ],
+    "viewport": [
+      1920,
+      1080
+    ],
+    "visibleAmpliar": 0
+  },
+  {
+    "route": "galeria",
+    "overflow": false,
+    "photos": [],
+    "readableWidths": [],
+    "shell": [
+      {
+        "class": "container",
+        "left": 95,
+        "width": 1715
+      }
+    ],
+    "viewport": [
+      1920,
+      1080
+    ],
+    "visibleAmpliar": 0
+  },
+  {
+    "route": "como-comprar",
+    "overflow": false,
+    "photos": [],
+    "readableWidths": [],
+    "shell": [
+      {
+        "class": "container",
+        "left": 95,
+        "width": 1715
+      }
+    ],
+    "viewport": [
+      1920,
+      1080
+    ],
+    "visibleAmpliar": 0
+  },
+  {
+    "route": "inicio",
+    "cover": 1080,
+    "overflow": false,
+    "photos": [],
+    "readableWidths": [
+      720
+    ],
+    "shell": [
+      {
+        "class": "portfolio-section",
+        "left": 173,
+        "width": 2200
+      },
+      {
+        "class": "portfolio-section",
+        "left": 173,
+        "width": 2200
+      },
+      {
+        "class": "portfolio-contact",
+        "left": 173,
+        "width": 2200
+      }
+    ],
+    "viewport": [
+      2560,
+      1440
+    ],
+    "visibleAmpliar": 0
+  },
+  {
+    "route": "san-marcos",
+    "overflow": false,
+    "photos": [
+      {
+        "full": true,
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 900px) calc(100vw - 48px), min(90vw, 2200px)",
+        "src": "http://127.0.0.1:5174/images/portfolio/san-marcos/obras/DSC03637-2560.webp",
+        "width": 2200
+      },
+      {
+        "full": true,
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 900px) calc((100vw - 76px) / 2), calc((min(90vw, 2200px) - 28px) / 2)",
+        "src": "http://127.0.0.1:5174/images/portfolio/san-marcos/obras/DSC05590-1440.webp",
+        "width": 1086
+      },
+      {
+        "full": true,
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 900px) calc((100vw - 76px) / 2), calc((min(90vw, 2200px) - 28px) / 2)",
+        "src": "http://127.0.0.1:5174/images/portfolio/san-marcos/obras/DSC08228-Editar-1440.webp",
+        "width": 1086
+      },
+      {
+        "full": true,
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 900px) calc((100vw - 48px) * .85), min(76.5vw, 1760px)",
+        "src": "http://127.0.0.1:5174/images/portfolio/san-marcos/obras/DSC08263-1920.webp",
+        "width": 1760
+      },
+      {
+        "full": true,
+        "sizes": "(max-width: 580px) 280px, (max-width: 900px) calc(((100vw - 48px) * .75 - 48px) / 2), calc((min(67.5vw, 1320px) - 48px) / 2)",
+        "src": "",
+        "width": 636
+      },
+      {
+        "full": true,
+        "sizes": "(max-width: 580px) 280px, (max-width: 900px) calc(((100vw - 48px) * .75 - 48px) / 2), calc((min(67.5vw, 1320px) - 48px) / 2)",
+        "src": "",
+        "width": 636
+      }
+    ],
+    "readableWidths": [
+      460,
+      560
+    ],
+    "shell": [
+      {
+        "class": "series-container",
+        "left": 173,
+        "width": 2200
+      },
+      {
+        "class": "series-container",
+        "left": 173,
+        "width": 2200
+      },
+      {
+        "class": "series-closing series-container",
+        "left": 173,
+        "width": 2200
+      }
+    ],
+    "viewport": [
+      2560,
+      1440
+    ],
+    "visibleAmpliar": 0
+  },
+  {
+    "route": "achala",
+    "overflow": false,
+    "photos": [
+      {
+        "full": true,
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 900px) calc(100vw - 48px), min(90vw, 2200px)",
+        "src": "http://127.0.0.1:5174/images/portfolio/achala/DSC02820-2560.webp",
+        "width": 2200
+      },
+      {
+        "full": true,
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 900px) calc((100vw - 76px) / 2), calc((min(90vw, 2200px) - 28px) / 2)",
+        "src": "http://127.0.0.1:5174/images/portfolio/achala/DSC02395-1440.webp",
+        "width": 1086
+      },
+      {
+        "full": true,
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 900px) calc((100vw - 76px) / 2), calc((min(90vw, 2200px) - 28px) / 2)",
+        "src": "http://127.0.0.1:5174/images/portfolio/achala/DSC02427-1440.webp",
+        "width": 1086
+      },
+      {
+        "full": true,
+        "sizes": "(max-width: 580px) 280px, (max-width: 900px) calc(((100vw - 48px) * .75 - 44px) / 2), calc((min(67.5vw, 1280px) - 44px) / 2)",
+        "src": "http://127.0.0.1:5174/images/portfolio/achala/DSC02568-640.webp",
+        "width": 618
+      },
+      {
+        "full": true,
+        "sizes": "(max-width: 580px) 280px, (max-width: 900px) calc(((100vw - 48px) * .75 - 44px) / 2), calc((min(67.5vw, 1280px) - 44px) / 2)",
+        "src": "http://127.0.0.1:5174/images/portfolio/achala/DSC02569-640.webp",
+        "width": 618
+      },
+      {
+        "full": true,
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 900px) calc((100vw - 48px) * .85), min(76.5vw, 1760px)",
+        "src": "",
+        "width": 1760
+      },
+      {
+        "full": true,
+        "sizes": "(max-width: 580px) 280px, (max-width: 900px) calc(((100vw - 48px) * .75 - 44px) / 2), calc((min(67.5vw, 1280px) - 44px) / 2)",
+        "src": "",
+        "width": 618
+      },
+      {
+        "full": true,
+        "sizes": "(max-width: 580px) 280px, (max-width: 900px) calc(((100vw - 48px) * .75 - 44px) / 2), calc((min(67.5vw, 1280px) - 44px) / 2)",
+        "src": "",
+        "width": 618
+      },
+      {
+        "full": true,
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 900px) calc(100vw - 48px), min(90vw, 2200px)",
+        "src": "",
+        "width": 2200
+      },
+      {
+        "full": true,
+        "sizes": "(max-width: 580px) 280px, (max-width: 900px) calc(((100vw - 48px) * .85 - 78px) * .44445), min(440px, calc((min(76.5vw, 1280px) - 78px) * .44445))",
+        "src": "",
+        "width": 440
+      },
+      {
+        "full": true,
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 900px) calc(100vw - 48px), min(90vw, 2200px)",
+        "src": "",
+        "width": 2200
+      },
+      {
+        "full": true,
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 900px) calc(100vw - 48px), min(90vw, 2200px)",
+        "src": "",
+        "width": 2200
+      }
+    ],
+    "readableWidths": [
+      560
+    ],
+    "shell": [
+      {
+        "class": "series-container",
+        "left": 173,
+        "width": 2200
+      }
+    ],
+    "viewport": [
+      2560,
+      1440
+    ],
+    "visibleAmpliar": 0
+  },
+  {
+    "route": "tienda",
+    "overflow": false,
+    "photos": [],
+    "readableWidths": [
+      701
+    ],
+    "shell": [
+      {
+        "class": "hero__container",
+        "left": 173,
+        "width": 2200
+      },
+      {
+        "class": "events-section__container",
+        "left": 173,
+        "width": 2200
+      }
+    ],
+    "viewport": [
+      2560,
+      1440
+    ],
+    "visibleAmpliar": 0
+  },
+  {
+    "route": "evento",
+    "overflow": false,
+    "photos": [],
+    "readableWidths": [],
+    "shell": [
+      {
+        "class": "container",
+        "left": 180,
+        "width": 2200
+      }
+    ],
+    "viewport": [
+      2560,
+      1440
+    ],
+    "visibleAmpliar": 0
+  },
+  {
+    "route": "galeria",
+    "overflow": false,
+    "photos": [],
+    "readableWidths": [],
+    "shell": [
+      {
+        "class": "container",
+        "left": 173,
+        "width": 2200
+      }
+    ],
+    "viewport": [
+      2560,
+      1440
+    ],
+    "visibleAmpliar": 0
+  },
+  {
+    "route": "como-comprar",
+    "overflow": false,
+    "photos": [],
+    "readableWidths": [],
+    "shell": [
+      {
+        "class": "container",
+        "left": 180,
+        "width": 2200
+      }
+    ],
+    "viewport": [
+      2560,
+      1440
+    ],
+    "visibleAmpliar": 0
+  }
+]

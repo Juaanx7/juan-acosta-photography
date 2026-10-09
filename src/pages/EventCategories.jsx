@@ -3,6 +3,7 @@ import { events } from "../data/events";
 import "./EventCategories.scss";
 import SelectionBar from "../components/gallery/SelectionBar";
 import { useEventSelection } from "../hooks/useEventSelection";
+import { cloudinaryImageVariants, categoryCoverSizes } from "../utils/cloudinaryImages";
 
 const EventCategories = () => {
   const { eventId } = useParams();
@@ -50,7 +51,8 @@ const allEventPhotos = event.categories
               key={category.id}
             >
               <div className="event-category-card__image">
-                <img src={category.coverImage} alt={category.title} />
+                <img src={category.coverImage} {...cloudinaryImageVariants(category.coverImage, [640, 960, 1440, 1920, 2560])}
+                  sizes={categoryCoverSizes} alt={category.title} loading="lazy" />
               </div>
 
               <div className="event-category-card__content">

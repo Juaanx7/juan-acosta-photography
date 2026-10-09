@@ -6,8 +6,6 @@ export default function SeriesPhoto({ photo, sizes, priority = false, onOpen, ca
     <button type="button" className="series-work__open" aria-label={`Ampliar ${label}`} onClick={onOpen}>
       <ResponsivePhoto photo={photo} sizes={sizes} priority={priority} />
     </button>
-    <figcaption>{caption}
-      <button type="button" aria-label={`Ampliar ${label}, abrir visor`} onClick={onOpen}>Ampliar ↗</button>
-    </figcaption>
+    {caption && <figcaption>{caption}</figcaption>}
   </figure>;
 }

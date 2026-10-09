@@ -2,6 +2,7 @@ import { useState } from "react";
 import { Link } from "react-router-dom";
 import { sanMarcos } from "../data/sanMarcos";
 import { routePaths } from "../data/routes";
+import { seriesPhotoSizes } from "../data/photoSizes";
 import ResponsivePhoto from "../components/portfolio/ResponsivePhoto";
 import SeriesViewer from "../components/portfolio/SeriesViewer";
 import SeriesPhoto from "../components/portfolio/SeriesPhoto";
@@ -9,11 +10,11 @@ import SeriesInquiry from "../components/portfolio/SeriesInquiry";
 import "./SanMarcosSeries.scss";
 
 const sizes = {
-  opening: "(max-width: 580px) calc(100vw - 44px), (max-width: 1080px) calc(100vw - 96px), 984px",
-  horizontal: "(max-width: 580px) calc(100vw - 44px), (max-width: 1080px) calc((100vw - 124px) / 2), 478px",
-  bridge: "(max-width: 580px) calc(100vw - 44px), (max-width: 896px) calc(100vw - 96px), 800px",
-  portrait: "(max-width: 580px) 280px, (max-width: 896px) calc((100vw - 144px) / 2), 376px",
-  exhibition: "(max-width: 580px) 230px, (max-width: 816px) calc((100vw - 136px) / 3), 227px",
+  opening: seriesPhotoSizes.wide,
+  horizontal: seriesPhotoSizes.horizontal,
+  bridge: seriesPhotoSizes.medium,
+  portrait: seriesPhotoSizes.sanMarcosPortrait,
+  exhibition: seriesPhotoSizes.exhibition,
 };
 
 export default function SanMarcosSeries() {

@@ -1,6 +1,6 @@
 .navbar {
   background: #fcfbf8; color: #25251f; border-bottom: 1px solid #deded5; font-family: Arial, Helvetica, sans-serif;
-  &__container { display: flex; justify-content: space-between; align-items: center; gap: 20px; padding: 26px 38px; }
+  &__container { width: var(--content-width); margin-inline: auto; display: flex; justify-content: space-between; align-items: center; gap: 20px; padding-block: 26px; }
   &__brand { font-size: 18px; letter-spacing: .16em; white-space: nowrap; }
   &__brand span { display: block; font-size: 10px; letter-spacing: .36em; margin-top: 5px; }
   &__links { display: flex; align-items: center; gap: 23px; font-size: 12px; }
@@ -17,6 +17,6 @@
   &__skip:focus { top: 8px; }
 }
 @media (max-width: 580px) {
-  .navbar__container { display: block; padding: 20px; }
+  .navbar__container { display: block; padding: 20px 0; }
   .navbar__links { margin-top: 14px; gap: 18px; flex-wrap: wrap; }
 }

@@ -2,27 +2,26 @@
   h1, h2 { letter-spacing: -.025em; line-height: 1.12; }
   .series-eyebrow { font-size: 11px; letter-spacing: .14em; line-height: 1.6; }
   .series-back { color: var(--soft); }
-  .series-work figcaption { align-items: center; justify-content: flex-end; gap: 15px; padding-top: 9px; min-height: 44px; font-size: 11px; color: var(--soft); }
-  .series-work figcaption > span { margin-right: auto; }
-  .series-work figcaption button { min-height: 36px; padding-block: 9px; margin-top: 0; }
+  .series-work figcaption { padding-top: 12px; font-size: 11px; color: var(--soft); line-height: 1.7; }
 }
 .achala-intro {
   display: grid; grid-template-columns: 1fr 1.15fr; gap: 55px; padding: 38px 0 42px; align-items: start;
   h1 { font-size: 54px; margin-top: 15px; }
 }
 .achala-story {
+  max-width: 560px;
   p { font-size: 13px; line-height: 1.95; color: var(--soft); }
   p + p { margin-top: 17px; }
 }
 .achala-pair { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 28px; margin: 56px auto; }
-.achala-verticals { max-width: 720px; gap: 44px; margin-block: 68px; }
+.achala-verticals { width: 75%; max-width: 1280px; gap: 44px; margin-block: 68px; }
 .achala-wide { margin: 62px auto; }
-.achala-medium { max-width: 820px; }
+.achala-medium { width: 85%; max-width: 1760px; }
 .achala-return {
-  display: grid; grid-template-columns: .8fr 1fr; gap: 78px; max-width: 820px; align-items: center; margin: 80px auto 64px;
-  figure { max-width: 300px; }
+  display: grid; grid-template-columns: .8fr 1fr; gap: 78px; width: 85%; max-width: 1280px; align-items: center; margin: 80px auto 64px;
+  figure { width: 100%; max-width: 440px; }
   h2 { font-size: 38px; margin-top: 15px; }
-  &__story { font-size: 13px; line-height: 1.95; color: var(--soft); margin-top: 24px; }
+  &__story { max-width: 560px; font-size: 13px; line-height: 1.95; color: var(--soft); margin-top: 24px; }
 }
 .achala-golden figure + figure { margin-top: 45px; }
 .achala-closing { padding: 60px 0 45px; margin-top: 55px; border-top: 1px solid var(--rule); }
@@ -38,10 +37,11 @@
   .achala-intro { grid-template-columns: 1fr; gap: 25px; padding: 23px 0 30px; h1 { font-size: 41px; } }
   .achala-story p, .achala-return__story { font-size: 14px; line-height: 1.85; }
   .achala-pair { grid-template-columns: 1fr; gap: 26px; margin: 36px auto; }
-  .achala-verticals { max-width: 280px; }
+  .achala-verticals { width: 100%; max-width: 280px; }
+  .achala-medium { width: 100%; }
   .achala-wide { margin: 38px auto; }
   .achala-return {
-    grid-template-columns: 1fr; gap: 28px; margin: 45px auto 38px;
+    grid-template-columns: 1fr; width: 100%; gap: 28px; margin: 45px auto 38px;
     figure { max-width: 280px; margin: auto; }
     h2 { font-size: 34px; }
   }

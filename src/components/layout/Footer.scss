@@ -1,5 +1,5 @@
 .footer {
-  padding: 22px 38px; border-top: 1px solid #deded5; background: #fcfbf8; color: #696960; font: 11px Arial, Helvetica, sans-serif;
+  padding: 22px max(5%, calc((100% - 2200px) / 2)); border-top: 1px solid #deded5; background: #fcfbf8; color: #696960; font: 11px Arial, Helvetica, sans-serif;
   display: flex; justify-content: space-between; align-items: center; gap: 20px; flex-wrap: wrap;
   nav { display: flex; flex-wrap: wrap; align-items: center; gap: 22px; }
   a { display: inline-flex; align-items: center; min-height: 44px; }
@@ -7,3 +7,4 @@
   :focus-visible { outline: 2px solid #62543b; outline-offset: 5px; }
 }
 @media (max-width: 580px) { .footer { padding: 22px 20px; } }
+@media (min-width: 581px) and (max-width: 900px) { .footer { padding-inline: 24px; } }
