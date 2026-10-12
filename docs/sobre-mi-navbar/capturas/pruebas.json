@@ -1,0 +1,42 @@
+{
+  "base_produccion": "967cc951329bce372f165ffad35c1e3be593e702",
+  "branch": "feat/sobre-mi-navbar-mobile",
+  "runs": [
+    {
+      "suite": "navbar",
+      "passed": 52,
+      "failed": 0,
+      "skipped": 28
+    },
+    {
+      "suite": "biografia",
+      "passed": 28,
+      "failed": 0,
+      "skipped": 4
+    },
+    {
+      "suite": "carrusel",
+      "passed": 16,
+      "failed": 0,
+      "skipped": 0
+    },
+    {
+      "suite": "flujos-preservados",
+      "passed": 12,
+      "failed": 0,
+      "skipped": 0
+    },
+    {
+      "suite": "repeticion-escritorio",
+      "passed": 4,
+      "failed": 0,
+      "skipped": 16
+    }
+  ],
+  "build": "passed (aviso previo: catálogo >500kB)",
+  "lint": "passed",
+  "unit_tests": 8,
+  "physical_devices_tested": false,
+  "touch": "eventos nativos emulados en Edge/Chromium y WebKit",
+  "source_sha256": "6fe01813ec9af591f06df34ba6b27e7156a65114e897a88b4d776042576e7430"
+}

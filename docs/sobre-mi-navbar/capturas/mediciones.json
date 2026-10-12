@@ -1,0 +1,107 @@
+[
+  {
+    "viewport": [
+      360,
+      800
+    ],
+    "dpr": 2.625,
+    "image": [
+      265,
+      471.015625
+    ],
+    "asset": "http://127.0.0.1:5175/images/portfolio/sobre-mi/retrato-juan-acosta-1020.webp",
+    "sizes": "(max-width: 650px) 265px, (max-width: 900px) min(340px, calc((100vw - 118px) * .4)), min(340px, calc((90vw - 70px) * .4))",
+    "overflow": false,
+    "storyWidth": 320
+  },
+  {
+    "viewport": [
+      390,
+      800
+    ],
+    "dpr": 2.625,
+    "image": [
+      265,
+      471.015625
+    ],
+    "asset": "http://127.0.0.1:5175/images/portfolio/sobre-mi/retrato-juan-acosta-1020.webp",
+    "sizes": "(max-width: 650px) 265px, (max-width: 900px) min(340px, calc((100vw - 118px) * .4)), min(340px, calc((90vw - 70px) * .4))",
+    "overflow": false,
+    "storyWidth": 350
+  },
+  {
+    "viewport": [
+      430,
+      800
+    ],
+    "dpr": 2.625,
+    "image": [
+      265,
+      471.015625
+    ],
+    "asset": "http://127.0.0.1:5175/images/portfolio/sobre-mi/retrato-juan-acosta-1020.webp",
+    "sizes": "(max-width: 650px) 265px, (max-width: 900px) min(340px, calc((100vw - 118px) * .4)), min(340px, calc((90vw - 70px) * .4))",
+    "overflow": false,
+    "storyWidth": 390
+  },
+  {
+    "viewport": [
+      768,
+      1024
+    ],
+    "dpr": 2,
+    "image": [
+      260,
+      462.109375
+    ],
+    "asset": "http://127.0.0.1:5175/images/portfolio/sobre-mi/retrato-juan-acosta-530.webp",
+    "sizes": "(max-width: 650px) 265px, (max-width: 900px) min(340px, calc((100vw - 118px) * .4)), min(340px, calc((90vw - 70px) * .4))",
+    "overflow": false,
+    "storyWidth": 390
+  },
+  {
+    "viewport": [
+      1366,
+      768
+    ],
+    "dpr": 2,
+    "image": [
+      340,
+      604.5
+    ],
+    "asset": "http://127.0.0.1:5175/images/portfolio/sobre-mi/retrato-juan-acosta-680.webp",
+    "sizes": "(max-width: 650px) 265px, (max-width: 900px) min(340px, calc((100vw - 118px) * .4)), min(340px, calc((90vw - 70px) * .4))",
+    "overflow": false,
+    "storyWidth": 578.390625
+  },
+  {
+    "viewport": [
+      1920,
+      1080
+    ],
+    "dpr": 2,
+    "image": [
+      340,
+      604.5
+    ],
+    "asset": "http://127.0.0.1:5175/images/portfolio/sobre-mi/retrato-juan-acosta-680.webp",
+    "sizes": "(max-width: 650px) 265px, (max-width: 900px) min(340px, calc((100vw - 118px) * .4)), min(340px, calc((90vw - 70px) * .4))",
+    "overflow": false,
+    "storyWidth": 578.390625
+  },
+  {
+    "viewport": [
+      2560,
+      1440
+    ],
+    "dpr": 2,
+    "image": [
+      340,
+      604.5
+    ],
+    "asset": "http://127.0.0.1:5175/images/portfolio/sobre-mi/retrato-juan-acosta-680.webp",
+    "sizes": "(max-width: 650px) 265px, (max-width: 900px) min(340px, calc((100vw - 118px) * .4)), min(340px, calc((90vw - 70px) * .4))",
+    "overflow": false,
+    "storyWidth": 578.390625
+  }
+]
