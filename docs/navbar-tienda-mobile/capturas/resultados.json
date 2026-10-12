@@ -1,0 +1,29 @@
+[
+  {
+    "engine": "webkit-390",
+    "version": "26.5",
+    "url": "http://127.0.0.1:5175/como-comprar",
+    "touch": true,
+    "open": false,
+    "width": 390,
+    "overflow": false
+  },
+  {
+    "engine": "chromium-360",
+    "version": "155.0.4283.45",
+    "url": "http://127.0.0.1:5175/como-comprar",
+    "touch": true,
+    "open": false,
+    "width": 360,
+    "overflow": false
+  },
+  {
+    "engine": "escritorio-1366",
+    "version": "155.0.4283.45",
+    "url": "http://127.0.0.1:5175/como-comprar",
+    "touch": false,
+    "open": false,
+    "width": 1366,
+    "overflow": false
+  }
+]

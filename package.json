@@ -12,7 +12,8 @@
     "generate:photos": "node scripts/generateEventPhotos.js",
     "upload:cloudinary": "node scripts/uploadEventToCloudinary.js",
     "upload:category": "node scripts/uploadCategoryToCloudinary.js",
-    "upload:event-cover": "node scripts/uploadEventCover.js"
+    "upload:event-cover": "node scripts/uploadEventCover.js",
+    "test:navbar": "playwright test --config tests/playwright.config.js"
   },
   "dependencies": {
     "cloudinary": "^2.10.0",
@@ -25,6 +26,7 @@
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
+    "@playwright/test": "^1.62.1",
     "@types/react": "^19.2.14",
     "@types/react-dom": "^19.2.3",
     "@vitejs/plugin-react": "^6.0.1",
