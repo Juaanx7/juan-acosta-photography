@@ -56,7 +56,7 @@ export default function AchalaSeries() {
       <section className="achala-more" aria-label="Otras series">
         <p className="series-eyebrow">SEGUIR EXPLORANDO</p>
         <div><Link to={routePaths.sanMarcos}>San Marcos, mi mirada <span>↗</span></Link>
-          <div className="achala-more__pending">La Cumbrecita <small>Serie en preparación</small></div></div>
+          <Link to={routePaths.cumbrecita}>La Cumbrecita <span>↗</span></Link></div>
       </section>
     </div>
     {selection && <SeriesViewer works={achala.works} initialIndex={selection.index} title={achala.title}

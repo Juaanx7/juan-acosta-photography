@@ -1,0 +1,448 @@
+{
+  "DSC03544": {
+    "source": "DSC03544.jpg",
+    "image": "/images/portfolio/la-cumbrecita/DSC03544-1440.webp",
+    "width": 5914,
+    "height": 3327,
+    "variants": [
+      {
+        "image": "/images/portfolio/la-cumbrecita/DSC03544-640.webp",
+        "width": 640,
+        "height": 360
+      },
+      {
+        "image": "/images/portfolio/la-cumbrecita/DSC03544-960.webp",
+        "width": 960,
+        "height": 540
+      },
+      {
+        "image": "/images/portfolio/la-cumbrecita/DSC03544-1440.webp",
+        "width": 1440,
+        "height": 810
+      },
+      {
+        "image": "/images/portfolio/la-cumbrecita/DSC03544-1920.webp",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "image": "/images/portfolio/la-cumbrecita/DSC03544-2560.webp",
+        "width": 2560,
+        "height": 1440
+      },
+      {
+        "image": "/images/portfolio/la-cumbrecita/DSC03544-3200.webp",
+        "width": 3200,
+        "height": 1800
+      },
+      {
+        "image": "/images/portfolio/la-cumbrecita/DSC03544-4400.webp",
+        "width": 4400,
+        "height": 2475
+      }
+    ]
+  },
+  "DSC03493": {
+    "source": "DSC03493.jpg",
+    "image": "/images/portfolio/la-cumbrecita/DSC03493-1440.webp",
+    "width": 5889,
+    "height": 3313,
+    "variants": [
+      {
+        "image": "/images/portfolio/la-cumbrecita/DSC03493-640.webp",
+        "width": 640,
+        "height": 360
+      },
+      {
+        "image": "/images/portfolio/la-cumbrecita/DSC03493-960.webp",
+        "width": 960,
+        "height": 540
+      },
+      {
+        "image": "/images/portfolio/la-cumbrecita/DSC03493-1440.webp",
+        "width": 1440,
+        "height": 810
+      },
+      {
+        "image": "/images/portfolio/la-cumbrecita/DSC03493-1920.webp",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "image": "/images/portfolio/la-cumbrecita/DSC03493-2560.webp",
+        "width": 2560,
+        "height": 1440
+      },
+      {
+        "image": "/images/portfolio/la-cumbrecita/DSC03493-3200.webp",
+        "width": 3200,
+        "height": 1800
+      },
+      {
+        "image": "/images/portfolio/la-cumbrecita/DSC03493-4400.webp",
+        "width": 4400,
+        "height": 2475
+      }
+    ]
+  },
+  "DSC03489": {
+    "source": "DSC03489.jpg",
+    "image": "/images/portfolio/la-cumbrecita/DSC03489-1440.webp",
+    "width": 3375,
+    "height": 6000,
+    "variants": [
+      {
+        "image": "/images/portfolio/la-cumbrecita/DSC03489-480.webp",
+        "width": 480,
+        "height": 853
+      },
+      {
+        "image": "/images/portfolio/la-cumbrecita/DSC03489-640.webp",
+        "width": 640,
+        "height": 1138
+      },
+      {
+        "image": "/images/portfolio/la-cumbrecita/DSC03489-960.webp",
+        "width": 960,
+        "height": 1707
+      },
+      {
+        "image": "/images/portfolio/la-cumbrecita/DSC03489-1440.webp",
+        "width": 1440,
+        "height": 2560
+      },
+      {
+        "image": "/images/portfolio/la-cumbrecita/DSC03489-1920.webp",
+        "width": 1920,
+        "height": 3413
+      }
+    ]
+  },
+  "DSC03541": {
+    "source": "DSC03541.jpg",
+    "image": "/images/portfolio/la-cumbrecita/DSC03541-1440.webp",
+    "width": 2940,
+    "height": 5226,
+    "variants": [
+      {
+        "image": "/images/portfolio/la-cumbrecita/DSC03541-480.webp",
+        "width": 480,
+        "height": 853
+      },
+      {
+        "image": "/images/portfolio/la-cumbrecita/DSC03541-640.webp",
+        "width": 640,
+        "height": 1138
+      },
+      {
+        "image": "/images/portfolio/la-cumbrecita/DSC03541-960.webp",
+        "width": 960,
+        "height": 1706
+      },
+      {
+        "image": "/images/portfolio/la-cumbrecita/DSC03541-1440.webp",
+        "width": 1440,
+        "height": 2560
+      },
+      {
+        "image": "/images/portfolio/la-cumbrecita/DSC03541-1920.webp",
+        "width": 1920,
+        "height": 3413
+      }
+    ]
+  },
+  "DSC03530": {
+    "source": "DSC03530.jpg",
+    "image": "/images/portfolio/la-cumbrecita/DSC03530-1440.webp",
+    "width": 2874,
+    "height": 5109,
+    "variants": [
+      {
+        "image": "/images/portfolio/la-cumbrecita/DSC03530-480.webp",
+        "width": 480,
+        "height": 853
+      },
+      {
+        "image": "/images/portfolio/la-cumbrecita/DSC03530-640.webp",
+        "width": 640,
+        "height": 1138
+      },
+      {
+        "image": "/images/portfolio/la-cumbrecita/DSC03530-960.webp",
+        "width": 960,
+        "height": 1707
+      },
+      {
+        "image": "/images/portfolio/la-cumbrecita/DSC03530-1440.webp",
+        "width": 1440,
+        "height": 2560
+      },
+      {
+        "image": "/images/portfolio/la-cumbrecita/DSC03530-1920.webp",
+        "width": 1920,
+        "height": 3413
+      }
+    ]
+  },
+  "DSC03523": {
+    "source": "DSC03523.jpg",
+    "image": "/images/portfolio/la-cumbrecita/DSC03523-1440.webp",
+    "width": 1933,
+    "height": 3436,
+    "variants": [
+      {
+        "image": "/images/portfolio/la-cumbrecita/DSC03523-480.webp",
+        "width": 480,
+        "height": 853
+      },
+      {
+        "image": "/images/portfolio/la-cumbrecita/DSC03523-640.webp",
+        "width": 640,
+        "height": 1138
+      },
+      {
+        "image": "/images/portfolio/la-cumbrecita/DSC03523-960.webp",
+        "width": 960,
+        "height": 1706
+      },
+      {
+        "image": "/images/portfolio/la-cumbrecita/DSC03523-1440.webp",
+        "width": 1440,
+        "height": 2560
+      },
+      {
+        "image": "/images/portfolio/la-cumbrecita/DSC03523-1920.webp",
+        "width": 1920,
+        "height": 3413
+      }
+    ]
+  },
+  "DSC03582": {
+    "source": "DSC03582.jpg",
+    "image": "/images/portfolio/la-cumbrecita/DSC03582-1440.webp",
+    "width": 4357,
+    "height": 2451,
+    "variants": [
+      {
+        "image": "/images/portfolio/la-cumbrecita/DSC03582-640.webp",
+        "width": 640,
+        "height": 360
+      },
+      {
+        "image": "/images/portfolio/la-cumbrecita/DSC03582-960.webp",
+        "width": 960,
+        "height": 540
+      },
+      {
+        "image": "/images/portfolio/la-cumbrecita/DSC03582-1440.webp",
+        "width": 1440,
+        "height": 810
+      },
+      {
+        "image": "/images/portfolio/la-cumbrecita/DSC03582-1920.webp",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "image": "/images/portfolio/la-cumbrecita/DSC03582-2560.webp",
+        "width": 2560,
+        "height": 1440
+      },
+      {
+        "image": "/images/portfolio/la-cumbrecita/DSC03582-3200.webp",
+        "width": 3200,
+        "height": 1800
+      },
+      {
+        "image": "/images/portfolio/la-cumbrecita/DSC03582-4357.webp",
+        "width": 4357,
+        "height": 2451
+      }
+    ]
+  },
+  "DSC03586": {
+    "source": "DSC03586.jpg",
+    "image": "/images/portfolio/la-cumbrecita/DSC03586-1440.webp",
+    "width": 3038,
+    "height": 5401,
+    "variants": [
+      {
+        "image": "/images/portfolio/la-cumbrecita/DSC03586-480.webp",
+        "width": 480,
+        "height": 853
+      },
+      {
+        "image": "/images/portfolio/la-cumbrecita/DSC03586-640.webp",
+        "width": 640,
+        "height": 1138
+      },
+      {
+        "image": "/images/portfolio/la-cumbrecita/DSC03586-960.webp",
+        "width": 960,
+        "height": 1707
+      },
+      {
+        "image": "/images/portfolio/la-cumbrecita/DSC03586-1440.webp",
+        "width": 1440,
+        "height": 2560
+      },
+      {
+        "image": "/images/portfolio/la-cumbrecita/DSC03586-1920.webp",
+        "width": 1920,
+        "height": 3413
+      }
+    ]
+  },
+  "DSC03557": {
+    "source": "DSC03557.jpg",
+    "image": "/images/portfolio/la-cumbrecita/DSC03557-1440.webp",
+    "width": 2054,
+    "height": 3652,
+    "variants": [
+      {
+        "image": "/images/portfolio/la-cumbrecita/DSC03557-480.webp",
+        "width": 480,
+        "height": 853
+      },
+      {
+        "image": "/images/portfolio/la-cumbrecita/DSC03557-640.webp",
+        "width": 640,
+        "height": 1138
+      },
+      {
+        "image": "/images/portfolio/la-cumbrecita/DSC03557-960.webp",
+        "width": 960,
+        "height": 1707
+      },
+      {
+        "image": "/images/portfolio/la-cumbrecita/DSC03557-1440.webp",
+        "width": 1440,
+        "height": 2560
+      },
+      {
+        "image": "/images/portfolio/la-cumbrecita/DSC03557-1920.webp",
+        "width": 1920,
+        "height": 3414
+      }
+    ]
+  },
+  "DSC03601": {
+    "source": "DSC03601.jpg",
+    "image": "/images/portfolio/la-cumbrecita/DSC03601-1440.webp",
+    "width": 5946,
+    "height": 3345,
+    "variants": [
+      {
+        "image": "/images/portfolio/la-cumbrecita/DSC03601-640.webp",
+        "width": 640,
+        "height": 360
+      },
+      {
+        "image": "/images/portfolio/la-cumbrecita/DSC03601-960.webp",
+        "width": 960,
+        "height": 540
+      },
+      {
+        "image": "/images/portfolio/la-cumbrecita/DSC03601-1440.webp",
+        "width": 1440,
+        "height": 810
+      },
+      {
+        "image": "/images/portfolio/la-cumbrecita/DSC03601-1920.webp",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "image": "/images/portfolio/la-cumbrecita/DSC03601-2560.webp",
+        "width": 2560,
+        "height": 1440
+      },
+      {
+        "image": "/images/portfolio/la-cumbrecita/DSC03601-3200.webp",
+        "width": 3200,
+        "height": 1800
+      },
+      {
+        "image": "/images/portfolio/la-cumbrecita/DSC03601-4400.webp",
+        "width": 4400,
+        "height": 2475
+      }
+    ]
+  },
+  "DSC03619": {
+    "source": "DSC03619.jpg",
+    "image": "/images/portfolio/la-cumbrecita/DSC03619-1440.webp",
+    "width": 2923,
+    "height": 5196,
+    "variants": [
+      {
+        "image": "/images/portfolio/la-cumbrecita/DSC03619-480.webp",
+        "width": 480,
+        "height": 853
+      },
+      {
+        "image": "/images/portfolio/la-cumbrecita/DSC03619-640.webp",
+        "width": 640,
+        "height": 1138
+      },
+      {
+        "image": "/images/portfolio/la-cumbrecita/DSC03619-960.webp",
+        "width": 960,
+        "height": 1707
+      },
+      {
+        "image": "/images/portfolio/la-cumbrecita/DSC03619-1440.webp",
+        "width": 1440,
+        "height": 2560
+      },
+      {
+        "image": "/images/portfolio/la-cumbrecita/DSC03619-1920.webp",
+        "width": 1920,
+        "height": 3413
+      }
+    ]
+  },
+  "DSC03622": {
+    "source": "DSC03622.jpg",
+    "image": "/images/portfolio/la-cumbrecita/DSC03622-1440.webp",
+    "width": 5852,
+    "height": 3292,
+    "variants": [
+      {
+        "image": "/images/portfolio/la-cumbrecita/DSC03622-640.webp",
+        "width": 640,
+        "height": 360
+      },
+      {
+        "image": "/images/portfolio/la-cumbrecita/DSC03622-960.webp",
+        "width": 960,
+        "height": 540
+      },
+      {
+        "image": "/images/portfolio/la-cumbrecita/DSC03622-1440.webp",
+        "width": 1440,
+        "height": 810
+      },
+      {
+        "image": "/images/portfolio/la-cumbrecita/DSC03622-1920.webp",
+        "width": 1920,
+        "height": 1080
+      },
+      {
+        "image": "/images/portfolio/la-cumbrecita/DSC03622-2560.webp",
+        "width": 2560,
+        "height": 1440
+      },
+      {
+        "image": "/images/portfolio/la-cumbrecita/DSC03622-3200.webp",
+        "width": 3200,
+        "height": 1800
+      },
+      {
+        "image": "/images/portfolio/la-cumbrecita/DSC03622-4400.webp",
+        "width": 4400,
+        "height": 2475
+      }
+    ]
+  }
+}

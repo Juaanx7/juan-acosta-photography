@@ -1,0 +1,48 @@
+{
+  "base_produccion": "45cb5ce6e249e5a0e408860bcbe341a94688338d",
+  "branch": "feat/serie-la-cumbrecita",
+  "runs": [
+    {
+      "suite": "La Cumbrecita",
+      "passed": 16,
+      "failed": 0,
+      "skipped": 0
+    },
+    {
+      "suite": "Tienda/navbar",
+      "passed": 58,
+      "failed": 0,
+      "skipped": 30
+    },
+    {
+      "suite": "Sobre mí",
+      "passed": 28,
+      "failed": 0,
+      "skipped": 4
+    },
+    {
+      "suite": "Portada",
+      "passed": 16,
+      "failed": 0,
+      "skipped": 0
+    },
+    {
+      "suite": "Flujos deportivos y series",
+      "passed": 12,
+      "failed": 0,
+      "skipped": 0
+    }
+  ],
+  "unique_browser_cases": 130,
+  "unit_tests": 8,
+  "build": "passed (aviso previo del catálogo >500kB)",
+  "lint": "passed",
+  "touch": "eventos nativos emulados en Edge/Chromium y WebKit",
+  "physical_devices_tested": false,
+  "source_validation": "12 JPG íntegros, 70 WebP, sin ampliar ni recortar; todos con ICC; hashes de fuentes coinciden",
+  "additional_keyboard_verification": {
+    "passed": 4,
+    "failed": 0,
+    "coverage": "Enter, Espacio y foco visible; repetición de los cuatro casos de visor"
+  }
+}

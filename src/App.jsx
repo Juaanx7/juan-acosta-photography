@@ -14,6 +14,8 @@ const EventCategories = lazy(() => import("./pages/EventCategories"));
 const SanMarcosSeries = lazy(() => import("./pages/SanMarcosSeries"));
 const AchalaSeries = lazy(() => import("./pages/AchalaSeries"));
 
+const CumbrecitaSeries = lazy(() => import("./pages/CumbrecitaSeries"));
+
 function App() {
   const { pathname } = useLocation();
   return (
@@ -27,6 +29,7 @@ function App() {
             <Route path={routePaths.portfolio} element={<Portfolio />} />
             <Route path={routePaths.sanMarcos} element={<SanMarcosSeries />} />
             <Route path={routePaths.achala} element={<AchalaSeries />} />
+            <Route path={routePaths.cumbrecita} element={<CumbrecitaSeries />} />
             <Route path={routePaths.sportsShop} element={<SportsShop />} />
             <Route path={routePaths.event} element={<EventCategories />} />
             <Route path={routePaths.eventGallery} element={<Gallery />} />
