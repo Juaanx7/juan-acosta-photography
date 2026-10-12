@@ -12,6 +12,7 @@
   summary::-webkit-details-marker { display: none; }
   &__shop > div { position: absolute; right: 0; top: 100%; width: 250px; z-index: 10; background: #fcfbf8; border: 1px solid #deded5; padding: 10px; }
   &__shop a, &__shop span { display: block; padding: 12px; line-height: 1.6; }
+  &__shop-pending { color: #696960; cursor: default; }
   &__shop small { display: block; color: #696960; font-size: 11px; }
   &__skip { position: absolute; left: 20px; top: -100px; z-index: 20; padding: 12px; background: #fcfbf8; }
   &__skip:focus { top: 8px; }

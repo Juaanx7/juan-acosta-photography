@@ -1,0 +1,159 @@
+{
+  "engine": "webkit",
+  "device": "Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/26.5 Mobile/15E148 Safari/604.1",
+  "hit": {
+    "tag": "A",
+    "text": "Fotos de carreras ↗",
+    "pointerEvents": "auto",
+    "href": "/tienda/deportes"
+  },
+  "url": "http://127.0.0.1:5175/tienda/deportes",
+  "events": [
+    {
+      "type": "pointerdown",
+      "target": "SUMMARY:Tienda",
+      "related": null,
+      "pointer": "touch",
+      "prevented": false,
+      "open": false
+    },
+    {
+      "type": "touchstart",
+      "target": "SUMMARY:Tienda",
+      "related": null,
+      "prevented": false,
+      "open": false
+    },
+    {
+      "type": "pointerup",
+      "target": "SUMMARY:Tienda",
+      "related": null,
+      "pointer": "touch",
+      "prevented": false,
+      "open": false
+    },
+    {
+      "type": "touchend",
+      "target": "SUMMARY:Tienda",
+      "related": null,
+      "prevented": false,
+      "open": false
+    },
+    {
+      "type": "mousedown",
+      "target": "SUMMARY:Tienda",
+      "related": null,
+      "prevented": false,
+      "open": false
+    },
+    {
+      "type": "focusin",
+      "target": "SUMMARY:Tienda",
+      "related": null,
+      "prevented": false,
+      "open": false
+    },
+    {
+      "type": "mouseup",
+      "target": "SUMMARY:Tienda",
+      "related": null,
+      "prevented": false,
+      "open": false
+    },
+    {
+      "type": "click",
+      "target": "SUMMARY:Tienda",
+      "related": null,
+      "pointer": "mouse",
+      "prevented": false,
+      "open": false
+    },
+    {
+      "type": "toggle",
+      "target": "DETAILS:TiendaFotos de carreras ↗Cómo comprarFotografías para encarg",
+      "related": null,
+      "prevented": false,
+      "open": true
+    },
+    {
+      "type": "pointerdown",
+      "target": "A:Fotos de carreras ↗",
+      "related": null,
+      "pointer": "touch",
+      "prevented": false,
+      "open": true
+    },
+    {
+      "type": "touchstart",
+      "target": "A:Fotos de carreras ↗",
+      "related": null,
+      "prevented": false,
+      "open": true
+    },
+    {
+      "type": "pointerup",
+      "target": "A:Fotos de carreras ↗",
+      "related": null,
+      "pointer": "touch",
+      "prevented": false,
+      "open": true
+    },
+    {
+      "type": "touchend",
+      "target": "A:Fotos de carreras ↗",
+      "related": null,
+      "prevented": false,
+      "open": true
+    },
+    {
+      "type": "mousedown",
+      "target": "A:Fotos de carreras ↗",
+      "related": null,
+      "prevented": false,
+      "open": true
+    },
+    {
+      "type": "focusout",
+      "target": "SUMMARY:Tienda",
+      "related": "A",
+      "prevented": false,
+      "open": true
+    },
+    {
+      "type": "focusin",
+      "target": "A:Fotos de carreras ↗",
+      "related": "SUMMARY",
+      "prevented": false,
+      "open": true
+    },
+    {
+      "type": "mouseup",
+      "target": "A:Fotos de carreras ↗",
+      "related": null,
+      "prevented": false,
+      "open": true
+    },
+    {
+      "type": "click",
+      "target": "A:Fotos de carreras ↗",
+      "related": null,
+      "pointer": "mouse",
+      "prevented": false,
+      "open": true
+    },
+    {
+      "type": "toggle",
+      "target": "DETAILS:TiendaFotos de carreras ↗Cómo comprarFotografías para encarg",
+      "related": null,
+      "prevented": false,
+      "open": false
+    },
+    {
+      "type": "focusout",
+      "target": "A:Fotos de carreras ↗",
+      "related": null,
+      "prevented": false,
+      "open": false
+    }
+  ]
+}

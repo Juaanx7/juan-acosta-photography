@@ -1,0 +1,412 @@
+{
+  "stats": {
+    "startTime": "2026-10-12T15:52:26.204Z",
+    "duration": 101509.003,
+    "expected": 52,
+    "skipped": 28,
+    "unexpected": 0,
+    "flaky": 0
+  },
+  "tests": [
+    {
+      "page": "un toque activa cada enlace desde inicio",
+      "project": "chromium-touch-360",
+      "status": "passed"
+    },
+    {
+      "page": "un toque activa cada enlace desde San Marcos",
+      "project": "chromium-touch-360",
+      "status": "passed"
+    },
+    {
+      "page": "un toque activa cada enlace desde Achala",
+      "project": "chromium-touch-360",
+      "status": "passed"
+    },
+    {
+      "page": "un toque activa cada enlace desde tienda",
+      "project": "chromium-touch-360",
+      "status": "passed"
+    },
+    {
+      "page": "un toque activa cada enlace desde evento",
+      "project": "chromium-touch-360",
+      "status": "passed"
+    },
+    {
+      "page": "un toque activa cada enlace desde galería",
+      "project": "chromium-touch-360",
+      "status": "passed"
+    },
+    {
+      "page": "un toque activa cada enlace desde ayuda",
+      "project": "chromium-touch-360",
+      "status": "passed"
+    },
+    {
+      "page": "toques en Tienda, fuera del menú y en la opción pendiente",
+      "project": "chromium-touch-360",
+      "status": "passed"
+    },
+    {
+      "page": "escritorio: mouse y navegación de ambos enlaces",
+      "project": "chromium-touch-360",
+      "status": "skipped"
+    },
+    {
+      "page": "teclado: Tab, Escape y activación con Enter",
+      "project": "chromium-touch-360",
+      "status": "skipped"
+    },
+    {
+      "page": "un toque activa cada enlace desde inicio",
+      "project": "webkit-touch-360",
+      "status": "passed"
+    },
+    {
+      "page": "un toque activa cada enlace desde San Marcos",
+      "project": "webkit-touch-360",
+      "status": "passed"
+    },
+    {
+      "page": "un toque activa cada enlace desde Achala",
+      "project": "webkit-touch-360",
+      "status": "passed"
+    },
+    {
+      "page": "un toque activa cada enlace desde tienda",
+      "project": "webkit-touch-360",
+      "status": "passed"
+    },
+    {
+      "page": "un toque activa cada enlace desde evento",
+      "project": "webkit-touch-360",
+      "status": "passed"
+    },
+    {
+      "page": "un toque activa cada enlace desde galería",
+      "project": "webkit-touch-360",
+      "status": "passed"
+    },
+    {
+      "page": "un toque activa cada enlace desde ayuda",
+      "project": "webkit-touch-360",
+      "status": "passed"
+    },
+    {
+      "page": "toques en Tienda, fuera del menú y en la opción pendiente",
+      "project": "webkit-touch-360",
+      "status": "passed"
+    },
+    {
+      "page": "escritorio: mouse y navegación de ambos enlaces",
+      "project": "webkit-touch-360",
+      "status": "skipped"
+    },
+    {
+      "page": "teclado: Tab, Escape y activación con Enter",
+      "project": "webkit-touch-360",
+      "status": "skipped"
+    },
+    {
+      "page": "un toque activa cada enlace desde inicio",
+      "project": "chromium-touch-390",
+      "status": "passed"
+    },
+    {
+      "page": "un toque activa cada enlace desde San Marcos",
+      "project": "chromium-touch-390",
+      "status": "passed"
+    },
+    {
+      "page": "un toque activa cada enlace desde Achala",
+      "project": "chromium-touch-390",
+      "status": "passed"
+    },
+    {
+      "page": "un toque activa cada enlace desde tienda",
+      "project": "chromium-touch-390",
+      "status": "passed"
+    },
+    {
+      "page": "un toque activa cada enlace desde evento",
+      "project": "chromium-touch-390",
+      "status": "passed"
+    },
+    {
+      "page": "un toque activa cada enlace desde galería",
+      "project": "chromium-touch-390",
+      "status": "passed"
+    },
+    {
+      "page": "un toque activa cada enlace desde ayuda",
+      "project": "chromium-touch-390",
+      "status": "passed"
+    },
+    {
+      "page": "toques en Tienda, fuera del menú y en la opción pendiente",
+      "project": "chromium-touch-390",
+      "status": "passed"
+    },
+    {
+      "page": "escritorio: mouse y navegación de ambos enlaces",
+      "project": "chromium-touch-390",
+      "status": "skipped"
+    },
+    {
+      "page": "teclado: Tab, Escape y activación con Enter",
+      "project": "chromium-touch-390",
+      "status": "skipped"
+    },
+    {
+      "page": "un toque activa cada enlace desde inicio",
+      "project": "webkit-touch-390",
+      "status": "passed"
+    },
+    {
+      "page": "un toque activa cada enlace desde San Marcos",
+      "project": "webkit-touch-390",
+      "status": "passed"
+    },
+    {
+      "page": "un toque activa cada enlace desde Achala",
+      "project": "webkit-touch-390",
+      "status": "passed"
+    },
+    {
+      "page": "un toque activa cada enlace desde tienda",
+      "project": "webkit-touch-390",
+      "status": "passed"
+    },
+    {
+      "page": "un toque activa cada enlace desde evento",
+      "project": "webkit-touch-390",
+      "status": "passed"
+    },
+    {
+      "page": "un toque activa cada enlace desde galería",
+      "project": "webkit-touch-390",
+      "status": "passed"
+    },
+    {
+      "page": "un toque activa cada enlace desde ayuda",
+      "project": "webkit-touch-390",
+      "status": "passed"
+    },
+    {
+      "page": "toques en Tienda, fuera del menú y en la opción pendiente",
+      "project": "webkit-touch-390",
+      "status": "passed"
+    },
+    {
+      "page": "escritorio: mouse y navegación de ambos enlaces",
+      "project": "webkit-touch-390",
+      "status": "skipped"
+    },
+    {
+      "page": "teclado: Tab, Escape y activación con Enter",
+      "project": "webkit-touch-390",
+      "status": "skipped"
+    },
+    {
+      "page": "un toque activa cada enlace desde inicio",
+      "project": "chromium-touch-430",
+      "status": "passed"
+    },
+    {
+      "page": "un toque activa cada enlace desde San Marcos",
+      "project": "chromium-touch-430",
+      "status": "passed"
+    },
+    {
+      "page": "un toque activa cada enlace desde Achala",
+      "project": "chromium-touch-430",
+      "status": "passed"
+    },
+    {
+      "page": "un toque activa cada enlace desde tienda",
+      "project": "chromium-touch-430",
+      "status": "passed"
+    },
+    {
+      "page": "un toque activa cada enlace desde evento",
+      "project": "chromium-touch-430",
+      "status": "passed"
+    },
+    {
+      "page": "un toque activa cada enlace desde galería",
+      "project": "chromium-touch-430",
+      "status": "passed"
+    },
+    {
+      "page": "un toque activa cada enlace desde ayuda",
+      "project": "chromium-touch-430",
+      "status": "passed"
+    },
+    {
+      "page": "toques en Tienda, fuera del menú y en la opción pendiente",
+      "project": "chromium-touch-430",
+      "status": "passed"
+    },
+    {
+      "page": "escritorio: mouse y navegación de ambos enlaces",
+      "project": "chromium-touch-430",
+      "status": "skipped"
+    },
+    {
+      "page": "teclado: Tab, Escape y activación con Enter",
+      "project": "chromium-touch-430",
+      "status": "skipped"
+    },
+    {
+      "page": "un toque activa cada enlace desde inicio",
+      "project": "webkit-touch-430",
+      "status": "passed"
+    },
+    {
+      "page": "un toque activa cada enlace desde San Marcos",
+      "project": "webkit-touch-430",
+      "status": "passed"
+    },
+    {
+      "page": "un toque activa cada enlace desde Achala",
+      "project": "webkit-touch-430",
+      "status": "passed"
+    },
+    {
+      "page": "un toque activa cada enlace desde tienda",
+      "project": "webkit-touch-430",
+      "status": "passed"
+    },
+    {
+      "page": "un toque activa cada enlace desde evento",
+      "project": "webkit-touch-430",
+      "status": "passed"
+    },
+    {
+      "page": "un toque activa cada enlace desde galería",
+      "project": "webkit-touch-430",
+      "status": "passed"
+    },
+    {
+      "page": "un toque activa cada enlace desde ayuda",
+      "project": "webkit-touch-430",
+      "status": "passed"
+    },
+    {
+      "page": "toques en Tienda, fuera del menú y en la opción pendiente",
+      "project": "webkit-touch-430",
+      "status": "passed"
+    },
+    {
+      "page": "escritorio: mouse y navegación de ambos enlaces",
+      "project": "webkit-touch-430",
+      "status": "skipped"
+    },
+    {
+      "page": "teclado: Tab, Escape y activación con Enter",
+      "project": "webkit-touch-430",
+      "status": "skipped"
+    },
+    {
+      "page": "un toque activa cada enlace desde inicio",
+      "project": "chromium-desktop",
+      "status": "skipped"
+    },
+    {
+      "page": "un toque activa cada enlace desde San Marcos",
+      "project": "chromium-desktop",
+      "status": "skipped"
+    },
+    {
+      "page": "un toque activa cada enlace desde Achala",
+      "project": "chromium-desktop",
+      "status": "skipped"
+    },
+    {
+      "page": "un toque activa cada enlace desde tienda",
+      "project": "chromium-desktop",
+      "status": "skipped"
+    },
+    {
+      "page": "un toque activa cada enlace desde evento",
+      "project": "chromium-desktop",
+      "status": "skipped"
+    },
+    {
+      "page": "un toque activa cada enlace desde galería",
+      "project": "chromium-desktop",
+      "status": "skipped"
+    },
+    {
+      "page": "un toque activa cada enlace desde ayuda",
+      "project": "chromium-desktop",
+      "status": "skipped"
+    },
+    {
+      "page": "toques en Tienda, fuera del menú y en la opción pendiente",
+      "project": "chromium-desktop",
+      "status": "skipped"
+    },
+    {
+      "page": "escritorio: mouse y navegación de ambos enlaces",
+      "project": "chromium-desktop",
+      "status": "passed"
+    },
+    {
+      "page": "teclado: Tab, Escape y activación con Enter",
+      "project": "chromium-desktop",
+      "status": "passed"
+    },
+    {
+      "page": "un toque activa cada enlace desde inicio",
+      "project": "webkit-desktop",
+      "status": "skipped"
+    },
+    {
+      "page": "un toque activa cada enlace desde San Marcos",
+      "project": "webkit-desktop",
+      "status": "skipped"
+    },
+    {
+      "page": "un toque activa cada enlace desde Achala",
+      "project": "webkit-desktop",
+      "status": "skipped"
+    },
+    {
+      "page": "un toque activa cada enlace desde tienda",
+      "project": "webkit-desktop",
+      "status": "skipped"
+    },
+    {
+      "page": "un toque activa cada enlace desde evento",
+      "project": "webkit-desktop",
+      "status": "skipped"
+    },
+    {
+      "page": "un toque activa cada enlace desde galería",
+      "project": "webkit-desktop",
+      "status": "skipped"
+    },
+    {
+      "page": "un toque activa cada enlace desde ayuda",
+      "project": "webkit-desktop",
+      "status": "skipped"
+    },
+    {
+      "page": "toques en Tienda, fuera del menú y en la opción pendiente",
+      "project": "webkit-desktop",
+      "status": "skipped"
+    },
+    {
+      "page": "escritorio: mouse y navegación de ambos enlaces",
+      "project": "webkit-desktop",
+      "status": "passed"
+    },
+    {
+      "page": "teclado: Tab, Escape y activación con Enter",
+      "project": "webkit-desktop",
+      "status": "passed"
+    }
+  ]
+}
