@@ -1,0 +1,38 @@
+[
+  {
+    "name": "golden",
+    "source": [
+      5794,
+      3259
+    ],
+    "optimized": [
+      4000,
+      2250
+    ],
+    "profile": true
+  },
+  {
+    "name": "walkers",
+    "source": [
+      4884,
+      2747
+    ],
+    "optimized": [
+      4000,
+      2250
+    ],
+    "profile": true
+  },
+  {
+    "name": "forest",
+    "source": [
+      5914,
+      3327
+    ],
+    "optimized": [
+      4000,
+      2250
+    ],
+    "profile": true
+  }
+]

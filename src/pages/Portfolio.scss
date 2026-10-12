@@ -16,21 +16,26 @@
 .immersive-cover {
   display: grid;
   grid-template-rows: auto minmax(0, 1fr) auto;
-  height: min(1000px, calc(100svh - var(--navbar-height, 96px)));
-  padding: 0 0 16px;
+  height: min(1200px, calc(100svh - var(--navbar-height, 96px)));
+  padding: 0 0 12px;
   border-bottom: 1px solid var(--rule);
-  &__title { padding: 16px 0 20px; text-align: center; }
+  &__title { padding: 8px 0 12px; text-align: center; }
   &__title h1 { font-size: clamp(32px, 3.4vw, 56px); line-height: 1.12; }
-  &__photos { position: relative; width: var(--content-width); min-height: 0; margin-inline: auto; overflow: hidden; }
+  &__stage { position: relative; width: var(--content-width); min-height: 0; margin-inline: auto; }
+  &__photos { position: absolute; inset: 0; width: calc(100% - 112px); margin-inline: auto; overflow: hidden; }
   &__photos img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: contain; opacity: 0; transition: opacity .85s ease; }
   &__photos img.is-active { opacity: 1; }
-  &__controls { display: flex; flex-direction: column; align-items: center; gap: 4px; padding-top: 12px; color: var(--soft); font-size: 12px; }
+  &__arrow { position: absolute; top: 50%; transform: translateY(-50%); display: grid; place-items: center; width: 44px; height: 44px; color: var(--soft); cursor: pointer; }
+  &__stage > button { font-size: 24px; }
+  &__arrow--previous { left: calc((100% - var(--photo-width)) / 2 - 56px); }
+  &__arrow--next { right: calc((100% - var(--photo-width)) / 2 - 56px); }
+  &__arrow:hover { color: var(--ink); }
+  &__controls { display: flex; flex-direction: column; align-items: center; gap: 2px; padding-top: 6px; color: var(--soft); font-size: 12px; }
   &__name { line-height: 20px; text-align: center; }
-  &__buttons { display: flex; align-items: center; justify-content: center; gap: 10px; }
-  &__buttons > span { min-width: 38px; text-align: center; font-variant-numeric: tabular-nums; }
-  &__controls button { min-height: 44px; min-width: 44px; }
-  &__buttons button:first-child { min-width: 80px; }
-  &__controls button[aria-label^="Fotografía"] { font-size: 22px; }
+  &__dots { display: flex; justify-content: center; }
+  &__dots button { display: grid; place-items: center; width: 28px; height: 28px; cursor: pointer; }
+  &__dots span { width: 7px; height: 7px; border: 1px solid var(--soft); border-radius: 50%; }
+  &__dots button[aria-current="true"] span { background: var(--ink); border-color: var(--ink); }
 }
 .portfolio-eyebrow { font-size: 10px; letter-spacing: .16em; color: var(--soft); }
 .portfolio-intro {
@@ -88,10 +93,15 @@
   button { min-height: 44px; text-decoration: underline; }
 }
 @media (max-width: 580px) {
-  .immersive-cover { height: auto; grid-template-rows: auto auto auto; }
+  .immersive-cover { height: auto; grid-template-rows: auto auto auto; padding-bottom: 16px; }
   .immersive-cover__title { padding: 20px 0; }
-  .immersive-cover__photos { aspect-ratio: 4 / 3; }
-  .immersive-cover__buttons { gap: 4px; }
+  .immersive-cover__stage { aspect-ratio: 4 / 3; }
+  .immersive-cover__photos { width: 100%; }
+  .immersive-cover__controls { gap: 4px; padding-top: 12px; }
+  .immersive-cover__dots button { width: 44px; height: 44px; }
+  .immersive-cover__arrow { top: calc(100% + 36px); transform: none; }
+  .immersive-cover__arrow--previous { left: calc(50% - 144px); }
+  .immersive-cover__arrow--next { right: calc(50% - 144px); }
   .portfolio-intro { padding: 38px 22px; }
   .portfolio-section { padding: 12px 0 35px; }
   .portfolio-section__heading h2 { font-size: 24px; }

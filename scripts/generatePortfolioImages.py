@@ -20,7 +20,7 @@ WIDTHS = (640, 960, 1440, 1920, 2560, 3200)
 NAMES = ("golden", "walkers", "forest", "sport", "valley")
 
 
-def generate(names):
+def generate(names, requested_widths=WIDTHS):
     OUTPUT.mkdir(parents=True, exist_ok=True)
     metadata = json.loads(MANIFEST.read_text()) if MANIFEST.exists() else {}
     srgb = ImageCms.ImageCmsProfile(ImageCms.createProfile("sRGB"))
@@ -33,17 +33,19 @@ def generate(names):
             else:
                 image = image.convert("RGB")
             width, height = image.size
-            variants = []
+            variants = list(metadata.get(name, {}).get("variants", []))
             # Include the source width when smaller than the largest requested size.
-            widths = sorted({min(size, width) for size in WIDTHS})
+            widths = sorted({min(size, width) for size in requested_widths})
             for target_width in widths:
                 target_height = round(height * target_width / width)
                 resized = image.resize((target_width, target_height), Image.Resampling.LANCZOS)
                 filename = f"{name}-{target_width}.webp"
                 destination = OUTPUT / filename
                 resized.save(destination, "WEBP", quality=90, method=6, icc_profile=srgb.tobytes())
+                variants = [variant for variant in variants if variant["width"] != target_width]
                 variants.append({"image": f"/images/portfolio/{filename}", "width": target_width, "height": target_height})
                 print(f"{filename}: {target_width}x{target_height}, {destination.stat().st_size // 1024} KiB")
+            variants.sort(key=lambda variant: variant["width"])
             default = min(variants, key=lambda item: abs(item["width"] - 1440))
             metadata[name] = {"image": default["image"], "width": width, "height": height, "variants": variants}
     MANIFEST.write_text(json.dumps(metadata, indent=2) + "\n", encoding="utf-8")
@@ -52,4 +54,8 @@ def generate(names):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--names", nargs="+", choices=NAMES, default=NAMES)
-    generate(parser.parse_args().names)
+    parser.add_argument("--widths", nargs="+", type=int, default=WIDTHS, help="Anchos a generar; conserva las variantes previas del manifiesto.")
+    args = parser.parse_args()
+    if any(width <= 0 for width in args.widths):
+        parser.error("Los anchos deben ser positivos.")
+    generate(args.names, args.widths)

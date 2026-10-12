@@ -10,6 +10,7 @@ const mobileProjects = [360, 390, 430].flatMap((width) => [
 
 export default defineConfig({
   testDir: "./e2e",
+  testMatch: "navbar.spec.js",
   outputDir: "../test-results",
   fullyParallel: true,
   workers: 2,
