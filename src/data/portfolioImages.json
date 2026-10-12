@@ -33,6 +33,11 @@
         "image": "/images/portfolio/golden-3200.webp",
         "width": 3200,
         "height": 1800
+      },
+      {
+        "image": "/images/portfolio/golden-4000.webp",
+        "width": 4000,
+        "height": 2250
       }
     ]
   },
@@ -70,6 +75,11 @@
         "image": "/images/portfolio/walkers-3200.webp",
         "width": 3200,
         "height": 1800
+      },
+      {
+        "image": "/images/portfolio/walkers-4000.webp",
+        "width": 4000,
+        "height": 2250
       }
     ]
   },
@@ -107,6 +117,11 @@
         "image": "/images/portfolio/forest-3200.webp",
         "width": 3200,
         "height": 1800
+      },
+      {
+        "image": "/images/portfolio/forest-4000.webp",
+        "width": 4000,
+        "height": 2250
       }
     ]
   },

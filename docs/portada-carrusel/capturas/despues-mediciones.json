@@ -1,0 +1,347 @@
+[
+  {
+    "viewport": [
+      1366,
+      768
+    ],
+    "dpr": 1,
+    "scrollY": 0,
+    "overflow": false,
+    "title": {
+      "left": 0,
+      "top": 97,
+      "right": 1366,
+      "bottom": 169,
+      "width": 1366,
+      "height": 72
+    },
+    "frame": {
+      "left": 124.296875,
+      "top": 169,
+      "right": 1241.6875,
+      "bottom": 699,
+      "width": 1117.390625,
+      "height": 530
+    },
+    "photo": {
+      "width": 943,
+      "height": 530,
+      "left": 211.4921875,
+      "top": 169
+    },
+    "name": {
+      "left": 635.953125,
+      "top": 705,
+      "right": 730.03125,
+      "bottom": 725,
+      "width": 94.078125,
+      "height": 20
+    },
+    "controls": {
+      "left": 0,
+      "top": 699,
+      "right": 1366,
+      "bottom": 755,
+      "width": 1366,
+      "height": 56
+    },
+    "previous": {
+      "left": 155.859375,
+      "top": 412,
+      "right": 199.859375,
+      "bottom": 456,
+      "width": 44,
+      "height": 44
+    },
+    "next": {
+      "left": 1166.125,
+      "top": 412,
+      "right": 1210.125,
+      "bottom": 456,
+      "width": 44,
+      "height": 44
+    },
+    "sizes": "943px",
+    "source": "http://127.0.0.1:5175/images/portfolio/golden-960.webp",
+    "natural": [
+      943,
+      530
+    ]
+  },
+  {
+    "viewport": [
+      1920,
+      1080
+    ],
+    "dpr": 1,
+    "scrollY": 0,
+    "overflow": false,
+    "title": {
+      "left": 0,
+      "top": 97,
+      "right": 1920,
+      "bottom": 179.71875,
+      "width": 1920,
+      "height": 82.71875
+    },
+    "frame": {
+      "left": 152,
+      "top": 179.71875,
+      "right": 1768,
+      "bottom": 1011,
+      "width": 1616,
+      "height": 831.28125
+    },
+    "photo": {
+      "width": 1478.500225631769,
+      "height": 831.28125,
+      "left": 220.74988718411555,
+      "top": 179.71875
+    },
+    "name": {
+      "left": 912.953125,
+      "top": 1017,
+      "right": 1007.03125,
+      "bottom": 1037,
+      "width": 94.078125,
+      "height": 20
+    },
+    "controls": {
+      "left": 0,
+      "top": 1011,
+      "right": 1920,
+      "bottom": 1067,
+      "width": 1920,
+      "height": 56
+    },
+    "previous": {
+      "left": 165.046875,
+      "top": 573.359375,
+      "right": 209.046875,
+      "bottom": 617.359375,
+      "width": 44,
+      "height": 44
+    },
+    "next": {
+      "left": 1710.953125,
+      "top": 573.359375,
+      "right": 1754.953125,
+      "bottom": 617.359375,
+      "width": 44,
+      "height": 44
+    },
+    "sizes": "1478px",
+    "source": "http://127.0.0.1:5175/images/portfolio/golden-1920.webp",
+    "natural": [
+      1478,
+      831
+    ]
+  },
+  {
+    "viewport": [
+      2560,
+      1440
+    ],
+    "dpr": 1,
+    "scrollY": 0,
+    "overflow": false,
+    "title": {
+      "left": 0,
+      "top": 97,
+      "right": 2560,
+      "bottom": 179.71875,
+      "width": 2560,
+      "height": 82.71875
+    },
+    "frame": {
+      "left": 236,
+      "top": 179.71875,
+      "right": 2324,
+      "bottom": 1228,
+      "width": 2088,
+      "height": 1048.28125
+    },
+    "photo": {
+      "width": 1864.5002385496182,
+      "height": 1048.28125,
+      "left": 347.7498807251909,
+      "top": 179.71875
+    },
+    "name": {
+      "left": 1232.953125,
+      "top": 1234,
+      "right": 1327.03125,
+      "bottom": 1254,
+      "width": 94.078125,
+      "height": 20
+    },
+    "controls": {
+      "left": 0,
+      "top": 1228,
+      "right": 2560,
+      "bottom": 1284,
+      "width": 2560,
+      "height": 56
+    },
+    "previous": {
+      "left": 292.15625,
+      "top": 681.859375,
+      "right": 336.15625,
+      "bottom": 725.859375,
+      "width": 44,
+      "height": 44
+    },
+    "next": {
+      "left": 2223.84375,
+      "top": 681.859375,
+      "right": 2267.84375,
+      "bottom": 725.859375,
+      "width": 44,
+      "height": 44
+    },
+    "sizes": "1864px",
+    "source": "http://127.0.0.1:5175/images/portfolio/golden-1920.webp",
+    "natural": [
+      1864,
+      1048
+    ]
+  },
+  {
+    "viewport": [
+      360,
+      800
+    ],
+    "dpr": 2.625,
+    "scrollY": 0,
+    "overflow": false,
+    "title": {
+      "left": 0,
+      "top": 136,
+      "right": 360,
+      "bottom": 247.65625,
+      "width": 360,
+      "height": 111.65625
+    },
+    "frame": {
+      "left": 20,
+      "top": 247.65625,
+      "right": 340,
+      "bottom": 487.65625,
+      "width": 320,
+      "height": 240
+    },
+    "photo": {
+      "width": 320,
+      "height": 180,
+      "left": 20,
+      "top": 277.65625
+    },
+    "name": {
+      "left": 132.953125,
+      "top": 499.65625,
+      "right": 227.03125,
+      "bottom": 519.65625,
+      "width": 94.078125,
+      "height": 20
+    },
+    "controls": {
+      "left": 0,
+      "top": 487.65625,
+      "right": 360,
+      "bottom": 567.65625,
+      "width": 360,
+      "height": 80
+    },
+    "previous": {
+      "left": 36,
+      "top": 523.65625,
+      "right": 80,
+      "bottom": 567.65625,
+      "width": 44,
+      "height": 44
+    },
+    "next": {
+      "left": 280,
+      "top": 523.65625,
+      "right": 324,
+      "bottom": 567.65625,
+      "width": 44,
+      "height": 44
+    },
+    "sizes": "320px",
+    "source": "http://127.0.0.1:5175/images/portfolio/golden-960.webp",
+    "natural": [
+      320,
+      180
+    ]
+  },
+  {
+    "viewport": [
+      390,
+      800
+    ],
+    "dpr": 2.625,
+    "scrollY": 0,
+    "overflow": false,
+    "title": {
+      "left": 0,
+      "top": 136,
+      "right": 390,
+      "bottom": 211.828125,
+      "width": 390,
+      "height": 75.828125
+    },
+    "frame": {
+      "left": 20,
+      "top": 211.828125,
+      "right": 370,
+      "bottom": 474.328125,
+      "width": 350,
+      "height": 262.5
+    },
+    "photo": {
+      "width": 350,
+      "height": 196.56160458452723,
+      "left": 20,
+      "top": 244.79732270773638
+    },
+    "name": {
+      "left": 147.953125,
+      "top": 486.328125,
+      "right": 242.03125,
+      "bottom": 506.328125,
+      "width": 94.078125,
+      "height": 20
+    },
+    "controls": {
+      "left": 0,
+      "top": 474.328125,
+      "right": 390,
+      "bottom": 554.328125,
+      "width": 390,
+      "height": 80
+    },
+    "previous": {
+      "left": 51,
+      "top": 510.328125,
+      "right": 95,
+      "bottom": 554.328125,
+      "width": 44,
+      "height": 44
+    },
+    "next": {
+      "left": 295,
+      "top": 510.328125,
+      "right": 339,
+      "bottom": 554.328125,
+      "width": 44,
+      "height": 44
+    },
+    "sizes": "350px",
+    "source": "http://127.0.0.1:5175/images/portfolio/golden-960.webp",
+    "natural": [
+      349,
+      196
+    ]
+  }
+]

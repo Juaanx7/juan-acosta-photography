@@ -13,7 +13,8 @@
     "upload:cloudinary": "node scripts/uploadEventToCloudinary.js",
     "upload:category": "node scripts/uploadCategoryToCloudinary.js",
     "upload:event-cover": "node scripts/uploadEventCover.js",
-    "test:navbar": "playwright test --config tests/playwright.config.js"
+    "test:navbar": "playwright test --config tests/playwright.config.js",
+    "test:cover": "playwright test --config tests/cover.config.js"
   },
   "dependencies": {
     "cloudinary": "^2.10.0",
