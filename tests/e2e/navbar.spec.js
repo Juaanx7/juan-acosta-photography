@@ -22,8 +22,9 @@ for (const [label, origin] of origins) {
     const shop = page.locator(".navbar__shop");
     const summary = shop.locator("summary");
     for (const [name, destination, heading] of destinations) {
-      await page.goto(origin);
+      await page.goto(origin, { waitUntil: "domcontentloaded" });
       await expect(page.locator("main h1")).toBeVisible();
+      await page.getByRole("button", { name: "Abrir menú", exact: true }).tap();
       await summary.tap();
       await expect(shop).toHaveAttribute("open", "");
       // tap envía touchstart/touchend y la secuencia nativa de foco/clic; no es un clic con viewport reducido.
@@ -32,6 +33,7 @@ for (const [label, origin] of origins) {
       await expect(page.getByRole("heading", { name: heading, exact: true })).toBeVisible();
       await expect(shop).not.toHaveAttribute("open");
       // También debe cerrarse al activar la opción de la página actual, sin cambio de ruta.
+      await page.getByRole("button", { name: "Abrir menú", exact: true }).tap();
       await summary.tap();
       await shop.getByRole("link", { name, exact: true }).tap();
       await expect(shop).not.toHaveAttribute("open");
@@ -42,9 +44,10 @@ for (const [label, origin] of origins) {
 
 test("toques en Tienda, fuera del menú y en la opción pendiente", async ({ page, isMobile }) => {
   test.skip(!isMobile, "Comprobación táctil.");
-  await page.goto("/");
+  await page.goto("/", { waitUntil: "domcontentloaded" });
   const shop = page.locator(".navbar__shop");
   const summary = shop.locator("summary");
+  await page.getByRole("button", { name: "Abrir menú", exact: true }).tap();
   await summary.tap();
   await expect(shop).toHaveAttribute("open", "");
   await summary.tap();
@@ -69,7 +72,7 @@ test("escritorio: mouse y navegación de ambos enlaces", async ({ page, isMobile
   test.skip(isMobile, "Comprobación con mouse.");
   const shop = page.locator(".navbar__shop");
   for (const [name, destination] of destinations) {
-    await page.goto("/");
+    await page.goto("/", { waitUntil: "domcontentloaded" });
     await shop.locator("summary").click();
     await shop.getByRole("link", { name, exact: true }).click();
     await expect(page).toHaveURL(new RegExp(`${destination}$`));
@@ -79,7 +82,7 @@ test("escritorio: mouse y navegación de ambos enlaces", async ({ page, isMobile
 
 test("teclado: Tab, Escape y activación con Enter", async ({ page, isMobile }) => {
   test.skip(isMobile, "Comprobación de teclado de escritorio.");
-  await page.goto("/");
+  await page.goto("/", { waitUntil: "domcontentloaded" });
   const shop = page.locator(".navbar__shop");
   const summary = shop.locator("summary");
   await summary.focus();

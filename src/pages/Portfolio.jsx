@@ -1,6 +1,7 @@
 import { Navigate, useLocation } from "react-router-dom";
 import ImmersiveCover from "../components/portfolio/ImmersiveCover";
 import PortfolioCollections from "../components/portfolio/PortfolioCollections";
+import AboutMe from "../components/portfolio/AboutMe";
 import ContactForm from "../components/portfolio/ContactForm";
 import "./Portfolio.scss";
 
@@ -10,11 +11,11 @@ export default function Portfolio() {
   if (hash === "#eventos") return <Navigate to="/tienda/deportes#eventos" replace />;
   return <div className="portfolio-page">
     <ImmersiveCover />
-    <section className="portfolio-intro" id="sobre-mi">
+    <section className="portfolio-intro">
       <p className="portfolio-eyebrow">PAISAJES · VIAJES · MONTAÑA</p>
       <h2>Una mirada en el camino.</h2>
       <p>Fotografío los lugares que recorro, los detalles que me detienen y las experiencias que encuentro en la montaña.</p>
     </section>
-    <PortfolioCollections /><ContactForm />
+    <PortfolioCollections /><AboutMe /><ContactForm />
   </div>;
 }

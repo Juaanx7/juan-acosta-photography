@@ -1,0 +1,25 @@
+.about-me {
+  width: var(--content-width);
+  margin-inline: auto;
+  padding-block: 65px;
+  &__layout { display: grid; grid-template-columns: minmax(0, .8fr) minmax(0, 1.2fr); gap: 70px; align-items: center; max-width: 1200px; margin-inline: auto; }
+  &__portrait { width: 100%; max-width: 340px; justify-self: center; margin: 0; }
+  &__portrait img { display: block; width: 100%; height: auto; }
+  &__portrait figcaption { font-size: 11px; line-height: 1.6; color: var(--soft); padding-top: 13px; }
+  &__text { min-width: 0; }
+  &__text h2 { font-size: 43px; letter-spacing: -.025em; line-height: 1.15; margin: 15px 0 22px; }
+  &__introduction { font-size: 14px; line-height: 1.75; margin-bottom: 24px; }
+  &__story { max-width: 65ch; }
+  &__story p { font-size: 14px; line-height: 1.9; color: var(--soft); }
+  &__story p + p { margin-top: 18px; }
+  &__talk { display: inline-block; font-size: 13px; padding-block: 10px; margin-top: 22px; border-bottom: 1px solid var(--ink); }
+}
+@media (max-width: 650px) {
+  .about-me {
+    padding-block: 35px 42px;
+    &__layout { display: flex; flex-direction: column; gap: 30px; align-items: stretch; }
+    &__portrait { max-width: 265px; align-self: center; }
+    &__text h2 { font-size: 36px; margin-bottom: 18px; }
+    &__story p { line-height: 1.85; }
+  }
+}

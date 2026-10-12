@@ -34,3 +34,5 @@ docs/achala/fotos/originales/
 # Resultados locales de las pruebas de navegador.
 /test-results/
 /playwright-report/
+
+docs/sobre-mi-navbar/**/fotos/originales/
