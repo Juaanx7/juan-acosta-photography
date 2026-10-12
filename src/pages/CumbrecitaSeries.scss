@@ -1,0 +1,40 @@
+.cumbrecita-series {
+  h1, h2 { letter-spacing: -.025em; line-height: 1.13; }
+  .series-eyebrow { font-size: 11px; letter-spacing: .14em; line-height: 1.6; }
+  .series-back { color: var(--soft); }
+  .series-work figcaption { font-size: 11px; color: var(--soft); padding-top: 13px; line-height: 1.6; }
+}
+.cumbrecita-intro { padding: 35px 0 38px; h1 { font-size: 54px; margin: 15px 0 23px; } }
+.cumbrecita-story, .cumbrecita-night__story {
+  max-width: 78ch;
+  p:not(.series-eyebrow) { font-size: 14px; line-height: 1.9; color: var(--soft); }
+}
+.cumbrecita-story p + p { margin-top: 16px; }
+.cumbrecita-wide { margin-block: 65px; }
+.cumbrecita-pair { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 46px; width: 86%; max-width: 960px; margin: 65px auto; }
+.cumbrecita-single { width: 47%; max-width: 440px; margin: 70px auto; }
+.cumbrecita-night { margin-top: 80px; }
+.cumbrecita-night__story { margin-bottom: 43px; h2 { font-size: 38px; margin: 14px 0 23px; } }
+.cumbrecita-mixed { display: grid; grid-template-columns: .52fr 1fr; align-items: center; gap: 60px; width: 90%; max-width: 1250px; margin: 0 auto 65px; figure:first-child { width: 100%; max-width: 350px; } }
+.cumbrecita-lamps { width: 40%; max-width: 380px; }
+.cumbrecita-closing { margin-top: 65px; padding: 55px 0 42px; border-top: 1px solid var(--rule); }
+.cumbrecita-more {
+  padding: 25px 0 50px;
+  > div { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 40px; margin-top: 14px; }
+  a { display: flex; justify-content: space-between; align-items: center; gap: 15px; padding-block: 22px; border-top: 1px solid var(--rule); font: 23px Georgia, serif; }
+  a span { font: 14px Arial, sans-serif; }
+  a:hover { text-decoration: underline; text-underline-offset: 5px; }
+}
+@media (max-width: 650px) {
+  .cumbrecita-series .series-back { margin-top: 18px; }
+  .cumbrecita-intro { padding: 24px 0 30px; h1 { font-size: 41px; margin-bottom: 21px; } }
+  .cumbrecita-story p, .cumbrecita-night__story p:not(.series-eyebrow) { line-height: 1.85; }
+  .cumbrecita-wide { margin-block: 38px; }
+  .cumbrecita-pair { grid-template-columns: 1fr; gap: 30px; width: 100%; max-width: 280px; margin: 38px auto; }
+  .cumbrecita-single, .cumbrecita-lamps { width: 100%; max-width: 280px; margin: 40px auto; }
+  .cumbrecita-night { margin-top: 48px; }
+  .cumbrecita-night__story { margin-bottom: 30px; h2 { font-size: 32px; } }
+  .cumbrecita-mixed { grid-template-columns: 1fr; gap: 35px; width: 100%; margin-bottom: 38px; figure:first-child { max-width: 280px; margin-inline: auto; } }
+  .cumbrecita-closing { grid-template-columns: 1fr; gap: 24px; margin-top: 38px; padding: 35px 0 25px; }
+  .cumbrecita-more { padding: 23px 0 25px; > div { grid-template-columns: 1fr; gap: 0; } }
+}

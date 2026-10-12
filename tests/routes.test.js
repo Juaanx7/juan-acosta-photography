@@ -30,6 +30,7 @@ test("portfolio, tienda y ayuda siguen siendo accesibles directamente", () => {
   assert.equal(match("/").route.id, "portfolio");
   assert.equal(match("/portfolio/san-marcos-mi-mirada").route.id, "sanMarcos");
   assert.equal(match("/portfolio/cajones-de-achala").route.id, "achala");
+  assert.equal(match("/portfolio/la-cumbrecita").route.id, "cumbrecita");
   assert.equal(match("/tienda/deportes#eventos").route.id, "sportsShop");
   assert.equal(match("/como-comprar").route.id, "howToBuy");
 });

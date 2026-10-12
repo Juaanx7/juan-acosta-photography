@@ -56,6 +56,7 @@ export default function SanMarcosSeries() {
     </section>
     <SeriesInquiry message={sanMarcos.inquiry}>
       <div><Link className="series-back" to={routePaths.achala}>Los Cajones de Achala ↗</Link><br />
+        <Link className="series-back" to={routePaths.cumbrecita}>La Cumbrecita ↗</Link><br />
         <Link className="series-back" to={`${routePaths.portfolio}#portfolio`}>Seguir explorando el portfolio ↗</Link></div>
     </SeriesInquiry>
     {selection && <SeriesViewer works={sanMarcos.works} initialIndex={selection.index} location={sanMarcos.location}

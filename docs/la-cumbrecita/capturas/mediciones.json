@@ -1,0 +1,566 @@
+[
+  {
+    "viewport": [
+      360,
+      800
+    ],
+    "dpr": 2.625,
+    "overflow": false,
+    "photos": [
+      {
+        "source": "DSC03544.jpg",
+        "width": 316,
+        "height": 177.75,
+        "asset": "http://127.0.0.1:5175/images/portfolio/la-cumbrecita/DSC03544-960.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 900px) calc(100vw - 48px), min(90vw, 2200px)"
+      },
+      {
+        "source": "DSC03493.jpg",
+        "width": 316,
+        "height": 177.75,
+        "asset": "http://127.0.0.1:5175/images/portfolio/la-cumbrecita/DSC03493-960.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 900px) calc(100vw - 48px), min(90vw, 2200px)"
+      },
+      {
+        "source": "DSC03489.jpg",
+        "width": 280,
+        "height": 497.875,
+        "asset": "http://127.0.0.1:5175/images/portfolio/la-cumbrecita/DSC03489-960.webp",
+        "sizes": "(max-width: 650px) 280px, (max-width: 900px) calc((min((100vw - 48px) * .86, 960px) - 46px) / 2), calc((min(min(90vw, 2200px) * .86, 960px) - 46px) / 2)"
+      },
+      {
+        "source": "DSC03541.jpg",
+        "width": 280,
+        "height": 497.578125,
+        "asset": "http://127.0.0.1:5175/images/portfolio/la-cumbrecita/DSC03541-960.webp",
+        "sizes": "(max-width: 650px) 280px, (max-width: 900px) calc((min((100vw - 48px) * .86, 960px) - 46px) / 2), calc((min(min(90vw, 2200px) * .86, 960px) - 46px) / 2)"
+      },
+      {
+        "source": "DSC03530.jpg",
+        "width": 280,
+        "height": 497.875,
+        "asset": "http://127.0.0.1:5175/images/portfolio/la-cumbrecita/DSC03530-960.webp",
+        "sizes": "(max-width: 650px) 280px, (max-width: 900px) calc((min((100vw - 48px) * .86, 960px) - 46px) / 2), calc((min(min(90vw, 2200px) * .86, 960px) - 46px) / 2)"
+      },
+      {
+        "source": "DSC03523.jpg",
+        "width": 280,
+        "height": 497.578125,
+        "asset": "http://127.0.0.1:5175/images/portfolio/la-cumbrecita/DSC03523-960.webp",
+        "sizes": "(max-width: 650px) 280px, (max-width: 900px) calc((min((100vw - 48px) * .86, 960px) - 46px) / 2), calc((min(min(90vw, 2200px) * .86, 960px) - 46px) / 2)"
+      },
+      {
+        "source": "DSC03582.jpg",
+        "width": 316,
+        "height": 177.75,
+        "asset": "http://127.0.0.1:5175/images/portfolio/la-cumbrecita/DSC03582-960.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 900px) calc(100vw - 48px), min(90vw, 2200px)"
+      },
+      {
+        "source": "DSC03586.jpg",
+        "width": 280,
+        "height": 497.875,
+        "asset": "http://127.0.0.1:5175/images/portfolio/la-cumbrecita/DSC03586-960.webp",
+        "sizes": "(max-width: 650px) 280px, (max-width: 900px) min(440px, calc((100vw - 48px) * .47)), min(440px, calc(min(90vw, 2200px) * .47))"
+      },
+      {
+        "source": "DSC03557.jpg",
+        "width": 280,
+        "height": 497.875,
+        "asset": "http://127.0.0.1:5175/images/portfolio/la-cumbrecita/DSC03557-960.webp",
+        "sizes": "(max-width: 650px) 280px, (max-width: 900px) min(350px, calc((min((100vw - 48px) * .9, 1250px) - 60px) * .3421053)), min(350px, calc((min(min(90vw, 2200px) * .9, 1250px) - 60px) * .3421053))"
+      },
+      {
+        "source": "DSC03601.jpg",
+        "width": 316,
+        "height": 177.75,
+        "asset": "http://127.0.0.1:5175/images/portfolio/la-cumbrecita/DSC03601-960.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 650px) calc(100vw - 48px), (max-width: 900px) calc((min((100vw - 48px) * .9, 1250px) - 60px) * .6578947), calc((min(min(90vw, 2200px) * .9, 1250px) - 60px) * .6578947)"
+      },
+      {
+        "source": "DSC03619.jpg",
+        "width": 280,
+        "height": 497.875,
+        "asset": "http://127.0.0.1:5175/images/portfolio/la-cumbrecita/DSC03619-960.webp",
+        "sizes": "(max-width: 650px) 280px, (max-width: 900px) min(380px, calc((100vw - 48px) * .4)), min(380px, calc(min(90vw, 2200px) * .4))"
+      },
+      {
+        "source": "DSC03622.jpg",
+        "width": 316,
+        "height": 177.75,
+        "asset": "http://127.0.0.1:5175/images/portfolio/la-cumbrecita/DSC03622-960.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 900px) calc(100vw - 48px), min(90vw, 2200px)"
+      }
+    ]
+  },
+  {
+    "viewport": [
+      390,
+      800
+    ],
+    "dpr": 2.625,
+    "overflow": false,
+    "photos": [
+      {
+        "source": "DSC03544.jpg",
+        "width": 346,
+        "height": 194.625,
+        "asset": "http://127.0.0.1:5175/images/portfolio/la-cumbrecita/DSC03544-960.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 900px) calc(100vw - 48px), min(90vw, 2200px)"
+      },
+      {
+        "source": "DSC03493.jpg",
+        "width": 346,
+        "height": 194.625,
+        "asset": "http://127.0.0.1:5175/images/portfolio/la-cumbrecita/DSC03493-960.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 900px) calc(100vw - 48px), min(90vw, 2200px)"
+      },
+      {
+        "source": "DSC03489.jpg",
+        "width": 280,
+        "height": 497.875,
+        "asset": "http://127.0.0.1:5175/images/portfolio/la-cumbrecita/DSC03489-960.webp",
+        "sizes": "(max-width: 650px) 280px, (max-width: 900px) calc((min((100vw - 48px) * .86, 960px) - 46px) / 2), calc((min(min(90vw, 2200px) * .86, 960px) - 46px) / 2)"
+      },
+      {
+        "source": "DSC03541.jpg",
+        "width": 280,
+        "height": 497.578125,
+        "asset": "http://127.0.0.1:5175/images/portfolio/la-cumbrecita/DSC03541-960.webp",
+        "sizes": "(max-width: 650px) 280px, (max-width: 900px) calc((min((100vw - 48px) * .86, 960px) - 46px) / 2), calc((min(min(90vw, 2200px) * .86, 960px) - 46px) / 2)"
+      },
+      {
+        "source": "DSC03530.jpg",
+        "width": 280,
+        "height": 497.875,
+        "asset": "http://127.0.0.1:5175/images/portfolio/la-cumbrecita/DSC03530-960.webp",
+        "sizes": "(max-width: 650px) 280px, (max-width: 900px) calc((min((100vw - 48px) * .86, 960px) - 46px) / 2), calc((min(min(90vw, 2200px) * .86, 960px) - 46px) / 2)"
+      },
+      {
+        "source": "DSC03523.jpg",
+        "width": 280,
+        "height": 497.578125,
+        "asset": "http://127.0.0.1:5175/images/portfolio/la-cumbrecita/DSC03523-960.webp",
+        "sizes": "(max-width: 650px) 280px, (max-width: 900px) calc((min((100vw - 48px) * .86, 960px) - 46px) / 2), calc((min(min(90vw, 2200px) * .86, 960px) - 46px) / 2)"
+      },
+      {
+        "source": "DSC03582.jpg",
+        "width": 346,
+        "height": 194.625,
+        "asset": "http://127.0.0.1:5175/images/portfolio/la-cumbrecita/DSC03582-960.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 900px) calc(100vw - 48px), min(90vw, 2200px)"
+      },
+      {
+        "source": "DSC03586.jpg",
+        "width": 280,
+        "height": 497.875,
+        "asset": "http://127.0.0.1:5175/images/portfolio/la-cumbrecita/DSC03586-960.webp",
+        "sizes": "(max-width: 650px) 280px, (max-width: 900px) min(440px, calc((100vw - 48px) * .47)), min(440px, calc(min(90vw, 2200px) * .47))"
+      },
+      {
+        "source": "DSC03557.jpg",
+        "width": 280,
+        "height": 497.875,
+        "asset": "http://127.0.0.1:5175/images/portfolio/la-cumbrecita/DSC03557-960.webp",
+        "sizes": "(max-width: 650px) 280px, (max-width: 900px) min(350px, calc((min((100vw - 48px) * .9, 1250px) - 60px) * .3421053)), min(350px, calc((min(min(90vw, 2200px) * .9, 1250px) - 60px) * .3421053))"
+      },
+      {
+        "source": "DSC03601.jpg",
+        "width": 346,
+        "height": 194.625,
+        "asset": "http://127.0.0.1:5175/images/portfolio/la-cumbrecita/DSC03601-960.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 650px) calc(100vw - 48px), (max-width: 900px) calc((min((100vw - 48px) * .9, 1250px) - 60px) * .6578947), calc((min(min(90vw, 2200px) * .9, 1250px) - 60px) * .6578947)"
+      },
+      {
+        "source": "DSC03619.jpg",
+        "width": 280,
+        "height": 497.875,
+        "asset": "http://127.0.0.1:5175/images/portfolio/la-cumbrecita/DSC03619-960.webp",
+        "sizes": "(max-width: 650px) 280px, (max-width: 900px) min(380px, calc((100vw - 48px) * .4)), min(380px, calc(min(90vw, 2200px) * .4))"
+      },
+      {
+        "source": "DSC03622.jpg",
+        "width": 346,
+        "height": 194.625,
+        "asset": "http://127.0.0.1:5175/images/portfolio/la-cumbrecita/DSC03622-960.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 900px) calc(100vw - 48px), min(90vw, 2200px)"
+      }
+    ]
+  },
+  {
+    "viewport": [
+      768,
+      1024
+    ],
+    "dpr": 2,
+    "overflow": false,
+    "photos": [
+      {
+        "source": "DSC03544.jpg",
+        "width": 720,
+        "height": 405,
+        "asset": "http://127.0.0.1:5175/images/portfolio/la-cumbrecita/DSC03544-1440.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 900px) calc(100vw - 48px), min(90vw, 2200px)"
+      },
+      {
+        "source": "DSC03493.jpg",
+        "width": 720,
+        "height": 405,
+        "asset": "http://127.0.0.1:5175/images/portfolio/la-cumbrecita/DSC03493-1440.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 900px) calc(100vw - 48px), min(90vw, 2200px)"
+      },
+      {
+        "source": "DSC03489.jpg",
+        "width": 286.59375,
+        "height": 509.59375,
+        "asset": "http://127.0.0.1:5175/images/portfolio/la-cumbrecita/DSC03489-640.webp",
+        "sizes": "(max-width: 650px) 280px, (max-width: 900px) calc((min((100vw - 48px) * .86, 960px) - 46px) / 2), calc((min(min(90vw, 2200px) * .86, 960px) - 46px) / 2)"
+      },
+      {
+        "source": "DSC03541.jpg",
+        "width": 286.59375,
+        "height": 509.59375,
+        "asset": "http://127.0.0.1:5175/images/portfolio/la-cumbrecita/DSC03541-640.webp",
+        "sizes": "(max-width: 650px) 280px, (max-width: 900px) calc((min((100vw - 48px) * .86, 960px) - 46px) / 2), calc((min(min(90vw, 2200px) * .86, 960px) - 46px) / 2)"
+      },
+      {
+        "source": "DSC03530.jpg",
+        "width": 286.59375,
+        "height": 509.59375,
+        "asset": "http://127.0.0.1:5175/images/portfolio/la-cumbrecita/DSC03530-640.webp",
+        "sizes": "(max-width: 650px) 280px, (max-width: 900px) calc((min((100vw - 48px) * .86, 960px) - 46px) / 2), calc((min(min(90vw, 2200px) * .86, 960px) - 46px) / 2)"
+      },
+      {
+        "source": "DSC03523.jpg",
+        "width": 286.59375,
+        "height": 509.59375,
+        "asset": "http://127.0.0.1:5175/images/portfolio/la-cumbrecita/DSC03523-640.webp",
+        "sizes": "(max-width: 650px) 280px, (max-width: 900px) calc((min((100vw - 48px) * .86, 960px) - 46px) / 2), calc((min(min(90vw, 2200px) * .86, 960px) - 46px) / 2)"
+      },
+      {
+        "source": "DSC03582.jpg",
+        "width": 720,
+        "height": 405,
+        "asset": "http://127.0.0.1:5175/images/portfolio/la-cumbrecita/DSC03582-1440.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 900px) calc(100vw - 48px), min(90vw, 2200px)"
+      },
+      {
+        "source": "DSC03586.jpg",
+        "width": 338.390625,
+        "height": 601.6875,
+        "asset": "http://127.0.0.1:5175/images/portfolio/la-cumbrecita/DSC03586-960.webp",
+        "sizes": "(max-width: 650px) 280px, (max-width: 900px) min(440px, calc((100vw - 48px) * .47)), min(440px, calc(min(90vw, 2200px) * .47))"
+      },
+      {
+        "source": "DSC03557.jpg",
+        "width": 201.15625,
+        "height": 357.46875,
+        "asset": "http://127.0.0.1:5175/images/portfolio/la-cumbrecita/DSC03557-480.webp",
+        "sizes": "(max-width: 650px) 280px, (max-width: 900px) min(350px, calc((min((100vw - 48px) * .9, 1250px) - 60px) * .3421053)), min(350px, calc((min(min(90vw, 2200px) * .9, 1250px) - 60px) * .3421053))"
+      },
+      {
+        "source": "DSC03601.jpg",
+        "width": 386.84375,
+        "height": 217.59375,
+        "asset": "http://127.0.0.1:5175/images/portfolio/la-cumbrecita/DSC03601-960.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 650px) calc(100vw - 48px), (max-width: 900px) calc((min((100vw - 48px) * .9, 1250px) - 60px) * .6578947), calc((min(min(90vw, 2200px) * .9, 1250px) - 60px) * .6578947)"
+      },
+      {
+        "source": "DSC03619.jpg",
+        "width": 288,
+        "height": 512.09375,
+        "asset": "http://127.0.0.1:5175/images/portfolio/la-cumbrecita/DSC03619-640.webp",
+        "sizes": "(max-width: 650px) 280px, (max-width: 900px) min(380px, calc((100vw - 48px) * .4)), min(380px, calc(min(90vw, 2200px) * .4))"
+      },
+      {
+        "source": "DSC03622.jpg",
+        "width": 720,
+        "height": 405,
+        "asset": "http://127.0.0.1:5175/images/portfolio/la-cumbrecita/DSC03622-1440.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 900px) calc(100vw - 48px), min(90vw, 2200px)"
+      }
+    ]
+  },
+  {
+    "viewport": [
+      1366,
+      768
+    ],
+    "dpr": 2,
+    "overflow": false,
+    "photos": [
+      {
+        "source": "DSC03544.jpg",
+        "width": 1229.390625,
+        "height": 691.53125,
+        "asset": "http://127.0.0.1:5175/images/portfolio/la-cumbrecita/DSC03544-2560.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 900px) calc(100vw - 48px), min(90vw, 2200px)"
+      },
+      {
+        "source": "DSC03493.jpg",
+        "width": 1229.390625,
+        "height": 691.53125,
+        "asset": "http://127.0.0.1:5175/images/portfolio/la-cumbrecita/DSC03493-2560.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 900px) calc(100vw - 48px), min(90vw, 2200px)"
+      },
+      {
+        "source": "DSC03489.jpg",
+        "width": 457,
+        "height": 812.59375,
+        "asset": "http://127.0.0.1:5175/images/portfolio/la-cumbrecita/DSC03489-960.webp",
+        "sizes": "(max-width: 650px) 280px, (max-width: 900px) calc((min((100vw - 48px) * .86, 960px) - 46px) / 2), calc((min(min(90vw, 2200px) * .86, 960px) - 46px) / 2)"
+      },
+      {
+        "source": "DSC03541.jpg",
+        "width": 457,
+        "height": 812.125,
+        "asset": "http://127.0.0.1:5175/images/portfolio/la-cumbrecita/DSC03541-960.webp",
+        "sizes": "(max-width: 650px) 280px, (max-width: 900px) calc((min((100vw - 48px) * .86, 960px) - 46px) / 2), calc((min(min(90vw, 2200px) * .86, 960px) - 46px) / 2)"
+      },
+      {
+        "source": "DSC03530.jpg",
+        "width": 457,
+        "height": 812.59375,
+        "asset": "http://127.0.0.1:5175/images/portfolio/la-cumbrecita/DSC03530-960.webp",
+        "sizes": "(max-width: 650px) 280px, (max-width: 900px) calc((min((100vw - 48px) * .86, 960px) - 46px) / 2), calc((min(min(90vw, 2200px) * .86, 960px) - 46px) / 2)"
+      },
+      {
+        "source": "DSC03523.jpg",
+        "width": 457,
+        "height": 812.125,
+        "asset": "http://127.0.0.1:5175/images/portfolio/la-cumbrecita/DSC03523-960.webp",
+        "sizes": "(max-width: 650px) 280px, (max-width: 900px) calc((min((100vw - 48px) * .86, 960px) - 46px) / 2), calc((min(min(90vw, 2200px) * .86, 960px) - 46px) / 2)"
+      },
+      {
+        "source": "DSC03582.jpg",
+        "width": 1229.390625,
+        "height": 691.53125,
+        "asset": "http://127.0.0.1:5175/images/portfolio/la-cumbrecita/DSC03582-2560.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 900px) calc(100vw - 48px), min(90vw, 2200px)"
+      },
+      {
+        "source": "DSC03586.jpg",
+        "width": 440,
+        "height": 782.375,
+        "asset": "http://127.0.0.1:5175/images/portfolio/la-cumbrecita/DSC03586-960.webp",
+        "sizes": "(max-width: 650px) 280px, (max-width: 900px) min(440px, calc((100vw - 48px) * .47)), min(440px, calc(min(90vw, 2200px) * .47))"
+      },
+      {
+        "source": "DSC03557.jpg",
+        "width": 350,
+        "height": 622.34375,
+        "asset": "http://127.0.0.1:5175/images/portfolio/la-cumbrecita/DSC03557-960.webp",
+        "sizes": "(max-width: 650px) 280px, (max-width: 900px) min(350px, calc((min((100vw - 48px) * .9, 1250px) - 60px) * .3421053)), min(350px, calc((min(min(90vw, 2200px) * .9, 1250px) - 60px) * .3421053))"
+      },
+      {
+        "source": "DSC03601.jpg",
+        "width": 688.453125,
+        "height": 387.25,
+        "asset": "http://127.0.0.1:5175/images/portfolio/la-cumbrecita/DSC03601-1440.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 650px) calc(100vw - 48px), (max-width: 900px) calc((min((100vw - 48px) * .9, 1250px) - 60px) * .6578947), calc((min(min(90vw, 2200px) * .9, 1250px) - 60px) * .6578947)"
+      },
+      {
+        "source": "DSC03619.jpg",
+        "width": 380,
+        "height": 675.6875,
+        "asset": "http://127.0.0.1:5175/images/portfolio/la-cumbrecita/DSC03619-960.webp",
+        "sizes": "(max-width: 650px) 280px, (max-width: 900px) min(380px, calc((100vw - 48px) * .4)), min(380px, calc(min(90vw, 2200px) * .4))"
+      },
+      {
+        "source": "DSC03622.jpg",
+        "width": 1229.390625,
+        "height": 691.53125,
+        "asset": "http://127.0.0.1:5175/images/portfolio/la-cumbrecita/DSC03622-2560.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 900px) calc(100vw - 48px), min(90vw, 2200px)"
+      }
+    ]
+  },
+  {
+    "viewport": [
+      1920,
+      1080
+    ],
+    "dpr": 2,
+    "overflow": false,
+    "photos": [
+      {
+        "source": "DSC03544.jpg",
+        "width": 1728,
+        "height": 972,
+        "asset": "http://127.0.0.1:5175/images/portfolio/la-cumbrecita/DSC03544-4400.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 900px) calc(100vw - 48px), min(90vw, 2200px)"
+      },
+      {
+        "source": "DSC03493.jpg",
+        "width": 1728,
+        "height": 972,
+        "asset": "http://127.0.0.1:5175/images/portfolio/la-cumbrecita/DSC03493-4400.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 900px) calc(100vw - 48px), min(90vw, 2200px)"
+      },
+      {
+        "source": "DSC03489.jpg",
+        "width": 457,
+        "height": 812.59375,
+        "asset": "http://127.0.0.1:5175/images/portfolio/la-cumbrecita/DSC03489-960.webp",
+        "sizes": "(max-width: 650px) 280px, (max-width: 900px) calc((min((100vw - 48px) * .86, 960px) - 46px) / 2), calc((min(min(90vw, 2200px) * .86, 960px) - 46px) / 2)"
+      },
+      {
+        "source": "DSC03541.jpg",
+        "width": 457,
+        "height": 812.125,
+        "asset": "http://127.0.0.1:5175/images/portfolio/la-cumbrecita/DSC03541-960.webp",
+        "sizes": "(max-width: 650px) 280px, (max-width: 900px) calc((min((100vw - 48px) * .86, 960px) - 46px) / 2), calc((min(min(90vw, 2200px) * .86, 960px) - 46px) / 2)"
+      },
+      {
+        "source": "DSC03530.jpg",
+        "width": 457,
+        "height": 812.59375,
+        "asset": "http://127.0.0.1:5175/images/portfolio/la-cumbrecita/DSC03530-960.webp",
+        "sizes": "(max-width: 650px) 280px, (max-width: 900px) calc((min((100vw - 48px) * .86, 960px) - 46px) / 2), calc((min(min(90vw, 2200px) * .86, 960px) - 46px) / 2)"
+      },
+      {
+        "source": "DSC03523.jpg",
+        "width": 457,
+        "height": 812.125,
+        "asset": "http://127.0.0.1:5175/images/portfolio/la-cumbrecita/DSC03523-960.webp",
+        "sizes": "(max-width: 650px) 280px, (max-width: 900px) calc((min((100vw - 48px) * .86, 960px) - 46px) / 2), calc((min(min(90vw, 2200px) * .86, 960px) - 46px) / 2)"
+      },
+      {
+        "source": "DSC03582.jpg",
+        "width": 1728,
+        "height": 972.0625,
+        "asset": "http://127.0.0.1:5175/images/portfolio/la-cumbrecita/DSC03582-4357.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 900px) calc(100vw - 48px), min(90vw, 2200px)"
+      },
+      {
+        "source": "DSC03586.jpg",
+        "width": 440,
+        "height": 782.375,
+        "asset": "http://127.0.0.1:5175/images/portfolio/la-cumbrecita/DSC03586-960.webp",
+        "sizes": "(max-width: 650px) 280px, (max-width: 900px) min(440px, calc((100vw - 48px) * .47)), min(440px, calc(min(90vw, 2200px) * .47))"
+      },
+      {
+        "source": "DSC03557.jpg",
+        "width": 350,
+        "height": 622.34375,
+        "asset": "http://127.0.0.1:5175/images/portfolio/la-cumbrecita/DSC03557-960.webp",
+        "sizes": "(max-width: 650px) 280px, (max-width: 900px) min(350px, calc((min((100vw - 48px) * .9, 1250px) - 60px) * .3421053)), min(350px, calc((min(min(90vw, 2200px) * .9, 1250px) - 60px) * .3421053))"
+      },
+      {
+        "source": "DSC03601.jpg",
+        "width": 782.90625,
+        "height": 440.375,
+        "asset": "http://127.0.0.1:5175/images/portfolio/la-cumbrecita/DSC03601-1920.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 650px) calc(100vw - 48px), (max-width: 900px) calc((min((100vw - 48px) * .9, 1250px) - 60px) * .6578947), calc((min(min(90vw, 2200px) * .9, 1250px) - 60px) * .6578947)"
+      },
+      {
+        "source": "DSC03619.jpg",
+        "width": 380,
+        "height": 675.6875,
+        "asset": "http://127.0.0.1:5175/images/portfolio/la-cumbrecita/DSC03619-960.webp",
+        "sizes": "(max-width: 650px) 280px, (max-width: 900px) min(380px, calc((100vw - 48px) * .4)), min(380px, calc(min(90vw, 2200px) * .4))"
+      },
+      {
+        "source": "DSC03622.jpg",
+        "width": 1728,
+        "height": 972,
+        "asset": "http://127.0.0.1:5175/images/portfolio/la-cumbrecita/DSC03622-4400.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 900px) calc(100vw - 48px), min(90vw, 2200px)"
+      }
+    ]
+  },
+  {
+    "viewport": [
+      2560,
+      1440
+    ],
+    "dpr": 2,
+    "overflow": false,
+    "photos": [
+      {
+        "source": "DSC03544.jpg",
+        "width": 2200,
+        "height": 1237.5,
+        "asset": "http://127.0.0.1:5175/images/portfolio/la-cumbrecita/DSC03544-4400.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 900px) calc(100vw - 48px), min(90vw, 2200px)"
+      },
+      {
+        "source": "DSC03493.jpg",
+        "width": 2200,
+        "height": 1237.5,
+        "asset": "http://127.0.0.1:5175/images/portfolio/la-cumbrecita/DSC03493-4400.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 900px) calc(100vw - 48px), min(90vw, 2200px)"
+      },
+      {
+        "source": "DSC03489.jpg",
+        "width": 457,
+        "height": 812.59375,
+        "asset": "http://127.0.0.1:5175/images/portfolio/la-cumbrecita/DSC03489-960.webp",
+        "sizes": "(max-width: 650px) 280px, (max-width: 900px) calc((min((100vw - 48px) * .86, 960px) - 46px) / 2), calc((min(min(90vw, 2200px) * .86, 960px) - 46px) / 2)"
+      },
+      {
+        "source": "DSC03541.jpg",
+        "width": 457,
+        "height": 812.125,
+        "asset": "http://127.0.0.1:5175/images/portfolio/la-cumbrecita/DSC03541-960.webp",
+        "sizes": "(max-width: 650px) 280px, (max-width: 900px) calc((min((100vw - 48px) * .86, 960px) - 46px) / 2), calc((min(min(90vw, 2200px) * .86, 960px) - 46px) / 2)"
+      },
+      {
+        "source": "DSC03530.jpg",
+        "width": 457,
+        "height": 812.59375,
+        "asset": "http://127.0.0.1:5175/images/portfolio/la-cumbrecita/DSC03530-960.webp",
+        "sizes": "(max-width: 650px) 280px, (max-width: 900px) calc((min((100vw - 48px) * .86, 960px) - 46px) / 2), calc((min(min(90vw, 2200px) * .86, 960px) - 46px) / 2)"
+      },
+      {
+        "source": "DSC03523.jpg",
+        "width": 457,
+        "height": 812.125,
+        "asset": "http://127.0.0.1:5175/images/portfolio/la-cumbrecita/DSC03523-960.webp",
+        "sizes": "(max-width: 650px) 280px, (max-width: 900px) calc((min((100vw - 48px) * .86, 960px) - 46px) / 2), calc((min(min(90vw, 2200px) * .86, 960px) - 46px) / 2)"
+      },
+      {
+        "source": "DSC03582.jpg",
+        "width": 2200,
+        "height": 1237.59375,
+        "asset": "http://127.0.0.1:5175/images/portfolio/la-cumbrecita/DSC03582-4357.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 900px) calc(100vw - 48px), min(90vw, 2200px)"
+      },
+      {
+        "source": "DSC03586.jpg",
+        "width": 440,
+        "height": 782.375,
+        "asset": "http://127.0.0.1:5175/images/portfolio/la-cumbrecita/DSC03586-960.webp",
+        "sizes": "(max-width: 650px) 280px, (max-width: 900px) min(440px, calc((100vw - 48px) * .47)), min(440px, calc(min(90vw, 2200px) * .47))"
+      },
+      {
+        "source": "DSC03557.jpg",
+        "width": 350,
+        "height": 622.34375,
+        "asset": "http://127.0.0.1:5175/images/portfolio/la-cumbrecita/DSC03557-960.webp",
+        "sizes": "(max-width: 650px) 280px, (max-width: 900px) min(350px, calc((min((100vw - 48px) * .9, 1250px) - 60px) * .3421053)), min(350px, calc((min(min(90vw, 2200px) * .9, 1250px) - 60px) * .3421053))"
+      },
+      {
+        "source": "DSC03601.jpg",
+        "width": 782.90625,
+        "height": 440.375,
+        "asset": "http://127.0.0.1:5175/images/portfolio/la-cumbrecita/DSC03601-1920.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 650px) calc(100vw - 48px), (max-width: 900px) calc((min((100vw - 48px) * .9, 1250px) - 60px) * .6578947), calc((min(min(90vw, 2200px) * .9, 1250px) - 60px) * .6578947)"
+      },
+      {
+        "source": "DSC03619.jpg",
+        "width": 380,
+        "height": 675.6875,
+        "asset": "http://127.0.0.1:5175/images/portfolio/la-cumbrecita/DSC03619-960.webp",
+        "sizes": "(max-width: 650px) 280px, (max-width: 900px) min(380px, calc((100vw - 48px) * .4)), min(380px, calc(min(90vw, 2200px) * .4))"
+      },
+      {
+        "source": "DSC03622.jpg",
+        "width": 2200,
+        "height": 1237.5,
+        "asset": "http://127.0.0.1:5175/images/portfolio/la-cumbrecita/DSC03622-4400.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 900px) calc(100vw - 48px), min(90vw, 2200px)"
+      }
+    ]
+  }
+]

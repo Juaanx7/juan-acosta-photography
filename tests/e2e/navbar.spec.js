@@ -4,6 +4,7 @@ const origins = [
   ["inicio", "/"],
   ["San Marcos", "/portfolio/san-marcos-mi-mirada"],
   ["Achala", "/portfolio/cajones-de-achala"],
+  ["La Cumbrecita", "/portfolio/la-cumbrecita"],
   ["tienda", "/tienda/deportes"],
   ["evento", "/evento/dh-pan-de-azucar-2026"],
   ["galería", "/evento/dh-pan-de-azucar-2026/entrenamientos"],

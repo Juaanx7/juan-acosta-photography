@@ -1,6 +1,7 @@
 import images from "./portfolioImages.json";
 import sanMarcosImages from "./sanMarcosImages.json";
 import achalaImages from "./achalaImages.json";
+import cumbrecitaImages from "./cumbrecitaImages.json";
 import { routePaths } from "./routes";
 
 const photo = (name, collection = images) => {
@@ -32,6 +33,6 @@ export const portfolioCategories = [
 
 export const portfolioSeries = [
   { id: "achala", title: "Los Cajones de Achala", ...photo("DSC02820", achalaImages), alt: "Grupo entre enormes paredes rocosas de Los Cajones de Achala", label: "RECORRIDOS", description: "Una caminata con amigos entre paredes de roca.", href: routePaths.achala },
-  { id: "cumbrecita", title: "La Cumbrecita", ...photo("forest"), alt: coverPhotos[2].alt, label: "VIAJES", description: "Bosque, agua y pequeños momentos del viaje." },
+  { id: "cumbrecita", title: "La Cumbrecita", ...photo("DSC03544", cumbrecitaImages), alt: coverPhotos[2].alt, label: "VIAJES", description: "Bosque, agua y pequeños momentos del viaje.", href: routePaths.cumbrecita },
   { ...portfolioCategories[1], label: "MIRADA PERSONAL", description: "Una colección sobre el lugar al que pertenezco." },
 ];
