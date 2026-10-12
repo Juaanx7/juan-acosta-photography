@@ -63,3 +63,7 @@ Capturas revisadas:
 - [Chromium · destino después de un toque](capturas/chromium-360-destino.png)
 - [Escritorio · menú 1366 px](capturas/escritorio-1366-menu.png)
 - [Escritorio · destino](capturas/escritorio-1366-destino.png)
+
+## Estado de la Preview
+
+La corrección está subida y disponible en el PR borrador #11. Después del push y de abrir el PR, GitHub no registró ningún check ni despliegue de Vercel para el commit de la corrección. La Preview remota queda pendiente de revisar la integración del proyecto; esta sesión no tiene Vercel instalado/conectado ni un acceso autenticado para iniciarla manualmente. La versión local sí está disponible y comprobada. Producción y main no se modificaron.
