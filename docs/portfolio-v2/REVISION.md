@@ -295,3 +295,10 @@ Revisión en navegador de escritorio con viewport simulado y DPR 1; no equivale 
 - [Del paisaje al papel · 1920×1080](capturas/textos-san-marcos-muestra-1920x1080.jpg)
 - [Contacto y tarjetas · 2560×1440](capturas/textos-contacto-2560x1440.jpg)
 - [Portada · 1366×768](capturas/textos-portada-1366x768.jpg)
+
+
+## Paisajes y viajes · 12 de octubre de 2026
+
+Nueva galería de veinte fotografías en `/portfolio/paisajes-y-viajes`, desde producción `843daab`, rama `feat/portfolio-paisajes-viajes`. Se activa únicamente esta categoría del home y se enlazan las tres series existentes desde el cierre. Se conservan la portada, los anchos aprobados, navbar hamburguesa y Tienda táctil, Sobre mí y todos los flujos deportivos.
+
+La descripción de recursos, verificaciones, límites y capturas está en [Paisajes y viajes · REVISION.md](../paisajes-y-viajes/REVISION.md). Los originales no se versionan; la publicación de producción y el merge quedan a cargo de Juan.

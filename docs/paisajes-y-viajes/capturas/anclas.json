@@ -1,0 +1,12 @@
+[
+  {
+    "label": "Sobre mí",
+    "url": "http://127.0.0.1:5175/#sobre-mi",
+    "menuClosed": true
+  },
+  {
+    "label": "Contacto",
+    "url": "http://127.0.0.1:5175/#contacto",
+    "menuClosed": true
+  }
+]
