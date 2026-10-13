@@ -49,7 +49,7 @@ test("deportes: Cloudinary, selección persistente, paginación, visor y prepara
 });
 
 test("series: orden, visor, contador, Escape y devolución de foco", async ({ page, isMobile }) => {
-  for (const [path, count] of [["/portfolio/san-marcos-mi-mirada",6], ["/portfolio/cajones-de-achala",12]]) {
+  for (const [path, count] of [["/portfolio/san-marcos-mi-mirada",6], ["/portfolio/cajones-de-achala",12], ["/portfolio/la-cumbrecita",12]]) {
     await page.goto(path, { waitUntil: "domcontentloaded" });
     const images = page.locator(".series-work__open");
     await expect(images).toHaveCount(count);
@@ -57,9 +57,12 @@ test("series: orden, visor, contador, Escape y devolución de foco", async ({ pa
     const opener = images.first();
     await activate(opener, isMobile);
     await expect(page.locator(".series-viewer")).toBeVisible();
+    await expect(page.locator(".series-viewer__location")).not.toBeEmpty();
+    const location = await page.locator(".series-viewer__location").textContent();
     await expect(page.locator(".series-viewer__controls")).toContainText(`1 / ${count}`);
     await activate(page.getByRole("button", { name: "Obra siguiente", exact: true }), isMobile);
     await expect(page.locator(".series-viewer__controls")).toContainText(`2 / ${count}`);
+    await expect(page.locator(".series-viewer__location")).toHaveText(location);
     await page.keyboard.press("ArrowLeft");
     await expect(page.locator(".series-viewer__controls")).toContainText(`1 / ${count}`);
     await page.keyboard.press("Escape");

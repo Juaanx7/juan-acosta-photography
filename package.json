@@ -14,6 +14,7 @@
     "upload:category": "node scripts/uploadCategoryToCloudinary.js",
     "upload:event-cover": "node scripts/uploadEventCover.js",
     "test:navbar": "playwright test --config tests/playwright.config.js",
+    "test:landscapes": "playwright test --config tests/landscapes.config.js",
     "test:cumbrecita": "playwright test --config tests/cumbrecita.config.js",
     "test:about": "playwright test --config tests/aboutMe.config.js",
     "test:cover": "playwright test --config tests/cover.config.js"

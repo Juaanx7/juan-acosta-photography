@@ -57,7 +57,7 @@ export default function SeriesViewer({ works, initialIndex, location, opener, on
         <span aria-live="polite">{index + 1} / {works.length}</span>
         <button type="button" aria-label="Obra siguiente" onClick={() => move(1)}>→</button>
       </div>
-      <p className="series-viewer__location">{location}</p>
+      <p className="series-viewer__location" aria-live="polite">{photo.location || location}</p>
     </div>
   </dialog>;
 }

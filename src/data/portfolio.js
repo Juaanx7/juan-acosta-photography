@@ -23,7 +23,7 @@ export const coverPhotos = [
 
 // Las portadas tipográficas esperan fotografías propias del tema correspondiente.
 export const portfolioCategories = [
-  { id: "paisajes", title: "Paisajes y viajes", ...photo("valley"), alt: "Puesta de sol sobre el valle y las sierras" },
+  { id: "paisajes", title: "Paisajes y viajes", ...photo("valley"), alt: "Puesta de sol sobre el valle y las sierras", href: routePaths.landscapes },
   { id: "san-marcos", title: "San Marcos, mi mirada", ...photo("DSC03637", sanMarcosImages), alt: "Pueblo serrano: San Marcos Sierras al atardecer", href: routePaths.sanMarcos },
   { id: "deportes", title: "Deportes en montaña", ...photo("sport"), alt: "Deporte entre la niebla" },
   { id: "eventos", title: "Eventos", eyebrow: "ENCUENTROS", coverTitle: "Eventos" },

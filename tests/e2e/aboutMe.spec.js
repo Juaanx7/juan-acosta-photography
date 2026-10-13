@@ -20,7 +20,7 @@ async function expectBiographyStart(page) {
 
 test("biografía: enlaces desde todas las páginas, anclas repetidas y recarga directa", async ({ page, isMobile }) => {
   test.setTimeout(60000);
-  const origins = ["/", "/portfolio/san-marcos-mi-mirada", "/portfolio/cajones-de-achala", "/portfolio/la-cumbrecita", "/tienda/deportes", "/evento/dh-pan-de-azucar-2026", "/evento/dh-pan-de-azucar-2026/entrenamientos", "/como-comprar"];
+  const origins = ["/", "/portfolio/paisajes-y-viajes", "/portfolio/san-marcos-mi-mirada", "/portfolio/cajones-de-achala", "/portfolio/la-cumbrecita", "/tienda/deportes", "/evento/dh-pan-de-azucar-2026", "/evento/dh-pan-de-azucar-2026/entrenamientos", "/como-comprar"];
   for (const origin of origins) {
     await page.goto(origin, { waitUntil: "domcontentloaded" });
     await expect(page.locator("main h1")).toBeVisible();

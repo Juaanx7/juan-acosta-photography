@@ -2,6 +2,7 @@ import { test, expect } from "@playwright/test";
 
 const origins = [
   ["inicio", "/"],
+  ["Paisajes y viajes", "/portfolio/paisajes-y-viajes"],
   ["San Marcos", "/portfolio/san-marcos-mi-mirada"],
   ["Achala", "/portfolio/cajones-de-achala"],
   ["La Cumbrecita", "/portfolio/la-cumbrecita"],
