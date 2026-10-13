@@ -80,4 +80,10 @@ Local: http://127.0.0.1:5175/portfolio/paisajes-y-viajes. Para reiniciar desde e
 
 Las pruebas son locales y emuladas: no certifican teléfonos físicos, Safari de macOS/iOS, lectores de pantalla ni condiciones de red móvil real. No se enviaron mensajes ni pedidos reales por WhatsApp. El HTML de referencia se conserva únicamente como documentación y se inspeccionó renderizado; no se usa en producción. Juan realizará la revisión, el merge y la publicación manualmente; esta entrega no modifica main ni Production.
 
-El commit se identifica en Git/PR como «feat: implementar galería Paisajes y viajes»; el informe y las capturas pertenecen a ese commit. El enlace al PR/Preview se informará al subir la rama.
+Commit de implementación: **`c5fefb722f617aea7b25c932345c8338185d5a1c`**, «feat: implementar galería Paisajes y viajes». Código, imágenes, pruebas e informe inicial pertenecen a ese commit; una actualización documental agrega estos enlaces tras confirmar el despliegue.
+
+- [PR borrador #15](https://github.com/Juaanx7/juan-acosta-photography/pull/15)
+- [Preview de la implementación](https://juan-acosta-photography-i37p9evmi-juans-projects-1e5bf112.vercel.app/portfolio/paisajes-y-viajes)
+- [Rama remota](https://github.com/Juaanx7/juan-acosta-photography/tree/feat/portfolio-paisajes-viajes)
+
+GitHub/Vercel confirmó **Preview / success** para el commit de implementación. La URL redirige a Login de Vercel sin una sesión autorizada; por eso la validación funcional reportada es local. La Preview corresponde al código de implementación; las actualizaciones documentales no cambian la aplicación. Después de subir, main y el último Production siguieron en `843daab61f1be1658e94758b5bb2fb1b0aefcdba`. No se realizó merge.
