@@ -95,4 +95,12 @@ Local: http://127.0.0.1:5175/portfolio/deportes-en-montana. Para reiniciar desde
 
 Pruebas en Edge/Chromium y WebKit de Playwright sobre Windows, con emulación táctil Pixel 7 / iPhone 13 y teclado. No son pruebas en teléfonos físicos, Safari real, lectores de pantalla ni redes móviles. No se enviaron consultas ni pedidos reales por WhatsApp. Pendientes la revisión visual de Juan y, si corresponde, las comprobaciones en sus dispositivos.
 
-El commit de implementación se identifica como «feat: incorporar galería Deportes en montaña»; sus enlaces y Preview se agregarán al confirmar la subida. El merge a main y la publicación en producción quedan exclusivamente a cargo de Juan.
+Commit de implementación: **`0a97286c73016b65ae30fbf6c8c3690753370042`**, «feat: incorporar galería Deportes en montaña». Incluye código, imágenes optimizadas, pruebas, informe y capturas; una actualización documental registra los enlaces confirmados.
+
+- [PR borrador #16](https://github.com/Juaanx7/juan-acosta-photography/pull/16)
+- [Preview de la implementación](https://juan-acosta-photography-1oen17jhe-juans-projects-1e5bf112.vercel.app/portfolio/deportes-en-montana)
+- [Rama remota](https://github.com/Juaanx7/juan-acosta-photography/tree/feat/portfolio-deportes-montana)
+
+Vercel confirmó **Preview / success** para el commit de implementación. La ruta redirige a Login de Vercel sin una sesión autorizada, por lo que la validación funcional reportada es local. Esta URL corresponde al código probado; la actualización del informe no cambia la aplicación. Main y el último Production siguen en `f56aae0dec62feae5c7fde1414cfacb5b0052318`.
+
+No se realizó merge ni publicación en Production. Juan revisará y realizará el merge manualmente.
