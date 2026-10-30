@@ -1,0 +1,222 @@
+[
+  {
+    "orden": "1",
+    "archivo": "DSC06918.jpg",
+    "carrera": "DH Pan de Azúcar",
+    "texto_alternativo": "Corredor entre la neblina con una aerosilla detrás",
+    "width": 6000,
+    "height": 4000,
+    "bytes": 14843199,
+    "sha256": "4438295dcc6dbe9e2839202b1a220cc6a81a5878ceb59418b91c8a29874bf9e7",
+    "profile": "sRGB IEC61966-2.1"
+  },
+  {
+    "orden": "2",
+    "archivo": "DSC04908.jpg",
+    "carrera": "Enduro Las Pircas",
+    "texto_alternativo": "Corredor inclinado en una curva entre piedras y polvo",
+    "width": 5295,
+    "height": 3530,
+    "bytes": 12869002,
+    "sha256": "83c8283ad06b1c9ea729e252dc506c2ee26fdd269c2caa3fcf1fdc1d28f659ff",
+    "profile": "Rec. 2020"
+  },
+  {
+    "orden": "3",
+    "archivo": "DSC04741.jpg",
+    "carrera": "Enduro Las Pircas",
+    "texto_alternativo": "Un salto con la bicicleta de costado sobre el circuito",
+    "width": 5624,
+    "height": 3749,
+    "bytes": 14667330,
+    "sha256": "078edb959bc2e7a54c1ebe9b6ae31be80e5e6cd7f0a3846212a4f676184c9e48",
+    "profile": "Rec. 2020"
+  },
+  {
+    "orden": "4",
+    "archivo": "DSC07076.jpg",
+    "carrera": "DH Pan de Azúcar",
+    "texto_alternativo": "Una bicicleta suspendida de la aerosilla en la neblina",
+    "width": 4000,
+    "height": 6000,
+    "bytes": 6450242,
+    "sha256": "396757d8825932db009449def31f6835a1528ebd9753e070243c621f8300dac3",
+    "profile": "sRGB IEC61966-2.1"
+  },
+  {
+    "orden": "5",
+    "archivo": "DSC03832.jpg",
+    "carrera": "Enduro Las Pircas",
+    "texto_alternativo": "Un corredor con su bicicleta antes de salir al circuito",
+    "width": 3481,
+    "height": 5222,
+    "bytes": 10513233,
+    "sha256": "e3eba2f62f94ba8f49d5ca2c7b2e3c0fe9b08caa9af93235f12db521b89468a3",
+    "profile": "Rec. 2020"
+  },
+  {
+    "orden": "6",
+    "archivo": "DSC06683.jpg",
+    "carrera": "DH Pan de Azúcar",
+    "texto_alternativo": "Descenso por un sendero rocoso entre la neblina",
+    "width": 6000,
+    "height": 4000,
+    "bytes": 14980197,
+    "sha256": "0e982da3fdeb663e46f3d807f2f76479e2469e5197c6b8b5a9aba3583430fef6",
+    "profile": "sRGB IEC61966-2.1"
+  },
+  {
+    "orden": "7",
+    "archivo": "DSC04471.jpg",
+    "carrera": "Enduro Las Pircas",
+    "texto_alternativo": "Un corredor atraviesa una curva junto a la vegetación",
+    "width": 5615,
+    "height": 3743,
+    "bytes": 12974137,
+    "sha256": "eee4ccc4f6e906606e967159489cfa4db5e260443e74063a091b3d05efa44b3a",
+    "profile": "Rec. 2020"
+  },
+  {
+    "orden": "8",
+    "archivo": "DSC07968.jpg",
+    "carrera": "Quilpo Race",
+    "texto_alternativo": "Un grupo de corredores cruza el río entre las sierras",
+    "width": 6000,
+    "height": 4000,
+    "bytes": 22711843,
+    "sha256": "d1db3aae77b8ae0dc6fbdcb3559b1f6b2d945959dea4ced212bdadf815c1e043",
+    "profile": "Rec. 2020"
+  },
+  {
+    "orden": "9",
+    "archivo": "DSC08137.jpg",
+    "carrera": "Quilpo Race",
+    "texto_alternativo": "Un corredor levanta salpicaduras sobre su reflejo en el agua",
+    "width": 4000,
+    "height": 6000,
+    "bytes": 22305685,
+    "sha256": "07985c49a37dcfaf1c19c3a8417c8b00f519aff9258f4c7237a4bce90424fa7c",
+    "profile": "Rec. 2020"
+  },
+  {
+    "orden": "10",
+    "archivo": "DSC09314.jpg",
+    "carrera": "Quilpo Race",
+    "texto_alternativo": "Un corredor dobla sobre el camino pedregoso",
+    "width": 4000,
+    "height": 6000,
+    "bytes": 14375287,
+    "sha256": "95773a3adc8027b59719f916d84a36eb62a119c87933ddc49dd40e7f454176ee",
+    "profile": "Rec. 2020"
+  },
+  {
+    "orden": "11",
+    "archivo": "DSC08579.jpg",
+    "carrera": "Quilpo Race",
+    "texto_alternativo": "La expresión de esfuerzo de un corredor en un plano cercano",
+    "width": 4000,
+    "height": 6000,
+    "bytes": 18614264,
+    "sha256": "7ca0c9b40531094f3c4387bac7a6e3ee0c813ab2c1912d9c6815f1d8f0ee8fb4",
+    "profile": "Rec. 2020"
+  },
+  {
+    "orden": "12",
+    "archivo": "DSC04994.jpg",
+    "carrera": "Desafío Río Pinto",
+    "texto_alternativo": "Un corredor avanza por el camino bajo los árboles",
+    "width": 3611,
+    "height": 5417,
+    "bytes": 12586299,
+    "sha256": "333aa83a415b327ed94ea8001ceed04b9fb20992c44d2f367fd56ff690919689",
+    "profile": "Rec. 2020"
+  },
+  {
+    "orden": "13",
+    "archivo": "DSC06797.jpg",
+    "carrera": "DH Pan de Azúcar",
+    "texto_alternativo": "Un corredor aparece entre la vegetación y la neblina",
+    "width": 6000,
+    "height": 4000,
+    "bytes": 13287907,
+    "sha256": "6b2449cdcccaa7780ab92b32952bc5414e11e7644ea989088e2de0c7ae518ed9",
+    "profile": "sRGB IEC61966-2.1"
+  },
+  {
+    "orden": "14",
+    "archivo": "DSC04326.jpg",
+    "carrera": "Enduro Las Pircas",
+    "texto_alternativo": "Un corredor salta con una mano levantada",
+    "width": 4608,
+    "height": 3072,
+    "bytes": 8769623,
+    "sha256": "442a57b6ee111938a1b5c139670500034eeeab999265c8b8a13e77572e054d06",
+    "profile": "Rec. 2020"
+  },
+  {
+    "orden": "15",
+    "archivo": "DSC02996.jpg",
+    "carrera": "Desafío Río Pinto",
+    "texto_alternativo": "Corredores en grupo frente a las sierras",
+    "width": 3787,
+    "height": 2525,
+    "bytes": 5878438,
+    "sha256": "b9922fa3b6bf2665a36c3963b8365ae9b4a1d4c600062298a809da000db6c2a7",
+    "profile": "Rec. 2020"
+  },
+  {
+    "orden": "16",
+    "archivo": "DSC08126.jpg",
+    "carrera": "DH Pan de Azúcar",
+    "texto_alternativo": "Un corredor supera un salto en el tramo de rocas",
+    "width": 3904,
+    "height": 2603,
+    "bytes": 7222461,
+    "sha256": "ef188620f38d7d5e3689a96d2526fe64ad0f329a7318dc4e48cf0882d0d9232e",
+    "profile": "sRGB IEC61966-2.1"
+  },
+  {
+    "orden": "17",
+    "archivo": "DSC08226.jpg",
+    "carrera": "DH Pan de Azúcar",
+    "texto_alternativo": "Detalle del cuadro y la suspensión de una bicicleta",
+    "width": 4000,
+    "height": 6000,
+    "bytes": 11299056,
+    "sha256": "7cdc029631c021b66a9909c70c1edb3f309307688e596b97995a41631ef51321",
+    "profile": "sRGB IEC61966-2.1"
+  },
+  {
+    "orden": "18",
+    "archivo": "DSC05303.jpg",
+    "carrera": "Enduro Las Pircas",
+    "texto_alternativo": "Bicicletas reunidas en el espacio de la carrera",
+    "width": 4000,
+    "height": 6000,
+    "bytes": 16570568,
+    "sha256": "0872e070be39a80e4639aba8d4a3fca1b6ce1a4f17f387d92ef48231b0030cc3",
+    "profile": "Rec. 2020"
+  },
+  {
+    "orden": "19",
+    "archivo": "DSC05143.jpg",
+    "carrera": "Enduro Las Pircas",
+    "texto_alternativo": "Una bicicleta en el aire a contraluz entre los árboles",
+    "width": 4954,
+    "height": 3303,
+    "bytes": 8056704,
+    "sha256": "76c34b2aed09f8d16f14131c3bd051f629bd4109cb83766fbe58ef0e5dce97f9",
+    "profile": "Rec. 2020"
+  },
+  {
+    "orden": "20",
+    "archivo": "DSC06882.jpg",
+    "carrera": "Desafío Río Pinto",
+    "texto_alternativo": "Un corredor mira a cámara mientras avanza junto a otros participantes",
+    "width": 2393,
+    "height": 3589,
+    "bytes": 4947549,
+    "sha256": "d24e391b83f101c6b7753201a7e2d5a2b5c4b5773f1945bb35e19b2508e03779",
+    "profile": "Rec. 2020"
+  }
+]
