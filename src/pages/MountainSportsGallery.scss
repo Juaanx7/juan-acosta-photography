@@ -1,0 +1,25 @@
+.mountain-sports-gallery {
+  .landscape-intro h1 { font-size: clamp(36px, 5.6vw, 64px); }
+  .landscape-intro__copy { max-width: 650px; }
+}
+.mountain-row--portraits { width: 78%; margin-inline: auto; }
+.mountain-row--mixed { grid-template-columns: minmax(0, 1.75fr) minmax(0, 1fr); align-items: center; }
+.mountain-contact {
+  display: grid; grid-template-columns: minmax(0, 1.6fr) minmax(0, 1fr); gap: 50px; align-items: center;
+  padding: 50px 0; border-top: 1px solid var(--rule);
+  h2 { font-size: 32px; line-height: 1.2; margin: 18px 0 20px; }
+  p:not(.series-eyebrow) { font-size: 14px; line-height: 1.7; color: var(--soft); max-width: 650px; }
+  a { display: flex; justify-content: space-between; align-items: center; gap: 18px; padding-block: 15px; min-height: 44px; border-bottom: 1px solid var(--ink); font-size: 13px; }
+}
+.mountain-shop {
+  display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; gap: 22px;
+  padding: 32px 0 48px; border-top: 1px solid var(--rule);
+  h2 { font-size: 21px; line-height: 1.2; margin-bottom: 10px; }
+  p { font-size: 14px; line-height: 1.7; color: var(--soft); max-width: 650px; }
+  a { display: inline-flex; align-items: center; gap: 18px; min-height: 44px; padding-block: 12px; font-size: 13px; }
+}
+.mountain-contact a:hover, .mountain-shop a:hover { text-decoration: underline; text-underline-offset: 5px; }
+@media (max-width: 600px) {
+  .mountain-row--portraits, .mountain-row--mixed { width: 100%; grid-template-columns: minmax(0, 1fr); }
+  .mountain-contact { grid-template-columns: minmax(0, 1fr); gap: 22px; padding-block: 35px; h2 { font-size: 28px; } }
+}

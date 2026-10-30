@@ -302,3 +302,10 @@ Revisión en navegador de escritorio con viewport simulado y DPR 1; no equivale 
 Nueva galería de veinte fotografías en `/portfolio/paisajes-y-viajes`, desde producción `843daab`, rama `feat/portfolio-paisajes-viajes`. Se activa únicamente esta categoría del home y se enlazan las tres series existentes desde el cierre. Se conservan la portada, los anchos aprobados, navbar hamburguesa y Tienda táctil, Sobre mí y todos los flujos deportivos.
 
 La descripción de recursos, verificaciones, límites y capturas está en [Paisajes y viajes · REVISION.md](../paisajes-y-viajes/REVISION.md). Los originales no se versionan; la publicación de producción y el merge quedan a cargo de Juan.
+
+
+## Deportes en montaña · 30 de octubre de 2026
+
+Galería de veinte fotografías en `/portfolio/deportes-en-montana`, rama `feat/portfolio-deportes-montana`, desde producción `f56aae0`. Se activa la categoría correspondiente del home, conservando sus controles y fotografía. El cierre enlaza al contacto real con confirmación de WhatsApp y a la tienda deportiva existente; no agrega una tienda ni selección de compra al portfolio.
+
+Recursos, fuentes verificadas, distribución, comprobaciones y capturas están en [Deportes en montaña · REVISION.md](../deportes-en-montana/REVISION.md). Los originales no se versionan. Juan revisa y realiza el merge manualmente; esta entrega no publica en producción.

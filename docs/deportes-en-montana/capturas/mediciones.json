@@ -1,0 +1,902 @@
+[
+  {
+    "viewport": [
+      360,
+      800
+    ],
+    "dpr": 2.625,
+    "overflow": false,
+    "photos": [
+      {
+        "source": "DSC06918.jpg",
+        "width": 316,
+        "height": 210.65625,
+        "asset": "http://127.0.0.1:5175/images/portfolio/deportes-en-montana/DSC06918-960.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 600px) calc(100vw - 48px), (max-width: 900px) calc((100vw - 48px)), calc(min(90vw, 2200px))"
+      },
+      {
+        "source": "DSC04908.jpg",
+        "width": 316,
+        "height": 210.65625,
+        "asset": "http://127.0.0.1:5175/images/portfolio/deportes-en-montana/DSC04908-960.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 600px) calc(100vw - 48px), (max-width: 900px) calc(((100vw - 48px) - 28px) / 2), calc((min(90vw, 2200px) - 28px) / 2)"
+      },
+      {
+        "source": "DSC04741.jpg",
+        "width": 316,
+        "height": 210.65625,
+        "asset": "http://127.0.0.1:5175/images/portfolio/deportes-en-montana/DSC04741-960.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 600px) calc(100vw - 48px), (max-width: 900px) calc(((100vw - 48px) - 28px) / 2), calc((min(90vw, 2200px) - 28px) / 2)"
+      },
+      {
+        "source": "DSC07076.jpg",
+        "width": 316,
+        "height": 474,
+        "asset": "http://127.0.0.1:5175/images/portfolio/deportes-en-montana/DSC07076-960.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 600px) calc(100vw - 48px), (max-width: 900px) calc(((100vw - 48px) * .78 - 28px) / 2), calc((min(90vw, 2200px) * .78 - 28px) / 2)"
+      },
+      {
+        "source": "DSC03832.jpg",
+        "width": 316,
+        "height": 474,
+        "asset": "http://127.0.0.1:5175/images/portfolio/deportes-en-montana/DSC03832-960.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 600px) calc(100vw - 48px), (max-width: 900px) calc(((100vw - 48px) * .78 - 28px) / 2), calc((min(90vw, 2200px) * .78 - 28px) / 2)"
+      },
+      {
+        "source": "DSC06683.jpg",
+        "width": 316,
+        "height": 210.65625,
+        "asset": "http://127.0.0.1:5175/images/portfolio/deportes-en-montana/DSC06683-960.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 600px) calc(100vw - 48px), (max-width: 900px) calc(((100vw - 48px) - 28px) / 2), calc((min(90vw, 2200px) - 28px) / 2)"
+      },
+      {
+        "source": "DSC04471.jpg",
+        "width": 316,
+        "height": 210.65625,
+        "asset": "http://127.0.0.1:5175/images/portfolio/deportes-en-montana/DSC04471-960.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 600px) calc(100vw - 48px), (max-width: 900px) calc(((100vw - 48px) - 28px) / 2), calc((min(90vw, 2200px) - 28px) / 2)"
+      },
+      {
+        "source": "DSC07968.jpg",
+        "width": 316,
+        "height": 210.65625,
+        "asset": "http://127.0.0.1:5175/images/portfolio/deportes-en-montana/DSC07968-960.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 600px) calc(100vw - 48px), (max-width: 900px) calc((100vw - 48px)), calc(min(90vw, 2200px))"
+      },
+      {
+        "source": "DSC08137.jpg",
+        "width": 316,
+        "height": 474,
+        "asset": "http://127.0.0.1:5175/images/portfolio/deportes-en-montana/DSC08137-960.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 600px) calc(100vw - 48px), (max-width: 900px) calc(((100vw - 48px) * .78 - 28px) / 2), calc((min(90vw, 2200px) * .78 - 28px) / 2)"
+      },
+      {
+        "source": "DSC09314.jpg",
+        "width": 316,
+        "height": 474,
+        "asset": "http://127.0.0.1:5175/images/portfolio/deportes-en-montana/DSC09314-960.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 600px) calc(100vw - 48px), (max-width: 900px) calc(((100vw - 48px) * .78 - 28px) / 2), calc((min(90vw, 2200px) * .78 - 28px) / 2)"
+      },
+      {
+        "source": "DSC08579.jpg",
+        "width": 316,
+        "height": 474,
+        "asset": "http://127.0.0.1:5175/images/portfolio/deportes-en-montana/DSC08579-960.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 600px) calc(100vw - 48px), (max-width: 900px) calc(((100vw - 48px) * .78 - 28px) / 2), calc((min(90vw, 2200px) * .78 - 28px) / 2)"
+      },
+      {
+        "source": "DSC04994.jpg",
+        "width": 316,
+        "height": 474,
+        "asset": "http://127.0.0.1:5175/images/portfolio/deportes-en-montana/DSC04994-960.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 600px) calc(100vw - 48px), (max-width: 900px) calc(((100vw - 48px) * .78 - 28px) / 2), calc((min(90vw, 2200px) * .78 - 28px) / 2)"
+      },
+      {
+        "source": "DSC06797.jpg",
+        "width": 316,
+        "height": 210.65625,
+        "asset": "http://127.0.0.1:5175/images/portfolio/deportes-en-montana/DSC06797-960.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 600px) calc(100vw - 48px), (max-width: 900px) calc(((100vw - 48px) - 28px) / 2), calc((min(90vw, 2200px) - 28px) / 2)"
+      },
+      {
+        "source": "DSC04326.jpg",
+        "width": 316,
+        "height": 210.65625,
+        "asset": "http://127.0.0.1:5175/images/portfolio/deportes-en-montana/DSC04326-960.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 600px) calc(100vw - 48px), (max-width: 900px) calc(((100vw - 48px) - 28px) / 2), calc((min(90vw, 2200px) - 28px) / 2)"
+      },
+      {
+        "source": "DSC02996.jpg",
+        "width": 316,
+        "height": 210.65625,
+        "asset": "http://127.0.0.1:5175/images/portfolio/deportes-en-montana/DSC02996-960.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 600px) calc(100vw - 48px), (max-width: 900px) calc(((100vw - 48px) - 28px) / 2), calc((min(90vw, 2200px) - 28px) / 2)"
+      },
+      {
+        "source": "DSC08126.jpg",
+        "width": 316,
+        "height": 210.65625,
+        "asset": "http://127.0.0.1:5175/images/portfolio/deportes-en-montana/DSC08126-960.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 600px) calc(100vw - 48px), (max-width: 900px) calc(((100vw - 48px) - 28px) / 2), calc((min(90vw, 2200px) - 28px) / 2)"
+      },
+      {
+        "source": "DSC08226.jpg",
+        "width": 316,
+        "height": 474,
+        "asset": "http://127.0.0.1:5175/images/portfolio/deportes-en-montana/DSC08226-960.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 600px) calc(100vw - 48px), (max-width: 900px) calc(((100vw - 48px) * .78 - 28px) / 2), calc((min(90vw, 2200px) * .78 - 28px) / 2)"
+      },
+      {
+        "source": "DSC05303.jpg",
+        "width": 316,
+        "height": 474,
+        "asset": "http://127.0.0.1:5175/images/portfolio/deportes-en-montana/DSC05303-960.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 600px) calc(100vw - 48px), (max-width: 900px) calc(((100vw - 48px) * .78 - 28px) / 2), calc((min(90vw, 2200px) * .78 - 28px) / 2)"
+      },
+      {
+        "source": "DSC05143.jpg",
+        "width": 316,
+        "height": 210.65625,
+        "asset": "http://127.0.0.1:5175/images/portfolio/deportes-en-montana/DSC05143-960.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 600px) calc(100vw - 48px), (max-width: 900px) calc(((100vw - 48px) - 28px) * 1.75 / 2.75), calc((min(90vw, 2200px) - 28px) * 1.75 / 2.75)"
+      },
+      {
+        "source": "DSC06882.jpg",
+        "width": 316,
+        "height": 474,
+        "asset": "http://127.0.0.1:5175/images/portfolio/deportes-en-montana/DSC06882-960.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 600px) calc(100vw - 48px), (max-width: 900px) calc(((100vw - 48px) - 28px) / 2.75), calc((min(90vw, 2200px) - 28px) / 2.75)"
+      }
+    ]
+  },
+  {
+    "viewport": [
+      390,
+      800
+    ],
+    "dpr": 2.625,
+    "overflow": false,
+    "photos": [
+      {
+        "source": "DSC06918.jpg",
+        "width": 346,
+        "height": 230.65625,
+        "asset": "http://127.0.0.1:5175/images/portfolio/deportes-en-montana/DSC06918-960.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 600px) calc(100vw - 48px), (max-width: 900px) calc((100vw - 48px)), calc(min(90vw, 2200px))"
+      },
+      {
+        "source": "DSC04908.jpg",
+        "width": 346,
+        "height": 230.65625,
+        "asset": "http://127.0.0.1:5175/images/portfolio/deportes-en-montana/DSC04908-960.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 600px) calc(100vw - 48px), (max-width: 900px) calc(((100vw - 48px) - 28px) / 2), calc((min(90vw, 2200px) - 28px) / 2)"
+      },
+      {
+        "source": "DSC04741.jpg",
+        "width": 346,
+        "height": 230.65625,
+        "asset": "http://127.0.0.1:5175/images/portfolio/deportes-en-montana/DSC04741-960.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 600px) calc(100vw - 48px), (max-width: 900px) calc(((100vw - 48px) - 28px) / 2), calc((min(90vw, 2200px) - 28px) / 2)"
+      },
+      {
+        "source": "DSC07076.jpg",
+        "width": 346,
+        "height": 519,
+        "asset": "http://127.0.0.1:5175/images/portfolio/deportes-en-montana/DSC07076-960.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 600px) calc(100vw - 48px), (max-width: 900px) calc(((100vw - 48px) * .78 - 28px) / 2), calc((min(90vw, 2200px) * .78 - 28px) / 2)"
+      },
+      {
+        "source": "DSC03832.jpg",
+        "width": 346,
+        "height": 519,
+        "asset": "http://127.0.0.1:5175/images/portfolio/deportes-en-montana/DSC03832-960.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 600px) calc(100vw - 48px), (max-width: 900px) calc(((100vw - 48px) * .78 - 28px) / 2), calc((min(90vw, 2200px) * .78 - 28px) / 2)"
+      },
+      {
+        "source": "DSC06683.jpg",
+        "width": 346,
+        "height": 230.65625,
+        "asset": "http://127.0.0.1:5175/images/portfolio/deportes-en-montana/DSC06683-960.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 600px) calc(100vw - 48px), (max-width: 900px) calc(((100vw - 48px) - 28px) / 2), calc((min(90vw, 2200px) - 28px) / 2)"
+      },
+      {
+        "source": "DSC04471.jpg",
+        "width": 346,
+        "height": 230.65625,
+        "asset": "http://127.0.0.1:5175/images/portfolio/deportes-en-montana/DSC04471-960.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 600px) calc(100vw - 48px), (max-width: 900px) calc(((100vw - 48px) - 28px) / 2), calc((min(90vw, 2200px) - 28px) / 2)"
+      },
+      {
+        "source": "DSC07968.jpg",
+        "width": 346,
+        "height": 230.65625,
+        "asset": "http://127.0.0.1:5175/images/portfolio/deportes-en-montana/DSC07968-960.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 600px) calc(100vw - 48px), (max-width: 900px) calc((100vw - 48px)), calc(min(90vw, 2200px))"
+      },
+      {
+        "source": "DSC08137.jpg",
+        "width": 346,
+        "height": 519,
+        "asset": "http://127.0.0.1:5175/images/portfolio/deportes-en-montana/DSC08137-960.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 600px) calc(100vw - 48px), (max-width: 900px) calc(((100vw - 48px) * .78 - 28px) / 2), calc((min(90vw, 2200px) * .78 - 28px) / 2)"
+      },
+      {
+        "source": "DSC09314.jpg",
+        "width": 346,
+        "height": 519,
+        "asset": "http://127.0.0.1:5175/images/portfolio/deportes-en-montana/DSC09314-960.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 600px) calc(100vw - 48px), (max-width: 900px) calc(((100vw - 48px) * .78 - 28px) / 2), calc((min(90vw, 2200px) * .78 - 28px) / 2)"
+      },
+      {
+        "source": "DSC08579.jpg",
+        "width": 346,
+        "height": 519,
+        "asset": "http://127.0.0.1:5175/images/portfolio/deportes-en-montana/DSC08579-960.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 600px) calc(100vw - 48px), (max-width: 900px) calc(((100vw - 48px) * .78 - 28px) / 2), calc((min(90vw, 2200px) * .78 - 28px) / 2)"
+      },
+      {
+        "source": "DSC04994.jpg",
+        "width": 346,
+        "height": 519,
+        "asset": "http://127.0.0.1:5175/images/portfolio/deportes-en-montana/DSC04994-960.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 600px) calc(100vw - 48px), (max-width: 900px) calc(((100vw - 48px) * .78 - 28px) / 2), calc((min(90vw, 2200px) * .78 - 28px) / 2)"
+      },
+      {
+        "source": "DSC06797.jpg",
+        "width": 346,
+        "height": 230.65625,
+        "asset": "http://127.0.0.1:5175/images/portfolio/deportes-en-montana/DSC06797-960.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 600px) calc(100vw - 48px), (max-width: 900px) calc(((100vw - 48px) - 28px) / 2), calc((min(90vw, 2200px) - 28px) / 2)"
+      },
+      {
+        "source": "DSC04326.jpg",
+        "width": 346,
+        "height": 230.65625,
+        "asset": "http://127.0.0.1:5175/images/portfolio/deportes-en-montana/DSC04326-960.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 600px) calc(100vw - 48px), (max-width: 900px) calc(((100vw - 48px) - 28px) / 2), calc((min(90vw, 2200px) - 28px) / 2)"
+      },
+      {
+        "source": "DSC02996.jpg",
+        "width": 346,
+        "height": 230.65625,
+        "asset": "http://127.0.0.1:5175/images/portfolio/deportes-en-montana/DSC02996-960.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 600px) calc(100vw - 48px), (max-width: 900px) calc(((100vw - 48px) - 28px) / 2), calc((min(90vw, 2200px) - 28px) / 2)"
+      },
+      {
+        "source": "DSC08126.jpg",
+        "width": 346,
+        "height": 230.65625,
+        "asset": "http://127.0.0.1:5175/images/portfolio/deportes-en-montana/DSC08126-960.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 600px) calc(100vw - 48px), (max-width: 900px) calc(((100vw - 48px) - 28px) / 2), calc((min(90vw, 2200px) - 28px) / 2)"
+      },
+      {
+        "source": "DSC08226.jpg",
+        "width": 346,
+        "height": 519,
+        "asset": "http://127.0.0.1:5175/images/portfolio/deportes-en-montana/DSC08226-960.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 600px) calc(100vw - 48px), (max-width: 900px) calc(((100vw - 48px) * .78 - 28px) / 2), calc((min(90vw, 2200px) * .78 - 28px) / 2)"
+      },
+      {
+        "source": "DSC05303.jpg",
+        "width": 346,
+        "height": 519,
+        "asset": "http://127.0.0.1:5175/images/portfolio/deportes-en-montana/DSC05303-960.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 600px) calc(100vw - 48px), (max-width: 900px) calc(((100vw - 48px) * .78 - 28px) / 2), calc((min(90vw, 2200px) * .78 - 28px) / 2)"
+      },
+      {
+        "source": "DSC05143.jpg",
+        "width": 346,
+        "height": 230.65625,
+        "asset": "http://127.0.0.1:5175/images/portfolio/deportes-en-montana/DSC05143-960.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 600px) calc(100vw - 48px), (max-width: 900px) calc(((100vw - 48px) - 28px) * 1.75 / 2.75), calc((min(90vw, 2200px) - 28px) * 1.75 / 2.75)"
+      },
+      {
+        "source": "DSC06882.jpg",
+        "width": 346,
+        "height": 519,
+        "asset": "http://127.0.0.1:5175/images/portfolio/deportes-en-montana/DSC06882-960.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 600px) calc(100vw - 48px), (max-width: 900px) calc(((100vw - 48px) - 28px) / 2.75), calc((min(90vw, 2200px) - 28px) / 2.75)"
+      }
+    ]
+  },
+  {
+    "viewport": [
+      768,
+      1024
+    ],
+    "dpr": 2,
+    "overflow": false,
+    "photos": [
+      {
+        "source": "DSC06918.jpg",
+        "width": 720,
+        "height": 480,
+        "asset": "http://127.0.0.1:5175/images/portfolio/deportes-en-montana/DSC06918-1440.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 600px) calc(100vw - 48px), (max-width: 900px) calc((100vw - 48px)), calc(min(90vw, 2200px))"
+      },
+      {
+        "source": "DSC04908.jpg",
+        "width": 346,
+        "height": 230.65625,
+        "asset": "http://127.0.0.1:5175/images/portfolio/deportes-en-montana/DSC04908-960.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 600px) calc(100vw - 48px), (max-width: 900px) calc(((100vw - 48px) - 28px) / 2), calc((min(90vw, 2200px) - 28px) / 2)"
+      },
+      {
+        "source": "DSC04741.jpg",
+        "width": 346,
+        "height": 230.65625,
+        "asset": "http://127.0.0.1:5175/images/portfolio/deportes-en-montana/DSC04741-960.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 600px) calc(100vw - 48px), (max-width: 900px) calc(((100vw - 48px) - 28px) / 2), calc((min(90vw, 2200px) - 28px) / 2)"
+      },
+      {
+        "source": "DSC07076.jpg",
+        "width": 266.796875,
+        "height": 400.1875,
+        "asset": "http://127.0.0.1:5175/images/portfolio/deportes-en-montana/DSC07076-640.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 600px) calc(100vw - 48px), (max-width: 900px) calc(((100vw - 48px) * .78 - 28px) / 2), calc((min(90vw, 2200px) * .78 - 28px) / 2)"
+      },
+      {
+        "source": "DSC03832.jpg",
+        "width": 266.796875,
+        "height": 400.1875,
+        "asset": "http://127.0.0.1:5175/images/portfolio/deportes-en-montana/DSC03832-640.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 600px) calc(100vw - 48px), (max-width: 900px) calc(((100vw - 48px) * .78 - 28px) / 2), calc((min(90vw, 2200px) * .78 - 28px) / 2)"
+      },
+      {
+        "source": "DSC06683.jpg",
+        "width": 346,
+        "height": 230.65625,
+        "asset": "http://127.0.0.1:5175/images/portfolio/deportes-en-montana/DSC06683-960.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 600px) calc(100vw - 48px), (max-width: 900px) calc(((100vw - 48px) - 28px) / 2), calc((min(90vw, 2200px) - 28px) / 2)"
+      },
+      {
+        "source": "DSC04471.jpg",
+        "width": 346,
+        "height": 230.65625,
+        "asset": "http://127.0.0.1:5175/images/portfolio/deportes-en-montana/DSC04471-960.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 600px) calc(100vw - 48px), (max-width: 900px) calc(((100vw - 48px) - 28px) / 2), calc((min(90vw, 2200px) - 28px) / 2)"
+      },
+      {
+        "source": "DSC07968.jpg",
+        "width": 720,
+        "height": 480,
+        "asset": "http://127.0.0.1:5175/images/portfolio/deportes-en-montana/DSC07968-1440.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 600px) calc(100vw - 48px), (max-width: 900px) calc((100vw - 48px)), calc(min(90vw, 2200px))"
+      },
+      {
+        "source": "DSC08137.jpg",
+        "width": 266.796875,
+        "height": 400.1875,
+        "asset": "http://127.0.0.1:5175/images/portfolio/deportes-en-montana/DSC08137-640.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 600px) calc(100vw - 48px), (max-width: 900px) calc(((100vw - 48px) * .78 - 28px) / 2), calc((min(90vw, 2200px) * .78 - 28px) / 2)"
+      },
+      {
+        "source": "DSC09314.jpg",
+        "width": 266.796875,
+        "height": 400.1875,
+        "asset": "http://127.0.0.1:5175/images/portfolio/deportes-en-montana/DSC09314-640.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 600px) calc(100vw - 48px), (max-width: 900px) calc(((100vw - 48px) * .78 - 28px) / 2), calc((min(90vw, 2200px) * .78 - 28px) / 2)"
+      },
+      {
+        "source": "DSC08579.jpg",
+        "width": 266.796875,
+        "height": 400.1875,
+        "asset": "http://127.0.0.1:5175/images/portfolio/deportes-en-montana/DSC08579-640.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 600px) calc(100vw - 48px), (max-width: 900px) calc(((100vw - 48px) * .78 - 28px) / 2), calc((min(90vw, 2200px) * .78 - 28px) / 2)"
+      },
+      {
+        "source": "DSC04994.jpg",
+        "width": 266.796875,
+        "height": 400.1875,
+        "asset": "http://127.0.0.1:5175/images/portfolio/deportes-en-montana/DSC04994-640.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 600px) calc(100vw - 48px), (max-width: 900px) calc(((100vw - 48px) * .78 - 28px) / 2), calc((min(90vw, 2200px) * .78 - 28px) / 2)"
+      },
+      {
+        "source": "DSC06797.jpg",
+        "width": 346,
+        "height": 230.65625,
+        "asset": "http://127.0.0.1:5175/images/portfolio/deportes-en-montana/DSC06797-960.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 600px) calc(100vw - 48px), (max-width: 900px) calc(((100vw - 48px) - 28px) / 2), calc((min(90vw, 2200px) - 28px) / 2)"
+      },
+      {
+        "source": "DSC04326.jpg",
+        "width": 346,
+        "height": 230.65625,
+        "asset": "http://127.0.0.1:5175/images/portfolio/deportes-en-montana/DSC04326-960.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 600px) calc(100vw - 48px), (max-width: 900px) calc(((100vw - 48px) - 28px) / 2), calc((min(90vw, 2200px) - 28px) / 2)"
+      },
+      {
+        "source": "DSC02996.jpg",
+        "width": 346,
+        "height": 230.65625,
+        "asset": "http://127.0.0.1:5175/images/portfolio/deportes-en-montana/DSC02996-960.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 600px) calc(100vw - 48px), (max-width: 900px) calc(((100vw - 48px) - 28px) / 2), calc((min(90vw, 2200px) - 28px) / 2)"
+      },
+      {
+        "source": "DSC08126.jpg",
+        "width": 346,
+        "height": 230.65625,
+        "asset": "http://127.0.0.1:5175/images/portfolio/deportes-en-montana/DSC08126-960.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 600px) calc(100vw - 48px), (max-width: 900px) calc(((100vw - 48px) - 28px) / 2), calc((min(90vw, 2200px) - 28px) / 2)"
+      },
+      {
+        "source": "DSC08226.jpg",
+        "width": 266.796875,
+        "height": 400.1875,
+        "asset": "http://127.0.0.1:5175/images/portfolio/deportes-en-montana/DSC08226-640.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 600px) calc(100vw - 48px), (max-width: 900px) calc(((100vw - 48px) * .78 - 28px) / 2), calc((min(90vw, 2200px) * .78 - 28px) / 2)"
+      },
+      {
+        "source": "DSC05303.jpg",
+        "width": 266.796875,
+        "height": 400.1875,
+        "asset": "http://127.0.0.1:5175/images/portfolio/deportes-en-montana/DSC05303-640.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 600px) calc(100vw - 48px), (max-width: 900px) calc(((100vw - 48px) * .78 - 28px) / 2), calc((min(90vw, 2200px) * .78 - 28px) / 2)"
+      },
+      {
+        "source": "DSC05143.jpg",
+        "width": 440.359375,
+        "height": 293.5625,
+        "asset": "http://127.0.0.1:5175/images/portfolio/deportes-en-montana/DSC05143-960.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 600px) calc(100vw - 48px), (max-width: 900px) calc(((100vw - 48px) - 28px) * 1.75 / 2.75), calc((min(90vw, 2200px) - 28px) * 1.75 / 2.75)"
+      },
+      {
+        "source": "DSC06882.jpg",
+        "width": 251.640625,
+        "height": 377.453125,
+        "asset": "http://127.0.0.1:5175/images/portfolio/deportes-en-montana/DSC06882-640.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 600px) calc(100vw - 48px), (max-width: 900px) calc(((100vw - 48px) - 28px) / 2.75), calc((min(90vw, 2200px) - 28px) / 2.75)"
+      }
+    ]
+  },
+  {
+    "viewport": [
+      1366,
+      768
+    ],
+    "dpr": 2,
+    "overflow": false,
+    "photos": [
+      {
+        "source": "DSC06918.jpg",
+        "width": 1229.390625,
+        "height": 819.75,
+        "asset": "http://127.0.0.1:5175/images/portfolio/deportes-en-montana/DSC06918-2560.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 600px) calc(100vw - 48px), (max-width: 900px) calc((100vw - 48px)), calc(min(90vw, 2200px))"
+      },
+      {
+        "source": "DSC04908.jpg",
+        "width": 600.6875,
+        "height": 400.453125,
+        "asset": "http://127.0.0.1:5175/images/portfolio/deportes-en-montana/DSC04908-1440.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 600px) calc(100vw - 48px), (max-width: 900px) calc(((100vw - 48px) - 28px) / 2), calc((min(90vw, 2200px) - 28px) / 2)"
+      },
+      {
+        "source": "DSC04741.jpg",
+        "width": 600.703125,
+        "height": 400.46875,
+        "asset": "http://127.0.0.1:5175/images/portfolio/deportes-en-montana/DSC04741-1440.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 600px) calc(100vw - 48px), (max-width: 900px) calc(((100vw - 48px) - 28px) / 2), calc((min(90vw, 2200px) - 28px) / 2)"
+      },
+      {
+        "source": "DSC07076.jpg",
+        "width": 465.453125,
+        "height": 698.171875,
+        "asset": "http://127.0.0.1:5175/images/portfolio/deportes-en-montana/DSC07076-960.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 600px) calc(100vw - 48px), (max-width: 900px) calc(((100vw - 48px) * .78 - 28px) / 2), calc((min(90vw, 2200px) * .78 - 28px) / 2)"
+      },
+      {
+        "source": "DSC03832.jpg",
+        "width": 465.46875,
+        "height": 698.203125,
+        "asset": "http://127.0.0.1:5175/images/portfolio/deportes-en-montana/DSC03832-960.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 600px) calc(100vw - 48px), (max-width: 900px) calc(((100vw - 48px) * .78 - 28px) / 2), calc((min(90vw, 2200px) * .78 - 28px) / 2)"
+      },
+      {
+        "source": "DSC06683.jpg",
+        "width": 600.6875,
+        "height": 400.453125,
+        "asset": "http://127.0.0.1:5175/images/portfolio/deportes-en-montana/DSC06683-1440.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 600px) calc(100vw - 48px), (max-width: 900px) calc(((100vw - 48px) - 28px) / 2), calc((min(90vw, 2200px) - 28px) / 2)"
+      },
+      {
+        "source": "DSC04471.jpg",
+        "width": 600.703125,
+        "height": 400.46875,
+        "asset": "http://127.0.0.1:5175/images/portfolio/deportes-en-montana/DSC04471-1440.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 600px) calc(100vw - 48px), (max-width: 900px) calc(((100vw - 48px) - 28px) / 2), calc((min(90vw, 2200px) - 28px) / 2)"
+      },
+      {
+        "source": "DSC07968.jpg",
+        "width": 1229.390625,
+        "height": 819.75,
+        "asset": "http://127.0.0.1:5175/images/portfolio/deportes-en-montana/DSC07968-2560.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 600px) calc(100vw - 48px), (max-width: 900px) calc((100vw - 48px)), calc(min(90vw, 2200px))"
+      },
+      {
+        "source": "DSC08137.jpg",
+        "width": 465.453125,
+        "height": 698.171875,
+        "asset": "http://127.0.0.1:5175/images/portfolio/deportes-en-montana/DSC08137-960.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 600px) calc(100vw - 48px), (max-width: 900px) calc(((100vw - 48px) * .78 - 28px) / 2), calc((min(90vw, 2200px) * .78 - 28px) / 2)"
+      },
+      {
+        "source": "DSC09314.jpg",
+        "width": 465.46875,
+        "height": 698.203125,
+        "asset": "http://127.0.0.1:5175/images/portfolio/deportes-en-montana/DSC09314-960.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 600px) calc(100vw - 48px), (max-width: 900px) calc(((100vw - 48px) * .78 - 28px) / 2), calc((min(90vw, 2200px) * .78 - 28px) / 2)"
+      },
+      {
+        "source": "DSC08579.jpg",
+        "width": 465.453125,
+        "height": 698.171875,
+        "asset": "http://127.0.0.1:5175/images/portfolio/deportes-en-montana/DSC08579-960.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 600px) calc(100vw - 48px), (max-width: 900px) calc(((100vw - 48px) * .78 - 28px) / 2), calc((min(90vw, 2200px) * .78 - 28px) / 2)"
+      },
+      {
+        "source": "DSC04994.jpg",
+        "width": 465.46875,
+        "height": 698.203125,
+        "asset": "http://127.0.0.1:5175/images/portfolio/deportes-en-montana/DSC04994-960.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 600px) calc(100vw - 48px), (max-width: 900px) calc(((100vw - 48px) * .78 - 28px) / 2), calc((min(90vw, 2200px) * .78 - 28px) / 2)"
+      },
+      {
+        "source": "DSC06797.jpg",
+        "width": 600.6875,
+        "height": 400.453125,
+        "asset": "http://127.0.0.1:5175/images/portfolio/deportes-en-montana/DSC06797-1440.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 600px) calc(100vw - 48px), (max-width: 900px) calc(((100vw - 48px) - 28px) / 2), calc((min(90vw, 2200px) - 28px) / 2)"
+      },
+      {
+        "source": "DSC04326.jpg",
+        "width": 600.703125,
+        "height": 400.46875,
+        "asset": "http://127.0.0.1:5175/images/portfolio/deportes-en-montana/DSC04326-1440.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 600px) calc(100vw - 48px), (max-width: 900px) calc(((100vw - 48px) - 28px) / 2), calc((min(90vw, 2200px) - 28px) / 2)"
+      },
+      {
+        "source": "DSC02996.jpg",
+        "width": 600.6875,
+        "height": 400.453125,
+        "asset": "http://127.0.0.1:5175/images/portfolio/deportes-en-montana/DSC02996-1440.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 600px) calc(100vw - 48px), (max-width: 900px) calc(((100vw - 48px) - 28px) / 2), calc((min(90vw, 2200px) - 28px) / 2)"
+      },
+      {
+        "source": "DSC08126.jpg",
+        "width": 600.703125,
+        "height": 400.46875,
+        "asset": "http://127.0.0.1:5175/images/portfolio/deportes-en-montana/DSC08126-1440.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 600px) calc(100vw - 48px), (max-width: 900px) calc(((100vw - 48px) - 28px) / 2), calc((min(90vw, 2200px) - 28px) / 2)"
+      },
+      {
+        "source": "DSC08226.jpg",
+        "width": 465.453125,
+        "height": 698.171875,
+        "asset": "http://127.0.0.1:5175/images/portfolio/deportes-en-montana/DSC08226-960.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 600px) calc(100vw - 48px), (max-width: 900px) calc(((100vw - 48px) * .78 - 28px) / 2), calc((min(90vw, 2200px) * .78 - 28px) / 2)"
+      },
+      {
+        "source": "DSC05303.jpg",
+        "width": 465.46875,
+        "height": 698.203125,
+        "asset": "http://127.0.0.1:5175/images/portfolio/deportes-en-montana/DSC05303-960.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 600px) calc(100vw - 48px), (max-width: 900px) calc(((100vw - 48px) * .78 - 28px) / 2), calc((min(90vw, 2200px) * .78 - 28px) / 2)"
+      },
+      {
+        "source": "DSC05143.jpg",
+        "width": 764.515625,
+        "height": 509.671875,
+        "asset": "http://127.0.0.1:5175/images/portfolio/deportes-en-montana/DSC05143-1920.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 600px) calc(100vw - 48px), (max-width: 900px) calc(((100vw - 48px) - 28px) * 1.75 / 2.75), calc((min(90vw, 2200px) - 28px) * 1.75 / 2.75)"
+      },
+      {
+        "source": "DSC06882.jpg",
+        "width": 436.875,
+        "height": 655.3125,
+        "asset": "http://127.0.0.1:5175/images/portfolio/deportes-en-montana/DSC06882-960.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 600px) calc(100vw - 48px), (max-width: 900px) calc(((100vw - 48px) - 28px) / 2.75), calc((min(90vw, 2200px) - 28px) / 2.75)"
+      }
+    ]
+  },
+  {
+    "viewport": [
+      1920,
+      1080
+    ],
+    "dpr": 2,
+    "overflow": false,
+    "photos": [
+      {
+        "source": "DSC06918.jpg",
+        "width": 1728,
+        "height": 1151.859375,
+        "asset": "http://127.0.0.1:5175/images/portfolio/deportes-en-montana/DSC06918-4400.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 600px) calc(100vw - 48px), (max-width: 900px) calc((100vw - 48px)), calc(min(90vw, 2200px))"
+      },
+      {
+        "source": "DSC04908.jpg",
+        "width": 850,
+        "height": 566.65625,
+        "asset": "http://127.0.0.1:5175/images/portfolio/deportes-en-montana/DSC04908-1920.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 600px) calc(100vw - 48px), (max-width: 900px) calc(((100vw - 48px) - 28px) / 2), calc((min(90vw, 2200px) - 28px) / 2)"
+      },
+      {
+        "source": "DSC04741.jpg",
+        "width": 850,
+        "height": 566.65625,
+        "asset": "http://127.0.0.1:5175/images/portfolio/deportes-en-montana/DSC04741-1920.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 600px) calc(100vw - 48px), (max-width: 900px) calc(((100vw - 48px) - 28px) / 2), calc((min(90vw, 2200px) - 28px) / 2)"
+      },
+      {
+        "source": "DSC07076.jpg",
+        "width": 659.90625,
+        "height": 989.859375,
+        "asset": "http://127.0.0.1:5175/images/portfolio/deportes-en-montana/DSC07076-1440.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 600px) calc(100vw - 48px), (max-width: 900px) calc(((100vw - 48px) * .78 - 28px) / 2), calc((min(90vw, 2200px) * .78 - 28px) / 2)"
+      },
+      {
+        "source": "DSC03832.jpg",
+        "width": 659.921875,
+        "height": 989.875,
+        "asset": "http://127.0.0.1:5175/images/portfolio/deportes-en-montana/DSC03832-1440.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 600px) calc(100vw - 48px), (max-width: 900px) calc(((100vw - 48px) * .78 - 28px) / 2), calc((min(90vw, 2200px) * .78 - 28px) / 2)"
+      },
+      {
+        "source": "DSC06683.jpg",
+        "width": 850,
+        "height": 566.65625,
+        "asset": "http://127.0.0.1:5175/images/portfolio/deportes-en-montana/DSC06683-1920.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 600px) calc(100vw - 48px), (max-width: 900px) calc(((100vw - 48px) - 28px) / 2), calc((min(90vw, 2200px) - 28px) / 2)"
+      },
+      {
+        "source": "DSC04471.jpg",
+        "width": 850,
+        "height": 566.65625,
+        "asset": "http://127.0.0.1:5175/images/portfolio/deportes-en-montana/DSC04471-1920.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 600px) calc(100vw - 48px), (max-width: 900px) calc(((100vw - 48px) - 28px) / 2), calc((min(90vw, 2200px) - 28px) / 2)"
+      },
+      {
+        "source": "DSC07968.jpg",
+        "width": 1728,
+        "height": 1151.859375,
+        "asset": "http://127.0.0.1:5175/images/portfolio/deportes-en-montana/DSC07968-4400.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 600px) calc(100vw - 48px), (max-width: 900px) calc((100vw - 48px)), calc(min(90vw, 2200px))"
+      },
+      {
+        "source": "DSC08137.jpg",
+        "width": 659.90625,
+        "height": 989.859375,
+        "asset": "http://127.0.0.1:5175/images/portfolio/deportes-en-montana/DSC08137-1440.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 600px) calc(100vw - 48px), (max-width: 900px) calc(((100vw - 48px) * .78 - 28px) / 2), calc((min(90vw, 2200px) * .78 - 28px) / 2)"
+      },
+      {
+        "source": "DSC09314.jpg",
+        "width": 659.921875,
+        "height": 989.875,
+        "asset": "http://127.0.0.1:5175/images/portfolio/deportes-en-montana/DSC09314-1440.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 600px) calc(100vw - 48px), (max-width: 900px) calc(((100vw - 48px) * .78 - 28px) / 2), calc((min(90vw, 2200px) * .78 - 28px) / 2)"
+      },
+      {
+        "source": "DSC08579.jpg",
+        "width": 659.90625,
+        "height": 989.859375,
+        "asset": "http://127.0.0.1:5175/images/portfolio/deportes-en-montana/DSC08579-1440.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 600px) calc(100vw - 48px), (max-width: 900px) calc(((100vw - 48px) * .78 - 28px) / 2), calc((min(90vw, 2200px) * .78 - 28px) / 2)"
+      },
+      {
+        "source": "DSC04994.jpg",
+        "width": 659.921875,
+        "height": 989.875,
+        "asset": "http://127.0.0.1:5175/images/portfolio/deportes-en-montana/DSC04994-1440.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 600px) calc(100vw - 48px), (max-width: 900px) calc(((100vw - 48px) * .78 - 28px) / 2), calc((min(90vw, 2200px) * .78 - 28px) / 2)"
+      },
+      {
+        "source": "DSC06797.jpg",
+        "width": 850,
+        "height": 566.65625,
+        "asset": "http://127.0.0.1:5175/images/portfolio/deportes-en-montana/DSC06797-1920.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 600px) calc(100vw - 48px), (max-width: 900px) calc(((100vw - 48px) - 28px) / 2), calc((min(90vw, 2200px) - 28px) / 2)"
+      },
+      {
+        "source": "DSC04326.jpg",
+        "width": 850,
+        "height": 566.65625,
+        "asset": "http://127.0.0.1:5175/images/portfolio/deportes-en-montana/DSC04326-1920.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 600px) calc(100vw - 48px), (max-width: 900px) calc(((100vw - 48px) - 28px) / 2), calc((min(90vw, 2200px) - 28px) / 2)"
+      },
+      {
+        "source": "DSC02996.jpg",
+        "width": 850,
+        "height": 566.65625,
+        "asset": "http://127.0.0.1:5175/images/portfolio/deportes-en-montana/DSC02996-1920.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 600px) calc(100vw - 48px), (max-width: 900px) calc(((100vw - 48px) - 28px) / 2), calc((min(90vw, 2200px) - 28px) / 2)"
+      },
+      {
+        "source": "DSC08126.jpg",
+        "width": 850,
+        "height": 566.65625,
+        "asset": "http://127.0.0.1:5175/images/portfolio/deportes-en-montana/DSC08126-1920.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 600px) calc(100vw - 48px), (max-width: 900px) calc(((100vw - 48px) - 28px) / 2), calc((min(90vw, 2200px) - 28px) / 2)"
+      },
+      {
+        "source": "DSC08226.jpg",
+        "width": 659.90625,
+        "height": 989.859375,
+        "asset": "http://127.0.0.1:5175/images/portfolio/deportes-en-montana/DSC08226-1440.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 600px) calc(100vw - 48px), (max-width: 900px) calc(((100vw - 48px) * .78 - 28px) / 2), calc((min(90vw, 2200px) * .78 - 28px) / 2)"
+      },
+      {
+        "source": "DSC05303.jpg",
+        "width": 659.921875,
+        "height": 989.875,
+        "asset": "http://127.0.0.1:5175/images/portfolio/deportes-en-montana/DSC05303-1440.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 600px) calc(100vw - 48px), (max-width: 900px) calc(((100vw - 48px) * .78 - 28px) / 2), calc((min(90vw, 2200px) * .78 - 28px) / 2)"
+      },
+      {
+        "source": "DSC05143.jpg",
+        "width": 1081.8125,
+        "height": 721.34375,
+        "asset": "http://127.0.0.1:5175/images/portfolio/deportes-en-montana/DSC05143-2560.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 600px) calc(100vw - 48px), (max-width: 900px) calc(((100vw - 48px) - 28px) * 1.75 / 2.75), calc((min(90vw, 2200px) - 28px) * 1.75 / 2.75)"
+      },
+      {
+        "source": "DSC06882.jpg",
+        "width": 618.1875,
+        "height": 927.28125,
+        "asset": "http://127.0.0.1:5175/images/portfolio/deportes-en-montana/DSC06882-1440.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 600px) calc(100vw - 48px), (max-width: 900px) calc(((100vw - 48px) - 28px) / 2.75), calc((min(90vw, 2200px) - 28px) / 2.75)"
+      }
+    ]
+  },
+  {
+    "viewport": [
+      2560,
+      1440
+    ],
+    "dpr": 2,
+    "overflow": false,
+    "photos": [
+      {
+        "source": "DSC06918.jpg",
+        "width": 2200,
+        "height": 1466.5,
+        "asset": "http://127.0.0.1:5175/images/portfolio/deportes-en-montana/DSC06918-4400.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 600px) calc(100vw - 48px), (max-width: 900px) calc((100vw - 48px)), calc(min(90vw, 2200px))"
+      },
+      {
+        "source": "DSC04908.jpg",
+        "width": 1086,
+        "height": 724.140625,
+        "asset": "http://127.0.0.1:5175/images/portfolio/deportes-en-montana/DSC04908-2560.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 600px) calc(100vw - 48px), (max-width: 900px) calc(((100vw - 48px) - 28px) / 2), calc((min(90vw, 2200px) - 28px) / 2)"
+      },
+      {
+        "source": "DSC04741.jpg",
+        "width": 1086,
+        "height": 724.140625,
+        "asset": "http://127.0.0.1:5175/images/portfolio/deportes-en-montana/DSC04741-2560.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 600px) calc(100vw - 48px), (max-width: 900px) calc(((100vw - 48px) - 28px) / 2), calc((min(90vw, 2200px) - 28px) / 2)"
+      },
+      {
+        "source": "DSC07076.jpg",
+        "width": 844,
+        "height": 1266,
+        "asset": "http://127.0.0.1:5175/images/portfolio/deportes-en-montana/DSC07076-1920.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 600px) calc(100vw - 48px), (max-width: 900px) calc(((100vw - 48px) * .78 - 28px) / 2), calc((min(90vw, 2200px) * .78 - 28px) / 2)"
+      },
+      {
+        "source": "DSC03832.jpg",
+        "width": 844,
+        "height": 1266,
+        "asset": "http://127.0.0.1:5175/images/portfolio/deportes-en-montana/DSC03832-1920.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 600px) calc(100vw - 48px), (max-width: 900px) calc(((100vw - 48px) * .78 - 28px) / 2), calc((min(90vw, 2200px) * .78 - 28px) / 2)"
+      },
+      {
+        "source": "DSC06683.jpg",
+        "width": 1086,
+        "height": 724.140625,
+        "asset": "http://127.0.0.1:5175/images/portfolio/deportes-en-montana/DSC06683-2560.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 600px) calc(100vw - 48px), (max-width: 900px) calc(((100vw - 48px) - 28px) / 2), calc((min(90vw, 2200px) - 28px) / 2)"
+      },
+      {
+        "source": "DSC04471.jpg",
+        "width": 1086,
+        "height": 724.140625,
+        "asset": "http://127.0.0.1:5175/images/portfolio/deportes-en-montana/DSC04471-2560.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 600px) calc(100vw - 48px), (max-width: 900px) calc(((100vw - 48px) - 28px) / 2), calc((min(90vw, 2200px) - 28px) / 2)"
+      },
+      {
+        "source": "DSC07968.jpg",
+        "width": 2200,
+        "height": 1466.5,
+        "asset": "http://127.0.0.1:5175/images/portfolio/deportes-en-montana/DSC07968-4400.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 600px) calc(100vw - 48px), (max-width: 900px) calc((100vw - 48px)), calc(min(90vw, 2200px))"
+      },
+      {
+        "source": "DSC08137.jpg",
+        "width": 844,
+        "height": 1266,
+        "asset": "http://127.0.0.1:5175/images/portfolio/deportes-en-montana/DSC08137-1920.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 600px) calc(100vw - 48px), (max-width: 900px) calc(((100vw - 48px) * .78 - 28px) / 2), calc((min(90vw, 2200px) * .78 - 28px) / 2)"
+      },
+      {
+        "source": "DSC09314.jpg",
+        "width": 844,
+        "height": 1266,
+        "asset": "http://127.0.0.1:5175/images/portfolio/deportes-en-montana/DSC09314-1920.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 600px) calc(100vw - 48px), (max-width: 900px) calc(((100vw - 48px) * .78 - 28px) / 2), calc((min(90vw, 2200px) * .78 - 28px) / 2)"
+      },
+      {
+        "source": "DSC08579.jpg",
+        "width": 844,
+        "height": 1266,
+        "asset": "http://127.0.0.1:5175/images/portfolio/deportes-en-montana/DSC08579-1920.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 600px) calc(100vw - 48px), (max-width: 900px) calc(((100vw - 48px) * .78 - 28px) / 2), calc((min(90vw, 2200px) * .78 - 28px) / 2)"
+      },
+      {
+        "source": "DSC04994.jpg",
+        "width": 844,
+        "height": 1266,
+        "asset": "http://127.0.0.1:5175/images/portfolio/deportes-en-montana/DSC04994-1920.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 600px) calc(100vw - 48px), (max-width: 900px) calc(((100vw - 48px) * .78 - 28px) / 2), calc((min(90vw, 2200px) * .78 - 28px) / 2)"
+      },
+      {
+        "source": "DSC06797.jpg",
+        "width": 1086,
+        "height": 724.140625,
+        "asset": "http://127.0.0.1:5175/images/portfolio/deportes-en-montana/DSC06797-2560.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 600px) calc(100vw - 48px), (max-width: 900px) calc(((100vw - 48px) - 28px) / 2), calc((min(90vw, 2200px) - 28px) / 2)"
+      },
+      {
+        "source": "DSC04326.jpg",
+        "width": 1086,
+        "height": 724.140625,
+        "asset": "http://127.0.0.1:5175/images/portfolio/deportes-en-montana/DSC04326-2560.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 600px) calc(100vw - 48px), (max-width: 900px) calc(((100vw - 48px) - 28px) / 2), calc((min(90vw, 2200px) - 28px) / 2)"
+      },
+      {
+        "source": "DSC02996.jpg",
+        "width": 1086,
+        "height": 724.140625,
+        "asset": "http://127.0.0.1:5175/images/portfolio/deportes-en-montana/DSC02996-2560.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 600px) calc(100vw - 48px), (max-width: 900px) calc(((100vw - 48px) - 28px) / 2), calc((min(90vw, 2200px) - 28px) / 2)"
+      },
+      {
+        "source": "DSC08126.jpg",
+        "width": 1086,
+        "height": 724.140625,
+        "asset": "http://127.0.0.1:5175/images/portfolio/deportes-en-montana/DSC08126-2560.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 600px) calc(100vw - 48px), (max-width: 900px) calc(((100vw - 48px) - 28px) / 2), calc((min(90vw, 2200px) - 28px) / 2)"
+      },
+      {
+        "source": "DSC08226.jpg",
+        "width": 844,
+        "height": 1266,
+        "asset": "http://127.0.0.1:5175/images/portfolio/deportes-en-montana/DSC08226-1920.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 600px) calc(100vw - 48px), (max-width: 900px) calc(((100vw - 48px) * .78 - 28px) / 2), calc((min(90vw, 2200px) * .78 - 28px) / 2)"
+      },
+      {
+        "source": "DSC05303.jpg",
+        "width": 844,
+        "height": 1266,
+        "asset": "http://127.0.0.1:5175/images/portfolio/deportes-en-montana/DSC05303-1920.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 600px) calc(100vw - 48px), (max-width: 900px) calc(((100vw - 48px) * .78 - 28px) / 2), calc((min(90vw, 2200px) * .78 - 28px) / 2)"
+      },
+      {
+        "source": "DSC05143.jpg",
+        "width": 1382.171875,
+        "height": 921.734375,
+        "asset": "http://127.0.0.1:5175/images/portfolio/deportes-en-montana/DSC05143-3200.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 600px) calc(100vw - 48px), (max-width: 900px) calc(((100vw - 48px) - 28px) * 1.75 / 2.75), calc((min(90vw, 2200px) - 28px) * 1.75 / 2.75)"
+      },
+      {
+        "source": "DSC06882.jpg",
+        "width": 789.8125,
+        "height": 1184.71875,
+        "asset": "http://127.0.0.1:5175/images/portfolio/deportes-en-montana/DSC06882-1920.webp",
+        "sizes": "(max-width: 580px) calc(100vw - 44px), (max-width: 600px) calc(100vw - 48px), (max-width: 900px) calc(((100vw - 48px) - 28px) / 2.75), calc((min(90vw, 2200px) - 28px) / 2.75)"
+      }
+    ]
+  }
+]

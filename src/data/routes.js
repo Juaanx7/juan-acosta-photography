@@ -1,5 +1,6 @@
 export const routePaths = {
   portfolio: "/",
+  mountainSports: "/portfolio/deportes-en-montana",
   landscapes: "/portfolio/paisajes-y-viajes",
   sanMarcos: "/portfolio/san-marcos-mi-mirada",
   achala: "/portfolio/cajones-de-achala",

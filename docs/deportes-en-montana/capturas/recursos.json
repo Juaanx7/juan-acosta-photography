@@ -1,0 +1,1016 @@
+[
+  {
+    "source": "DSC06918.jpg",
+    "source_width": 6000,
+    "source_height": 4000,
+    "source_sha256": "4438295dcc6dbe9e2839202b1a220cc6a81a5878ceb59418b91c8a29874bf9e7",
+    "variants": [
+      {
+        "file": "DSC06918-640.webp",
+        "width": 640,
+        "height": 427,
+        "bytes": 84442,
+        "icc_bytes": 588
+      },
+      {
+        "file": "DSC06918-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 175962,
+        "icc_bytes": 588
+      },
+      {
+        "file": "DSC06918-1440.webp",
+        "width": 1440,
+        "height": 960,
+        "bytes": 362028,
+        "icc_bytes": 588
+      },
+      {
+        "file": "DSC06918-1920.webp",
+        "width": 1920,
+        "height": 1280,
+        "bytes": 592298,
+        "icc_bytes": 588
+      },
+      {
+        "file": "DSC06918-2560.webp",
+        "width": 2560,
+        "height": 1707,
+        "bytes": 963170,
+        "icc_bytes": 588
+      },
+      {
+        "file": "DSC06918-3200.webp",
+        "width": 3200,
+        "height": 2133,
+        "bytes": 1372152,
+        "icc_bytes": 588
+      },
+      {
+        "file": "DSC06918-4400.webp",
+        "width": 4400,
+        "height": 2933,
+        "bytes": 2227672,
+        "icc_bytes": 588
+      }
+    ]
+  },
+  {
+    "source": "DSC04908.jpg",
+    "source_width": 5295,
+    "source_height": 3530,
+    "source_sha256": "83c8283ad06b1c9ea729e252dc506c2ee26fdd269c2caa3fcf1fdc1d28f659ff",
+    "variants": [
+      {
+        "file": "DSC04908-640.webp",
+        "width": 640,
+        "height": 427,
+        "bytes": 101300,
+        "icc_bytes": 588
+      },
+      {
+        "file": "DSC04908-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 195552,
+        "icc_bytes": 588
+      },
+      {
+        "file": "DSC04908-1440.webp",
+        "width": 1440,
+        "height": 960,
+        "bytes": 391822,
+        "icc_bytes": 588
+      },
+      {
+        "file": "DSC04908-1920.webp",
+        "width": 1920,
+        "height": 1280,
+        "bytes": 668188,
+        "icc_bytes": 588
+      },
+      {
+        "file": "DSC04908-2560.webp",
+        "width": 2560,
+        "height": 1707,
+        "bytes": 1087570,
+        "icc_bytes": 588
+      },
+      {
+        "file": "DSC04908-3200.webp",
+        "width": 3200,
+        "height": 2133,
+        "bytes": 1667504,
+        "icc_bytes": 588
+      },
+      {
+        "file": "DSC04908-4400.webp",
+        "width": 4400,
+        "height": 2933,
+        "bytes": 2851592,
+        "icc_bytes": 588
+      }
+    ]
+  },
+  {
+    "source": "DSC04741.jpg",
+    "source_width": 5624,
+    "source_height": 3749,
+    "source_sha256": "078edb959bc2e7a54c1ebe9b6ae31be80e5e6cd7f0a3846212a4f676184c9e48",
+    "variants": [
+      {
+        "file": "DSC04741-640.webp",
+        "width": 640,
+        "height": 427,
+        "bytes": 95590,
+        "icc_bytes": 588
+      },
+      {
+        "file": "DSC04741-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 202200,
+        "icc_bytes": 588
+      },
+      {
+        "file": "DSC04741-1440.webp",
+        "width": 1440,
+        "height": 960,
+        "bytes": 428008,
+        "icc_bytes": 588
+      },
+      {
+        "file": "DSC04741-1920.webp",
+        "width": 1920,
+        "height": 1280,
+        "bytes": 720496,
+        "icc_bytes": 588
+      },
+      {
+        "file": "DSC04741-2560.webp",
+        "width": 2560,
+        "height": 1707,
+        "bytes": 1211736,
+        "icc_bytes": 588
+      },
+      {
+        "file": "DSC04741-3200.webp",
+        "width": 3200,
+        "height": 2133,
+        "bytes": 1752620,
+        "icc_bytes": 588
+      },
+      {
+        "file": "DSC04741-4400.webp",
+        "width": 4400,
+        "height": 2933,
+        "bytes": 2996540,
+        "icc_bytes": 588
+      }
+    ]
+  },
+  {
+    "source": "DSC07076.jpg",
+    "source_width": 4000,
+    "source_height": 6000,
+    "source_sha256": "396757d8825932db009449def31f6835a1528ebd9753e070243c621f8300dac3",
+    "variants": [
+      {
+        "file": "DSC07076-480.webp",
+        "width": 480,
+        "height": 720,
+        "bytes": 15660,
+        "icc_bytes": 588
+      },
+      {
+        "file": "DSC07076-640.webp",
+        "width": 640,
+        "height": 960,
+        "bytes": 24294,
+        "icc_bytes": 588
+      },
+      {
+        "file": "DSC07076-960.webp",
+        "width": 960,
+        "height": 1440,
+        "bytes": 45736,
+        "icc_bytes": 588
+      },
+      {
+        "file": "DSC07076-1440.webp",
+        "width": 1440,
+        "height": 2160,
+        "bytes": 87094,
+        "icc_bytes": 588
+      },
+      {
+        "file": "DSC07076-1920.webp",
+        "width": 1920,
+        "height": 2880,
+        "bytes": 137014,
+        "icc_bytes": 588
+      }
+    ]
+  },
+  {
+    "source": "DSC03832.jpg",
+    "source_width": 3481,
+    "source_height": 5222,
+    "source_sha256": "e3eba2f62f94ba8f49d5ca2c7b2e3c0fe9b08caa9af93235f12db521b89468a3",
+    "variants": [
+      {
+        "file": "DSC03832-480.webp",
+        "width": 480,
+        "height": 720,
+        "bytes": 70604,
+        "icc_bytes": 588
+      },
+      {
+        "file": "DSC03832-640.webp",
+        "width": 640,
+        "height": 960,
+        "bytes": 109462,
+        "icc_bytes": 588
+      },
+      {
+        "file": "DSC03832-960.webp",
+        "width": 960,
+        "height": 1440,
+        "bytes": 215016,
+        "icc_bytes": 588
+      },
+      {
+        "file": "DSC03832-1440.webp",
+        "width": 1440,
+        "height": 2160,
+        "bytes": 499156,
+        "icc_bytes": 588
+      },
+      {
+        "file": "DSC03832-1920.webp",
+        "width": 1920,
+        "height": 2880,
+        "bytes": 1009682,
+        "icc_bytes": 588
+      }
+    ]
+  },
+  {
+    "source": "DSC06683.jpg",
+    "source_width": 6000,
+    "source_height": 4000,
+    "source_sha256": "0e982da3fdeb663e46f3d807f2f76479e2469e5197c6b8b5a9aba3583430fef6",
+    "variants": [
+      {
+        "file": "DSC06683-640.webp",
+        "width": 640,
+        "height": 427,
+        "bytes": 107304,
+        "icc_bytes": 588
+      },
+      {
+        "file": "DSC06683-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 224768,
+        "icc_bytes": 588
+      },
+      {
+        "file": "DSC06683-1440.webp",
+        "width": 1440,
+        "height": 960,
+        "bytes": 450972,
+        "icc_bytes": 588
+      },
+      {
+        "file": "DSC06683-1920.webp",
+        "width": 1920,
+        "height": 1280,
+        "bytes": 687140,
+        "icc_bytes": 588
+      },
+      {
+        "file": "DSC06683-2560.webp",
+        "width": 2560,
+        "height": 1707,
+        "bytes": 1039894,
+        "icc_bytes": 588
+      },
+      {
+        "file": "DSC06683-3200.webp",
+        "width": 3200,
+        "height": 2133,
+        "bytes": 1427752,
+        "icc_bytes": 588
+      },
+      {
+        "file": "DSC06683-4400.webp",
+        "width": 4400,
+        "height": 2933,
+        "bytes": 2171232,
+        "icc_bytes": 588
+      }
+    ]
+  },
+  {
+    "source": "DSC04471.jpg",
+    "source_width": 5615,
+    "source_height": 3743,
+    "source_sha256": "eee4ccc4f6e906606e967159489cfa4db5e260443e74063a091b3d05efa44b3a",
+    "variants": [
+      {
+        "file": "DSC04471-640.webp",
+        "width": 640,
+        "height": 427,
+        "bytes": 113200,
+        "icc_bytes": 588
+      },
+      {
+        "file": "DSC04471-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 231102,
+        "icc_bytes": 588
+      },
+      {
+        "file": "DSC04471-1440.webp",
+        "width": 1440,
+        "height": 960,
+        "bytes": 451086,
+        "icc_bytes": 588
+      },
+      {
+        "file": "DSC04471-1920.webp",
+        "width": 1920,
+        "height": 1280,
+        "bytes": 704946,
+        "icc_bytes": 588
+      },
+      {
+        "file": "DSC04471-2560.webp",
+        "width": 2560,
+        "height": 1707,
+        "bytes": 1123784,
+        "icc_bytes": 588
+      },
+      {
+        "file": "DSC04471-3200.webp",
+        "width": 3200,
+        "height": 2133,
+        "bytes": 1614548,
+        "icc_bytes": 588
+      },
+      {
+        "file": "DSC04471-4400.webp",
+        "width": 4400,
+        "height": 2933,
+        "bytes": 2709800,
+        "icc_bytes": 588
+      }
+    ]
+  },
+  {
+    "source": "DSC07968.jpg",
+    "source_width": 6000,
+    "source_height": 4000,
+    "source_sha256": "d1db3aae77b8ae0dc6fbdcb3559b1f6b2d945959dea4ced212bdadf815c1e043",
+    "variants": [
+      {
+        "file": "DSC07968-640.webp",
+        "width": 640,
+        "height": 427,
+        "bytes": 120352,
+        "icc_bytes": 588
+      },
+      {
+        "file": "DSC07968-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 260356,
+        "icc_bytes": 588
+      },
+      {
+        "file": "DSC07968-1440.webp",
+        "width": 1440,
+        "height": 960,
+        "bytes": 548360,
+        "icc_bytes": 588
+      },
+      {
+        "file": "DSC07968-1920.webp",
+        "width": 1920,
+        "height": 1280,
+        "bytes": 951574,
+        "icc_bytes": 588
+      },
+      {
+        "file": "DSC07968-2560.webp",
+        "width": 2560,
+        "height": 1707,
+        "bytes": 1613376,
+        "icc_bytes": 588
+      },
+      {
+        "file": "DSC07968-3200.webp",
+        "width": 3200,
+        "height": 2133,
+        "bytes": 2376224,
+        "icc_bytes": 588
+      },
+      {
+        "file": "DSC07968-4400.webp",
+        "width": 4400,
+        "height": 2933,
+        "bytes": 4284516,
+        "icc_bytes": 588
+      }
+    ]
+  },
+  {
+    "source": "DSC08137.jpg",
+    "source_width": 4000,
+    "source_height": 6000,
+    "source_sha256": "07985c49a37dcfaf1c19c3a8417c8b00f519aff9258f4c7237a4bce90424fa7c",
+    "variants": [
+      {
+        "file": "DSC08137-480.webp",
+        "width": 480,
+        "height": 720,
+        "bytes": 134666,
+        "icc_bytes": 588
+      },
+      {
+        "file": "DSC08137-640.webp",
+        "width": 640,
+        "height": 960,
+        "bytes": 229570,
+        "icc_bytes": 588
+      },
+      {
+        "file": "DSC08137-960.webp",
+        "width": 960,
+        "height": 1440,
+        "bytes": 498360,
+        "icc_bytes": 588
+      },
+      {
+        "file": "DSC08137-1440.webp",
+        "width": 1440,
+        "height": 2160,
+        "bytes": 1052772,
+        "icc_bytes": 588
+      },
+      {
+        "file": "DSC08137-1920.webp",
+        "width": 1920,
+        "height": 2880,
+        "bytes": 1793180,
+        "icc_bytes": 588
+      }
+    ]
+  },
+  {
+    "source": "DSC09314.jpg",
+    "source_width": 4000,
+    "source_height": 6000,
+    "source_sha256": "95773a3adc8027b59719f916d84a36eb62a119c87933ddc49dd40e7f454176ee",
+    "variants": [
+      {
+        "file": "DSC09314-480.webp",
+        "width": 480,
+        "height": 720,
+        "bytes": 115994,
+        "icc_bytes": 588
+      },
+      {
+        "file": "DSC09314-640.webp",
+        "width": 640,
+        "height": 960,
+        "bytes": 185554,
+        "icc_bytes": 588
+      },
+      {
+        "file": "DSC09314-960.webp",
+        "width": 960,
+        "height": 1440,
+        "bytes": 335716,
+        "icc_bytes": 588
+      },
+      {
+        "file": "DSC09314-1440.webp",
+        "width": 1440,
+        "height": 2160,
+        "bytes": 626118,
+        "icc_bytes": 588
+      },
+      {
+        "file": "DSC09314-1920.webp",
+        "width": 1920,
+        "height": 2880,
+        "bytes": 974472,
+        "icc_bytes": 588
+      }
+    ]
+  },
+  {
+    "source": "DSC08579.jpg",
+    "source_width": 4000,
+    "source_height": 6000,
+    "source_sha256": "7ca0c9b40531094f3c4387bac7a6e3ee0c813ab2c1912d9c6815f1d8f0ee8fb4",
+    "variants": [
+      {
+        "file": "DSC08579-480.webp",
+        "width": 480,
+        "height": 720,
+        "bytes": 104928,
+        "icc_bytes": 588
+      },
+      {
+        "file": "DSC08579-640.webp",
+        "width": 640,
+        "height": 960,
+        "bytes": 162482,
+        "icc_bytes": 588
+      },
+      {
+        "file": "DSC08579-960.webp",
+        "width": 960,
+        "height": 1440,
+        "bytes": 286770,
+        "icc_bytes": 588
+      },
+      {
+        "file": "DSC08579-1440.webp",
+        "width": 1440,
+        "height": 2160,
+        "bytes": 555156,
+        "icc_bytes": 588
+      },
+      {
+        "file": "DSC08579-1920.webp",
+        "width": 1920,
+        "height": 2880,
+        "bytes": 947924,
+        "icc_bytes": 588
+      }
+    ]
+  },
+  {
+    "source": "DSC04994.jpg",
+    "source_width": 3611,
+    "source_height": 5417,
+    "source_sha256": "333aa83a415b327ed94ea8001ceed04b9fb20992c44d2f367fd56ff690919689",
+    "variants": [
+      {
+        "file": "DSC04994-480.webp",
+        "width": 480,
+        "height": 720,
+        "bytes": 99736,
+        "icc_bytes": 588
+      },
+      {
+        "file": "DSC04994-640.webp",
+        "width": 640,
+        "height": 960,
+        "bytes": 155716,
+        "icc_bytes": 588
+      },
+      {
+        "file": "DSC04994-960.webp",
+        "width": 960,
+        "height": 1440,
+        "bytes": 300152,
+        "icc_bytes": 588
+      },
+      {
+        "file": "DSC04994-1440.webp",
+        "width": 1440,
+        "height": 2160,
+        "bytes": 622416,
+        "icc_bytes": 588
+      },
+      {
+        "file": "DSC04994-1920.webp",
+        "width": 1920,
+        "height": 2880,
+        "bytes": 1151522,
+        "icc_bytes": 588
+      }
+    ]
+  },
+  {
+    "source": "DSC06797.jpg",
+    "source_width": 6000,
+    "source_height": 4000,
+    "source_sha256": "6b2449cdcccaa7780ab92b32952bc5414e11e7644ea989088e2de0c7ae518ed9",
+    "variants": [
+      {
+        "file": "DSC06797-640.webp",
+        "width": 640,
+        "height": 427,
+        "bytes": 76486,
+        "icc_bytes": 588
+      },
+      {
+        "file": "DSC06797-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 155692,
+        "icc_bytes": 588
+      },
+      {
+        "file": "DSC06797-1440.webp",
+        "width": 1440,
+        "height": 960,
+        "bytes": 313998,
+        "icc_bytes": 588
+      },
+      {
+        "file": "DSC06797-1920.webp",
+        "width": 1920,
+        "height": 1280,
+        "bytes": 516668,
+        "icc_bytes": 588
+      },
+      {
+        "file": "DSC06797-2560.webp",
+        "width": 2560,
+        "height": 1707,
+        "bytes": 823282,
+        "icc_bytes": 588
+      },
+      {
+        "file": "DSC06797-3200.webp",
+        "width": 3200,
+        "height": 2133,
+        "bytes": 1165092,
+        "icc_bytes": 588
+      },
+      {
+        "file": "DSC06797-4400.webp",
+        "width": 4400,
+        "height": 2933,
+        "bytes": 1754482,
+        "icc_bytes": 588
+      }
+    ]
+  },
+  {
+    "source": "DSC04326.jpg",
+    "source_width": 4608,
+    "source_height": 3072,
+    "source_sha256": "442a57b6ee111938a1b5c139670500034eeeab999265c8b8a13e77572e054d06",
+    "variants": [
+      {
+        "file": "DSC04326-640.webp",
+        "width": 640,
+        "height": 427,
+        "bytes": 92332,
+        "icc_bytes": 588
+      },
+      {
+        "file": "DSC04326-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 193236,
+        "icc_bytes": 588
+      },
+      {
+        "file": "DSC04326-1440.webp",
+        "width": 1440,
+        "height": 960,
+        "bytes": 401868,
+        "icc_bytes": 588
+      },
+      {
+        "file": "DSC04326-1920.webp",
+        "width": 1920,
+        "height": 1280,
+        "bytes": 654004,
+        "icc_bytes": 588
+      },
+      {
+        "file": "DSC04326-2560.webp",
+        "width": 2560,
+        "height": 1707,
+        "bytes": 1106008,
+        "icc_bytes": 588
+      },
+      {
+        "file": "DSC04326-3200.webp",
+        "width": 3200,
+        "height": 2133,
+        "bytes": 1583482,
+        "icc_bytes": 588
+      },
+      {
+        "file": "DSC04326-4400.webp",
+        "width": 4400,
+        "height": 2933,
+        "bytes": 2636180,
+        "icc_bytes": 588
+      }
+    ]
+  },
+  {
+    "source": "DSC02996.jpg",
+    "source_width": 3787,
+    "source_height": 2525,
+    "source_sha256": "b9922fa3b6bf2665a36c3963b8365ae9b4a1d4c600062298a809da000db6c2a7",
+    "variants": [
+      {
+        "file": "DSC02996-640.webp",
+        "width": 640,
+        "height": 427,
+        "bytes": 80318,
+        "icc_bytes": 588
+      },
+      {
+        "file": "DSC02996-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 157446,
+        "icc_bytes": 588
+      },
+      {
+        "file": "DSC02996-1440.webp",
+        "width": 1440,
+        "height": 960,
+        "bytes": 319688,
+        "icc_bytes": 588
+      },
+      {
+        "file": "DSC02996-1920.webp",
+        "width": 1920,
+        "height": 1280,
+        "bytes": 522672,
+        "icc_bytes": 588
+      },
+      {
+        "file": "DSC02996-2560.webp",
+        "width": 2560,
+        "height": 1707,
+        "bytes": 897360,
+        "icc_bytes": 588
+      },
+      {
+        "file": "DSC02996-3200.webp",
+        "width": 3200,
+        "height": 2134,
+        "bytes": 1329112,
+        "icc_bytes": 588
+      },
+      {
+        "file": "DSC02996-3787.webp",
+        "width": 3787,
+        "height": 2525,
+        "bytes": 1685454,
+        "icc_bytes": 588
+      }
+    ]
+  },
+  {
+    "source": "DSC08126.jpg",
+    "source_width": 3904,
+    "source_height": 2603,
+    "source_sha256": "ef188620f38d7d5e3689a96d2526fe64ad0f329a7318dc4e48cf0882d0d9232e",
+    "variants": [
+      {
+        "file": "DSC08126-640.webp",
+        "width": 640,
+        "height": 427,
+        "bytes": 80614,
+        "icc_bytes": 588
+      },
+      {
+        "file": "DSC08126-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 169130,
+        "icc_bytes": 588
+      },
+      {
+        "file": "DSC08126-1440.webp",
+        "width": 1440,
+        "height": 960,
+        "bytes": 351728,
+        "icc_bytes": 588
+      },
+      {
+        "file": "DSC08126-1920.webp",
+        "width": 1920,
+        "height": 1280,
+        "bytes": 578380,
+        "icc_bytes": 588
+      },
+      {
+        "file": "DSC08126-2560.webp",
+        "width": 2560,
+        "height": 1707,
+        "bytes": 875494,
+        "icc_bytes": 588
+      },
+      {
+        "file": "DSC08126-3200.webp",
+        "width": 3200,
+        "height": 2134,
+        "bytes": 1190042,
+        "icc_bytes": 588
+      },
+      {
+        "file": "DSC08126-3904.webp",
+        "width": 3904,
+        "height": 2603,
+        "bytes": 1568156,
+        "icc_bytes": 588
+      }
+    ]
+  },
+  {
+    "source": "DSC08226.jpg",
+    "source_width": 4000,
+    "source_height": 6000,
+    "source_sha256": "7cdc029631c021b66a9909c70c1edb3f309307688e596b97995a41631ef51321",
+    "variants": [
+      {
+        "file": "DSC08226-480.webp",
+        "width": 480,
+        "height": 720,
+        "bytes": 82172,
+        "icc_bytes": 588
+      },
+      {
+        "file": "DSC08226-640.webp",
+        "width": 640,
+        "height": 960,
+        "bytes": 128528,
+        "icc_bytes": 588
+      },
+      {
+        "file": "DSC08226-960.webp",
+        "width": 960,
+        "height": 1440,
+        "bytes": 230756,
+        "icc_bytes": 588
+      },
+      {
+        "file": "DSC08226-1440.webp",
+        "width": 1440,
+        "height": 2160,
+        "bytes": 420944,
+        "icc_bytes": 588
+      },
+      {
+        "file": "DSC08226-1920.webp",
+        "width": 1920,
+        "height": 2880,
+        "bytes": 645522,
+        "icc_bytes": 588
+      }
+    ]
+  },
+  {
+    "source": "DSC05303.jpg",
+    "source_width": 4000,
+    "source_height": 6000,
+    "source_sha256": "0872e070be39a80e4639aba8d4a3fca1b6ce1a4f17f387d92ef48231b0030cc3",
+    "variants": [
+      {
+        "file": "DSC05303-480.webp",
+        "width": 480,
+        "height": 720,
+        "bytes": 134162,
+        "icc_bytes": 588
+      },
+      {
+        "file": "DSC05303-640.webp",
+        "width": 640,
+        "height": 960,
+        "bytes": 222178,
+        "icc_bytes": 588
+      },
+      {
+        "file": "DSC05303-960.webp",
+        "width": 960,
+        "height": 1440,
+        "bytes": 463096,
+        "icc_bytes": 588
+      },
+      {
+        "file": "DSC05303-1440.webp",
+        "width": 1440,
+        "height": 2160,
+        "bytes": 914340,
+        "icc_bytes": 588
+      },
+      {
+        "file": "DSC05303-1920.webp",
+        "width": 1920,
+        "height": 2880,
+        "bytes": 1535360,
+        "icc_bytes": 588
+      }
+    ]
+  },
+  {
+    "source": "DSC05143.jpg",
+    "source_width": 4954,
+    "source_height": 3303,
+    "source_sha256": "76c34b2aed09f8d16f14131c3bd051f629bd4109cb83766fbe58ef0e5dce97f9",
+    "variants": [
+      {
+        "file": "DSC05143-640.webp",
+        "width": 640,
+        "height": 427,
+        "bytes": 84372,
+        "icc_bytes": 588
+      },
+      {
+        "file": "DSC05143-960.webp",
+        "width": 960,
+        "height": 640,
+        "bytes": 166902,
+        "icc_bytes": 588
+      },
+      {
+        "file": "DSC05143-1440.webp",
+        "width": 1440,
+        "height": 960,
+        "bytes": 324642,
+        "icc_bytes": 588
+      },
+      {
+        "file": "DSC05143-1920.webp",
+        "width": 1920,
+        "height": 1280,
+        "bytes": 515910,
+        "icc_bytes": 588
+      },
+      {
+        "file": "DSC05143-2560.webp",
+        "width": 2560,
+        "height": 1707,
+        "bytes": 762156,
+        "icc_bytes": 588
+      },
+      {
+        "file": "DSC05143-3200.webp",
+        "width": 3200,
+        "height": 2134,
+        "bytes": 1020366,
+        "icc_bytes": 588
+      },
+      {
+        "file": "DSC05143-4400.webp",
+        "width": 4400,
+        "height": 2934,
+        "bytes": 1624160,
+        "icc_bytes": 588
+      }
+    ]
+  },
+  {
+    "source": "DSC06882.jpg",
+    "source_width": 2393,
+    "source_height": 3589,
+    "source_sha256": "d24e391b83f101c6b7753201a7e2d5a2b5c4b5773f1945bb35e19b2508e03779",
+    "variants": [
+      {
+        "file": "DSC06882-480.webp",
+        "width": 480,
+        "height": 720,
+        "bytes": 104418,
+        "icc_bytes": 588
+      },
+      {
+        "file": "DSC06882-640.webp",
+        "width": 640,
+        "height": 960,
+        "bytes": 167542,
+        "icc_bytes": 588
+      },
+      {
+        "file": "DSC06882-960.webp",
+        "width": 960,
+        "height": 1440,
+        "bytes": 317704,
+        "icc_bytes": 588
+      },
+      {
+        "file": "DSC06882-1440.webp",
+        "width": 1440,
+        "height": 2160,
+        "bytes": 597842,
+        "icc_bytes": 588
+      },
+      {
+        "file": "DSC06882-1920.webp",
+        "width": 1920,
+        "height": 2880,
+        "bytes": 901182,
+        "icc_bytes": 588
+      }
+    ]
+  }
+]
