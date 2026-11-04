@@ -1,0 +1,401 @@
+{
+  "title": "Eventos y música",
+  "proposed_route": "/portfolio/eventos-y-musica",
+  "originals_relative_path": "docs/eventos-y-musica/fotos/originales/",
+  "photo_count": 26,
+  "photos": [
+    {
+      "order": 1,
+      "file": "DSC09375.jpg",
+      "artist": "",
+      "event": "Festival de la Miel",
+      "display_caption": "Festival de la Miel",
+      "alt": "Escenario iluminado de violeta y público bailando en primer plano",
+      "source_folder": "Festival de la Miel 2026 - Municipalidad / Artistas y publico / Domingo",
+      "source_folder_url": "https://drive.google.com/drive/folders/1QTode9_SpryfgSfIaU1ydfUz1WcbzSC2",
+      "source_file_url": "https://drive.google.com/file/d/1Zo57dixw5LWvwMIoVTuxKjcaE7RrntXp/view?usp=drivesdk",
+      "reference_width": 850,
+      "reference_height": 567
+    },
+    {
+      "order": 2,
+      "file": "DSC06506.jpg",
+      "artist": "Valentina Márquez",
+      "event": "Festival de la Miel",
+      "display_caption": "Valentina Márquez · Festival de la Miel",
+      "alt": "Valentina Márquez canta entre haces de luz blanca",
+      "source_folder": "Festival de la Miel 2026 - Municipalidad / Artistas y publico / Sabado",
+      "source_folder_url": "https://drive.google.com/drive/folders/1sIhlx5LDWJpbRJqx2TvVDjWZv-3Gws3L",
+      "source_file_url": "https://drive.google.com/file/d/1BYo9TJlJr8GmXS7n34EEa7evKedcdx7I/view?usp=drivesdk",
+      "reference_width": 478,
+      "reference_height": 850
+    },
+    {
+      "order": 3,
+      "file": "DSC06530.jpg",
+      "artist": "Valentina Márquez",
+      "event": "Festival de la Miel",
+      "display_caption": "Valentina Márquez · Festival de la Miel",
+      "alt": "Valentina Márquez interpreta una canción junto al acordeonista, bajo luces azules",
+      "source_folder": "Festival de la Miel 2026 - Municipalidad / Artistas y publico / Sabado",
+      "source_folder_url": "https://drive.google.com/drive/folders/1sIhlx5LDWJpbRJqx2TvVDjWZv-3Gws3L",
+      "source_file_url": "https://drive.google.com/file/d/1PWesoc5jPVBo5f15BhOHdup7z23eugcA/view?usp=drivesdk",
+      "reference_width": 850,
+      "reference_height": 478
+    },
+    {
+      "order": 4,
+      "file": "DSC06435.jpg",
+      "artist": "Valentina Márquez",
+      "event": "Festival de la Miel",
+      "display_caption": "Valentina Márquez · Festival de la Miel",
+      "alt": "Valentina Márquez canta de perfil frente al micrófono",
+      "source_folder": "Festival de la Miel 2026 - Municipalidad / Artistas y publico / Sabado",
+      "source_folder_url": "https://drive.google.com/drive/folders/1sIhlx5LDWJpbRJqx2TvVDjWZv-3Gws3L",
+      "source_file_url": "https://drive.google.com/file/d/1YnSGQH3HputT0_EVXsmVQ-TKm3E13GAz/view?usp=drivesdk",
+      "reference_width": 478,
+      "reference_height": 850
+    },
+    {
+      "order": 5,
+      "file": "DSC06294.jpg",
+      "artist": "Dosfolk",
+      "event": "Festival de la Miel",
+      "display_caption": "Dosfolk · Festival de la Miel",
+      "alt": "Dos músicos sonríen mientras tocan la batería y el bajo",
+      "source_folder": "Festival de la Miel 2026 - Municipalidad / Artistas y publico / Sabado",
+      "source_folder_url": "https://drive.google.com/drive/folders/1sIhlx5LDWJpbRJqx2TvVDjWZv-3Gws3L",
+      "source_file_url": "https://drive.google.com/file/d/1BhNuyYM0gIUGp6XfOBAP4B246vPubPKH/view?usp=drivesdk",
+      "reference_width": 850,
+      "reference_height": 478
+    },
+    {
+      "order": 6,
+      "file": "DSC05704.jpg",
+      "artist": "",
+      "event": "Festival de la Miel",
+      "display_caption": "Festival de la Miel",
+      "alt": "Una artista canta y toca el bombo bajo luces rojas y amarillas",
+      "source_folder": "Festival de la Miel 2026 - Municipalidad / Artistas y publico / Sabado",
+      "source_folder_url": "https://drive.google.com/drive/folders/1sIhlx5LDWJpbRJqx2TvVDjWZv-3Gws3L",
+      "source_file_url": "https://drive.google.com/file/d/1av_MAt3H_P8q9F8Ff5aPHBJm2viTt6bZ/view?usp=drivesdk",
+      "reference_width": 478,
+      "reference_height": 850
+    },
+    {
+      "order": 7,
+      "file": "DSC00475.jpg",
+      "artist": "Aníbal y la otra opción",
+      "event": "La Pirámide",
+      "display_caption": "Aníbal y la otra opción · La Pirámide",
+      "alt": "Un percusionista sostiene las baquetas frente a su instrumento",
+      "source_folder": "Anibal - La Piramide",
+      "source_folder_url": "https://drive.google.com/drive/folders/1FU3aed63sXn88zgUiU3YboNnZCNbptU2",
+      "source_file_url": "https://drive.google.com/file/d/19MO2LCoxggf5TGPdIhPm7PZjRm3-0-aF/view?usp=drivesdk",
+      "reference_width": 478,
+      "reference_height": 850
+    },
+    {
+      "order": 8,
+      "file": "DSC04711.jpg",
+      "artist": "Aníbal y la otra opción",
+      "event": "Festival de la Miel",
+      "display_caption": "Aníbal y la otra opción · Festival de la Miel",
+      "alt": "Los músicos sobre el escenario frente al público, vistos desde atrás",
+      "source_folder": "Anibal - Festival de la Miel",
+      "source_folder_url": "https://drive.google.com/drive/folders/1fKa94qsOaHOogmZ4oDhsSWrN6dht4Jaw",
+      "source_file_url": "https://drive.google.com/file/d/1JNMxENC6YlPhtOJmPDAppD03fgaFcyzR/view?usp=drivesdk",
+      "reference_width": 850,
+      "reference_height": 478
+    },
+    {
+      "order": 9,
+      "file": "DSC00386.jpg",
+      "artist": "Aníbal y la otra opción",
+      "event": "La Pirámide",
+      "display_caption": "Aníbal y la otra opción · La Pirámide",
+      "alt": "Un violinista visto desde atrás con el público cálidamente iluminado al fondo",
+      "source_folder": "Anibal - La Piramide",
+      "source_folder_url": "https://drive.google.com/drive/folders/1FU3aed63sXn88zgUiU3YboNnZCNbptU2",
+      "source_file_url": "https://drive.google.com/file/d/1NG4FJ1mczKBH8hiB2hVNYVkh4KDX3DR_/view?usp=drivesdk",
+      "reference_width": 567,
+      "reference_height": 850
+    },
+    {
+      "order": 10,
+      "file": "DSC01242.jpg",
+      "artist": "Aníbal y la otra opción",
+      "event": "La Pirámide",
+      "display_caption": "Aníbal y la otra opción · La Pirámide",
+      "alt": "Un cantante con guitarra entre humo y luces verdes",
+      "source_folder": "Anibal - La Piramide",
+      "source_folder_url": "https://drive.google.com/drive/folders/1FU3aed63sXn88zgUiU3YboNnZCNbptU2",
+      "source_file_url": "https://drive.google.com/file/d/1SKhU6ThnJK6wPmKzNGnNZ7Ops49ztJD0/view?usp=drivesdk",
+      "reference_width": 478,
+      "reference_height": 850
+    },
+    {
+      "order": 11,
+      "file": "DSC04246.jpg",
+      "artist": "",
+      "event": "Festival de la Miel",
+      "display_caption": "Festival de la Miel",
+      "alt": "Una bailarina sonríe con los brazos extendidos bajo las luces",
+      "source_folder": "Anibal - Festival de la Miel",
+      "source_folder_url": "https://drive.google.com/drive/folders/1fKa94qsOaHOogmZ4oDhsSWrN6dht4Jaw",
+      "source_file_url": "https://drive.google.com/file/d/1w44UUOjaXVfstX1g6rMUWajweVs0D2KR/view?usp=drivesdk",
+      "reference_width": 478,
+      "reference_height": 850
+    },
+    {
+      "order": 12,
+      "file": "DSC09039.jpg",
+      "artist": "",
+      "event": "Festival de la Miel",
+      "display_caption": "Festival de la Miel",
+      "alt": "Bailarinas con faldas de colores y pañuelos bajo luces azules",
+      "source_folder": "Festival de la Miel 2026 - Municipalidad / Artistas y publico / Domingo",
+      "source_folder_url": "https://drive.google.com/drive/folders/1QTode9_SpryfgSfIaU1ydfUz1WcbzSC2",
+      "source_file_url": "https://drive.google.com/file/d/1G4c30RLoQ3OgH9njEI__Fikphgf97iW6/view?usp=drivesdk",
+      "reference_width": 850,
+      "reference_height": 567
+    },
+    {
+      "order": 13,
+      "file": "DSC01066.jpg",
+      "artist": "Lázaro Caballero",
+      "event": "Festival de la Miel",
+      "display_caption": "Lázaro Caballero · Festival de la Miel",
+      "alt": "Presentación bajo luces rojas, con la banda y el escenario al fondo",
+      "source_folder": "Festival de la Miel 2026 - Municipalidad / Artistas y publico / Domingo",
+      "source_folder_url": "https://drive.google.com/drive/folders/1QTode9_SpryfgSfIaU1ydfUz1WcbzSC2",
+      "source_file_url": "https://drive.google.com/file/d/1xHlfQodGjLFSlJrsKfNB2ofav04J8_ok/view?usp=drivesdk",
+      "reference_width": 850,
+      "reference_height": 567
+    },
+    {
+      "order": 14,
+      "file": "DSC00977.jpg",
+      "artist": "Lázaro Caballero",
+      "event": "Festival de la Miel",
+      "display_caption": "Lázaro Caballero · Festival de la Miel",
+      "alt": "Vista abierta del escenario con músicos y una bandera entre luces azules",
+      "source_folder": "Festival de la Miel 2026 - Municipalidad / Artistas y publico / Domingo",
+      "source_folder_url": "https://drive.google.com/drive/folders/1QTode9_SpryfgSfIaU1ydfUz1WcbzSC2",
+      "source_file_url": "https://drive.google.com/file/d/1Oh6SBf0ttAqvhAgToxgDG_hirKBUfqL6/view",
+      "reference_width": 850,
+      "reference_height": 567
+    },
+    {
+      "order": 15,
+      "file": "DSC06152.jpg",
+      "artist": "Raly Barrionuevo",
+      "event": "Festival de la Miel",
+      "display_caption": "Raly Barrionuevo · Festival de la Miel",
+      "alt": "Raly Barrionuevo canta sentado mientras toca la guitarra",
+      "source_folder": "Festival de la Miel 2026 - Municipalidad / Artistas y publico / Sabado",
+      "source_folder_url": "https://drive.google.com/drive/folders/1sIhlx5LDWJpbRJqx2TvVDjWZv-3Gws3L",
+      "source_file_url": "https://drive.google.com/file/d/19jfFDQBQdUYrULhadNr4Z-kBYQQwoqEB/view?usp=drivesdk",
+      "reference_width": 850,
+      "reference_height": 478
+    },
+    {
+      "order": 16,
+      "file": "DSC05500.jpg",
+      "artist": "Raly Barrionuevo",
+      "event": "Festival de la Miel",
+      "display_caption": "Raly Barrionuevo · Festival de la Miel",
+      "alt": "Raly Barrionuevo canta y toca la guitarra bajo luces azules",
+      "source_folder": "Festival de la Miel 2026 - Municipalidad / Artistas y publico / Sabado",
+      "source_folder_url": "https://drive.google.com/drive/folders/1sIhlx5LDWJpbRJqx2TvVDjWZv-3Gws3L",
+      "source_file_url": "https://drive.google.com/file/d/1bYJiiaR8zdxNG9iQgkcqzeEdjfhY-heW/view?usp=drivesdk",
+      "reference_width": 478,
+      "reference_height": 850
+    },
+    {
+      "order": 17,
+      "file": "DSC09711.jpg",
+      "artist": "",
+      "event": "Festival de la Miel",
+      "display_caption": "Festival de la Miel",
+      "alt": "Un músico canta con guitarra ante una pantalla de colores y luces amarillas",
+      "source_folder": "Festival de la Miel 2026 - Municipalidad / Artistas y publico / Domingo",
+      "source_folder_url": "https://drive.google.com/drive/folders/1QTode9_SpryfgSfIaU1ydfUz1WcbzSC2",
+      "source_file_url": "https://drive.google.com/file/d/1GXjzdd5p-tEtKAOdy8PQgRDt3Y38TjCD/view?usp=drivesdk",
+      "reference_width": 567,
+      "reference_height": 850
+    },
+    {
+      "order": 18,
+      "file": "DSC04814.jpg",
+      "artist": "Aníbal y la otra opción",
+      "event": "Festival de la Miel",
+      "display_caption": "Aníbal y la otra opción · Festival de la Miel",
+      "alt": "Un músico sonríe a la cámara sosteniendo su guitarra",
+      "source_folder": "Anibal - Festival de la Miel",
+      "source_folder_url": "https://drive.google.com/drive/folders/1fKa94qsOaHOogmZ4oDhsSWrN6dht4Jaw",
+      "source_file_url": "https://drive.google.com/file/d/1_HW5ruZGdtPT8897spLhI3Bl0gcT36Bl/view?usp=drivesdk",
+      "reference_width": 478,
+      "reference_height": 850
+    },
+    {
+      "order": 19,
+      "file": "DSC04765.jpg",
+      "artist": "Aníbal y la otra opción",
+      "event": "Festival de la Miel",
+      "display_caption": "Aníbal y la otra opción · Festival de la Miel",
+      "alt": "Una guitarra y el brazo de un músico en primer plano frente al público",
+      "source_folder": "Anibal - Festival de la Miel",
+      "source_folder_url": "https://drive.google.com/drive/folders/1fKa94qsOaHOogmZ4oDhsSWrN6dht4Jaw",
+      "source_file_url": "https://drive.google.com/file/d/1CXj9J6iKnSzpXXAUrd_KkSaE-8ftTDkp/view?usp=drivesdk",
+      "reference_width": 478,
+      "reference_height": 850
+    },
+    {
+      "order": 20,
+      "file": "DSC01232.jpg",
+      "artist": "",
+      "event": "Festival de la Miel",
+      "display_caption": "Festival de la Miel",
+      "alt": "El público canta y levanta las manos junto a la valla",
+      "source_folder": "Festival de la Miel 2026 - Municipalidad / Artistas y publico / Domingo",
+      "source_folder_url": "https://drive.google.com/drive/folders/1QTode9_SpryfgSfIaU1ydfUz1WcbzSC2",
+      "source_file_url": "https://drive.google.com/file/d/1dXvh-y7qLPeM1yYyEyjjP2L9xPZoK52D/view?usp=drivesdk",
+      "reference_width": 850,
+      "reference_height": 567
+    },
+    {
+      "order": 21,
+      "file": "DSC00904.jpg",
+      "artist": "",
+      "event": "Festival de la Miel",
+      "display_caption": "Festival de la Miel",
+      "alt": "Personas del público observan el espectáculo desde la primera fila",
+      "source_folder": "Festival de la Miel 2026 - Municipalidad / Artistas y publico / Domingo",
+      "source_folder_url": "https://drive.google.com/drive/folders/1QTode9_SpryfgSfIaU1ydfUz1WcbzSC2",
+      "source_file_url": "https://drive.google.com/file/d/1RRKdTin-SA9Z4nojf_k3Rx0MmQr86ZrT/view?usp=drivesdk",
+      "reference_width": 567,
+      "reference_height": 850
+    },
+    {
+      "order": 22,
+      "file": "DSC01070.jpg",
+      "artist": "Aníbal y la otra opción",
+      "event": "La Pirámide",
+      "display_caption": "Aníbal y la otra opción · La Pirámide",
+      "alt": "Siluetas del público levantan los brazos frente al escenario azul",
+      "source_folder": "Anibal - La Piramide",
+      "source_folder_url": "https://drive.google.com/drive/folders/1FU3aed63sXn88zgUiU3YboNnZCNbptU2",
+      "source_file_url": "https://drive.google.com/file/d/1THgCMili9L7gRBWbfzLfrIDf6PtQmibr/view?usp=drivesdk",
+      "reference_width": 478,
+      "reference_height": 850
+    },
+    {
+      "order": 23,
+      "file": "DSC09475.jpg",
+      "artist": "",
+      "event": "Festival de la Miel",
+      "display_caption": "Festival de la Miel",
+      "alt": "Una pareja baila entre el público durante la noche",
+      "source_folder": "Festival de la Miel 2026 - Municipalidad / Artistas y publico / Domingo",
+      "source_folder_url": "https://drive.google.com/drive/folders/1QTode9_SpryfgSfIaU1ydfUz1WcbzSC2",
+      "source_file_url": "https://drive.google.com/file/d/1wuB9Vt2XEWAuL2j9q_hyXb4GtDUSl1PH/view?usp=drivesdk",
+      "reference_width": 567,
+      "reference_height": 850
+    },
+    {
+      "order": 24,
+      "file": "DSC06307.jpg",
+      "artist": "Dosfolk",
+      "event": "Festival de la Miel",
+      "display_caption": "Dosfolk · Festival de la Miel",
+      "alt": "Un bajista abre los brazos sonriendo al público",
+      "source_folder": "Festival de la Miel 2026 - Municipalidad / Artistas y publico / Sabado",
+      "source_folder_url": "https://drive.google.com/drive/folders/1sIhlx5LDWJpbRJqx2TvVDjWZv-3Gws3L",
+      "source_file_url": "https://drive.google.com/file/d/1rdQEKmq0Ejsrvv-LUBEGmSSIQCGmDaxa/view?usp=drivesdk",
+      "reference_width": 567,
+      "reference_height": 850
+    },
+    {
+      "order": 25,
+      "file": "DSC05659.jpg",
+      "artist": "Raly Barrionuevo",
+      "event": "Festival de la Miel",
+      "display_caption": "Raly Barrionuevo · Festival de la Miel",
+      "alt": "Raly Barrionuevo abraza a una mujer sobre el escenario junto a un micrófono",
+      "source_folder": "Festival de la Miel 2026 - Municipalidad / Artistas y publico / Sabado",
+      "source_folder_url": "https://drive.google.com/drive/folders/1sIhlx5LDWJpbRJqx2TvVDjWZv-3Gws3L",
+      "source_file_url": "https://drive.google.com/file/d/1Pr01NJ9Sz2SvWl6XJCPts36OkysnnZln/view?usp=drivesdk",
+      "reference_width": 850,
+      "reference_height": 478
+    },
+    {
+      "order": 26,
+      "file": "DSC09848.jpg",
+      "artist": "José Luis Aguirre",
+      "event": "Festival de la Miel",
+      "display_caption": "José Luis Aguirre · Festival de la Miel",
+      "alt": "Artistas abrazados de espaldas frente a una multitud iluminada",
+      "source_folder": "Jose Luis Aguirre",
+      "source_folder_url": "https://drive.google.com/drive/folders/1OBF3__6K51HGrolSARmaavjcmEnbbB-C",
+      "source_file_url": "https://drive.google.com/file/d/1b3wEEScAU5T-HcaDEh3kFAuaSQslkhTl/view?usp=drivesdk",
+      "reference_width": 850,
+      "reference_height": 478
+    }
+  ],
+  "desktop_rows": [
+    [
+      "DSC09375.jpg"
+    ],
+    [
+      "DSC06506.jpg",
+      "DSC06530.jpg",
+      "DSC06435.jpg"
+    ],
+    [
+      "DSC06294.jpg",
+      "DSC05704.jpg",
+      "DSC00475.jpg"
+    ],
+    [
+      "DSC04711.jpg",
+      "DSC00386.jpg",
+      "DSC01242.jpg"
+    ],
+    [
+      "DSC04246.jpg",
+      "DSC09039.jpg"
+    ],
+    [
+      "DSC01066.jpg",
+      "DSC00977.jpg"
+    ],
+    [
+      "DSC06152.jpg",
+      "DSC05500.jpg"
+    ],
+    [
+      "DSC09711.jpg",
+      "DSC04814.jpg",
+      "DSC04765.jpg"
+    ],
+    [
+      "DSC01232.jpg",
+      "DSC00904.jpg",
+      "DSC01070.jpg"
+    ],
+    [
+      "DSC09475.jpg",
+      "DSC06307.jpg",
+      "DSC05659.jpg"
+    ],
+    [
+      "DSC09848.jpg"
+    ]
+  ],
+  "notes": [
+    "Orden y agrupación finales aprobados.",
+    "Dimensiones de referencia tomadas del boceto; recalcular con los originales orientados.",
+    "Las imágenes de La Pirámide no pertenecen al Festival de la Miel."
+  ]
+}
