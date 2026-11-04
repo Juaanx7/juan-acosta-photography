@@ -105,4 +105,12 @@ Local: http://127.0.0.1:5175/portfolio/eventos-y-musica. Reinicio desde el workt
 
 Edge/Chromium y WebKit de Playwright sobre Windows, con toque emulado Pixel 7 / iPhone 13 y teclado. No equivale a teléfonos físicos, Safari real, lectores de pantalla ni red móvil. No se enviaron mensajes ni pedidos reales. Pendientes la revisión de Juan y las comprobaciones que desee hacer en sus dispositivos.
 
-La entrega se identifica por el commit «feat: incorporar galería Eventos y música»; se registrarán commit y enlaces de PR/Preview al confirmar la subida. Juan revisará y realizará el merge manualmente. No se fusiona main ni se publica en producción.
+Commit de implementación: **`422e34db0f5ff3e85142d28d3d5a5c27345e88ee`**, «feat: incorporar galería Eventos y música». Incluye código, imágenes, pruebas, documentación y capturas; una actualización documental agrega los enlaces comprobados.
+
+- [PR borrador #17](https://github.com/Juaanx7/juan-acosta-photography/pull/17)
+- [Preview de la implementación](https://juan-acosta-photography-kj842neho-juans-projects-1e5bf112.vercel.app/portfolio/eventos-y-musica)
+- [Rama remota](https://github.com/Juaanx7/juan-acosta-photography/tree/feat/portfolio-eventos-musica)
+
+Vercel confirmó **Preview / success** para el commit de implementación. La ruta redirige a Login de Vercel sin sesión autorizada; la validación funcional reportada es local. Esta URL muestra el código probado; la actualización documental no cambia la aplicación. Main y el último despliegue Production permanecen en `f56aae0dec62feae5c7fde1414cfacb5b0052318`.
+
+PR borrador sin merge. Juan revisará y realizará el merge manualmente; no se publicó en Production.
