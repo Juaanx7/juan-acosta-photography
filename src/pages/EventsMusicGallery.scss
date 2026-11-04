@@ -1,0 +1,20 @@
+.events-music-gallery {
+  .series-work { min-width: 0; }
+  .series-work figcaption { display: block; padding-top: 10px; letter-spacing: .3px; line-height: 1.5; overflow-wrap: anywhere; }
+  .series-work figcaption strong { font-weight: 500; color: var(--ink); }
+}
+.events-music-photos { display: grid; gap: 28px; margin-bottom: 44px; }
+.events-music-row { display: grid; grid-template-columns: var(--events-columns); gap: 20px; align-items: start; }
+.events-music-contact {
+  display: grid; grid-template-columns: minmax(0, 1.6fr) minmax(0, 1fr); gap: 48px; align-items: center;
+  padding: 50px 0 60px; border-top: 1px solid var(--rule);
+  h2 { font-size: 32px; line-height: 1.2; margin: 18px 0 20px; }
+  p:not(.series-eyebrow) { font-size: 14px; line-height: 1.7; color: var(--soft); max-width: 660px; }
+  a { display: flex; justify-content: space-between; align-items: center; gap: 18px; padding-block: 15px; min-height: 44px; border-bottom: 1px solid var(--ink); font-size: 13px; }
+  a:hover { text-decoration: underline; text-underline-offset: 5px; }
+}
+@media (max-width: 600px) {
+  .events-music-photos { gap: 24px; margin-bottom: 32px; }
+  .events-music-row { grid-template-columns: minmax(0, 1fr); gap: 24px; }
+  .events-music-contact { grid-template-columns: minmax(0, 1fr); gap: 22px; padding: 35px 0 45px; h2 { font-size: 28px; } }
+}

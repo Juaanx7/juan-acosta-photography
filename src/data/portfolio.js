@@ -26,7 +26,7 @@ export const portfolioCategories = [
   { id: "paisajes", title: "Paisajes y viajes", ...photo("valley"), alt: "Puesta de sol sobre el valle y las sierras", href: routePaths.landscapes },
   { id: "san-marcos", title: "San Marcos, mi mirada", ...photo("DSC03637", sanMarcosImages), alt: "Pueblo serrano: San Marcos Sierras al atardecer", href: routePaths.sanMarcos },
   { id: "deportes", title: "Deportes en montaña", ...photo("sport"), alt: "Deporte entre la niebla" },
-  { id: "eventos", title: "Eventos", eyebrow: "ENCUENTROS", coverTitle: "Eventos" },
+  { id: "eventos", title: "Eventos y música", eyebrow: "ENCUENTROS", coverTitle: "Eventos y música", href: routePaths.eventsMusic },
   { id: "festivales", title: "Festivales", eyebrow: "ENERGÍA COMPARTIDA", coverTitle: "Festivales" },
   { id: "recitales", title: "Recitales", eyebrow: "MÚSICA EN VIVO", coverTitle: "Recitales" },
 ];
