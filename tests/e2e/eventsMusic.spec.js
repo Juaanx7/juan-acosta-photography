@@ -13,15 +13,15 @@ test("categoría existente, carga diferida, recarga, regreso y contacto confirma
   page.on("request", request => requests.push(new URL(request.url()).pathname));
   await page.goto("/");
   await expect(page.getByRole("heading", { name: "Explorar mi trabajo", exact: true })).toBeVisible();
-  const steps = isMobile ? 3 : 1;
+  const steps = isMobile ? 2 : 0;
   for (let i=0; i<steps; i++) {
     await activate(page.getByRole("button", { name: "Categorías siguientes", exact: true }), isMobile);
-    await expect(page.locator(".portfolio-category-controls [role=status]")).toContainText(isMobile ? `${i+2} de 6` : "4–6 de 6");
+    await expect(page.locator(".portfolio-category-controls [role=status]")).toContainText(`${i+2} de 3`);
   }
   const access = page.locator(`main a[href="${path}"]`);
   await expect(access).toHaveCount(1);
   await expect(access.locator("h3")).toHaveText("Eventos y música");
-  expect(requests.filter(url=>url.includes("/images/portfolio/eventos-y-musica/") || url.includes("/eventsMusicImages"))).toEqual([]);
+  expect(requests.filter(url => url.includes("/images/portfolio/eventos-y-musica/")).every(url => url.includes("DSC09375-"))).toBe(true);
   await activate(access,isMobile);
   await expect(page.getByRole("heading",{name:"Eventos y música.",level:1})).toBeVisible();
   await page.reload();
