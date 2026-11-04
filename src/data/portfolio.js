@@ -1,4 +1,5 @@
 import images from "./portfolioImages.json";
+import eventsMusicImages from "./eventsMusicImages.json";
 import sanMarcosImages from "./sanMarcosImages.json";
 import achalaImages from "./achalaImages.json";
 import cumbrecitaImages from "./cumbrecitaImages.json";
@@ -21,18 +22,16 @@ export const coverPhotos = [
   { ...photo("sport"), title: "Deporte entre la niebla", alt: "Ciclista en la montaña entre la niebla" },
 ];
 
-// Las portadas tipográficas esperan fotografías propias del tema correspondiente.
+const eventsMusicCover = eventsMusicImages.photos.find((image) => image.source === "DSC09375.jpg");
+
 export const portfolioCategories = [
   { id: "paisajes", title: "Paisajes y viajes", ...photo("valley"), alt: "Puesta de sol sobre el valle y las sierras", href: routePaths.landscapes },
-  { id: "san-marcos", title: "San Marcos, mi mirada", ...photo("DSC03637", sanMarcosImages), alt: "Pueblo serrano: San Marcos Sierras al atardecer", href: routePaths.sanMarcos },
   { id: "deportes", title: "Deportes en montaña", ...photo("sport"), alt: "Deporte entre la niebla" },
-  { id: "eventos", title: "Eventos y música", eyebrow: "ENCUENTROS", coverTitle: "Eventos y música", href: routePaths.eventsMusic },
-  { id: "festivales", title: "Festivales", eyebrow: "ENERGÍA COMPARTIDA", coverTitle: "Festivales" },
-  { id: "recitales", title: "Recitales", eyebrow: "MÚSICA EN VIVO", coverTitle: "Recitales" },
+  { id: "eventos", title: "Eventos y música", ...photo("cover", { cover: eventsMusicCover }), alt: eventsMusicCover.alt, href: routePaths.eventsMusic },
 ];
 
 export const portfolioSeries = [
   { id: "achala", title: "Los Cajones de Achala", ...photo("DSC02820", achalaImages), alt: "Grupo entre enormes paredes rocosas de Los Cajones de Achala", label: "RECORRIDOS", description: "Una caminata con amigos entre paredes de roca.", href: routePaths.achala },
   { id: "cumbrecita", title: "La Cumbrecita", ...photo("DSC03544", cumbrecitaImages), alt: coverPhotos[2].alt, label: "VIAJES", description: "Bosque, agua y pequeños momentos del viaje.", href: routePaths.cumbrecita },
-  { ...portfolioCategories[1], label: "MIRADA PERSONAL", description: "Una colección sobre el lugar al que pertenezco." },
+  { id: "san-marcos", title: "San Marcos, mi mirada", ...photo("DSC03637", sanMarcosImages), alt: "Pueblo serrano: San Marcos Sierras al atardecer", href: routePaths.sanMarcos, label: "MIRADA PERSONAL", description: "Una colección sobre el lugar al que pertenezco." },
 ];

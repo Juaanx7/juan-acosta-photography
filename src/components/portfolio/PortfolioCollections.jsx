@@ -18,7 +18,8 @@ function CollectionAccess({ item, children }) {
 
 export default function PortfolioCollections() {
   const mobile = useMediaQuery("(max-width: 580px)");
-  const perPage = mobile ? 1 : 3;
+  const perPage = Math.min(mobile ? 1 : 3, portfolioCategories.length);
+  const hasMore = portfolioCategories.length > perPage;
   const [position, setPosition] = useState(0);
   const start = Math.min(Math.floor(position / perPage) * perPage, portfolioCategories.length - perPage);
   return <>
@@ -30,11 +31,11 @@ export default function PortfolioCollections() {
             <p className="portfolio-pending">{item.href ? "Ver colección ↗" : "Galería en preparación"}</p></CollectionAccess>
         </article>)}
       </div>
-      <div className="portfolio-category-controls">
+      {hasMore && <div className="portfolio-category-controls">
         <span role="status">{mobile ? start + 1 : `${start + 1}–${start + perPage}`} de {portfolioCategories.length}</span>
         <button type="button" aria-label="Categorías anteriores" aria-controls="portfolio-categories" disabled={start === 0} onClick={() => setPosition(start - perPage)}>←</button>
         <button type="button" aria-label="Categorías siguientes" aria-controls="portfolio-categories" disabled={start + perPage >= portfolioCategories.length} onClick={() => setPosition(start + perPage)}>→</button>
-      </div>
+      </div>}
     </section>
     <section className="portfolio-section" aria-labelledby="series-title">
       <div className="portfolio-section__heading"><h2 id="series-title">Historias en imágenes</h2><span>Series</span></div>
