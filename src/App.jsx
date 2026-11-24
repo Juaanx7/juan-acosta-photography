@@ -19,6 +19,7 @@ const CumbrecitaSeries = lazy(() => import("./pages/CumbrecitaSeries"));
 const LandscapesGallery = lazy(() => import("./pages/LandscapesGallery"));
 
 const EventsMusicGallery = lazy(() => import("./pages/EventsMusicGallery"));
+const MountainSportsGallery = lazy(() => import("./pages/MountainSportsGallery"));
 
 function App() {
   const { pathname } = useLocation();
@@ -31,6 +32,7 @@ function App() {
           <ScrollToTop />
           <Routes key={pathname}>
             <Route path={routePaths.portfolio} element={<Portfolio />} />
+            <Route path={routePaths.mountainSports} element={<MountainSportsGallery />} />
             <Route path={routePaths.eventsMusic} element={<EventsMusicGallery />} />
             <Route path={routePaths.landscapes} element={<LandscapesGallery />} />
             <Route path={routePaths.sanMarcos} element={<SanMarcosSeries />} />

@@ -9,8 +9,8 @@ test("tres categorías, portadas completas, enlaces y San Marcos independiente",
   await expect(section.locator("h3")).toHaveText(titles);
   await expect(section.locator(".portfolio-category-controls")).toHaveCount(0);
   await expect(section.locator("a").first()).toHaveAttribute("href", "/portfolio/paisajes-y-viajes");
-  await expect(section.locator("article").nth(1)).toContainText("Galería en preparación");
-  await expect(section.locator("article").nth(1).locator("a")).toHaveCount(0);
+  await expect(section.locator("article").nth(1)).toContainText("Ver colección");
+  await expect(section.locator("article").nth(1).locator("a")).toHaveAttribute("href", "/portfolio/deportes-en-montana");
   const photos = section.locator("img");
   await expect(photos).toHaveCount(3);
   for (const photo of await photos.all()) {

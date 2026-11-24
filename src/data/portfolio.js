@@ -26,7 +26,7 @@ const eventsMusicCover = eventsMusicImages.photos.find((image) => image.source =
 
 export const portfolioCategories = [
   { id: "paisajes", title: "Paisajes y viajes", ...photo("valley"), alt: "Puesta de sol sobre el valle y las sierras", href: routePaths.landscapes },
-  { id: "deportes", title: "Deportes en montaña", ...photo("sport"), alt: "Deporte entre la niebla" },
+  { id: "deportes", title: "Deportes en montaña", ...photo("sport"), alt: "Deporte entre la niebla", href: routePaths.mountainSports },
   { id: "eventos", title: "Eventos y música", ...photo("cover", { cover: eventsMusicCover }), alt: eventsMusicCover.alt, href: routePaths.eventsMusic },
 ];
 

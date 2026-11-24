@@ -1,0 +1,832 @@
+{
+  "DSC06918": {
+    "source": "DSC06918.jpg",
+    "image": "/images/portfolio/deportes-en-montana/DSC06918-1440.webp",
+    "width": 6000,
+    "height": 4000,
+    "variants": [
+      {
+        "image": "/images/portfolio/deportes-en-montana/DSC06918-640.webp",
+        "width": 640,
+        "height": 427
+      },
+      {
+        "image": "/images/portfolio/deportes-en-montana/DSC06918-960.webp",
+        "width": 960,
+        "height": 640
+      },
+      {
+        "image": "/images/portfolio/deportes-en-montana/DSC06918-1440.webp",
+        "width": 1440,
+        "height": 960
+      },
+      {
+        "image": "/images/portfolio/deportes-en-montana/DSC06918-1920.webp",
+        "width": 1920,
+        "height": 1280
+      },
+      {
+        "image": "/images/portfolio/deportes-en-montana/DSC06918-2560.webp",
+        "width": 2560,
+        "height": 1707
+      },
+      {
+        "image": "/images/portfolio/deportes-en-montana/DSC06918-3200.webp",
+        "width": 3200,
+        "height": 2133
+      },
+      {
+        "image": "/images/portfolio/deportes-en-montana/DSC06918-4400.webp",
+        "width": 4400,
+        "height": 2933
+      }
+    ],
+    "race": "DH Pan de Azúcar",
+    "alt": "Corredor entre la neblina con una aerosilla detrás",
+    "sourceHash": "4438295dcc6dbe9e2839202b1a220cc6a81a5878ceb59418b91c8a29874bf9e7"
+  },
+  "DSC04908": {
+    "source": "DSC04908.jpg",
+    "image": "/images/portfolio/deportes-en-montana/DSC04908-1440.webp",
+    "width": 5295,
+    "height": 3530,
+    "variants": [
+      {
+        "image": "/images/portfolio/deportes-en-montana/DSC04908-640.webp",
+        "width": 640,
+        "height": 427
+      },
+      {
+        "image": "/images/portfolio/deportes-en-montana/DSC04908-960.webp",
+        "width": 960,
+        "height": 640
+      },
+      {
+        "image": "/images/portfolio/deportes-en-montana/DSC04908-1440.webp",
+        "width": 1440,
+        "height": 960
+      },
+      {
+        "image": "/images/portfolio/deportes-en-montana/DSC04908-1920.webp",
+        "width": 1920,
+        "height": 1280
+      },
+      {
+        "image": "/images/portfolio/deportes-en-montana/DSC04908-2560.webp",
+        "width": 2560,
+        "height": 1707
+      },
+      {
+        "image": "/images/portfolio/deportes-en-montana/DSC04908-3200.webp",
+        "width": 3200,
+        "height": 2133
+      },
+      {
+        "image": "/images/portfolio/deportes-en-montana/DSC04908-4400.webp",
+        "width": 4400,
+        "height": 2933
+      }
+    ],
+    "race": "Enduro Las Pircas",
+    "alt": "Corredor inclinado en una curva entre piedras y polvo",
+    "sourceHash": "83c8283ad06b1c9ea729e252dc506c2ee26fdd269c2caa3fcf1fdc1d28f659ff"
+  },
+  "DSC04741": {
+    "source": "DSC04741.jpg",
+    "image": "/images/portfolio/deportes-en-montana/DSC04741-1440.webp",
+    "width": 5624,
+    "height": 3749,
+    "variants": [
+      {
+        "image": "/images/portfolio/deportes-en-montana/DSC04741-640.webp",
+        "width": 640,
+        "height": 427
+      },
+      {
+        "image": "/images/portfolio/deportes-en-montana/DSC04741-960.webp",
+        "width": 960,
+        "height": 640
+      },
+      {
+        "image": "/images/portfolio/deportes-en-montana/DSC04741-1440.webp",
+        "width": 1440,
+        "height": 960
+      },
+      {
+        "image": "/images/portfolio/deportes-en-montana/DSC04741-1920.webp",
+        "width": 1920,
+        "height": 1280
+      },
+      {
+        "image": "/images/portfolio/deportes-en-montana/DSC04741-2560.webp",
+        "width": 2560,
+        "height": 1707
+      },
+      {
+        "image": "/images/portfolio/deportes-en-montana/DSC04741-3200.webp",
+        "width": 3200,
+        "height": 2133
+      },
+      {
+        "image": "/images/portfolio/deportes-en-montana/DSC04741-4400.webp",
+        "width": 4400,
+        "height": 2933
+      }
+    ],
+    "race": "Enduro Las Pircas",
+    "alt": "Un salto con la bicicleta de costado sobre el circuito",
+    "sourceHash": "078edb959bc2e7a54c1ebe9b6ae31be80e5e6cd7f0a3846212a4f676184c9e48"
+  },
+  "DSC07076": {
+    "source": "DSC07076.jpg",
+    "image": "/images/portfolio/deportes-en-montana/DSC07076-1440.webp",
+    "width": 4000,
+    "height": 6000,
+    "variants": [
+      {
+        "image": "/images/portfolio/deportes-en-montana/DSC07076-480.webp",
+        "width": 480,
+        "height": 720
+      },
+      {
+        "image": "/images/portfolio/deportes-en-montana/DSC07076-640.webp",
+        "width": 640,
+        "height": 960
+      },
+      {
+        "image": "/images/portfolio/deportes-en-montana/DSC07076-960.webp",
+        "width": 960,
+        "height": 1440
+      },
+      {
+        "image": "/images/portfolio/deportes-en-montana/DSC07076-1440.webp",
+        "width": 1440,
+        "height": 2160
+      },
+      {
+        "image": "/images/portfolio/deportes-en-montana/DSC07076-1920.webp",
+        "width": 1920,
+        "height": 2880
+      }
+    ],
+    "race": "DH Pan de Azúcar",
+    "alt": "Una bicicleta suspendida de la aerosilla en la neblina",
+    "sourceHash": "396757d8825932db009449def31f6835a1528ebd9753e070243c621f8300dac3"
+  },
+  "DSC03832": {
+    "source": "DSC03832.jpg",
+    "image": "/images/portfolio/deportes-en-montana/DSC03832-1440.webp",
+    "width": 3481,
+    "height": 5222,
+    "variants": [
+      {
+        "image": "/images/portfolio/deportes-en-montana/DSC03832-480.webp",
+        "width": 480,
+        "height": 720
+      },
+      {
+        "image": "/images/portfolio/deportes-en-montana/DSC03832-640.webp",
+        "width": 640,
+        "height": 960
+      },
+      {
+        "image": "/images/portfolio/deportes-en-montana/DSC03832-960.webp",
+        "width": 960,
+        "height": 1440
+      },
+      {
+        "image": "/images/portfolio/deportes-en-montana/DSC03832-1440.webp",
+        "width": 1440,
+        "height": 2160
+      },
+      {
+        "image": "/images/portfolio/deportes-en-montana/DSC03832-1920.webp",
+        "width": 1920,
+        "height": 2880
+      }
+    ],
+    "race": "Enduro Las Pircas",
+    "alt": "Un corredor con su bicicleta antes de salir al circuito",
+    "sourceHash": "e3eba2f62f94ba8f49d5ca2c7b2e3c0fe9b08caa9af93235f12db521b89468a3"
+  },
+  "DSC06683": {
+    "source": "DSC06683.jpg",
+    "image": "/images/portfolio/deportes-en-montana/DSC06683-1440.webp",
+    "width": 6000,
+    "height": 4000,
+    "variants": [
+      {
+        "image": "/images/portfolio/deportes-en-montana/DSC06683-640.webp",
+        "width": 640,
+        "height": 427
+      },
+      {
+        "image": "/images/portfolio/deportes-en-montana/DSC06683-960.webp",
+        "width": 960,
+        "height": 640
+      },
+      {
+        "image": "/images/portfolio/deportes-en-montana/DSC06683-1440.webp",
+        "width": 1440,
+        "height": 960
+      },
+      {
+        "image": "/images/portfolio/deportes-en-montana/DSC06683-1920.webp",
+        "width": 1920,
+        "height": 1280
+      },
+      {
+        "image": "/images/portfolio/deportes-en-montana/DSC06683-2560.webp",
+        "width": 2560,
+        "height": 1707
+      },
+      {
+        "image": "/images/portfolio/deportes-en-montana/DSC06683-3200.webp",
+        "width": 3200,
+        "height": 2133
+      },
+      {
+        "image": "/images/portfolio/deportes-en-montana/DSC06683-4400.webp",
+        "width": 4400,
+        "height": 2933
+      }
+    ],
+    "race": "DH Pan de Azúcar",
+    "alt": "Descenso por un sendero rocoso entre la neblina",
+    "sourceHash": "0e982da3fdeb663e46f3d807f2f76479e2469e5197c6b8b5a9aba3583430fef6"
+  },
+  "DSC04471": {
+    "source": "DSC04471.jpg",
+    "image": "/images/portfolio/deportes-en-montana/DSC04471-1440.webp",
+    "width": 5615,
+    "height": 3743,
+    "variants": [
+      {
+        "image": "/images/portfolio/deportes-en-montana/DSC04471-640.webp",
+        "width": 640,
+        "height": 427
+      },
+      {
+        "image": "/images/portfolio/deportes-en-montana/DSC04471-960.webp",
+        "width": 960,
+        "height": 640
+      },
+      {
+        "image": "/images/portfolio/deportes-en-montana/DSC04471-1440.webp",
+        "width": 1440,
+        "height": 960
+      },
+      {
+        "image": "/images/portfolio/deportes-en-montana/DSC04471-1920.webp",
+        "width": 1920,
+        "height": 1280
+      },
+      {
+        "image": "/images/portfolio/deportes-en-montana/DSC04471-2560.webp",
+        "width": 2560,
+        "height": 1707
+      },
+      {
+        "image": "/images/portfolio/deportes-en-montana/DSC04471-3200.webp",
+        "width": 3200,
+        "height": 2133
+      },
+      {
+        "image": "/images/portfolio/deportes-en-montana/DSC04471-4400.webp",
+        "width": 4400,
+        "height": 2933
+      }
+    ],
+    "race": "Enduro Las Pircas",
+    "alt": "Un corredor atraviesa una curva junto a la vegetación",
+    "sourceHash": "eee4ccc4f6e906606e967159489cfa4db5e260443e74063a091b3d05efa44b3a"
+  },
+  "DSC07968": {
+    "source": "DSC07968.jpg",
+    "image": "/images/portfolio/deportes-en-montana/DSC07968-1440.webp",
+    "width": 6000,
+    "height": 4000,
+    "variants": [
+      {
+        "image": "/images/portfolio/deportes-en-montana/DSC07968-640.webp",
+        "width": 640,
+        "height": 427
+      },
+      {
+        "image": "/images/portfolio/deportes-en-montana/DSC07968-960.webp",
+        "width": 960,
+        "height": 640
+      },
+      {
+        "image": "/images/portfolio/deportes-en-montana/DSC07968-1440.webp",
+        "width": 1440,
+        "height": 960
+      },
+      {
+        "image": "/images/portfolio/deportes-en-montana/DSC07968-1920.webp",
+        "width": 1920,
+        "height": 1280
+      },
+      {
+        "image": "/images/portfolio/deportes-en-montana/DSC07968-2560.webp",
+        "width": 2560,
+        "height": 1707
+      },
+      {
+        "image": "/images/portfolio/deportes-en-montana/DSC07968-3200.webp",
+        "width": 3200,
+        "height": 2133
+      },
+      {
+        "image": "/images/portfolio/deportes-en-montana/DSC07968-4400.webp",
+        "width": 4400,
+        "height": 2933
+      }
+    ],
+    "race": "Quilpo Race",
+    "alt": "Un grupo de corredores cruza el río entre las sierras",
+    "sourceHash": "d1db3aae77b8ae0dc6fbdcb3559b1f6b2d945959dea4ced212bdadf815c1e043"
+  },
+  "DSC08137": {
+    "source": "DSC08137.jpg",
+    "image": "/images/portfolio/deportes-en-montana/DSC08137-1440.webp",
+    "width": 4000,
+    "height": 6000,
+    "variants": [
+      {
+        "image": "/images/portfolio/deportes-en-montana/DSC08137-480.webp",
+        "width": 480,
+        "height": 720
+      },
+      {
+        "image": "/images/portfolio/deportes-en-montana/DSC08137-640.webp",
+        "width": 640,
+        "height": 960
+      },
+      {
+        "image": "/images/portfolio/deportes-en-montana/DSC08137-960.webp",
+        "width": 960,
+        "height": 1440
+      },
+      {
+        "image": "/images/portfolio/deportes-en-montana/DSC08137-1440.webp",
+        "width": 1440,
+        "height": 2160
+      },
+      {
+        "image": "/images/portfolio/deportes-en-montana/DSC08137-1920.webp",
+        "width": 1920,
+        "height": 2880
+      }
+    ],
+    "race": "Quilpo Race",
+    "alt": "Un corredor levanta salpicaduras sobre su reflejo en el agua",
+    "sourceHash": "07985c49a37dcfaf1c19c3a8417c8b00f519aff9258f4c7237a4bce90424fa7c"
+  },
+  "DSC09314": {
+    "source": "DSC09314.jpg",
+    "image": "/images/portfolio/deportes-en-montana/DSC09314-1440.webp",
+    "width": 4000,
+    "height": 6000,
+    "variants": [
+      {
+        "image": "/images/portfolio/deportes-en-montana/DSC09314-480.webp",
+        "width": 480,
+        "height": 720
+      },
+      {
+        "image": "/images/portfolio/deportes-en-montana/DSC09314-640.webp",
+        "width": 640,
+        "height": 960
+      },
+      {
+        "image": "/images/portfolio/deportes-en-montana/DSC09314-960.webp",
+        "width": 960,
+        "height": 1440
+      },
+      {
+        "image": "/images/portfolio/deportes-en-montana/DSC09314-1440.webp",
+        "width": 1440,
+        "height": 2160
+      },
+      {
+        "image": "/images/portfolio/deportes-en-montana/DSC09314-1920.webp",
+        "width": 1920,
+        "height": 2880
+      }
+    ],
+    "race": "Quilpo Race",
+    "alt": "Un corredor dobla sobre el camino pedregoso",
+    "sourceHash": "95773a3adc8027b59719f916d84a36eb62a119c87933ddc49dd40e7f454176ee"
+  },
+  "DSC08579": {
+    "source": "DSC08579.jpg",
+    "image": "/images/portfolio/deportes-en-montana/DSC08579-1440.webp",
+    "width": 4000,
+    "height": 6000,
+    "variants": [
+      {
+        "image": "/images/portfolio/deportes-en-montana/DSC08579-480.webp",
+        "width": 480,
+        "height": 720
+      },
+      {
+        "image": "/images/portfolio/deportes-en-montana/DSC08579-640.webp",
+        "width": 640,
+        "height": 960
+      },
+      {
+        "image": "/images/portfolio/deportes-en-montana/DSC08579-960.webp",
+        "width": 960,
+        "height": 1440
+      },
+      {
+        "image": "/images/portfolio/deportes-en-montana/DSC08579-1440.webp",
+        "width": 1440,
+        "height": 2160
+      },
+      {
+        "image": "/images/portfolio/deportes-en-montana/DSC08579-1920.webp",
+        "width": 1920,
+        "height": 2880
+      }
+    ],
+    "race": "Quilpo Race",
+    "alt": "La expresión de esfuerzo de un corredor en un plano cercano",
+    "sourceHash": "7ca0c9b40531094f3c4387bac7a6e3ee0c813ab2c1912d9c6815f1d8f0ee8fb4"
+  },
+  "DSC04994": {
+    "source": "DSC04994.jpg",
+    "image": "/images/portfolio/deportes-en-montana/DSC04994-1440.webp",
+    "width": 3611,
+    "height": 5417,
+    "variants": [
+      {
+        "image": "/images/portfolio/deportes-en-montana/DSC04994-480.webp",
+        "width": 480,
+        "height": 720
+      },
+      {
+        "image": "/images/portfolio/deportes-en-montana/DSC04994-640.webp",
+        "width": 640,
+        "height": 960
+      },
+      {
+        "image": "/images/portfolio/deportes-en-montana/DSC04994-960.webp",
+        "width": 960,
+        "height": 1440
+      },
+      {
+        "image": "/images/portfolio/deportes-en-montana/DSC04994-1440.webp",
+        "width": 1440,
+        "height": 2160
+      },
+      {
+        "image": "/images/portfolio/deportes-en-montana/DSC04994-1920.webp",
+        "width": 1920,
+        "height": 2880
+      }
+    ],
+    "race": "Desafío Río Pinto",
+    "alt": "Un corredor avanza por el camino bajo los árboles",
+    "sourceHash": "333aa83a415b327ed94ea8001ceed04b9fb20992c44d2f367fd56ff690919689"
+  },
+  "DSC06797": {
+    "source": "DSC06797.jpg",
+    "image": "/images/portfolio/deportes-en-montana/DSC06797-1440.webp",
+    "width": 6000,
+    "height": 4000,
+    "variants": [
+      {
+        "image": "/images/portfolio/deportes-en-montana/DSC06797-640.webp",
+        "width": 640,
+        "height": 427
+      },
+      {
+        "image": "/images/portfolio/deportes-en-montana/DSC06797-960.webp",
+        "width": 960,
+        "height": 640
+      },
+      {
+        "image": "/images/portfolio/deportes-en-montana/DSC06797-1440.webp",
+        "width": 1440,
+        "height": 960
+      },
+      {
+        "image": "/images/portfolio/deportes-en-montana/DSC06797-1920.webp",
+        "width": 1920,
+        "height": 1280
+      },
+      {
+        "image": "/images/portfolio/deportes-en-montana/DSC06797-2560.webp",
+        "width": 2560,
+        "height": 1707
+      },
+      {
+        "image": "/images/portfolio/deportes-en-montana/DSC06797-3200.webp",
+        "width": 3200,
+        "height": 2133
+      },
+      {
+        "image": "/images/portfolio/deportes-en-montana/DSC06797-4400.webp",
+        "width": 4400,
+        "height": 2933
+      }
+    ],
+    "race": "DH Pan de Azúcar",
+    "alt": "Un corredor aparece entre la vegetación y la neblina",
+    "sourceHash": "6b2449cdcccaa7780ab92b32952bc5414e11e7644ea989088e2de0c7ae518ed9"
+  },
+  "DSC04326": {
+    "source": "DSC04326.jpg",
+    "image": "/images/portfolio/deportes-en-montana/DSC04326-1440.webp",
+    "width": 4608,
+    "height": 3072,
+    "variants": [
+      {
+        "image": "/images/portfolio/deportes-en-montana/DSC04326-640.webp",
+        "width": 640,
+        "height": 427
+      },
+      {
+        "image": "/images/portfolio/deportes-en-montana/DSC04326-960.webp",
+        "width": 960,
+        "height": 640
+      },
+      {
+        "image": "/images/portfolio/deportes-en-montana/DSC04326-1440.webp",
+        "width": 1440,
+        "height": 960
+      },
+      {
+        "image": "/images/portfolio/deportes-en-montana/DSC04326-1920.webp",
+        "width": 1920,
+        "height": 1280
+      },
+      {
+        "image": "/images/portfolio/deportes-en-montana/DSC04326-2560.webp",
+        "width": 2560,
+        "height": 1707
+      },
+      {
+        "image": "/images/portfolio/deportes-en-montana/DSC04326-3200.webp",
+        "width": 3200,
+        "height": 2133
+      },
+      {
+        "image": "/images/portfolio/deportes-en-montana/DSC04326-4400.webp",
+        "width": 4400,
+        "height": 2933
+      }
+    ],
+    "race": "Enduro Las Pircas",
+    "alt": "Un corredor salta con una mano levantada",
+    "sourceHash": "442a57b6ee111938a1b5c139670500034eeeab999265c8b8a13e77572e054d06"
+  },
+  "DSC02996": {
+    "source": "DSC02996.jpg",
+    "image": "/images/portfolio/deportes-en-montana/DSC02996-1440.webp",
+    "width": 3787,
+    "height": 2525,
+    "variants": [
+      {
+        "image": "/images/portfolio/deportes-en-montana/DSC02996-640.webp",
+        "width": 640,
+        "height": 427
+      },
+      {
+        "image": "/images/portfolio/deportes-en-montana/DSC02996-960.webp",
+        "width": 960,
+        "height": 640
+      },
+      {
+        "image": "/images/portfolio/deportes-en-montana/DSC02996-1440.webp",
+        "width": 1440,
+        "height": 960
+      },
+      {
+        "image": "/images/portfolio/deportes-en-montana/DSC02996-1920.webp",
+        "width": 1920,
+        "height": 1280
+      },
+      {
+        "image": "/images/portfolio/deportes-en-montana/DSC02996-2560.webp",
+        "width": 2560,
+        "height": 1707
+      },
+      {
+        "image": "/images/portfolio/deportes-en-montana/DSC02996-3200.webp",
+        "width": 3200,
+        "height": 2134
+      },
+      {
+        "image": "/images/portfolio/deportes-en-montana/DSC02996-3787.webp",
+        "width": 3787,
+        "height": 2525
+      }
+    ],
+    "race": "Desafío Río Pinto",
+    "alt": "Corredores en grupo frente a las sierras",
+    "sourceHash": "b9922fa3b6bf2665a36c3963b8365ae9b4a1d4c600062298a809da000db6c2a7"
+  },
+  "DSC08126": {
+    "source": "DSC08126.jpg",
+    "image": "/images/portfolio/deportes-en-montana/DSC08126-1440.webp",
+    "width": 3904,
+    "height": 2603,
+    "variants": [
+      {
+        "image": "/images/portfolio/deportes-en-montana/DSC08126-640.webp",
+        "width": 640,
+        "height": 427
+      },
+      {
+        "image": "/images/portfolio/deportes-en-montana/DSC08126-960.webp",
+        "width": 960,
+        "height": 640
+      },
+      {
+        "image": "/images/portfolio/deportes-en-montana/DSC08126-1440.webp",
+        "width": 1440,
+        "height": 960
+      },
+      {
+        "image": "/images/portfolio/deportes-en-montana/DSC08126-1920.webp",
+        "width": 1920,
+        "height": 1280
+      },
+      {
+        "image": "/images/portfolio/deportes-en-montana/DSC08126-2560.webp",
+        "width": 2560,
+        "height": 1707
+      },
+      {
+        "image": "/images/portfolio/deportes-en-montana/DSC08126-3200.webp",
+        "width": 3200,
+        "height": 2134
+      },
+      {
+        "image": "/images/portfolio/deportes-en-montana/DSC08126-3904.webp",
+        "width": 3904,
+        "height": 2603
+      }
+    ],
+    "race": "DH Pan de Azúcar",
+    "alt": "Un corredor supera un salto en el tramo de rocas",
+    "sourceHash": "ef188620f38d7d5e3689a96d2526fe64ad0f329a7318dc4e48cf0882d0d9232e"
+  },
+  "DSC08226": {
+    "source": "DSC08226.jpg",
+    "image": "/images/portfolio/deportes-en-montana/DSC08226-1440.webp",
+    "width": 4000,
+    "height": 6000,
+    "variants": [
+      {
+        "image": "/images/portfolio/deportes-en-montana/DSC08226-480.webp",
+        "width": 480,
+        "height": 720
+      },
+      {
+        "image": "/images/portfolio/deportes-en-montana/DSC08226-640.webp",
+        "width": 640,
+        "height": 960
+      },
+      {
+        "image": "/images/portfolio/deportes-en-montana/DSC08226-960.webp",
+        "width": 960,
+        "height": 1440
+      },
+      {
+        "image": "/images/portfolio/deportes-en-montana/DSC08226-1440.webp",
+        "width": 1440,
+        "height": 2160
+      },
+      {
+        "image": "/images/portfolio/deportes-en-montana/DSC08226-1920.webp",
+        "width": 1920,
+        "height": 2880
+      }
+    ],
+    "race": "DH Pan de Azúcar",
+    "alt": "Detalle del cuadro y la suspensión de una bicicleta",
+    "sourceHash": "7cdc029631c021b66a9909c70c1edb3f309307688e596b97995a41631ef51321"
+  },
+  "DSC05303": {
+    "source": "DSC05303.jpg",
+    "image": "/images/portfolio/deportes-en-montana/DSC05303-1440.webp",
+    "width": 4000,
+    "height": 6000,
+    "variants": [
+      {
+        "image": "/images/portfolio/deportes-en-montana/DSC05303-480.webp",
+        "width": 480,
+        "height": 720
+      },
+      {
+        "image": "/images/portfolio/deportes-en-montana/DSC05303-640.webp",
+        "width": 640,
+        "height": 960
+      },
+      {
+        "image": "/images/portfolio/deportes-en-montana/DSC05303-960.webp",
+        "width": 960,
+        "height": 1440
+      },
+      {
+        "image": "/images/portfolio/deportes-en-montana/DSC05303-1440.webp",
+        "width": 1440,
+        "height": 2160
+      },
+      {
+        "image": "/images/portfolio/deportes-en-montana/DSC05303-1920.webp",
+        "width": 1920,
+        "height": 2880
+      }
+    ],
+    "race": "Enduro Las Pircas",
+    "alt": "Bicicletas reunidas en el espacio de la carrera",
+    "sourceHash": "0872e070be39a80e4639aba8d4a3fca1b6ce1a4f17f387d92ef48231b0030cc3"
+  },
+  "DSC05143": {
+    "source": "DSC05143.jpg",
+    "image": "/images/portfolio/deportes-en-montana/DSC05143-1440.webp",
+    "width": 4954,
+    "height": 3303,
+    "variants": [
+      {
+        "image": "/images/portfolio/deportes-en-montana/DSC05143-640.webp",
+        "width": 640,
+        "height": 427
+      },
+      {
+        "image": "/images/portfolio/deportes-en-montana/DSC05143-960.webp",
+        "width": 960,
+        "height": 640
+      },
+      {
+        "image": "/images/portfolio/deportes-en-montana/DSC05143-1440.webp",
+        "width": 1440,
+        "height": 960
+      },
+      {
+        "image": "/images/portfolio/deportes-en-montana/DSC05143-1920.webp",
+        "width": 1920,
+        "height": 1280
+      },
+      {
+        "image": "/images/portfolio/deportes-en-montana/DSC05143-2560.webp",
+        "width": 2560,
+        "height": 1707
+      },
+      {
+        "image": "/images/portfolio/deportes-en-montana/DSC05143-3200.webp",
+        "width": 3200,
+        "height": 2134
+      },
+      {
+        "image": "/images/portfolio/deportes-en-montana/DSC05143-4400.webp",
+        "width": 4400,
+        "height": 2934
+      }
+    ],
+    "race": "Enduro Las Pircas",
+    "alt": "Una bicicleta en el aire a contraluz entre los árboles",
+    "sourceHash": "76c34b2aed09f8d16f14131c3bd051f629bd4109cb83766fbe58ef0e5dce97f9"
+  },
+  "DSC06882": {
+    "source": "DSC06882.jpg",
+    "image": "/images/portfolio/deportes-en-montana/DSC06882-1440.webp",
+    "width": 2393,
+    "height": 3589,
+    "variants": [
+      {
+        "image": "/images/portfolio/deportes-en-montana/DSC06882-480.webp",
+        "width": 480,
+        "height": 720
+      },
+      {
+        "image": "/images/portfolio/deportes-en-montana/DSC06882-640.webp",
+        "width": 640,
+        "height": 960
+      },
+      {
+        "image": "/images/portfolio/deportes-en-montana/DSC06882-960.webp",
+        "width": 960,
+        "height": 1440
+      },
+      {
+        "image": "/images/portfolio/deportes-en-montana/DSC06882-1440.webp",
+        "width": 1440,
+        "height": 2160
+      },
+      {
+        "image": "/images/portfolio/deportes-en-montana/DSC06882-1920.webp",
+        "width": 1920,
+        "height": 2880
+      }
+    ],
+    "race": "Desafío Río Pinto",
+    "alt": "Un corredor mira a cámara mientras avanza junto a otros participantes",
+    "sourceHash": "d24e391b83f101c6b7753201a7e2d5a2b5c4b5773f1945bb35e19b2508e03779"
+  }
+}
